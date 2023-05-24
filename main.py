@@ -6,7 +6,7 @@ class Defaults(Parameters):
     name: str = "local"
     instances: int = 1
     GPU: bool = False
-    time: int = 3600
+    time: int = 360000
 
     b: float = 2.0
     a: int = 1
