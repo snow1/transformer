@@ -1,5 +1,5 @@
 from main import Defaults
 
-Defaults("Example1",GPU=False)
+Defaults("Example2",GPU=False)
 #Defaults("Example2", b=4, d="dssf", GPU=True)
 #Defaults("Example3", a=2, instances=2)
