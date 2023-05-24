@@ -4,7 +4,7 @@ Used to calculate the common spatial pattern filter for four-class classificatio
 
 
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from numpy.linalg import eig
 
 
