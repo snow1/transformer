@@ -7,7 +7,6 @@ import scipy.io
 
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
-from torchsummary import summary
 
 import torch
 import torch.nn.functional as F
