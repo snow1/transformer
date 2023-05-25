@@ -371,6 +371,7 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
+                print(outputs.shape)
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()

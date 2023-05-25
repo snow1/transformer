@@ -19,6 +19,25 @@ from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
 
+
+class Model(nn.Module):
+    def __init__(self):
+        super(Model, self).__init__()
+        self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
+        self.classify = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(20000, 4)
+        )
+    
+    def forward(self, x):
+        x = x.squeeze(1)
+        x = x.permute(0, 2, 1)
+        x, _ = self.lstm(x)
+        x = self.classify(x)
+        return x
+            
+
+
 class LSTM:
     def __init__(self, nsub):
         super(LSTM, self).__init__()
@@ -33,7 +52,7 @@ class LSTM:
         self.b2 = 0.9
         self.nSub = nsub
         self.start_epoch = 0
-        self.root = '...'  # the path of data
+        self.root = ''  # the path of data
 
         self.pretrain = False
 
@@ -48,10 +67,10 @@ class LSTM:
         self.criterion_l2 = torch.nn.MSELoss()
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
-        self.model = nn.LSTM()
+        self.model = Model()
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
-        summary(self.model, (1, 16, 1000), device='cpu')
+       # summary(self.model, (16,16), device='cpu')
 
         self.centers = {}
 
@@ -146,7 +165,8 @@ class LSTM:
 
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
-                tok, outputs = self.model(img)
+                outputs = self.model(img)               
+               # print(outputs.shape)
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
@@ -156,7 +176,7 @@ class LSTM:
 
             if (e + 1) % 1 == 0:
                 self.model.eval()
-                Tok, Cls = self.model(test_data)
+                Cls = self.model(test_data)
 
                 loss_test = self.criterion_cls(Cls, test_label)
                 y_pred = torch.max(Cls, 1)[1]
