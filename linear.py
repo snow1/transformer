@@ -20,27 +20,9 @@ from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
 
 
-class Model(nn.Module):
-    def __init__(self):
-        super(Model, self).__init__()
-        #self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
-        self.classify = nn.Sequential(
-            nn.Flatten(),
-            nn.Linear(20000, 4)
-        )
-    
-    def forward(self, x):
-        x = x.squeeze(1)
-        x = x.permute(0, 2, 1)
-        x, _ = self.lstm(x)
-        x = self.classify(x)
-        return x
-            
-
-
-class LSTM:
+class linear():
     def __init__(self, nsub):
-        super(LSTM, self).__init__()
+        super(linear, self).__init__()
         self.batch_size = 50
         self.n_epochs = 1000
         self.img_height = 22
@@ -56,7 +38,7 @@ class LSTM:
 
         self.pretrain = False
 
-        self.log_write = open("./LSTMresults/log_subject%d.txt" % self.nSub, "w")
+        self.log_write = open("./linearResults/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -202,7 +184,7 @@ class LSTM:
                     Y_true = test_label
                     Y_pred = y_pred
 
-        torch.save(self.model.state_dict(), f'LSTMModels/model_{self.nSub}.pth')
+        torch.save(self.model.state_dict(), f'linearModels/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
@@ -214,7 +196,7 @@ class LSTM:
 def main():
     best = 0
     aver = 0
-    result_write = open("./LSTMresults/sub_result.txt", "w")
+    result_write = open("./linearResults/sub_result.txt", "w")
 
     for i in range(9):
         seed_n = np.random.randint(500)
@@ -223,7 +205,7 @@ def main():
         np.random.seed(seed_n)
         torch.manual_seed(seed_n)
         print('Subject %d' % (i+1))
-        trans = LSTM(i + 1)
+        trans = linear(i + 1)
         bestAcc, averAcc, Y_true, Y_pred = trans.train()
         print('THE BEST ACCURACY IS ' + str(bestAcc))
         result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
