@@ -1,6 +1,6 @@
 from dtu import Parameters, dtu
-from Trans import main
-
+#from Trans import main
+from LSTM import main
 @dtu
 class Defaults(Parameters):
     name: str = "local"
