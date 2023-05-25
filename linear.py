@@ -23,11 +23,10 @@ from common_spatial_pattern import csp
 class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
-        self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
+        #self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
         self.classify = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(20000, 4),
-            nn.Softmax(dim=1)
+            nn.Linear(20000, 4)
         )
     
     def forward(self, x):
@@ -68,7 +67,13 @@ class LSTM:
         self.criterion_l2 = torch.nn.MSELoss()
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
-        self.model = Model()
+        self.model = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(16000, 100),
+            nn.ReLU(),
+            nn.Linear(100, 4),
+            nn.Softmax(dim=1)
+        )
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
        # summary(self.model, (16,16), device='cpu')
