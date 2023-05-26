@@ -263,7 +263,7 @@ class Trans():
         self.start_epoch = 0
         self.root = ''  # the path of data
 
-        self.pretrain = False
+        self.pretrain = True
 
         self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
 
