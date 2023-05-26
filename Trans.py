@@ -254,7 +254,7 @@ class Trans():
         self.n_epochs = 1000
         self.img_height = 22
         self.img_width = 600
-        self.channels = 1
+        self.channels = 22 # EEG channels 22      # 1
         self.c_dim = 4
         self.lr = 0.0002
         self.b1 = 0.5
@@ -263,7 +263,7 @@ class Trans():
         self.start_epoch = 0
         self.root = ''  # the path of data
 
-        self.pretrain = True
+        self.pretrain = False
 
         self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
 
