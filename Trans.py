@@ -14,7 +14,7 @@ import scipy.io
 
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
-from torchsummary import summary
+#from torchsummary import summary
 
 import torch
 import torch.nn.functional as F
@@ -278,7 +278,7 @@ class Trans():
 
         self.model = ViT()
         if self.pretrain:
-            self.model.load_state_dict(torch.load('./models/model_%d.pth' % self.nSub))
+            self.model.load_state_dict(torch.load(f'./models/model_%d.pth' % self.nSub))
 
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
