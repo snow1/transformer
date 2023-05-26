@@ -196,7 +196,9 @@ class channel_attention(nn.Module):
         )
         self.key = nn.Sequential(
             nn.Linear(16, 16),
-            # nn.LeakyReLU(),
+            # result2
+            #nn.LeakyReLU(),
+
             nn.LayerNorm(16),
             nn.Dropout(0.3)
         )
@@ -204,7 +206,9 @@ class channel_attention(nn.Module):
         # self.value = self.key
         self.projection = nn.Sequential(
             nn.Linear(16, 16),
-            # nn.LeakyReLU(),
+            #result2
+            #nn.LeakyReLU(),
+
             nn.LayerNorm(16),
             nn.Dropout(0.3),
         )
@@ -259,9 +263,9 @@ class Trans():
         self.start_epoch = 0
         self.root = ''  # the path of data
 
-        self.pretrain = False
+        self.pretrain = True
 
-        self.log_write = open("./results/log_subject%d.txt" % self.nSub, "w")
+        self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -273,9 +277,12 @@ class Trans():
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
         self.model = ViT()
+        if self.pretrain:
+            self.model.load_state_dict(torch.load('./models/model_%d.pth' % self.nSub))
+
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
-        summary(self.model, (1, 16, 1000), device='cpu')
+        #summary(self.model, (1, 16, 1000), device='cpu')
 
         self.centers = {}
 
@@ -371,7 +378,7 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
-                print(outputs.shape)
+                #print(outputs.shape)
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
@@ -402,7 +409,7 @@ class Trans():
                     Y_true = test_label
                     Y_pred = y_pred
 
-        torch.save(self.model.state_dict(), f'models/model_{self.nSub}.pth')
+        torch.save(self.model.state_dict(), f'models2/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
@@ -415,7 +422,7 @@ class Trans():
 def main():
     best = 0
     aver = 0
-    result_write = open("./results/sub_result.txt", "w")
+    result_write = open("./results2/sub_result.txt", "w")
 
     for i in range(9):
         seed_n = np.random.randint(500)
@@ -423,8 +430,8 @@ def main():
         random.seed(seed_n)
         np.random.seed(seed_n)
         torch.manual_seed(seed_n)
-        torch.manual_seed(seed_n)
-        torch.manual_seed(seed_n)
+        #torch.manual_seed(seed_n)
+        #torch.manual_seed(seed_n)
         print('Subject %d' % (i+1))
         trans = Trans(i + 1)
         bestAcc, averAcc, Y_true, Y_pred = trans.train()

@@ -2,3 +2,4 @@
 .vscode/*
 __pycache__
 A0*.mat
+*.pdf
