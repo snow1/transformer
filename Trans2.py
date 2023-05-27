@@ -1,6 +1,9 @@
 """
 Transformer for EEG classification
 
+9 parctpant add to one file
+to autentacation
+who is who
 The core idea is slicing, which means to split the signal along the time dimension. Slice is just like the patch in Vision Transformer.
 """
 
@@ -263,9 +266,9 @@ class Trans():
         self.start_epoch = 0
         self.root = ''  # the path of data
 
-        self.pretrain = True
+        self.pretrain = False
 
-        self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
+        self.log_write = open("./Trans2Results/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -278,7 +281,7 @@ class Trans():
 
         self.model = ViT()
         if self.pretrain:
-            self.model.load_state_dict(torch.load(f'./models/model_%d.pth' % self.nSub))
+            self.model.load_state_dict(torch.load(f'Trans2Models/model.pth'))
 
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
@@ -348,12 +351,18 @@ class Trans():
     def train(self):
 
 
-        img, label, test_data, test_label = self.get_source_data()
-        # save the data to npy
-        save_data = np.save('./data/data_%d.npy' % self.nSub, img)
-        save_label = np.save('./data/label_%d.npy' % self.nSub, label)
-        save_test_data = np.save('./data/test_data_%d.npy' % self.nSub, test_data)
-        save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
+        # img, label, test_data, test_label = self.get_source_data()
+        # # save the data to npy
+        # save_data = np.save('./data/data_%d.npy' % self.nSub, img)
+        # save_label = np.save('./data/label_%d.npy' % self.nSub, label)
+        # save_test_data = np.save('./data/test_data_%d.npy' % self.nSub, test_data)
+        # save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
+
+        # load the data from npy
+        img = np.load('./data/data.npy')
+        label = np.load('./data/label.npy')
+        test_data = np.load('./data/test_data.npy')
+        test_label = np.load('./data/test_label.npy')
 
 
         img = torch.from_numpy(img)
@@ -389,16 +398,16 @@ class Trans():
         for e in range(self.n_epochs):
             in_epoch = time.time()
             self.model.train()
-            for i, (img, label) in enumerate(self.dataloader):
+            #for i, (img, label) in enumerate(self.dataloader):
 
-                img = Variable(img.type(self.Tensor))
-                label = Variable(label.type(self.LongTensor))
-                tok, outputs = self.model(img)
+            img = Variable(img.type(self.Tensor))
+            label = Variable(label.type(self.LongTensor))
+            tok, outputs = self.model(img)
                 #print(outputs.shape)
-                loss = self.criterion_cls(outputs, label)
-                self.optimizer.zero_grad()
-                loss.backward()
-                self.optimizer.step()
+            loss = self.criterion_cls(outputs, label)
+            self.optimizer.zero_grad()
+            loss.backward()
+            self.optimizer.step()
 
             out_epoch = time.time()
 
@@ -425,7 +434,7 @@ class Trans():
                     Y_true = test_label
                     Y_pred = y_pred
 
-        torch.save(self.model.state_dict(), f'models2/model_{self.nSub}.pth')
+        torch.save(self.model.state_dict(), f'Trans2Models/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
@@ -438,41 +447,41 @@ class Trans():
 def main():
     best = 0
     aver = 0
-    result_write = open("./results2/sub_result.txt", "w")
+    result_write = open("Trans2Results/sub_result.txt", "w")
 
-    for i in range(9):
-        seed_n = np.random.randint(500)
-        print('seed is ' + str(seed_n))
-        random.seed(seed_n)
-        np.random.seed(seed_n)
-        torch.manual_seed(seed_n)
-        #torch.manual_seed(seed_n)
-        #torch.manual_seed(seed_n)
-        print('Subject %d' % (i+1))
-        trans = Trans(i + 1)
-        bestAcc, averAcc, Y_true, Y_pred = trans.train()
-        print('THE BEST ACCURACY IS ' + str(bestAcc))
-        result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
-        result_write.write('**Subject ' + str(i + 1) + ' : ' + 'The best accuracy is: ' + str(bestAcc) + "\n")
-        result_write.write('Subject ' + str(i + 1) + ' : ' + 'The average accuracy is: ' + str(averAcc) + "\n")
-        # plot_confusion_matrix(Y_true, Y_pred, i+1)
-        best = best + bestAcc
-        aver = aver + averAcc
-        if i == 0:
-            yt = Y_true
-            yp = Y_pred
-        else:
-            yt = torch.cat((yt, Y_true))
-            yp = torch.cat((yp, Y_pred))
+    i=0
+    seed_n = np.random.randint(500)
+    print('seed is ' + str(seed_n))
+    random.seed(seed_n)
+    np.random.seed(seed_n)
+    torch.manual_seed(seed_n)
+    #torch.manual_seed(seed_n)
+    #torch.manual_seed(seed_n)
+    print('Subject %d' % (i+1))
+    trans = Trans(i + 1)
+    bestAcc, averAcc, Y_true, Y_pred = trans.train()
+    print('THE BEST ACCURACY IS ' + str(bestAcc))
+    result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
+    result_write.write('**Subject ' + str(i + 1) + ' : ' + 'The best accuracy is: ' + str(bestAcc) + "\n")
+    result_write.write('Subject ' + str(i + 1) + ' : ' + 'The average accuracy is: ' + str(averAcc) + "\n")
+    # plot_confusion_matrix(Y_true, Y_pred, i+1)
+    best = best + bestAcc
+    aver = aver + averAcc
+    if i == 0:
+        yt = Y_true
+        yp = Y_pred
+    else:
+        yt = torch.cat((yt, Y_true))
+        yp = torch.cat((yp, Y_pred))
 
     
 
 
-    best = best / 9
-    aver = aver / 9
-    # plot_confusion_matrix(yt, yp, 666)
-    result_write.write('**The average Best accuracy is: ' + str(best) + "\n")
-    result_write.write('The average Aver accuracy is: ' + str(aver) + "\n")
+    # best = best / 9
+    # aver = aver / 9
+    # # plot_confusion_matrix(yt, yp, 666)
+    # result_write.write('**The average Best accuracy is: ' + str(best) + "\n")
+    # result_write.write('The average Aver accuracy is: ' + str(aver) + "\n")
     result_write.close()
 
 

@@ -1,5 +1,6 @@
 from dtu import Parameters, dtu
 from Trans import main as transformer
+from Trans2 import main as transformer2
 from LSTM import main as lstm
 from linear import main as linear
 @dtu
@@ -18,6 +19,8 @@ class Defaults(Parameters):
             lstm()
         elif model == "linear":
             linear()
+        elif model == "transformer2":
+            transformer2()
 
 
 Defaults.start()

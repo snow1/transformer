@@ -3,4 +3,8 @@
 __pycache__
 A0*.mat
 *.pdf
+data_*.npy
+label_*.npy
+test_data_*.npy
+test_label_*.npy
 *.npy
