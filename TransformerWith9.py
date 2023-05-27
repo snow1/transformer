@@ -254,7 +254,7 @@ class Trans():
         self.n_epochs = 1000
         self.img_height = 22
         self.img_width = 600
-        self.channels = 22 # EEG channels 22      # 1
+        self.channels = 1 # EEG channels 22      # 1
         self.c_dim = 4
         self.lr = 0.0002
         self.b1 = 0.5
@@ -289,12 +289,13 @@ class Trans():
     def get_source_data(self):
 
         # to get the data of target subject
-        self.total_data = scipy.io.loadmat(self.root + 'A0%dT.mat' % self.nSub)
+        #self.total_data = scipy.io.loadmat(self.root + 'A0%dT.mat' % self.nSub)
+        # load npz data
+        self.total_data = np.load("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/" + 'A0%dT.npz' % self.nSub)
         self.train_data = self.total_data['data']
-        self.train_label = self.total_data['label']
-        
-
-        self.train_data = np.transpose(self.train_data, (2, 1, 0))
+        self.train_label = self.total_data['labels']
+        print(self.train_data.shape)
+        #self.train_data = np.transpose(self.train_data, (2, 1, 0))
         self.train_data = np.expand_dims(self.train_data, axis=1)
         self.train_label = np.transpose(self.train_label)
 
@@ -303,9 +304,9 @@ class Trans():
 
         # test data
         # to get the data of target subject
-        self.test_tmp = scipy.io.loadmat(self.root + 'A0%dE.mat' % self.nSub)
+        self.test_tmp = np.load("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/" + 'A0%dE.npz' % self.nSub)
         self.test_data = self.test_tmp['data']
-        self.test_label = self.test_tmp['label']
+        self.test_label = self.test_tmp['labels']
 
         # self.train_data = self.train_data[250:1000, :, :]
         self.test_data = np.transpose(self.test_data, (2, 1, 0))

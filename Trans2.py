@@ -254,7 +254,7 @@ class Trans():
         self.n_epochs = 1000
         self.img_height = 22
         self.img_width = 600
-        self.channels = 22 # EEG channels 22      # 1
+        self.channels = 22 # EEG channels 25      # begin from 1
         self.c_dim = 4
         self.lr = 0.0002
         self.b1 = 0.5
@@ -315,6 +315,7 @@ class Trans():
         self.testData = self.test_data
         self.testLabel = self.test_label[0]
 
+
         # standardize
         target_mean = np.mean(self.allData)
         target_std = np.std(self.allData)
@@ -325,6 +326,13 @@ class Trans():
         Wb = csp(tmp_alldata, self.allLabel-1)  # common spatial pattern
         self.allData = np.einsum('abcd, ce -> abed', self.allData, Wb)
         self.testData = np.einsum('abcd, ce -> abed', self.testData, Wb)
+
+        # print(self.allData.shape)
+        # change all labels to nsub number
+
+        self.allLabel = np.ones(self.allLabel.shape) * (self.nSub)
+        self.testLabel = np.ones(self.testLabel.shape) * (self.nSub)
+        print(self.allLabel)
         return self.allData, self.allLabel, self.testData, self.testLabel
 
     def update_lr(self, optimizer, lr):
@@ -341,6 +349,13 @@ class Trans():
 
 
         img, label, test_data, test_label = self.get_source_data()
+        # save the data to npy
+        save_data = np.save('./data/data_%d.npy' % self.nSub, img)
+        save_label = np.save('./data/label_%d.npy' % self.nSub, label)
+        save_test_data = np.save('./data/test_data_%d.npy' % self.nSub, test_data)
+        save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
+
+
         img = torch.from_numpy(img)
         label = torch.from_numpy(label - 1)
 
@@ -449,6 +464,8 @@ def main():
         else:
             yt = torch.cat((yt, Y_true))
             yp = torch.cat((yp, Y_pred))
+
+    
 
 
     best = best / 9
