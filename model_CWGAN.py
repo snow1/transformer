@@ -170,11 +170,11 @@ def main():
     test_z_, test_y_label_ = test_z_, test_y_label_
 
     # loading data x=data y=label
-    X_test = np.load("~/Desktop/transformer/transformer/data/true_data/x_test.npy")
-    y_test = np.load("~/Desktop/transformer/transformer/data/true_data/y_test.npy")
+    X_test = np.load("data/true_data/x_test.npy")
+    y_test = np.load("data/true_data/y_test.npy")
     #person_train_valid = np.load(r"true_data/person_train_valid.npy")
-    X_train_valid = np.load("~/Desktop/transformer/transformer/data/true_data/X_train_valid.npy")
-    y_train_valid = np.load("~/Desktop/transformer/transformer/data/true_data/y_train_valid.npy")
+    X_train_valid = np.load("data/true_data/X_train_valid.npy")
+    y_train_valid = np.load("data/true_data/y_train_valid.npy")
 
     # X_test = np.load("./data/true_data/data/true_data/x_test.npy")
     # y_test = np.load("./data/true_data/data/true_data/y_test.npy")
