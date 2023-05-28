@@ -1,18 +1,46 @@
 import mne.io
 import numpy as np
 import scipy
+import pickle
+import matplotlib.pyplot as plt
 
-'''
-print('check npy file')
-data = np.load('C:/Users/Snow/Desktop/EEG/EEG_Networks-main/EEG_Networks-main/GAN/generate_label_subject1.npy')
-print(data.shape)#(800, 4)
-print(data[0])#[0 0 1 0]
-print(data[1])
+#read pkl file
+def read_pkl():
+    print('read pkl file')
+    with open('C:/Users/Snow/Desktop/EEG/transformer/cWGAN_results/cWGAN_train_hist.pkl', 'rb') as f:
+        hist = pickle.load(f)
+    x = range(len(hist['D_losses']))
 
-data2 = np.load('C:/Users/Snow/Desktop/EEG/EEG_Networks-main/EEG_Networks-main/GAN/WGAN_generate_X_subject1.npy')
-print(data2.shape)#(800, 22, 250, 1)
-print(data2[0])
-'''
+    y1 = hist['D_losses']
+    y2 = hist['G_losses']
+
+    plt.plot(x, y1, label='D_loss')
+    plt.plot(x, y2, label='G_loss')
+
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+
+    plt.legend(loc=4)
+    plt.grid(True)
+    plt.tight_layout()
+
+    plt.savefig("C:/Users/Snow/Desktop/EEG/transformer/cWGAN_results/cWGAN_train_hist.png")
+    plt.show()
+    plt.close()
+
+read_pkl()
+# read the raw data
+def check_npy():
+    print('check npy file')
+    data = np.load('C:/Users/Snow/Desktop/EEG/EEG_Networks-main/EEG_Networks-main/GAN/generate_label_subject1.npy')
+    print(data.shape)#(800, 4)
+    print(data[0])#[0 0 1 0]
+    print(data[1])
+
+    data2 = np.load('C:/Users/Snow/Desktop/EEG/EEG_Networks-main/EEG_Networks-main/GAN/WGAN_generate_X_subject1.npy')
+    print(data2.shape)#(800, 22, 250, 1)
+    print(data2[0])
+
 #mat file change to X_test.npy
 #all 9 subject file into one file
 def generate_data():
@@ -39,28 +67,28 @@ def generate_data():
     # np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_train_valid.npy", labels)#(576, 1)
     # np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/X_train_valid.npy", data)#(2000, 22, 288)
 
-#generate_data()
-mat = scipy.io.loadmat("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/standard_2a_data/A01E.mat" )
-data = mat['data'] 
-labels = mat['label']
-print(data.shape) #(1000, 22,288)
-print(labels.shape) #(288, 1)
-# data 288 swap to the first dimension
-data = np.swapaxes(data, 0, 2)
-print(data.shape) #(288, 22, 1000)
-np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_test.npy", labels)
-np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/X_test.npy", data)
+def generate_data_one_person():
+    mat = scipy.io.loadmat("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/standard_2a_data/A01E.mat" )
+    data = mat['data'] 
+    labels = mat['label']
+    print(data.shape) #(1000, 22,288)
+    print(labels.shape) #(288, 1)
+    # data 288 swap to the first dimension
+    data = np.swapaxes(data, 0, 2)
+    print(data.shape) #(288, 22, 1000)
+    np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_test.npy", labels)
+    np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/X_test.npy", data)
 
-mat = scipy.io.loadmat("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/standard_2a_data/A01T.mat" )
-data = mat['data'] 
-labels = mat['label']
-print(data.shape) #(1000, 22,288)
-print(labels.shape) #(288, 1)
-# data 288 swap to the first dimension
-data = np.swapaxes(data, 0, 2)
-print(data.shape) #(288, 22, 1000)
-np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_train_valid.npy", labels)
-np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/x_train_valid.npy", data)
+    mat = scipy.io.loadmat("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/standard_2a_data/A01T.mat" )
+    data = mat['data'] 
+    labels = mat['label']
+    print(data.shape) #(1000, 22,288)
+    print(labels.shape) #(288, 1)
+    # data 288 swap to the first dimension
+    data = np.swapaxes(data, 0, 2)
+    print(data.shape) #(288, 22, 1000)
+    np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_train_valid.npy", labels)
+    np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/x_train_valid.npy", data)
 
 '''
 #combine all the npy file into one

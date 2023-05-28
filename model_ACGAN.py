@@ -10,8 +10,8 @@ from torch.autograd import Variable, grad
 from preprocessing import data_prep
 
 
-#generator newtork
 class generator(nn.Module):
+    # initializers
     def __init__(self):
         super(generator, self).__init__()
         self.linear = nn.Linear(104, 1200)
@@ -45,8 +45,6 @@ class generator(nn.Module):
         x = torch.tanh(self.transconv4(x))
         return x
 
-
-#critic network
 class discriminator(nn.Module):
     # initializers
     def __init__(self):
@@ -62,10 +60,11 @@ class discriminator(nn.Module):
         self.bn4 = nn.BatchNorm2d(200)
         self.flatten = nn.Flatten()
 
-        self.cate1 = nn.Linear(4,25)
-        self.cate2 = nn.Linear(25,50)
 
-        self.dense = nn.Linear(650,1)
+
+        self.dense = nn.Linear(600,1)
+        self.aux1 = nn.Linear(600,4)
+
 
     # weight_init
     def weight_init(self, mean, std):
@@ -73,33 +72,18 @@ class discriminator(nn.Module):
             normal_init(self._modules[m], mean, std)
 
     # forward method
-    def forward(self, input, label):  #input(22,250,1)  label(4,)?
-        #print("input.shape",input.shape) #[64, 22, 250, 1]
-        #print("label.shape",label.shape) # [64, 4, 4]
-        #label = label[:,0,:] # [4]
-        #print("label.shape2",label.shape) # [4]
-
-        # remove the first dimension of input [64 , 22, 250, 1] -> [22, 250, 1]
-        #input = torch.squeeze(input,0) # [22, 250, 1]
-        #input = input[:,:,:,:] # [22, 250, 1]
-        #print("input.shape2",input.shape)
-
+    def forward(self, input):
         x = self.dropout((F.relu(self.conv1(input)))) #(25,83,1)
         x = self.dropout((F.relu(self.conv2(x)))) #(50,27,1)
         x = self.dropout((F.relu(self.conv3(x))))#(100,9,1)
         x = self.dropout((F.relu(self.conv4(x))))#(200,3,1)
         x = self.flatten(x) #(600,)
 
-        c = self.cate1(label) #(25,)
-        c = self.cate2(c) #(50,)
-        #print("c.shape",c.shape)
-        #print("x.shape",x.shape)
-        xc = torch.cat([x,c], 1) #(650,)
-        #print("xc.shape",xc.shape)
+        out = self.dense(x) #(1,)
+        auxout = self.aux1(x)
 
-        out = self.dense(xc) #(1,)
-        # out = torch.sigmoid(xc) #(1,)
-        return out
+
+        return out, auxout
 
 def normal_init(m, mean, std):
     if isinstance(m, nn.ConvTranspose2d) or isinstance(m, nn.Conv2d):
@@ -108,7 +92,7 @@ def normal_init(m, mean, std):
 
 
 
-def show_result(i, test_z_,test_y_label_,show = True):
+def show_result(i, test_z_, test_y_label_, show = True):
     G.eval()
     test_images = G(test_z_, test_y_label_)
     G.train()
@@ -118,13 +102,18 @@ def show_result(i, test_z_,test_y_label_,show = True):
     plt.plot(np.arange(250),avg)
     plt.ylim([-0.1, 0.2])
     if show & (i % 10 == 0):
-       plt.show()
+        plt.show()
     else:
-       plt.close()
+        plt.close()
 
+def compute_acc(preds, labels):
+    correct = 0
+    preds_ = preds.data.max(1)[1]
+    correct = preds_.eq(labels.data).cpu().sum()
+    acc = float(correct) / float(len(labels.data)) * 100.0
+    return acc
 
-
-#show training curve
+#curve
 def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
     x = range(len(hist['D_losses']))
 
@@ -148,63 +137,46 @@ def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
         plt.show()
     else:
         plt.close()
-
 G = generator()
 D = discriminator()
 
-def main():   
+def main():
 #if __name__ == '__main__':
     # training parameters
     batch_size = 64
     lr_G = 0.0001
     lr_D = 0.00008
-    train_epoch = 1000 # 300
-    gp = 10      #gradient penalty
+    train_epoch = 1000
+    gp = 10 #gradient penalty
     n_critic = 5 #number of iterations of the critic per generator iteration
 
-
-    # test noise & label
+    # test: fixed noise & label
     test_z_ = torch.randn(10, 100)
     test_y_label_ = torch.zeros(10, 4)
     test_y_label_[:, 1] = 1  # label
     test_z_, test_y_label_ = test_z_, test_y_label_
 
-    # loading data x=data y=label
-    X_test = np.load("data/true_data/x_test.npy")
-    y_test = np.load("data/true_data/y_test.npy")
+    # data_loader
+    X_test = np.load(r"data/true_data/x_test.npy")
+    y_test = np.load(r"data/true_data/y_test.npy")
     #person_train_valid = np.load(r"true_data/person_train_valid.npy")
-    X_train_valid = np.load("data/true_data/X_train_valid.npy")
-    y_train_valid = np.load("data/true_data/y_train_valid.npy")
-
-    # X_test = np.load("./data/true_data/data/true_data/x_test.npy")
-    # y_test = np.load("./data/true_data/data/true_data/y_test.npy")
-    # #person_train_valid = np.load(r"true_data/person_train_valid.npy")
-    # X_train_valid = np.load("./data/true_data/data/true_data/X_train_valid.npy")
-    # y_train_valid = np.load("./data/true_data/data/true_data/y_train_valid.npy")
+    X_train_valid = np.load(r"data/true_data/X_train_valid.npy")
+    y_train_valid = np.load(r"data/true_data/y_train_valid.npy")
     #person_test = np.load(r"true_data/person_test.npy")
 
     y_train_valid -= 769
     y_test -= 769
-    #print("X_train_valid, Y_train_valid",X_train_valid.shape, y_train_valid.shape) # (288, 22, 1000) (288, 1)
-    #print("X_test,Y_test",X_test.shape, y_test.shape) # (288, 22, 1000) (288, 1)
+
     X_train_valid_prep,y_train_valid_prep = data_prep(X_train_valid,y_train_valid,2,2,True)
     X_test_prep,y_test_prep = data_prep(X_test,y_test,2,2,True)
-    #print('Here', y_test_prep.shape, y_test_prep)
+
     y_train_valid_prep = y_train_valid_prep.flatten()
     y_test_prep = y_test_prep.flatten()
 
     ind_valid = np.random.choice(1152, 200, replace=False)#8460 , 1500
     ind_train = np.array(list(set(range(1152)).difference(set(ind_valid))))
-    # ind_valid = np.random.choice(8000, 1500, replace=False)
-    # ind_train = np.array(list(set(range(8000)).difference(set(ind_valid))))
-    #print(ind_train.shape, ind_valid.shape) # (138,) (150,)
-    #print(ind_train, ind_valid)
-    #print("x_train shape:", X_train_valid_prep.shape) #(1152,22,250)
-    #print("y_train shape:", y_train_valid_prep.shape) # (288,4)
-    #print("x_test shape:", X_test_prep.shape) #(1152,22,250)
-    #print("y_test shape:", y_test_prep.shape) # (288,4)
     (x_train, x_valid) = X_train_valid_prep[ind_train], X_train_valid_prep[ind_valid]
-    (y_train, y_valid) = y_train_valid_prep[ind_train], y_train_valid_prep[ind_valid]
+    (y_train_compact, y_valid) = y_train_valid_prep[ind_train], y_train_valid_prep[ind_valid]
     x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], x_train.shape[2], 1)
     x_valid = x_valid.reshape(x_valid.shape[0], x_valid.shape[1], x_train.shape[2], 1)
     x_test = X_test_prep.reshape(X_test_prep.shape[0], X_test_prep.shape[1], X_test_prep.shape[2], 1)
@@ -212,43 +184,40 @@ def main():
     x_train = torch.from_numpy(x_train)
     x_valid = torch.from_numpy(x_valid)
     x_test = torch.from_numpy(x_test)
-    y_train = torch.from_numpy(y_train)
+    y_train_compact = torch.from_numpy(y_train_compact)
     y_valid = torch.from_numpy(y_valid)
     y_test = torch.from_numpy(y_test_prep)
 
-    # print("x_train shape:", x_train.shape) #(138,22,250,1)
-    # print("y_train shape:", y_train.shape) # (138,4)
-    # print("x_valid shape:", x_valid.shape) #(150,22,250,1)
-    # print("y_valid shape:", y_valid.shape) # (150,4)
-    # print("x_test shape:", x_test.shape) #(1152,22,250,1)
-    # print("y_test shape:", y_test.shape) # (288,4)
 
-    y_train = F.one_hot(y_train.to(torch.int64),num_classes = 4)
-    y_valid = F.one_hot(y_valid.to(torch.int64),num_classes = 4)
-    y_test = F.one_hot(y_test.to(torch.int64),num_classes = 4)
-
-    traindataset = torch.utils.data.TensorDataset(x_train,y_train)
+    traindataset = torch.utils.data.TensorDataset(x_train,y_train_compact)
     train_loader = torch.utils.data.DataLoader(dataset=traindataset, batch_size=64, shuffle=True, num_workers=4)
-
 
     # network
 
     G.weight_init(mean=0.0, std=0.02)
     D.weight_init(mean=0.0, std=0.02)
-#    G.cuda()
-#    D.cuda()
+
+    # G.cuda()
+    # D.cuda()
+
+    # Gpath = r'cACGAN_results/g.pkl'# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # Dpath = r'cACGAN_results/d.pkl'
+
+    # G.load_state_dict((torch.load(Gpath)))
+    # D.load_state_dict((torch.load(Dpath)))
+
 
     # Binary Cross Entropy loss
-    BCE_loss = nn.BCELoss()
+    aux_loss = nn.CrossEntropyLoss()
+    #aux_loss.cuda()
 
     # Adam optimizer
     G_optimizer = optim.Adam(G.parameters(), lr=lr_G, betas=(0.5, 0.999))
     D_optimizer = optim.Adam(D.parameters(), lr=lr_D, betas=(0.5, 0.999))
 
-
     # results save folder
-    root = 'cWGAN_results/'
-    model = 'cWGAN_'
+    root = 'cACGAN_results/'
+    model = 'cACGAN_'
     if not os.path.isdir(root):
         os.mkdir(root)
     if not os.path.isdir(root + 'Fixed_results'):
@@ -261,13 +230,19 @@ def main():
     train_hist['total_ptime'] = []
 
 
-    #training
     print('training start!')
     i = 0
     start_time = time.time()
+    acc_list = []
     for epoch in range(train_epoch):
         D_losses = []
         G_losses = []
+
+        D_real_dis_loss = []
+        D_real_aux_loss = []
+        G_dis_loss = []
+        G_aux_loss = []
+
 
         epoch_start_time = time.time()
         y_real_ = torch.ones(batch_size)
@@ -275,8 +250,11 @@ def main():
         y_real_ -= torch.Tensor(0.01*np.random.random(y_real_.shape))
         y_fake_ += torch.Tensor(0.01 * np.random.random(y_fake_.shape))
         y_real_, y_fake_ = Variable(y_real_), Variable(y_fake_)
-        for x_, y_ in train_loader:
-            # train critic  D
+        for x_, y_compact in train_loader:
+            y_compact = torch.as_tensor(y_compact,dtype=torch.long)
+            y_ = F.one_hot(y_compact.to(torch.int64), num_classes=4)
+
+            # train discriminator D\
             i += 1
             D.zero_grad()
 
@@ -291,44 +269,61 @@ def main():
             x_ = x_.type(torch.FloatTensor)
             y_ = y_.type(torch.FloatTensor)
             x_, y_ = Variable(x_), Variable(y_)
+            y_compact = Variable(y_compact)
 
-            #real sample
-            D_result = D(x_, y_).squeeze()
+            #D_result = D(x_, y_).squeeze()
+            D_result,aux_result = D(x_)
+            # D_real_loss = BCE_loss(D_result, y_real_)
             D_real_loss = -torch.mean(D_result)
+            D_aux_loss1 = aux_loss(aux_result, y_compact)
 
-            #fake sample
+            accuracy = compute_acc(aux_result, y_compact)
+
             z_ = torch.randn((mini_batch, 100)).view(-1, 100)
             z_ = Variable(z_)
+
             G_result = G(z_, y_)
-            D_result = D(G_result, y_).squeeze()
+            D_result, aux_result2 = D(G_result)
+
+
             D_fake_loss = torch.mean(D_result)
+            D_aux_loss2 = aux_loss(aux_result2, y_compact)
+
+
+
 
             #gradient penalty
             alpha = torch.rand((mini_batch, 1,1,1))
+
             x_hat = alpha * x_ + (1-alpha) * G_result
-            pre_hat = D(x_hat, y_)
+            # x_hat.requires_grad = True
+
+            pre_hat,_ = D(x_hat)
 
             gradients = grad(outputs=pre_hat, inputs=x_hat, grad_outputs=torch.ones(pre_hat.size()),
                              create_graph=True, retain_graph=True, only_inputs=True)[0]
 
             gradient_penalty = gp * ((gradients.view(gradients.size()[0], -1).norm(2, 1) - 1) ** 2).mean()
 
-            #D loss
-            D_train_loss = D_real_loss + D_fake_loss + gradient_penalty
+            D_train_loss = D_real_loss + D_fake_loss + gradient_penalty + 1 *(D_aux_loss1 + D_aux_loss2)#?????????????????????#?????????????????????#?????????????????????#?????????????????????#?????????????????????
+
             D_train_loss.backward()
             D_optimizer.step()
 
             D_losses.append(D_train_loss.item())
-
-
+            D_real_dis_loss.append((D_real_loss + D_fake_loss).item())
+            D_real_aux_loss.append(D_aux_loss1.item())
 
             # train generator G
+
             if (i % n_critic) == 0:
 
                 G.zero_grad()
 
                 z_ = torch.randn((mini_batch, 100)).view(-1, 100)
                 y_ = (torch.rand(mini_batch, 1) * 4).type(torch.LongTensor).squeeze()
+                y_ = Variable(y_)
+
                 y_label_ = F.one_hot(y_.to(torch.int64), num_classes=4)
 
                 z_ = z_.type(torch.FloatTensor)
@@ -336,26 +331,35 @@ def main():
                 z_, y_label_ = Variable(z_), Variable(y_label_)
 
                 G_result = G(z_, y_label_)
-                D_result = D(G_result, y_label_).squeeze()
+                D_result,aux_result3 = D(G_result)
 
-                G_train_loss = -torch.mean(D_result)
+                # G_train_loss = BCE_loss(D_result, y_real_)
+                G_dis = -torch.mean(D_result)
+                G_aux =  aux_loss(aux_result3,y_)
+                G_train_loss = G_dis +  1*G_aux #?????????????????????#?????????????????????#?????????????????????#?????????????????????#?????????????????????#?????????????????????#?????????????????????
 
                 G_train_loss.backward()
                 G_optimizer.step()
 
                 G_losses.append(G_train_loss.item())
+                G_dis_loss.append(G_dis.item())
+                G_aux_loss.append(G_aux.item())
 
         epoch_end_time = time.time()
         per_epoch_ptime = epoch_end_time - epoch_start_time
 
-        print('[%d/%d] - ptime: %.2f, loss_d: %.3f, loss_g: %.3f' % (
+        acc_list.append(accuracy)
+
+
+        print('[%d/%d] - ptime: %.2f, loss_d: %.3f, loss_g: %.3f, accuracy: %.3f,D_dis_loss: %.3f, D_aux_loss: %.3f, G_dis_loss: %.3f,G_aux_loss: %.3f' % (
         (epoch + 1), train_epoch, per_epoch_ptime, torch.mean(torch.FloatTensor(D_losses)),
-        torch.mean(torch.FloatTensor(G_losses))))
-        show_result((epoch+1), test_z_, test_y_label_, show = True)
+        torch.mean(torch.FloatTensor(G_losses)),accuracy,torch.mean(torch.FloatTensor(D_real_dis_loss)),torch.mean(torch.FloatTensor(D_real_aux_loss)),torch.mean(torch.FloatTensor(G_dis_loss)),torch.mean(torch.FloatTensor(G_aux_loss))))
+        show_result((epoch+1),test_z_, test_y_label_,show = False)
         train_hist['D_losses'].append(torch.mean(torch.FloatTensor(D_losses)))
         train_hist['G_losses'].append(torch.mean(torch.FloatTensor(G_losses)))
         train_hist['per_epoch_ptimes'].append(per_epoch_ptime)
 
+    np.save(r'cACGAN_results/accuracy', acc_list)
     end_time = time.time()
     total_ptime = end_time - start_time
     train_hist['total_ptime'].append(total_ptime)
@@ -369,6 +373,5 @@ def main():
         pickle.dump(train_hist, f)
 
     #show_train_hist(train_hist, save=True, path=root + model + 'train_hist.png')
-
 if __name__ == '__main__':
     main()
