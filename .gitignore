@@ -8,3 +8,4 @@ label_*.npy
 test_data_*.npy
 test_label_*.npy
 *.npy
+*.png

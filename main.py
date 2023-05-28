@@ -4,6 +4,7 @@ from Trans2 import main as transformer2
 from LSTM import main as lstm
 from linear import main as linear
 from model_CWGAN import main as CWGAN
+from model_ACGAN import main as ACGAN
 
 @dtu
 class Defaults(Parameters):
@@ -25,6 +26,8 @@ class Defaults(Parameters):
             transformer2()
         elif model == "CWGAN":
             CWGAN()
+        elif model == "ACGAN":
+            ACGAN()
 
 
 Defaults.start()
