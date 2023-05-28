@@ -2652,3 +2652,9 @@ training start!
 [138/300] - ptime: 4.68, loss_d: 6.259, loss_g: -2.659
 [139/300] - ptime: 4.67, loss_d: 6.136, loss_g: -2.886
 [140/300] - ptime: 4.67, loss_d: 6.159, loss_g: -2.685
+[141/300] - ptime: 4.77, loss_d: 6.304, loss_g: -2.819
+[142/300] - ptime: 4.72, loss_d: 6.472, loss_g: -2.748
+[143/300] - ptime: 4.69, loss_d: 6.327, loss_g: -2.866
+[144/300] - ptime: 4.68, loss_d: 6.236, loss_g: -2.801
+[145/300] - ptime: 4.69, loss_d: 6.386, loss_g: -2.833
+[146/300] - ptime: 4.60, loss_d: 6.876, loss_g: -2.833
