@@ -100,7 +100,7 @@ def show_result(i, test_z_, test_y_label_, show = True):
     ch8 = test_images[:,17,:].cpu().detach().numpy()
     avg = np.mean(ch8,axis=0)
     # record the average of the 17 channel
-    np.save('cACGAN_results/avg.npy',avg)
+    np.save('cACGAN_results/avg.txt',avg)
 
 
     # plt.plot(np.arange(250),avg)
@@ -150,7 +150,7 @@ def main():
     batch_size = 64
     lr_G = 0.0001
     lr_D = 0.00008
-    train_epoch = 300
+    train_epoch = 1000
     gp = 10 #gradient penalty
     n_critic = 5 #number of iterations of the critic per generator iteration
 
