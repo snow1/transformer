@@ -2658,3 +2658,207 @@ training start!
 [144/300] - ptime: 4.68, loss_d: 6.236, loss_g: -2.801
 [145/300] - ptime: 4.69, loss_d: 6.386, loss_g: -2.833
 [146/300] - ptime: 4.60, loss_d: 6.876, loss_g: -2.833
+[147/300] - ptime: 4.70, loss_d: 6.569, loss_g: -2.899
+[148/300] - ptime: 4.63, loss_d: 6.804, loss_g: -2.946
+[149/300] - ptime: 4.68, loss_d: 6.986, loss_g: -3.023
+[150/300] - ptime: 4.60, loss_d: 6.883, loss_g: -3.059
+[151/300] - ptime: 4.62, loss_d: 6.704, loss_g: -3.208
+[152/300] - ptime: 4.61, loss_d: 6.754, loss_g: -3.278
+[153/300] - ptime: 4.64, loss_d: 6.902, loss_g: -3.098
+[154/300] - ptime: 4.64, loss_d: 7.194, loss_g: -3.288
+[155/300] - ptime: 4.64, loss_d: 6.829, loss_g: -3.081
+[156/300] - ptime: 4.73, loss_d: 6.913, loss_g: -3.265
+[157/300] - ptime: 4.73, loss_d: 6.802, loss_g: -3.230
+[158/300] - ptime: 4.75, loss_d: 7.102, loss_g: -3.243
+[159/300] - ptime: 4.72, loss_d: 6.911, loss_g: -3.370
+[160/300] - ptime: 4.73, loss_d: 7.100, loss_g: -3.485
+[161/300] - ptime: 4.64, loss_d: 7.281, loss_g: -3.233
+[162/300] - ptime: 4.73, loss_d: 7.301, loss_g: -3.330
+[163/300] - ptime: 4.64, loss_d: 7.286, loss_g: -3.411
+[164/300] - ptime: 4.73, loss_d: 7.684, loss_g: -3.553
+[165/300] - ptime: 4.73, loss_d: 7.371, loss_g: -3.350
+[166/300] - ptime: 4.73, loss_d: 7.415, loss_g: -3.418
+[167/300] - ptime: 4.64, loss_d: 7.538, loss_g: -3.592
+[168/300] - ptime: 4.67, loss_d: 7.690, loss_g: -3.389
+[169/300] - ptime: 4.73, loss_d: 7.497, loss_g: -3.468
+[170/300] - ptime: 4.73, loss_d: 7.235, loss_g: -3.418
+[171/300] - ptime: 4.73, loss_d: 7.370, loss_g: -3.683
+[172/300] - ptime: 4.72, loss_d: 7.737, loss_g: -3.413
+[173/300] - ptime: 4.65, loss_d: 7.628, loss_g: -3.583
+[174/300] - ptime: 4.65, loss_d: 7.686, loss_g: -3.620
+[175/300] - ptime: 4.72, loss_d: 7.957, loss_g: -3.653
+[176/300] - ptime: 4.73, loss_d: 7.773, loss_g: -3.748
+[177/300] - ptime: 4.65, loss_d: 7.771, loss_g: -3.571
+[178/300] - ptime: 4.71, loss_d: 7.852, loss_g: -3.439
+[179/300] - ptime: 4.67, loss_d: 7.857, loss_g: -3.745
+[180/300] - ptime: 4.73, loss_d: 8.063, loss_g: -3.630
+[181/300] - ptime: 4.73, loss_d: 7.763, loss_g: -3.751
+[182/300] - ptime: 4.76, loss_d: 7.932, loss_g: -3.745
+[183/300] - ptime: 4.74, loss_d: 7.886, loss_g: -3.890
+[184/300] - ptime: 4.82, loss_d: 7.887, loss_g: -3.598
+[185/300] - ptime: 4.64, loss_d: 7.810, loss_g: -3.705
+[186/300] - ptime: 4.65, loss_d: 8.026, loss_g: -3.694
+[187/300] - ptime: 4.82, loss_d: 8.040, loss_g: -3.742
+[188/300] - ptime: 4.69, loss_d: 7.806, loss_g: -4.048
+[189/300] - ptime: 4.72, loss_d: 7.900, loss_g: -3.868
+[190/300] - ptime: 4.64, loss_d: 8.296, loss_g: -3.742
+[191/300] - ptime: 4.72, loss_d: 8.127, loss_g: -3.868
+[192/300] - ptime: 4.76, loss_d: 7.910, loss_g: -3.803
+[193/300] - ptime: 4.72, loss_d: 8.184, loss_g: -3.985
+[194/300] - ptime: 4.74, loss_d: 8.098, loss_g: -3.697
+[195/300] - ptime: 4.65, loss_d: 8.164, loss_g: -3.927
+[196/300] - ptime: 4.72, loss_d: 8.135, loss_g: -3.870
+[197/300] - ptime: 4.74, loss_d: 8.157, loss_g: -4.143
+[198/300] - ptime: 4.73, loss_d: 8.311, loss_g: -4.175
+[199/300] - ptime: 4.73, loss_d: 8.057, loss_g: -3.916
+[200/300] - ptime: 4.65, loss_d: 8.299, loss_g: -4.222
+[201/300] - ptime: 4.65, loss_d: 8.212, loss_g: -4.069
+[202/300] - ptime: 4.67, loss_d: 8.253, loss_g: -4.057
+[203/300] - ptime: 4.73, loss_d: 8.392, loss_g: -4.254
+[204/300] - ptime: 4.65, loss_d: 8.472, loss_g: -4.149
+[205/300] - ptime: 4.83, loss_d: 8.412, loss_g: -3.908
+[206/300] - ptime: 4.76, loss_d: 8.451, loss_g: -3.745
+[207/300] - ptime: 4.82, loss_d: 8.558, loss_g: -4.217
+[208/300] - ptime: 4.77, loss_d: 8.488, loss_g: -3.882
+[209/300] - ptime: 4.75, loss_d: 8.594, loss_g: -4.288
+[210/300] - ptime: 4.73, loss_d: 8.129, loss_g: -4.145
+[211/300] - ptime: 4.66, loss_d: 8.346, loss_g: -3.948
+[212/300] - ptime: 4.66, loss_d: 8.562, loss_g: -4.027
+[213/300] - ptime: 4.78, loss_d: 8.518, loss_g: -4.248
+[214/300] - ptime: 4.72, loss_d: 8.880, loss_g: -4.002
+[215/300] - ptime: 4.72, loss_d: 8.528, loss_g: -4.083
+[216/300] - ptime: 4.86, loss_d: 8.640, loss_g: -4.125
+[217/300] - ptime: 4.91, loss_d: 8.784, loss_g: -4.126
+[218/300] - ptime: 4.72, loss_d: 8.775, loss_g: -4.326
+[219/300] - ptime: 4.75, loss_d: 8.482, loss_g: -4.306
+[220/300] - ptime: 4.74, loss_d: 8.497, loss_g: -4.448
+[221/300] - ptime: 4.75, loss_d: 8.679, loss_g: -4.404
+[222/300] - ptime: 4.75, loss_d: 8.732, loss_g: -4.603
+[223/300] - ptime: 4.74, loss_d: 8.825, loss_g: -4.250
+[224/300] - ptime: 4.74, loss_d: 8.662, loss_g: -4.417
+[225/300] - ptime: 4.66, loss_d: 8.648, loss_g: -4.166
+[226/300] - ptime: 4.76, loss_d: 8.778, loss_g: -4.389
+[227/300] - ptime: 4.74, loss_d: 8.787, loss_g: -4.200
+[228/300] - ptime: 4.66, loss_d: 8.837, loss_g: -4.487
+[229/300] - ptime: 4.74, loss_d: 8.596, loss_g: -4.235
+[230/300] - ptime: 4.65, loss_d: 8.963, loss_g: -4.370
+[231/300] - ptime: 4.74, loss_d: 8.906, loss_g: -4.461
+[232/300] - ptime: 4.66, loss_d: 8.861, loss_g: -4.488
+[233/300] - ptime: 4.74, loss_d: 8.733, loss_g: -4.085
+[234/300] - ptime: 4.73, loss_d: 8.803, loss_g: -4.482
+[235/300] - ptime: 4.66, loss_d: 8.847, loss_g: -4.177
+[236/300] - ptime: 4.74, loss_d: 9.090, loss_g: -4.026
+[237/300] - ptime: 4.76, loss_d: 9.283, loss_g: -4.357
+[238/300] - ptime: 4.66, loss_d: 8.634, loss_g: -4.202
+[239/300] - ptime: 4.73, loss_d: 8.958, loss_g: -4.380
+[240/300] - ptime: 4.77, loss_d: 8.982, loss_g: -4.532
+[241/300] - ptime: 4.76, loss_d: 8.775, loss_g: -4.266
+[242/300] - ptime: 4.85, loss_d: 8.710, loss_g: -4.549
+[243/300] - ptime: 4.85, loss_d: 8.953, loss_g: -4.737
+[244/300] - ptime: 4.74, loss_d: 8.999, loss_g: -4.358
+[245/300] - ptime: 4.66, loss_d: 8.875, loss_g: -4.618
+[246/300] - ptime: 4.74, loss_d: 9.176, loss_g: -4.920
+[247/300] - ptime: 4.74, loss_d: 8.979, loss_g: -4.560
+[248/300] - ptime: 4.73, loss_d: 8.856, loss_g: -4.459
+[249/300] - ptime: 4.73, loss_d: 8.944, loss_g: -4.570
+[250/300] - ptime: 4.68, loss_d: 9.145, loss_g: -4.768
+[251/300] - ptime: 4.75, loss_d: 9.082, loss_g: -4.541
+[252/300] - ptime: 4.66, loss_d: 9.019, loss_g: -4.743
+[253/300] - ptime: 4.73, loss_d: 9.000, loss_g: -4.468
+[254/300] - ptime: 4.65, loss_d: 9.126, loss_g: -4.758
+[255/300] - ptime: 4.75, loss_d: 9.358, loss_g: -4.838
+[256/300] - ptime: 4.74, loss_d: 9.182, loss_g: -4.684
+[257/300] - ptime: 4.65, loss_d: 8.824, loss_g: -5.033
+[258/300] - ptime: 4.66, loss_d: 8.949, loss_g: -4.698
+[259/300] - ptime: 4.75, loss_d: 9.206, loss_g: -4.983
+[260/300] - ptime: 4.74, loss_d: 9.343, loss_g: -4.773
+[261/300] - ptime: 4.66, loss_d: 9.081, loss_g: -4.824
+[262/300] - ptime: 4.66, loss_d: 9.065, loss_g: -4.933
+[263/300] - ptime: 4.76, loss_d: 9.188, loss_g: -4.880
+[264/300] - ptime: 4.76, loss_d: 9.176, loss_g: -4.823
+[265/300] - ptime: 4.66, loss_d: 9.237, loss_g: -4.943
+[266/300] - ptime: 4.74, loss_d: 9.059, loss_g: -4.978
+[267/300] - ptime: 4.80, loss_d: 9.173, loss_g: -4.942
+[268/300] - ptime: 4.87, loss_d: 9.290, loss_g: -5.221
+[269/300] - ptime: 4.84, loss_d: 9.061, loss_g: -4.681
+[270/300] - ptime: 4.83, loss_d: 9.139, loss_g: -5.014
+[271/300] - ptime: 4.66, loss_d: 9.363, loss_g: -4.911
+[272/300] - ptime: 4.66, loss_d: 9.201, loss_g: -4.952
+[273/300] - ptime: 4.73, loss_d: 9.197, loss_g: -4.790
+[274/300] - ptime: 4.76, loss_d: 9.202, loss_g: -4.765
+[275/300] - ptime: 4.74, loss_d: 9.216, loss_g: -4.849
+[276/300] - ptime: 4.74, loss_d: 9.150, loss_g: -4.955
+[277/300] - ptime: 4.73, loss_d: 9.621, loss_g: -4.875
+[278/300] - ptime: 4.64, loss_d: 9.274, loss_g: -4.853
+[279/300] - ptime: 4.66, loss_d: 9.126, loss_g: -4.741
+[280/300] - ptime: 4.65, loss_d: 9.222, loss_g: -4.903
+[281/300] - ptime: 4.67, loss_d: 9.374, loss_g: -5.231
+[282/300] - ptime: 4.65, loss_d: 9.305, loss_g: -5.250
+[283/300] - ptime: 4.73, loss_d: 9.312, loss_g: -4.815
+[284/300] - ptime: 4.85, loss_d: 9.317, loss_g: -4.949
+[285/300] - ptime: 4.64, loss_d: 9.161, loss_g: -4.993
+[286/300] - ptime: 4.73, loss_d: 9.364, loss_g: -5.207
+[287/300] - ptime: 4.65, loss_d: 9.233, loss_g: -4.973
+[288/300] - ptime: 4.72, loss_d: 9.393, loss_g: -5.162
+[289/300] - ptime: 4.64, loss_d: 9.297, loss_g: -5.000
+[290/300] - ptime: 4.73, loss_d: 9.051, loss_g: -5.253
+[291/300] - ptime: 4.75, loss_d: 9.194, loss_g: -5.108
+[292/300] - ptime: 4.74, loss_d: 9.194, loss_g: -5.303
+[293/300] - ptime: 4.73, loss_d: 9.265, loss_g: -5.106
+[294/300] - ptime: 4.74, loss_d: 9.481, loss_g: -4.947
+[295/300] - ptime: 4.75, loss_d: 9.292, loss_g: -5.202
+[296/300] - ptime: 4.75, loss_d: 9.261, loss_g: -5.183
+[297/300] - ptime: 4.78, loss_d: 9.226, loss_g: -5.060
+[298/300] - ptime: 4.71, loss_d: 9.271, loss_g: -5.089
+[299/300] - ptime: 4.68, loss_d: 9.222, loss_g: -5.132
+[300/300] - ptime: 4.74, loss_d: 9.262, loss_g: -4.873
+Avg one epoch ptime: 4.70, total 300 epochs ptime: 1412.18
+Training finish!... save training results
+```
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 16755620: <CWGAN3_1> in cluster <dcc> Done
+
+Job <CWGAN3_1> was submitted from host <n-62-30-1> by user <s212623> in cluster <dcc> at Sun May 28 12:54:06 2023
+Job was executed on host(s) <n-62-31-5>, in queue <hpc>, as user <s212623> in cluster <dcc> at Sun May 28 12:54:07 2023
+</zhome/ac/e/164558> was used as the home directory.
+</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
+Started at Sun May 28 12:54:07 2023
+Terminated at Sun May 28 13:17:45 2023
+Results reported at Sun May 28 13:17:45 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1411.43 sec.
+    Max Memory :                                 568 MB
+    Average Memory :                             550.25 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15816.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                79
+    Run time :                                   1490 sec.
+    Turnaround time :                            1419 sec.
+
+The output (if any) is above this job summary.
+
