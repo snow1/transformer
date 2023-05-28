@@ -1,6 +1,6 @@
 import os, time
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pickle
 import torch
 import torch.nn as nn
@@ -99,12 +99,16 @@ def show_result(i, test_z_, test_y_label_, show = True):
 
     ch8 = test_images[:,17,:].cpu().detach().numpy()
     avg = np.mean(ch8,axis=0)
-    plt.plot(np.arange(250),avg)
-    plt.ylim([-0.1, 0.2])
-    if show & (i % 10 == 0):
-        plt.show()
-    else:
-        plt.close()
+    # record the average of the 17 channel
+    np.save('cACGAN_results/avg.npy',avg)
+
+
+    # plt.plot(np.arange(250),avg)
+    # plt.ylim([-0.1, 0.2])
+    # if show & (i % 10 == 0):
+    #     plt.show()
+    # else:
+    #     plt.close()
 
 def compute_acc(preds, labels):
     correct = 0
@@ -114,29 +118,29 @@ def compute_acc(preds, labels):
     return acc
 
 #curve
-def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
-    x = range(len(hist['D_losses']))
+# def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
+#     x = range(len(hist['D_losses']))
 
-    y1 = hist['D_losses']
-    y2 = hist['G_losses']
+#     y1 = hist['D_losses']
+#     y2 = hist['G_losses']
 
-    plt.plot(x, y1, label='D_loss')
-    plt.plot(x, y2, label='G_loss')
+#     plt.plot(x, y1, label='D_loss')
+#     plt.plot(x, y2, label='G_loss')
 
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
+#     plt.xlabel('Epoch')
+#     plt.ylabel('Loss')
 
-    plt.legend(loc=4)
-    plt.grid(True)
-    plt.tight_layout()
+#     plt.legend(loc=4)
+#     plt.grid(True)
+#     plt.tight_layout()
 
-    if save:
-        plt.savefig(path)
+#     if save:
+#         plt.savefig(path)
 
-    if show:
-        plt.show()
-    else:
-        plt.close()
+#     if show:
+#         plt.show()
+#     else:
+#         plt.close()
 G = generator()
 D = discriminator()
 
@@ -279,6 +283,12 @@ def main():
 
             accuracy = compute_acc(aux_result, y_compact)
 
+            # record accuracy of real data and fake data
+            # result_write = open("cACGAN_results/sub_result.txt", "w")
+
+            # result_write.write('epoch: %d, step: %d, D_real_loss: %.4f, D_aux_loss1: %.4f, accuracy: %.4f\n' % (
+            #epoch, i, D_real_loss.item(), D_aux_loss1.item(), accuracy))
+
             z_ = torch.randn((mini_batch, 100)).view(-1, 100)
             z_ = Variable(z_)
 
@@ -350,6 +360,12 @@ def main():
 
         acc_list.append(accuracy)
 
+        result_write = open("cACGAN_results/sub_result.txt", "w")
+        result_write.write('[%d/%d] - ptime: %.2f, loss_d: %.3f, loss_g: %.3f, accuracy: %.3f,D_dis_loss: %.3f, D_aux_loss: %.3f, G_dis_loss: %.3f,G_aux_loss: %.3f' % (
+        (epoch + 1), train_epoch, per_epoch_ptime, torch.mean(torch.FloatTensor(D_losses)),
+        torch.mean(torch.FloatTensor(G_losses)),accuracy,torch.mean(torch.FloatTensor(D_real_dis_loss)),torch.mean(torch.FloatTensor(D_real_aux_loss)),torch.mean(torch.FloatTensor(G_dis_loss)),torch.mean(torch.FloatTensor(G_aux_loss))))
+        
+
 
         print('[%d/%d] - ptime: %.2f, loss_d: %.3f, loss_g: %.3f, accuracy: %.3f,D_dis_loss: %.3f, D_aux_loss: %.3f, G_dis_loss: %.3f,G_aux_loss: %.3f' % (
         (epoch + 1), train_epoch, per_epoch_ptime, torch.mean(torch.FloatTensor(D_losses)),
@@ -359,7 +375,10 @@ def main():
         train_hist['G_losses'].append(torch.mean(torch.FloatTensor(G_losses)))
         train_hist['per_epoch_ptimes'].append(per_epoch_ptime)
 
-    np.save(r'cACGAN_results/accuracy', acc_list)
+    np.save(r'cACGAN_results/accuracy.txt', acc_list)
+    # mean accuracy
+    print("mean accuracy: %.3f" % (sum(acc_list) / len(acc_list)))
+    result_write.write("mean accuracy: %.3f" % (sum(acc_list) / len(acc_list)))
     end_time = time.time()
     total_ptime = end_time - start_time
     train_hist['total_ptime'].append(total_ptime)

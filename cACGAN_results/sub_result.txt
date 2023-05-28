@@ -1,0 +1,1 @@
+[1/1000] - ptime: 11.26, loss_d: 12.654, loss_g: 1.401, accuracy: 26.786,D_dis_loss: -0.000, D_aux_loss: 1.386, G_dis_loss: 0.015,G_aux_loss: 1.387
