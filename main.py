@@ -3,6 +3,8 @@ from Trans import main as transformer
 from Trans2 import main as transformer2
 from LSTM import main as lstm
 from linear import main as linear
+from model_CWGAN import main as CWGAN
+
 @dtu
 class Defaults(Parameters):
     name: str = "local"
@@ -21,6 +23,8 @@ class Defaults(Parameters):
             linear()
         elif model == "transformer2":
             transformer2()
+        elif model == "CWGAN":
+            CWGAN()
 
 
 Defaults.start()
