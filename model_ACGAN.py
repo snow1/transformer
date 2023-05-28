@@ -1,6 +1,5 @@
 import os, time
 import numpy as np
-#import matplotlib.pyplot as plt
 import pickle
 import torch
 import torch.nn as nn
