@@ -1,6 +1,6 @@
 import os, time
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pickle
 import torch
 import torch.nn as nn
@@ -115,12 +115,12 @@ def show_result(i, test_z_,test_y_label_,show = True):
 
     ch8 = test_images[:,17,:].cpu().detach().numpy()
     avg = np.mean(ch8,axis=0)
-    plt.plot(np.arange(250),avg)
-    plt.ylim([-0.1, 0.2])
-    if show & (i % 10 == 0):
-       plt.show()
-    else:
-       plt.close()
+    # plt.plot(np.arange(250),avg)
+    # plt.ylim([-0.1, 0.2])
+    # if show & (i % 10 == 0):
+    #    plt.show()
+    # else:
+    #    plt.close()
 
 
 
@@ -131,23 +131,23 @@ def show_train_hist(hist, show = False, save = False, path = 'Train_hist.png'):
     y1 = hist['D_losses']
     y2 = hist['G_losses']
 
-    plt.plot(x, y1, label='D_loss')
-    plt.plot(x, y2, label='G_loss')
+    # plt.plot(x, y1, label='D_loss')
+    # plt.plot(x, y2, label='G_loss')
 
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
+    # plt.xlabel('Epoch')
+    # plt.ylabel('Loss')
 
-    plt.legend(loc=4)
-    plt.grid(True)
-    plt.tight_layout()
+    # plt.legend(loc=4)
+    # plt.grid(True)
+    # plt.tight_layout()
 
-    if save:
-        plt.savefig(path)
+    # if save:
+    #     plt.savefig(path)
 
-    if show:
-        plt.show()
-    else:
-        plt.close()
+    # if show:
+    #     plt.show()
+    # else:
+    #     plt.close()
 
 G = generator()
 D = discriminator()
