@@ -158,7 +158,7 @@ def main():
     batch_size = 64
     lr_G = 0.0001
     lr_D = 0.00008
-    train_epoch = 300
+    train_epoch = 1000 # 300
     gp = 10      #gradient penalty
     n_critic = 5 #number of iterations of the critic per generator iteration
 
