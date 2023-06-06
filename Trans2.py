@@ -28,6 +28,15 @@ from torch import Tensor
 from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
+
+kk = 0
+def print(*args):
+    global kk
+    v = ' '.join([str(a) for a in args])
+    with open(f"data_{kk}.log", "w") as f:
+        f.write(v)
+    kk += 1
+    
 # from confusion_matrix import plot_confusion_matrix
 # from cm_no_normal import plot_confusion_matrix_nn
 # from torchsummary import summary
@@ -359,21 +368,21 @@ class Trans():
         # save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
 
         # load the data from npy
-        #print('load data from npy')
+        print('load data from npy')
 
         img = np.load('./data/data.npy')
-        #print("1",img.shape)
+        print("1",img.shape)
         label = np.load('./data/label.npy') - 1
-        #print("2",label.shape)
+        print("2",label.shape)
         test_data = np.load('./data/test_data.npy')
-        #print("3",test_data.shape)
+        print("3",test_data.shape)
         test_label = np.load('./data/test_label.npy') - 1
-        #print("4",test_label.shape)
+        print("4",test_label.shape)
 
         img = torch.from_numpy(img)
-        #print("img shape", img.shape)
+        print("img shape", img.shape)
         label = torch.from_numpy(label)
-        #print("label shape", label.shape)
+        print("label shape", label.shape)
         
 
         dataset = torch.utils.data.TensorDataset(img, label)
