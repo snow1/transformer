@@ -363,16 +363,16 @@ class Trans():
 
         img = np.load('./data/data.npy')
         #print("1",img.shape)
-        label = np.load('./data/label.npy')
+        label = np.load('./data/label.npy') - 1
         #print("2",label.shape)
         test_data = np.load('./data/test_data.npy')
         #print("3",test_data.shape)
-        test_label = np.load('./data/test_label.npy')
+        test_label = np.load('./data/test_label.npy') - 1
         #print("4",test_label.shape)
 
         img = torch.from_numpy(img)
         #print("img shape", img.shape)
-        label = torch.from_numpy(label - 1)
+        label = torch.from_numpy(label)
         #print("label shape", label.shape)
         
 
@@ -382,14 +382,14 @@ class Trans():
         #print("dataloader shape", self.dataloader)
         
         test_data = torch.from_numpy(test_data)
-        test_label = torch.from_numpy(test_label - 1)
+        test_label = torch.from_numpy(test_label)
         test_dataset = torch.utils.data.TensorDataset(test_data, test_label)
         self.test_dataloader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=self.batch_size, shuffle=True)
 
         # Optimizers
         print('start training')
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, betas=(self.b1, self.b2))
-         
+        print('optimizer')
         test_data = Variable(test_data.type(self.Tensor))
         test_label = Variable(test_label.type(self.LongTensor))
 
@@ -408,16 +408,16 @@ class Trans():
         for e in range(self.n_epochs):
             in_epoch = time.time()
             self.model.train()
-            #for i, (img, label) in enumerate(self.dataloader):
+            for i, (img, label) in enumerate(self.dataloader):
 
-            img = Variable(img.type(self.Tensor))
-            label = Variable(label.type(self.LongTensor))
-            tok, outputs = self.model(img)
-                #print(outputs.shape)
-            loss = self.criterion_cls(outputs, label)
-            self.optimizer.zero_grad()
-            loss.backward()
-            self.optimizer.step()
+                img = Variable(img.type(self.Tensor))
+                label = Variable(label.type(self.LongTensor))
+                tok, outputs = self.model(img)
+                #print(i)
+                loss = self.criterion_cls(outputs, label)
+                self.optimizer.zero_grad()
+                loss.backward()
+                self.optimizer.step()
 
             out_epoch = time.time()
 
@@ -436,7 +436,7 @@ class Trans():
                       '  Test loss:', loss_test.detach().cpu().numpy(),
                       '  Train accuracy:', train_acc,
                       '  Test accuracy is:', acc)
-                self.log_write.write(str(e) + "    " + str(acc) + "\n")
+                #self.log_write.write(str(e) + "    " + str(acc) + "\n")
                 num = num + 1
                 averAcc = averAcc + acc
                 if acc > bestAcc:
@@ -448,8 +448,8 @@ class Trans():
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
-        self.log_write.write('The average accuracy is: ' + str(averAcc) + "\n")
-        self.log_write.write('The best accuracy is: ' + str(bestAcc) + "\n")
+        #self.log_write.write('The average accuracy is: ' + str(averAcc) + "\n")
+        #self.log_write.write('The best accuracy is: ' + str(bestAcc) + "\n")
 
         return bestAcc, averAcc, Y_true, Y_pred
 
