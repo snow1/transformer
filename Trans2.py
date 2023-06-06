@@ -253,7 +253,7 @@ class channel_attention(nn.Module):
 class Trans():
     def __init__(self, nsub: int):
         super(Trans, self).__init__()
-        self.batch_size = 50
+        self.batch_size = 1
         self.n_epochs = 500 #1000
         self.img_height = 22 # no use
         self.img_width = 600 # no use
@@ -413,7 +413,7 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
-                #print(i)
+                print(i)
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
