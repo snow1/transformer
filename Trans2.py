@@ -29,13 +29,13 @@ from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
 
-kk = 0
-def print(*args):
-    global kk
-    v = ' '.join([str(a) for a in args])
-    with open(f"data_{kk}.log", "w") as f:
-        f.write(v)
-    kk += 1
+# kk = 0
+# def print(*args):
+#     global kk
+#     v = ' '.join([str(a) for a in args])
+#     with open(f"data_{kk}.log", "w") as f:
+#         f.write(v)
+#     kk += 1
     
 # from confusion_matrix import plot_confusion_matrix
 # from cm_no_normal import plot_confusion_matrix_nn
@@ -262,7 +262,7 @@ class channel_attention(nn.Module):
 class Trans():
     def __init__(self, nsub: int):
         super(Trans, self).__init__()
-        self.batch_size = 1
+        self.batch_size = 50
         self.n_epochs = 500 #1000
         self.img_height = 22 # no use
         self.img_width = 600 # no use
@@ -432,12 +432,15 @@ class Trans():
 
             if (e + 1) % 1 == 0:
                 self.model.eval()
-                Tok, Cls = self.model(test_data)
-                print(Cls)
-                print(test_label)
-                loss_test = self.criterion_cls(Cls, test_label)
-                y_pred = torch.max(Cls, 1)[1]
-                acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
+                for i, (test_data, test_label) in enumerate(self.dataloader):
+                    test_data = Variable(test_data.type(self.Tensor))
+                    test_label = Variable(test_label.type(self.LongTensor))
+                    Tok, Cls = self.model(test_data)
+                    # print(Cls)
+                    # print(test_label)
+                    loss_test = self.criterion_cls(Cls, test_label)
+                    y_pred = torch.max(Cls, 1)[1]
+                    acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
                 train_pred = torch.max(outputs, 1)[1]
                 train_acc = float((train_pred == label).cpu().numpy().astype(int).sum()) / float(label.size(0))
                 print('Epoch:', e,
