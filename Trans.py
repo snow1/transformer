@@ -250,7 +250,7 @@ class channel_attention(nn.Module):
 class Trans():
     def __init__(self, nsub: int):
         super(Trans, self).__init__()
-        self.batch_size = 50
+        self.batch_size = 50 
         self.n_epochs = 1000
         self.img_height = 22
         self.img_width = 600
@@ -263,7 +263,7 @@ class Trans():
         self.start_epoch = 0
         self.root = ''  # the path of data
 
-        self.pretrain = True
+        self.pretrain = False
 
         self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
 
@@ -289,7 +289,7 @@ class Trans():
     def get_source_data(self):
 
         # to get the data of target subject
-        self.total_data = scipy.io.loadmat(self.root + 'A0%dT.mat' % self.nSub)
+        self.total_data = scipy.io.loadmat(self.root + 'data/mat/A0%dT.mat' % self.nSub)
         self.train_data = self.total_data['data']
         self.train_label = self.total_data['label']
         
@@ -303,7 +303,7 @@ class Trans():
 
         # test data
         # to get the data of target subject
-        self.test_tmp = scipy.io.loadmat(self.root + 'A0%dE.mat' % self.nSub)
+        self.test_tmp = scipy.io.loadmat(self.root + 'data/mat/A0%dE.mat' % self.nSub)
         self.test_data = self.test_tmp['data']
         self.test_label = self.test_tmp['label']
 
@@ -380,20 +380,23 @@ class Trans():
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
                 #print(outputs.shape)
+
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
                 self.optimizer.step()
 
             out_epoch = time.time()
-
+            
+            #TEST
             if (e + 1) % 1 == 0:
                 self.model.eval()
                 Tok, Cls = self.model(test_data)
-                print(Cls)
-                print(test_label)
+                #print(Cls)
+                #print(test_label)
                 loss_test = self.criterion_cls(Cls, test_label)
                 y_pred = torch.max(Cls, 1)[1]
+                #print(y_pred)
                 acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
                 train_pred = torch.max(outputs, 1)[1]
                 train_acc = float((train_pred == label).cpu().numpy().astype(int).sum()) / float(label.size(0))
@@ -401,7 +404,9 @@ class Trans():
                       '  Train loss:', loss.detach().cpu().numpy(),
                       '  Test loss:', loss_test.detach().cpu().numpy(),
                       '  Train accuracy:', train_acc,
-                      '  Test accuracy is:', acc)
+                      '  Test accuracy is:', acc,
+                      '  Train_predict:', train_pred,
+                      '  label:', label)
                 self.log_write.write(str(e) + "    " + str(acc) + "\n")
                 num = num + 1
                 averAcc = averAcc + acc
@@ -431,8 +436,8 @@ def main():
         random.seed(seed_n)
         np.random.seed(seed_n)
         torch.manual_seed(seed_n)
-        #torch.manual_seed(seed_n)
-        #torch.manual_seed(seed_n)
+        torch.manual_seed(seed_n)
+        torch.manual_seed(seed_n)
         print('Subject %d' % (i+1))
         trans = Trans(i + 1)
         bestAcc, averAcc, Y_true, Y_pred = trans.train()

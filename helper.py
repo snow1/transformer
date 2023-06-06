@@ -28,7 +28,7 @@ def read_pkl():
     plt.show()
     plt.close()
 
-read_pkl()
+#read_pkl()
 # read the raw data
 def check_npy():
     print('check npy file')
@@ -90,20 +90,29 @@ def generate_data_one_person():
     np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/y_train_valid.npy", labels)
     np.save("C:/Users/Snow/Desktop/EEG/transformer/data/true_data/x_train_valid.npy", data)
 
-'''
+def combine_data():
 #combine all the npy file into one
-for i in range(1, 10):
-    data = np.load("C:/Users/Snow/Desktop/EEG/transformer/data/test_data_%d.npy" % i)
-    print(data.shape)
-    if i == 1:
-        concat_data = data
-    else:
-        concat_data = np.concatenate((concat_data, data), axis=0)
+    for i in range(1, 10):
+        data = np.load("C:/Users/Snow/Desktop/EEG/transformer/data/data_%d.npy" % i)
+        print(data.shape)
+        if i == 1:
+            concat_data = data
+        else:
+            concat_data = np.concatenate((concat_data, data), axis=0)
 
-np.save("C:/Users/Snow/Desktop/EEG/transformer/data/test_data.npy", concat_data)
-print(concat_data.shape)
-'''
-# read the raw data
+    np.save("C:/Users/Snow/Desktop/EEG/transformer/data/data.npy", concat_data)
+    print(concat_data.shape)
+#combine_data()
+
+# read npy file
+def read_npy():
+    label = np.load("C:/Users/Snow/Desktop/EEG/transformer/data/label.npy")
+    print(label.shape)
+    print(label)
+
+read_npy()
+
+# # read the raw data
 # for i in range(1, 10):
 #     edf_raw = mne.io.read_raw_gdf("C:/Users/Snow/Desktop/EEG/BCICIV_2a_gdf/A0%dT.gdf" % i)
 #     print(edf_raw.info)
