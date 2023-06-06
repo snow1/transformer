@@ -168,7 +168,7 @@ class ClassificationHead(nn.Sequential):
 
 
 class ViT(nn.Sequential):
-    def __init__(self, emb_size=10, depth=3, n_classes=9, **kwargs):
+    def __init__(self, emb_size=5, depth=3, n_classes=9, **kwargs):
         super().__init__(
             # channel_attention(),
             ResidualAdd(
@@ -255,9 +255,9 @@ class Trans():
         super(Trans, self).__init__()
         self.batch_size = 50
         self.n_epochs = 1000
-        self.img_height = 22
-        self.img_width = 600
-        self.channels = 1 # EEG channels 25      # begin from 1
+        self.img_height = 22 # no use
+        self.img_width = 600 # no use
+        self.channels = 1 # no use EEG channels 25      # begin from 1
         self.c_dim = 4
         self.lr = 0.0002
         self.b1 = 0.5
