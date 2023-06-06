@@ -29,13 +29,13 @@ from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
 
-kk = 0
-def print(*args):
-    global kk
-    v = ' '.join([str(a) for a in args])
-    with open(f"data_{kk}.log", "w") as f:
-        f.write(v)
-    kk += 1
+# kk = 0
+# def print(*args):
+#     global kk
+#     v = ' '.join([str(a) for a in args])
+#     with open(f"data_{kk}.log", "w") as f:
+#         f.write(v)
+#     kk += 1
     
 # from confusion_matrix import plot_confusion_matrix
 # from cm_no_normal import plot_confusion_matrix_nn
@@ -177,7 +177,7 @@ class ClassificationHead(nn.Sequential):
 
 
 class ViT(nn.Sequential):
-    def __init__(self, emb_size=5, depth=2, n_classes=9, **kwargs):
+    def __init__(self, emb_size=10, depth=3, n_classes=9, **kwargs):
         super().__init__(
             # channel_attention(),
             ResidualAdd(
@@ -262,8 +262,8 @@ class channel_attention(nn.Module):
 class Trans():
     def __init__(self, nsub: int):
         super(Trans, self).__init__()
-        self.batch_size = 1
-        self.n_epochs = 500 #1000
+        self.batch_size = 50
+        self.n_epochs = 1000 #1000
         self.img_height = 22 # no use
         self.img_width = 600 # no use
         self.channels = 1 # no use EEG channels 25      # begin from 1
@@ -368,21 +368,21 @@ class Trans():
         # save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
 
         # load the data from npy
-        print('load data from npy')
+        #print('load data from npy')
 
         img = np.load('./data/data.npy')
-        print("1",img.shape)
+        #print("1",img.shape)
         label = np.load('./data/label.npy') - 1
-        print("2",label.shape)
+        #print("2",label.shape)
         test_data = np.load('./data/test_data.npy')
-        print("3",test_data.shape)
+        #print("3",test_data.shape)
         test_label = np.load('./data/test_label.npy') - 1
-        print("4",test_label.shape)
+        #print("4",test_label.shape)
 
         img = torch.from_numpy(img)
-        print("img shape", img.shape)
+        #print("img shape", img.shape)
         label = torch.from_numpy(label)
-        print("label shape", label.shape)
+        #print("label shape", label.shape)
         
 
         dataset = torch.utils.data.TensorDataset(img, label)
@@ -396,9 +396,9 @@ class Trans():
         self.test_dataloader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=self.batch_size, shuffle=True)
 
         # Optimizers
-        print('start training')
+        #print('start training')
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, betas=(self.b1, self.b2))
-        print('optimizer')
+        #print('optimizer')
         test_data = Variable(test_data.type(self.Tensor))
         test_label = Variable(test_label.type(self.LongTensor))
 
@@ -422,7 +422,7 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
-                print(i)
+                #print(i)
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
@@ -432,12 +432,15 @@ class Trans():
 
             if (e + 1) % 1 == 0:
                 self.model.eval()
-                Tok, Cls = self.model(test_data)
-                print(Cls)
-                print(test_label)
-                loss_test = self.criterion_cls(Cls, test_label)
-                y_pred = torch.max(Cls, 1)[1]
-                acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
+                for i, (test_data, test_label) in enumerate(self.dataloader):
+                    test_data = Variable(test_data.type(self.Tensor))
+                    test_label = Variable(test_label.type(self.LongTensor))
+                    Tok, Cls = self.model(test_data)
+                    # print(Cls)
+                    # print(test_label)
+                    loss_test = self.criterion_cls(Cls, test_label)
+                    y_pred = torch.max(Cls, 1)[1]
+                    acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
                 train_pred = torch.max(outputs, 1)[1]
                 train_acc = float((train_pred == label).cpu().numpy().astype(int).sum()) / float(label.size(0))
                 print('Epoch:', e,
