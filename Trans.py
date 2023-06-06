@@ -165,7 +165,9 @@ class ClassificationHead(nn.Sequential):
 
 
 class ViT(nn.Sequential):
-    def __init__(self, emb_size=10, depth=3, n_classes=4, **kwargs):
+    #def __init__(self, emb_size=10, depth=3, n_classes=4, **kwargs):
+    def __init__(self, emb_size=5, depth=2, n_classes=4, **kwargs):
+
         super().__init__(
             # channel_attention(),
             ResidualAdd(
