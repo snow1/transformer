@@ -359,19 +359,28 @@ class Trans():
         # save_test_label = np.save('./data/test_label_%d.npy' % self.nSub, test_label)
 
         # load the data from npy
-        img = np.load('./data/data.npy')
-        label = np.load('./data/label.npy')
-        test_data = np.load('./data/test_data.npy')
-        test_label = np.load('./data/test_label.npy')
+        print('load data from npy')
 
+        img = np.load('./data/data.npy')
+        print("1",img.shape)
+        label = np.load('./data/label.npy')
+        print("2",label.shape)
+        test_data = np.load('./data/test_data.npy')
+        print("3",test_data.shape)
+        test_label = np.load('./data/test_label.npy')
+        print("4",test_label.shape)
 
         img = torch.from_numpy(img)
+        print("img shape", img.shape)
         label = torch.from_numpy(label - 1)
-
+        print("label shape", label.shape)
+        
 
         dataset = torch.utils.data.TensorDataset(img, label)
+        print("dataset shape", dataset)
         self.dataloader = torch.utils.data.DataLoader(dataset=dataset, batch_size=self.batch_size, shuffle=True)
-
+        print("dataloader shape", self.dataloader)
+        
         test_data = torch.from_numpy(test_data)
         test_label = torch.from_numpy(test_label - 1)
         test_dataset = torch.utils.data.TensorDataset(test_data, test_label)

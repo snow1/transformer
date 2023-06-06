@@ -1,1 +1,1 @@
-[3000/3000] - ptime: 3.62, loss_d: 1.851, loss_g: 2.163, accuracy: 28.571,D_dis_loss: -0.463, D_aux_loss: 1.468, G_dis_loss: 1.584,G_aux_loss: 0.579mean accuracy: 25.798
+[26/3000] - ptime: 10.96, loss_d: 1.251, loss_g: 3.427, accuracy: 21.429,D_dis_loss: -2.087, D_aux_loss: 1.386, G_dis_loss: 2.034,G_aux_loss: 1.393
