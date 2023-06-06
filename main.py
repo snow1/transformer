@@ -13,7 +13,7 @@ class Defaults(Parameters):
     GPU: bool = False
     time: int = 360000
 
-    model: str = "lstm"
+    model: str = "transformer2"
 
     def run(self, isServer: bool, model: str) -> None:
         if model == "transformer":
