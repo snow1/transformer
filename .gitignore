@@ -9,3 +9,8 @@ test_data_*.npy
 test_label_*.npy
 *.npy
 *.png
+CNN_GAN_grey.py
+CNN_LSTM.py
+preprocessing_GAN.py
+preprocessing_spectrogram.py
+```

@@ -23,37 +23,47 @@ from common_spatial_pattern import csp
 class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
-        # LSTM model 
-        # input_size: The number of expected features in the input `x`
-        # hidden_size: The number of features in the hidden state `h`
-        # num_layers: Number of recurrent layers. E.g., setting ``num_layers=2``
-        #     would mean stacking two LSTMs together to form a `stacked LSTM`,
-        #     with the second LSTM taking in outputs of the first LSTM and
-        #     computing the final results. Default: 1
-        self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
+        # create CNN model 
+        self.cnn = nn.Sequential(
+            nn.Conv2d(16, 64, kernel_size=(1, 3), stride=(1, 1), padding=(0, 1)),
+            nn.BatchNorm2d(64),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=(1, 3), stride=(1, 3), padding=(0, 0)),
+            nn.Conv2d(64, 64, kernel_size=(1, 3), stride=(1, 1), padding=(0, 1)),
+            nn.BatchNorm2d(64),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=(1, 3), stride=(1, 3), padding=(0, 0)),
+            nn.Conv2d(64, 64, kernel_size=(1, 3), stride=(1, 1), padding=(0, 1)),
+            nn.BatchNorm2d(64),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=(1, 3), stride=(1, 3), padding=(0, 0)),
+
+        )
         self.classify = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(20000, 4),
+            nn.Linear(2368, 4),
             nn.Softmax(dim=1)
         )
-    
+
+
+        
+    # forward method
     def forward(self, x):
-        #print("1", x.shape) # 50,1 16,1000
-        x = x.squeeze(1)
-        #print("2", x.shape) # 50, 16, 1000
-        x = x.permute(0, 2, 1)
-        #print("3", x.shape) # 50, 1000, 16
-        x, _ = self.lstm(x)
-        #print("4", x.shape) # 50 1000 20
+        print("1", x.shape) # [50, 1, 16, 1000]
+        #x = x.squeeze(1)
+        #print("3", x.shape) # [50, 16, 1000]
+        x = x.permute(0, 2, 1,3)
+        #print("4", x.shape) # [50, 16,1,1000]
+        x = self.cnn(x)
+        #print("5", x.shape) # [50, 64, 1, 1000]
         x = self.classify(x)
-        #print("5",x.shape) # 50 4
+        #print("2",x.shape) # [50, 4]
         return x
-            
 
 
-class LSTM:
+class CNN:
     def __init__(self, nsub):
-        super(LSTM, self).__init__()
+        super(CNN, self).__init__()
         self.batch_size = 50
         self.n_epochs = 1000
         self.img_height = 22
@@ -69,7 +79,10 @@ class LSTM:
 
         self.pretrain = False
 
-        self.log_write = open("./LSTMresults/log_subject%d.txt" % self.nSub, "w")
+        if not os.path.exists("./CNNresults"):
+            os.makedirs("./CNNresults")
+
+        self.log_write = open("./CNNresults/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -209,7 +222,11 @@ class LSTM:
                     Y_true = test_label
                     Y_pred = y_pred
 
-        torch.save(self.model.state_dict(), f'LSTMModels/model_{self.nSub}.pth')
+        # if folder is not os.path.exists('CNNModels'):
+        if not os.path.exists('CNNModels'):
+            os.makedirs('CNNModels')
+
+        torch.save(self.model.state_dict(), f'CNNModels/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
@@ -221,7 +238,10 @@ class LSTM:
 def main():
     best = 0
     aver = 0
-    result_write = open("./LSTMresults/sub_result.txt", "w")
+    if not os.path.exists('./CNNresults'):
+        os.makedirs('./CNNresults')
+    
+    result_write = open("./CNNresults/sub_result.txt", "w")
 
     for i in range(9):
         seed_n = np.random.randint(500)
@@ -230,7 +250,7 @@ def main():
         np.random.seed(seed_n)
         torch.manual_seed(seed_n)
         print('Subject %d' % (i+1))
-        trans = LSTM(i + 1)
+        trans = CNN(i + 1)
         bestAcc, averAcc, Y_true, Y_pred = trans.train()
         print('THE BEST ACCURACY IS ' + str(bestAcc))
         result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
