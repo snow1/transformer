@@ -65,7 +65,7 @@ class linear():
     def get_source_data(self):
 
         # to get the data of target subject
-        self.total_data = scipy.io.loadmat(self.root + 'A0%dT.mat' % self.nSub)
+        self.total_data = scipy.io.loadmat(self.root + 'data/mat/A0%dE.mat' % self.nSub)
         self.train_data = self.total_data['data']
         self.train_label = self.total_data['label']
 
@@ -78,7 +78,7 @@ class linear():
 
         # test data
         # to get the data of target subject
-        self.test_tmp = scipy.io.loadmat(self.root + 'A0%dE.mat' % self.nSub)
+        self.test_tmp = scipy.io.loadmat(self.root + 'data/mat/A0%dT.mat' % self.nSub)
         self.test_data = self.test_tmp['data']
         self.test_label = self.test_tmp['label']
 
