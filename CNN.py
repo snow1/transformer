@@ -49,7 +49,7 @@ class Model(nn.Module):
         
     # forward method
     def forward(self, x):
-        print("1", x.shape) # [50, 1, 16, 1000]
+        #print("1", x.shape) # [50, 1, 16, 1000]
         #x = x.squeeze(1)
         #print("3", x.shape) # [50, 16, 1000]
         x = x.permute(0, 2, 1,3)

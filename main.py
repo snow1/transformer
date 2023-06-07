@@ -5,6 +5,7 @@ from LSTM import main as lstm
 from linear import main as linear
 from model_CWGAN import main as CWGAN
 from model_ACGAN import main as ACGAN
+from CNN import main as cnn
 
 @dtu
 class Defaults(Parameters):
@@ -13,7 +14,7 @@ class Defaults(Parameters):
     GPU: bool = False
     time: int = 360000
 
-    model: str = "transformer2"
+    model: str = "cnn"
 
     def run(self, isServer: bool, model: str) -> None:
         if model == "transformer":
@@ -28,6 +29,8 @@ class Defaults(Parameters):
             CWGAN()
         elif model == "ACGAN":
             ACGAN()
+        elif model == "cnn":
+            cnn()
 
 
 Defaults.start()
