@@ -13,4 +13,8 @@ CNN_GAN_grey.py
 CNN_LSTM.py
 preprocessing_GAN.py
 preprocessing_spectrogram.py
+*.csv
+*.xlsx
+*.pt
+*.zip
 ```

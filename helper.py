@@ -1,8 +1,35 @@
 import mne.io
 import numpy as np
-import scipy
+import scipy.io
 import pickle
 import matplotlib.pyplot as plt
+import pandas as pd
+
+
+# read the mat file and convert to csv file
+def mat_to_csv():
+    mat = scipy.io.loadmat("data/mat/A01T.mat")
+    data = mat['data']  # data.shape = (1000, 22, 288)  22 channels,
+    #One run consists of 48 trials (12 for each of the four possible classes), yielding a total of 288 trials per session
+    labels = mat['label']  # labels.shape = (288, 1)
+    print(data.shape)
+    print(labels.shape)
+
+    data = np.array(data, dtype=float)
+    labels = np.array(labels, dtype=int)
+
+    header = "label"
+    #add label and data to csv file
+    #concatenate data and label
+    d = {'labels': labels.reshape(288,-1), 'data':data.reshape(288,-1)}
+    data_label = pd.DataFrame(data=d)
+    #data_label = np.concatenate((labels, data.reshape(288,-1)), axis=1, dtype=.2)
+    print(data_label.shape) #(288, 22001)
+    #save data and label to csv file
+    np.savetxt("data/data.csv",data_label, delimiter=",",header=header) #22000
+
+mat_to_csv()
+
 
 #read pkl file
 def read_pkl():
@@ -110,7 +137,7 @@ def read_npy():
     print(label.shape)
     print(label)
 
-read_npy()
+#read_npy()
 
 # # read the raw data
 # for i in range(1, 10):

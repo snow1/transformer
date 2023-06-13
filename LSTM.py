@@ -30,11 +30,14 @@ class Model(nn.Module):
         #     would mean stacking two LSTMs together to form a `stacked LSTM`,
         #     with the second LSTM taking in outputs of the first LSTM and
         #     computing the final results. Default: 1
+        # improve lstm
+
         self.lstm = nn.LSTM(16, 10, 3, batch_first=True, bidirectional=True)
         self.classify = nn.Sequential(
             nn.Flatten(),
             nn.Linear(20000, 4),
             nn.Softmax(dim=1)
+
         )
     
     def forward(self, x):
@@ -81,7 +84,7 @@ class LSTM:
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
         self.model = Model()
-        # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
+        #self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
         # self.model = self.model
        # summary(self.model, (16,16), device='cpu')
 
