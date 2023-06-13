@@ -29,8 +29,8 @@ setup_tutorial()
 
 
 ################Load the data
-empiricalHeaders = np.genfromtxt('data/data.csv', delimiter=',', names=True).dtype.names
-empiricalEEG = np.genfromtxt('data/data.csv', delimiter=',', skip_header=1)
+empiricalHeaders = np.genfromtxt('data/csv/gansEEGTrainingData.csv', delimiter=',', names=True).dtype.names
+empiricalEEG = np.genfromtxt('data/csv/gansEEGTrainingData.csv', delimiter=',', skip_header=1)
 
 #Print the head of the data
 print(printFormat.bold + 'Display Header and first few rows/columns of data\n \033[0m' + printFormat.end)
