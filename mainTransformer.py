@@ -11,7 +11,7 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 #from tensorflow.keras import keras.layers
-
+#print(pd.__version__) #1.3.5
 # Read Training Data
 train_data = pd.read_excel('data/14-Subjects-Dataset/Training_data.xlsx', header=None)
 train_data = np.array(train_data).astype('float32')
