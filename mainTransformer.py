@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
+#from tensorflow.keras import keras.layers
 
 # Read Training Data
 train_data = pd.read_excel('data/14-Subjects-Dataset/Training_data.xlsx', header=None)
@@ -31,15 +31,15 @@ test_labels = np.array(test_labels).astype('float32')
 test_labels = np.squeeze(test_labels)
 
 
-class TransformerBlock(layers.Layer):
+class TransformerBlock(keras.layers.Layer):
     def __init__(self, embed_dim, num_heads, ff_dim, rate=0.5):
         super(TransformerBlock, self).__init__()
-        self.att = layers.MultiHeadAttention(num_heads=num_heads, key_dim=embed_dim)
-        self.ffn = keras.Sequential([layers.Dense(ff_dim, activation="relu"), layers.Dense(embed_dim), ])
-        self.layernorm1 = layers.LayerNormalization(epsilon=1e-6)
-        self.layernorm2 = layers.LayerNormalization(epsilon=1e-6)
-        self.dropout1 = layers.Dropout(rate)
-        self.dropout2 = layers.Dropout(rate)
+        self.att = keras.layers.MultiHeadAttention(num_heads=num_heads, key_dim=embed_dim)
+        self.ffn = keras.Sequential([keras.layers.Dense(ff_dim, activation="relu"), keras.layers.Dense(embed_dim), ])
+        self.layernorm1 = keras.layers.LayerNormalization(epsilon=1e-6)
+        self.layernorm2 = keras.layers.LayerNormalization(epsilon=1e-6)
+        self.dropout1 = keras.layers.Dropout(rate)
+        self.dropout2 = keras.layers.Dropout(rate)
 
     def call(self, inputs, training):
         attn_output = self.att(inputs, inputs)
@@ -51,10 +51,10 @@ class TransformerBlock(layers.Layer):
         return out
 
 
-class TokenAndPositionEmbedding(layers.Layer):
+class TokenAndPositionEmbedding(keras.layers.Layer):
     def __init__(self, maxlen, embed_dim):
         super(TokenAndPositionEmbedding, self).__init__()
-        self.pos_emb = layers.Embedding(input_dim=maxlen, output_dim=embed_dim)
+        self.pos_emb = keras.layers.Embedding(input_dim=maxlen, output_dim=embed_dim)
 
     def call(self, x):
         positions = tf.range(start=0, limit=maxlen, delta=1)
@@ -71,7 +71,7 @@ ff_dim = 64     # Hidden layer size in feed forward network inside transformer
 def main():
 
     # Input Time-series
-    inputs = layers.Input(shape=(maxlen*embed_dim,)) #3*97= 291
+    inputs = keras.layers.Input(shape=(maxlen*embed_dim,)) #3*97= 291
     embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
     x = embedding_layer(inputs)
 
@@ -82,11 +82,11 @@ def main():
     x = transformer_block_2(x)
 
     # Output
-    x = layers.GlobalMaxPooling1D()(x)
-    x = layers.Dropout(0.5)(x)
-    x = layers.Dense(64, activation="relu")(x)
-    x = layers.Dropout(0.5)(x)
-    outputs = layers.Dense(1, activation="sigmoid")(x)
+    x = keras.layers.GlobalMaxPooling1D()(x)
+    x = keras.layers.Dropout(0.5)(x)
+    x = keras.layers.Dense(64, activation="relu")(x)
+    x = keras.layers.Dropout(0.5)(x)
+    outputs = keras.layers.Dense(1, activation="sigmoid")(x)
 
     model = keras.Model(inputs=inputs, outputs=outputs)
 
