@@ -63,41 +63,44 @@ class TokenAndPositionEmbedding(layers.Layer):
         out = x + positions
         return out
 
-
 maxlen = 1      # Only consider 3 input time points
 embed_dim = 640  # Features of each time point
 num_heads = 8   # Number of attention heads
 ff_dim = 64     # Hidden layer size in feed forward network inside transformer
 
-# Input Time-series
-inputs = layers.Input(shape=(maxlen*embed_dim,)) #3*97= 291
-embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
-x = embedding_layer(inputs)
+def main():
 
-# Encoder Architecture
-transformer_block_1 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
-transformer_block_2 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
-x = transformer_block_1(x)
-x = transformer_block_2(x)
+    # Input Time-series
+    inputs = layers.Input(shape=(maxlen*embed_dim,)) #3*97= 291
+    embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
+    x = embedding_layer(inputs)
 
-# Output
-x = layers.GlobalMaxPooling1D()(x)
-x = layers.Dropout(0.5)(x)
-x = layers.Dense(64, activation="relu")(x)
-x = layers.Dropout(0.5)(x)
-outputs = layers.Dense(1, activation="sigmoid")(x)
+    # Encoder Architecture
+    transformer_block_1 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
+    transformer_block_2 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
+    x = transformer_block_1(x)
+    x = transformer_block_2(x)
 
-model = keras.Model(inputs=inputs, outputs=outputs)
+    # Output
+    x = layers.GlobalMaxPooling1D()(x)
+    x = layers.Dropout(0.5)(x)
+    x = layers.Dense(64, activation="relu")(x)
+    x = layers.Dropout(0.5)(x)
+    outputs = layers.Dense(1, activation="sigmoid")(x)
 
-model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4),
-              loss="binary_crossentropy",
-              metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
+    model = keras.Model(inputs=inputs, outputs=outputs)
 
-history = model.fit(
-    train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels)
-)
+    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4),
+                loss="binary_crossentropy",
+                metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
 
-#print the model accuaracy
-print("Model Accuracy: " + str(model.evaluate(test_data, test_labels)[1])
-        + "\nModel Precision: " + str(model.evaluate(test_data, test_labels)[2])
-        + "\nModel Recall: " + str(model.evaluate(test_data, test_labels)[3]))
+    history = model.fit(
+        train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels)
+    )
+
+    #print the model accuaracy
+    print("Model Accuracy: " + str(model.evaluate(test_data, test_labels)[1])
+            + "\nModel Precision: " + str(model.evaluate(test_data, test_labels)[2])
+            + "\nModel Recall: " + str(model.evaluate(test_data, test_labels)[3]))
+if __name__ == "__main__":
+    main()
