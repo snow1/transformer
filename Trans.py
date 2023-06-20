@@ -343,6 +343,10 @@ class Trans():
 
 
         img, label, test_data, test_label = self.get_source_data()
+        print(img.shape) # 288 1 16 1000
+        print(label.shape) # 288
+        print(test_data.shape)
+        print(test_label.shape)
         img = torch.from_numpy(img)
         label = torch.from_numpy(label - 1)
 
@@ -372,7 +376,9 @@ class Trans():
         curr_lr = self.lr
         # some better optimization strategy is worthy to explore. Sometimes terrible over-fitting.
 
-
+        print('Training...')
+        print(img.shape)
+        print(label.shape)
         for e in range(self.n_epochs):
             in_epoch = time.time()
             self.model.train()
@@ -381,7 +387,7 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
-                #print(outputs.shape)
+                print(outputs.shape)
 
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()

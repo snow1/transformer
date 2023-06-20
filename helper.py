@@ -14,6 +14,8 @@ def mat_to_csv():
     labels = mat['label']  # labels.shape = (288, 1)
     print(data.shape)
     print(labels.shape)
+    print(labels)  # [0]
+    print(data)
 
     data = np.array(data, dtype=float)
     labels = np.array(labels, dtype=int)
@@ -24,9 +26,9 @@ def mat_to_csv():
     d = {'labels': labels.reshape(288,-1), 'data':data.reshape(288,-1)}
     data_label = pd.DataFrame(data=d)
     #data_label = np.concatenate((labels, data.reshape(288,-1)), axis=1, dtype=.2)
-    print(data_label.shape) #(288, 22001)
+    #print(data_label.shape) #(288, 22001)
     #save data and label to csv file
-    np.savetxt("data/data.csv",data_label, delimiter=",",header=header) #22000
+    #np.savetxt("data/data.csv",data_label, delimiter=",",header=header) #22000
 
 mat_to_csv()
 

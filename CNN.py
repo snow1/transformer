@@ -41,7 +41,7 @@ class Model(nn.Module):
         )
         self.classify = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(2368, 4),
+            nn.Linear(2368, 9),
             nn.Softmax(dim=1)
         )
 
@@ -57,7 +57,7 @@ class Model(nn.Module):
         x = self.cnn(x)
         #print("5", x.shape) # [50, 64, 1, 1000]
         x = self.classify(x)
-        #print("2",x.shape) # [50, 4]
+        #print("6",x.shape) # [50, 9]
         return x
 
 
@@ -153,16 +153,28 @@ class CNN:
     def train(self):
 
 
-        img, label, test_data, test_label = self.get_source_data()
+        # img, label, test_data, test_label = self.get_source_data()
+        # img = torch.from_numpy(img)
+        # label = torch.from_numpy(label - 1)
+
+        img = np.load('./data/data.npy')
+        #print("1",img.shape)
+        label = np.load('./data/label.npy') - 1
+        #print("2",label.shape)
+        test_data = np.load('./data/test_data.npy')
+        #print("3",test_data.shape)
+        test_label = np.load('./data/test_label.npy') - 1
+
         img = torch.from_numpy(img)
-        label = torch.from_numpy(label - 1)
+        #print("img shape", img)
+        label = torch.from_numpy(label)
 
 
         dataset = torch.utils.data.TensorDataset(img, label)
         self.dataloader = torch.utils.data.DataLoader(dataset=dataset, batch_size=self.batch_size, shuffle=True)
 
         test_data = torch.from_numpy(test_data)
-        test_label = torch.from_numpy(test_label - 1)
+        test_label = torch.from_numpy(test_label)
         test_dataset = torch.utils.data.TensorDataset(test_data, test_label)
         self.test_dataloader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=self.batch_size, shuffle=True)
 
@@ -187,12 +199,15 @@ class CNN:
         for e in range(self.n_epochs):
             in_epoch = time.time()
             self.model.train()
-            for i, (img, label) in enumerate(self.dataloader):
-
+            for i,(img, label) in enumerate(self.dataloader):
+                #print(img.shape)
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 outputs = self.model(img)               
-               # print(outputs.shape)
+                # print(outputs)
+                # print(outputs.shape)
+                # print(label)
+                # print(label.shape)# 50 ? 
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
@@ -203,7 +218,10 @@ class CNN:
             if (e + 1) % 1 == 0:
                 self.model.eval()
                 Cls = self.model(test_data)
-
+                # print(Cls.shape)
+                # print(Cls)
+                # print(test_label.shape)
+                # print(test_label)
                 loss_test = self.criterion_cls(Cls, test_label)
                 y_pred = torch.max(Cls, 1)[1]
                 acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
@@ -243,38 +261,37 @@ def main():
     
     result_write = open("./CNNresults/sub_result.txt", "w")
 
-    for i in range(9):
-        seed_n = np.random.randint(500)
-        print('seed is ' + str(seed_n))
-        random.seed(seed_n)
-        np.random.seed(seed_n)
-        torch.manual_seed(seed_n)
-        print('Subject %d' % (i+1))
-        trans = CNN(i + 1)
-        bestAcc, averAcc, Y_true, Y_pred = trans.train()
-        print('THE BEST ACCURACY IS ' + str(bestAcc))
-        result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
-        result_write.write('**Subject ' + str(i + 1) + ' : ' + 'The best accuracy is: ' + str(bestAcc) + "\n")
-        result_write.write('Subject ' + str(i + 1) + ' : ' + 'The average accuracy is: ' + str(averAcc) + "\n")
-        # plot_confusion_matrix(Y_true, Y_pred, i+1)
-        best = best + bestAcc
-        aver = aver + averAcc
-        if i == 0:
-            yt = Y_true
-            yp = Y_pred
-        else:
-            yt = torch.cat((yt, Y_true))
-            yp = torch.cat((yp, Y_pred))
+    #for i in range(9):
+    i = 0
+    seed_n = np.random.randint(500)
+    print('seed is ' + str(seed_n))
+    np.random.seed(seed_n)
+    torch.manual_seed(seed_n)
+    print('Subject %d' % (i+1))
+    trans = CNN(i + 1)
+    bestAcc, averAcc, Y_true, Y_pred = trans.train()
+    print('THE BEST ACCURACY IS ' + str(bestAcc))
+    result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
+    result_write.write('**Subject ' + str(i + 1) + ' : ' + 'The best accuracy is: ' + str(bestAcc) + "\n")
+    result_write.write('Subject ' + str(i + 1) + ' : ' + 'The average accuracy is: ' + str(averAcc) + "\n")
+    # plot_confusion_matrix(Y_true, Y_pred, i+1)
+    best = best + bestAcc
+    aver = aver + averAcc
+    if i == 0:
+        yt = Y_true
+        yp = Y_pred
+    else:
+        yt = torch.cat((yt, Y_true))
+        yp = torch.cat((yp, Y_pred))
 
 
-    best = best / 9
-    aver = aver / 9
+    # best = best / 9
+    # aver = aver / 9
     # plot_confusion_matrix(yt, yp, 666)
     result_write.write('**The average Best accuracy is: ' + str(best) + "\n")
     result_write.write('The average Aver accuracy is: ' + str(aver) + "\n")
     result_write.close()
-
-
+    
 
 if __name__ == "__main__":
     main()

@@ -413,7 +413,9 @@ class Trans():
         curr_lr = self.lr
         # some better optimization strategy is worthy to explore. Sometimes terrible over-fitting.
 
-
+        print('start training')
+        print(img.shape)
+        print(label.shape)
         for e in range(self.n_epochs):
             in_epoch = time.time()
             self.model.train()
@@ -422,7 +424,10 @@ class Trans():
                 img = Variable(img.type(self.Tensor))
                 label = Variable(label.type(self.LongTensor))
                 tok, outputs = self.model(img)
-                #print(i)
+                print(outputs)
+                print(label)
+                print(outputs.shape)#[50,9]
+                print(label.shape) #[50]
                 loss = self.criterion_cls(outputs, label)
                 self.optimizer.zero_grad()
                 loss.backward()
