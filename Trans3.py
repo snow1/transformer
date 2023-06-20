@@ -25,7 +25,7 @@ from torch import Tensor
 from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 from common_spatial_pattern import csp
-import pandas as pd
+import pandas as pdss
 # from confusion_matrix import plot_confusion_matrix
 # from cm_no_normal import plot_confusion_matrix_nn
 # from torchsummary import summary
@@ -343,10 +343,10 @@ class Trans():
     def train(self):
 
 
-        img = pd.read_excel('./data/14-Subjects-Dataset/Training_data.xlsx') 
-        label = pd.read_excel('./data/14-Subjects-Dataset/Training_labels.xlsx')
-        test_data = pd.read_excel('./data/14-Subjects-Dataset/Test_data.xlsx')
-        test_label = pd.read_excel('./data/14-Subjects-Dataset/Test_labels.xlsx')
+        img = pdss.read_excel('./data/14-Subjects-Dataset/Training_data.xlsx') 
+        label = pdss.read_excel('./data/14-Subjects-Dataset/Training_labels.xlsx')
+        test_data = pdss.read_excel('./data/14-Subjects-Dataset/Test_data.xlsx')
+        test_label = pdss.read_excel('./data/14-Subjects-Dataset/Test_labels.xlsx')
         #img = pd.read_excel('./data/10-Subjects-Dataset/10-Subjects-Dataset/L2/Training_data.xlsx')
         #label = pd.read_excel('./data/10-Subjects-Dataset/10-Subjects-Dataset/L2/Training_labels.xlsx')
         #test_data = pd.read_excel('./data/10-Subjects-Dataset/10-Subjects-Dataset/L2/Test_data.xlsx')
