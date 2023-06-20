@@ -1,6 +1,7 @@
 from dtu import Parameters, dtu
 from Trans import main as transformer
 from Trans2 import main as transformer2
+from Trans3 import main as transformer3
 from LSTM import main as lstm
 from linear import main as linear
 from model_CWGAN import main as CWGAN
@@ -34,6 +35,8 @@ class Defaults(Parameters):
             cnn()
         elif model == "maintransformer":
             maintransformer()
+        elif model == "transformer3":
+            transformer3()
 
 
 Defaults.start()
