@@ -7,26 +7,26 @@
 """
 
 import numpy as np
-from pandas.io.api import read_excel
+import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 #from tensorflow.keras import keras.layers
 #print(pd.__version__) #1.3.5
 # Read Training Data
-train_data = read_excel('data/14-Subjects-Dataset/Training_data.xlsx', header=None)
+train_data = pd.read_excel('data/14-Subjects-Dataset/Training_data.xlsx', header=None)
 train_data = np.array(train_data).astype('float32')
 
 # Read Training Labels
-train_labels = read_excel('data/14-Subjects-Dataset/Training_labels.xlsx', header=None)
+train_labels = pd.read_excel('data/14-Subjects-Dataset/Training_labels.xlsx', header=None)
 train_labels = np.array(train_labels).astype('float32')
 train_labels = np.squeeze(train_labels)
 
 # Read Testing Data
-test_data = read_excel('data/14-Subjects-Dataset/Test_data.xlsx', header=None)
+test_data = pd.read_excel('data/14-Subjects-Dataset/Test_data.xlsx', header=None)
 test_data = np.array(test_data).astype('float32')
 
 # Read Testing Labels
-test_labels = read_excel('data/14-Subjects-Dataset/Test_labels.xlsx', header=None)
+test_labels = pd.read_excel('data/14-Subjects-Dataset/Test_labels.xlsx', header=None)
 test_labels = np.array(test_labels).astype('float32')
 test_labels = np.squeeze(test_labels)
 
