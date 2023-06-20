@@ -6,7 +6,7 @@ from linear import main as linear
 from model_CWGAN import main as CWGAN
 from model_ACGAN import main as ACGAN
 from CNN import main as cnn
-from main_Transformer import main as maintransformer
+from mainTransformer import main as maintransformer
 
 @dtu
 class Defaults(Parameters):

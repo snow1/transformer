@@ -102,5 +102,6 @@ def main():
     print("Model Accuracy: " + str(model.evaluate(test_data, test_labels)[1])
             + "\nModel Precision: " + str(model.evaluate(test_data, test_labels)[2])
             + "\nModel Recall: " + str(model.evaluate(test_data, test_labels)[3]))
+    
 if __name__ == "__main__":
     main()
