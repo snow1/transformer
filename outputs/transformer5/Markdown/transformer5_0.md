@@ -13049,3 +13049,52 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+/zhome/ac/e/164558/.lsbatch/1687373124.16899673.shell: line 11: 228526 Killed                  python main.py $MYARGS
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 16899673: <transformer5_0> in cluster <dcc> Exited
+
+Job <transformer5_0> was submitted from host <n-62-30-2> by user <s212623> in cluster <dcc> at Wed Jun 21 20:45:24 2023
+Job was executed on host(s) <n-62-11-69>, in queue <hpc>, as user <s212623> in cluster <dcc> at Wed Jun 21 20:45:26 2023
+</zhome/ac/e/164558> was used as the home directory.
+</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
+Started at Wed Jun 21 20:45:26 2023
+Terminated at Wed Jun 21 21:09:06 2023
+Results reported at Wed Jun 21 21:09:06 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   1406.80 sec.
+    Max Memory :                                 16384 MB
+    Average Memory :                             9168.31 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1516 sec.
+    Turnaround time :                            1422 sec.
+
+The output (if any) is above this job summary.
+
