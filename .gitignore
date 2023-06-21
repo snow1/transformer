@@ -17,4 +17,6 @@ preprocessing_spectrogram.py
 *.xlsx
 *.pt
 *.zip
+*.ipynb
+*.edf*
 ```

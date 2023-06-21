@@ -30,7 +30,7 @@ def mat_to_csv():
     #save data and label to csv file
     #np.savetxt("data/data.csv",data_label, delimiter=",",header=header) #22000
 
-mat_to_csv()
+#mat_to_csv()
 
 
 #read pkl file
@@ -135,11 +135,11 @@ def combine_data():
 
 # read npy file
 def read_npy():
-    label = np.load("C:/Users/Snow/Desktop/EEG/transformer/data/label.npy")
+    label = np.load("C:/Users/Snow/Desktop/EEG/transformer/Users.npy", allow_pickle=True)
     print(label.shape)
     print(label)
 
-#read_npy()
+read_npy()
 
 # # read the raw data
 # for i in range(1, 10):
