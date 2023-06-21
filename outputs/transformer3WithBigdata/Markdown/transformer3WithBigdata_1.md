@@ -10297,3 +10297,4298 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+Loaded module: python3/3.6.2
+Loaded module: cuda/8.0
+Loaded module: cudnn/v7.0-prod-cuda8
+Loaded module: ffmpeg/4.2.2
+---------------------------- /appl/Modules/versions ----------------------------
+3.2.8  3.3.a  4.8.0  
+
+----------------------- /appl/Modules/4.8.0/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+
+-------------------- /apps/dcc/etc/ModulesSL73/modulefiles ---------------------
+abinit/8.10.3                                                                              
+aocc/3.1.0                                                                                 
+aocc/3.2.0                                                                                 
+aomp/11.11-0                                                                               
+aomp/11.12-0                                                                               
+armadillo/11.2.4                                                                           
+asegpaw/dummy                                                                              
+astra/1.6                                                                                  
+astra/1.7.1beta                                                                            
+astra/1.8                                                                                  
+astra/1.8-python-3.6.2                                                                     
+astra/2.1.0-matlab-2022b-python-3.8.14-cuda-11.8                                           
+astra/2.1.0-matlab-2022b-python-3.10.11-cuda-11.8                                          
+astra/20190102                                                                             
+astra/20191105                                                                             
+astra/20200917-matlab-2020a-python-3.8.4-cuda-10.2                                         
+astra/20201225-matlab-2020b-python-3.8.2-cuda-10.2                                         
+astra/20210110-matlab-2020b-python-3.8.2-cuda-11.1.1                                       
+astra/20210713-matlab-2020b-python-3.8.9-cuda-11.3                                         
+astra/20210713-matlab-2020b-python-3.9.5-cuda-11.3                                         
+bagel/1.2.2-gcc-10.2.0-mkl-2020update1                                                     
+bagel/1.2.X-snapshot-20201007-gcc-10.2.0-mkl-2020update1                                   
+basemap/1.07-python-3.6.2                                                                  
+beagle/2.1.2                                                                               
+beagle/3.3.2                                                                               
+beagle/4.1                                                                                 
+beast/1.8.2                                                                                
+binutils/2.24                                                                              
+binutils/2.25.1                                                                            
+binutils/2.29(default)                                                                     
+binutils/2.33.1                                                                            
+binutils/2.33.1-lto                                                                        
+binutils/2.34                                                                              
+binutils/2.34-branch                                                                       
+binutils/2.34-lto                                                                          
+binutils/2.35                                                                              
+binutils/2.35.1                                                                            
+binutils/2.35.1-lto                                                                        
+binutils/2.36                                                                              
+binutils/2.36-lto                                                                          
+binutils/2.39                                                                              
+binutils/2.40                                                                              
+biogeme/2.3                                                                                
+bison/3.7.5                                                                                
+blender/3.0                                                                                
+boost/1.52.0                                                                               
+boost/1.57.0(default)                                                                      
+boost/1.58.0                                                                               
+boost/1.64.0-gcc-5.4.0                                                                     
+boost/1.64.0-gcc-6.3.0                                                                     
+boost/1.64.0-gcc-7.1.0                                                                     
+boost/1.73.0-gcc-9.3.0                                                                     
+boost/1.80.0-gcc-11.3.0                                                                    
+boost/1.81.0-gcc-12.2.0                                                                    
+caffe/1.0rc2                                                                               
+caffe/1.0rc3_with_cudnn4                                                                   
+cclib/1.1                                                                                  
+cclib/1.3.1                                                                                
+cdo/1.7.2                                                                                  
+cdo/1.7.2-netcdf-4.4.1-hdf5-1.8.17                                                         
+cdo/1.9.5                                                                                  
+cdo/1.9.9                                                                                  
+chimerax/1.2.5                                                                             
+clang/5.0.1                                                                                
+clang/6.0.0                                                                                
+clang/7.0.0                                                                                
+clang/7.0.0b                                                                               
+clang/8.0.0                                                                                
+clang/9.0.0                                                                                
+clang/10-snapshot-20200102                                                                 
+clang/10-snapshot-20200103                                                                 
+clang/10.0.0                                                                               
+clang/11-snapshot-20200116                                                                 
+clang/11-snapshot-20200918-cuda-10.1                                                       
+clang/11.0.0-cuda-10.1                                                                     
+clang/14.0.6-cuda-11.7-test1                                                               
+clang/15.0.7-cuda-11.5.1                                                                   
+clang/16.0.0-cuda-11.7.1                                                                   
+clang/16.0.1-cuda-11.8.0                                                                   
+clang/16.0.2-cuda-11.8.0                                                                   
+clang/16.0.4-cuda-11.5.0                                                                   
+clang/16.0.6-cuda-11.5.1                                                                   
+clang/snapshot20181016                                                                     
+clang/snapshot20181017                                                                     
+clustal-omega/1.2.4                                                                        
+cmake/3.16.5                                                                               
+cmake/3.18.2                                                                               
+cmake/3.19.4                                                                               
+cmake/3.19.8                                                                               
+cmake/3.20.1                                                                               
+cmake/3.22.1                                                                               
+cmake/3.23.1                                                                               
+cmake/3.23.2                                                                               
+cmake/3.25.2                                                                               
+cmake/3.25.3                                                                               
+cmake/3.26.3                                                                               
+cmake/3.26.4                                                                               
+colmap/3.8-cuda-11.7.1-haswell-avx2-python-3.10.7-test1                                    
+colmap/3.8-cuda-11.7.1-skylake-avx512-python-3.10.7                                        
+comsol/5.3                                                                                 
+comsol/5.3a                                                                                
+comsol/5.4                                                                                 
+comsol/5.5                                                                                 
+comsol/5.6(default)                                                                        
+comsol/6.0                                                                                 
+comsol/6.1                                                                                 
+course.02456/20181201                                                                      
+cp2k/4.0-svn-16639                                                                         
+cp2k/6.1-gcc-7.5-haswell                                                                   
+cp2k/9.1-gcc-10.3                                                                          
+cplex/12.9                                                                                 
+cplex/12.10                                                                                
+CryptoMiniSat/3.2.0                                                                        
+cuda/5.0                                                                                   
+cuda/5.5                                                                                   
+cuda/6.0                                                                                   
+cuda/6.5                                                                                   
+cuda/7.0                                                                                   
+cuda/7.5                                                                                   
+cuda/8.0 <L>                                                                               
+cuda/8.0.61                                                                                
+cuda/9.0                                                                                   
+cuda/9.1                                                                                   
+cuda/9.2                                                                                   
+cuda/10.0                                                                                  
+cuda/10.1                                                                                  
+cuda/10.2                                                                                  
+cuda/11.0                                                                                  
+cuda/11.1                                                                                  
+cuda/11.1.1                                                                                
+cuda/11.2.2                                                                                
+cuda/11.3                                                                                  
+cuda/11.4                                                                                  
+cuda/11.5                                                                                  
+cuda/11.5.1                                                                                
+cuda/11.6(default)                                                                         
+cuda/11.7                                                                                  
+cuda/11.7.1                                                                                
+cuda/11.8                                                                                  
+cuda/12.0                                                                                  
+cuda/12.1                                                                                  
+cuda/12.1.1                                                                                
+cudnn/v2-rc3                                                                               
+cudnn/v2.0-prod                                                                            
+cudnn/v3.0-prod                                                                            
+cudnn/v4.0-prod                                                                            
+cudnn/v5.0-prod                                                                            
+cudnn/v5.1-prod                                                                            
+cudnn/v6.0-prod                                                                            
+cudnn/v7.0-prod-cuda8 <L>                                                                  
+cudnn/v7.0.5-prod-cuda-9.0                                                                 
+cudnn/v7.0.5-prod-cuda-9.1                                                                 
+cudnn/v7.4.2.24-prod-cuda-9.0                                                              
+cudnn/v7.4.2.24-prod-cuda-9.2                                                              
+cudnn/v7.4.2.24-prod-cuda-10.0                                                             
+cudnn/v7.6.5.32-prod-cuda-10.0                                                             
+cudnn/v7.6.5.32-prod-cuda-10.1                                                             
+cudnn/v7.6.5.32-prod-cuda-10.2                                                             
+cudnn/v8.0.2.39-prod-cuda-11.0                                                             
+cudnn/v8.0.4.30-prod-cuda-10.1                                                             
+cudnn/v8.0.4.30-prod-cuda-10.2                                                             
+cudnn/v8.0.4.30-prod-cuda-11.1                                                             
+cudnn/v8.0.5.39-prod-cuda-10.2                                                             
+cudnn/v8.0.5.39-prod-cuda-11.0                                                             
+cudnn/v8.0.5.39-prod-cuda-11.1.1                                                           
+cudnn/v8.1.1.33-prod-cuda-10.2                                                             
+cudnn/v8.1.1.33-prod-cuda-11.2                                                             
+cudnn/v8.2.0.53-prod-cuda-10.2                                                             
+cudnn/v8.2.0.53-prod-cuda-11.3                                                             
+cudnn/v8.2.2.26-prod-cuda-10.2                                                             
+cudnn/v8.2.2.26-prod-cuda-11.4                                                             
+cudnn/v8.3.0.98-prod-cuda-10.2                                                             
+cudnn/v8.3.0.98-prod-cuda-11.5                                                             
+cudnn/v8.3.2.44-prod-cuda-10.2                                                             
+cudnn/v8.3.2.44-prod-cuda-11.5(default)                                                    
+cudnn/v8.3.2.44-prod-cuda-11.X                                                             
+cudnn/v8.4.1.50-prod-cuda-11.X                                                             
+cudnn/v8.6.0.163-prod-cuda-11.X                                                            
+cudnn/v8.7.0-prod-cuda-10.2                                                                
+cudnn/v8.8.0-prod-cuda-11.X                                                                
+cudnn/v8.8.0-prod-cuda-12.X                                                                
+cudnn/v8.9.1.23-prod-cuda-11.X                                                             
+cudnn/v8.9.1.23-prod-cuda-12.X                                                             
+cvx/2.11-1116                                                                              
+cvx/2.11-1127(default)                                                                     
+cvx/2.20-1148                                                                              
+cvxopt/cvxopt-1.1.17-python-2.7.3-atlas                                                    
+cvxopt/cvxopt-1.1.17-python-2.7.3-openblas                                                 
+cvxopt/cvxopt-1.2.3-python-3.6.2-openblas                                                  
+cython/0.20.2                                                                              
+cython/0.20.2-python-3.4.1                                                                 
+cython/0.21.1-python-2.7.3                                                                 
+cython/0.24-python-3.5.1                                                                   
+cython/0.28.1-python-3.6.2                                                                 
+cython/0.28.3-python-2.7.13                                                                
+cython/0.29.14-python-3.6.10                                                               
+cython/0.29.14-python-3.7.5                                                                
+cython/0.29.14-python-3.7.6                                                                
+cython/0.29.14-python-3.8.0                                                                
+cython/0.29.14-python-3.8.1                                                                
+cython/0.29.16-python-3.7.7                                                                
+cython/0.29.16-python-3.8.2                                                                
+cython/0.29.20-python-2.7.18                                                               
+cython/0.29.21-python-3.8.4                                                                
+cython/0.29.22-python-3.6.13                                                               
+cython/0.29.22-python-3.7.10                                                               
+cython/0.29.22-python-3.8.9                                                                
+cython/0.29.23-python-3.9.5                                                                
+cython/0.29.24-python-3.7.11                                                               
+cython/0.29.24-python-3.8.11                                                               
+cython/0.29.24-python-3.9.6                                                                
+cython/0.29.27-python-3.9.10                                                               
+cython/0.29.27-python-3.10.2                                                               
+cython/0.29.28-python-3.9.11                                                               
+cython/0.29.32-python-3.7.14                                                               
+cython/0.29.32-python-3.8.14                                                               
+cython/0.29.32-python-3.9.14                                                               
+cython/0.29.32-python-3.10.7                                                               
+cython/0.29.32-python-3.11.0                                                               
+cython/0.29.33-python-3.11.1                                                               
+cython/0.29.33-python-3.11.2                                                               
+cython/0.29.34-python-3.9.16                                                               
+cython/0.29.34-python-3.10.11                                                              
+cython/0.29.34-python-3.11.3                                                               
+cython/0.29.35-python-3.8.17                                                               
+dl_poly/testing                                                                            
+dotnet/2.1.811                                                                             
+dotnet/2.1.813                                                                             
+dotnet/3.1.401                                                                             
+doxygen/1.8.20                                                                             
+doxygen/1.9.1                                                                              
+doxygen/1.9.2                                                                              
+dwarftools/20191104                                                                        
+EMAN2/2.31                                                                                 
+FDS/6.4.7-intel2019-update5-openmpi-4.0.3                                                  
+FDS/6.4.7-intel2020-update1-openmpi-4.0.3                                                  
+FDS/6.7.0                                                                                  
+FDS/6.7.1                                                                                  
+FDS/6.7.1-intel2019-update5                                                                
+FDS/6.7.1-openmpi-3.1.4                                                                    
+FDS/6.7.4-intel2019-update5                                                                
+FDS/6.7.4-intel2019-update5-clean                                                          
+FDS/6.7.4-intel2020-update1                                                                
+FDS/6.7.4-openmpi-4.0.5                                                                    
+FDS/6.7.5-openmpi-4.0.5                                                                    
+FDS/6.7.5-openmpi-4.0.5-mkl-2020-update1-O1                                                
+FDS/6.7.6-openmpi-4.1.1-mkl-2020-update4                                                   
+FDS/6.7.9-openmpi-4.1.4-mkl-2022-update1                                                   
+FDS/nightly-FDS6.7.9-1716_SMV6.7.21-1067_2023Mar04_tst_lnx                                 
+FEniCS/1.1.0d                                                                              
+FEniCS/1.5.0                                                                               
+FEniCS/1.6.0                                                                               
+FEniCS/2016.2-haswell-january2017                                                          
+FEniCS/2017.1.0                                                                            
+FEniCS/2017.2.0                                                                            
+FEniCS/2017.2.0-with-petsc-and-slepc                                                       
+FEniCS/2018.1.0-with-petsc-and-slepc                                                       
+FEniCS/2018.1.0-with-petsc-and-slepc-and-scotch                                            
+FEniCS/2018.1.0-with-petsc-and-slepc-and-scotch-and-newmpi                                 
+FEniCS/2019.1.0                                                                            
+FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5                                         
+FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5-and-slow-blas                           
+FEniCS/2019.1.0-with-petsc-3.10.5-and-numpy-1.16.5-and-slow-blas-quickndirty               
+FEniCS/2019.1.0-with-petsc-3.15.5-numpy-1.23.3                                             
+ffmpeg/3.4                                                                                 
+ffmpeg/4.2.2 <L>                                                                           
+ffmpeg/4.4                                                                                 
+ffmpeg/4.4.2                                                                               
+ffmpeg/4.4.4                                                                               
+ffmpeg/5.0                                                                                 
+ffmpeg/5.0.1                                                                               
+ffmpeg/5.0.3                                                                               
+ffmpeg/5.1.3                                                                               
+fleurMaX/4.0                                                                               
+fleurMaX/6.0                                                                               
+flex/2.6.4                                                                                 
+fltk/1.1.10                                                                                
+fltk/1.3.0(default)                                                                        
+ftnchek/3.3.1(default)                                                                     
+ftnchek/4beta                                                                              
+gamess/2014.12.R1                                                                          
+gcc-rt/4.8.3                                                                               
+gcc-rt/4.9.1                                                                               
+gcc-rt/4.9.2                                                                               
+gcc/4.1.2                                                                                  
+gcc/4.4.7                                                                                  
+gcc/4.7.2                                                                                  
+gcc/4.8.3                                                                                  
+gcc/4.8.4                                                                                  
+gcc/4.8.5                                                                                  
+gcc/4.9.1                                                                                  
+gcc/4.9.2                                                                                  
+gcc/4.9.4                                                                                  
+gcc/5.1.0                                                                                  
+gcc/5.2.0                                                                                  
+gcc/5.3.0                                                                                  
+gcc/5.4.0                                                                                  
+gcc/6.1.0                                                                                  
+gcc/6.2.0                                                                                  
+gcc/6.3.0                                                                                  
+gcc/6.4.0                                                                                  
+gcc/6.5.0                                                                                  
+gcc/7.1.0                                                                                  
+gcc/7.2.0                                                                                  
+gcc/7.3.0                                                                                  
+gcc/7.4.0                                                                                  
+gcc/7.5.0                                                                                  
+gcc/8.1.0                                                                                  
+gcc/8.2.0                                                                                  
+gcc/8.3.0                                                                                  
+gcc/8.4.0                                                                                  
+gcc/8.5.0-binutils-2.36.1                                                                  
+gcc/9.1.0                                                                                  
+gcc/9.2.0                                                                                  
+gcc/9.3.0-binutils-2.34                                                                    
+gcc/9.3.0-binutils-2.34-lto                                                                
+gcc/9.3.1-binutils-2.36.1                                                                  
+gcc/9.4.0-binutils-2.36.1                                                                  
+gcc/9.5.0-binutils-2.38                                                                    
+gcc/10.0.1-snap-20200119                                                                   
+gcc/10.1.0-binutils-2.34                                                                   
+gcc/10.1.0-binutils-2.34-lto                                                               
+gcc/10.2.0-binutils-2.34                                                                   
+gcc/10.2.0-binutils-2.34-cuda-10.2                                                         
+gcc/10.2.0-binutils-2.34-lto                                                               
+gcc/10.3.0-binutils-2.36.1(default)                                                        
+gcc/10.4.0-binutils-2.38                                                                   
+gcc/11.1.0-binutils-2.36.1                                                                 
+gcc/11.2.0-binutils-2.37                                                                   
+gcc/11.3.0-binutils-2.38                                                                   
+gcc/11.4.0-binutils-2.40                                                                   
+gcc/12.1.0-binutils-2.38                                                                   
+gcc/12.2.0-binutils-2.39                                                                   
+gcc/12.3.0-binutils-2.40                                                                   
+gcc/13.1.0-binutils-2.40                                                                   
+gdal/2.1.3                                                                                 
+gdal/2.2.3                                                                                 
+gdal/3.0.4                                                                                 
+gdal/3.2.0                                                                                 
+gdal/3.2.0-with-python-3.8.2                                                               
+gdal/3.2.3-with-python-3.6.13                                                              
+gdal/3.4.1-with-python-3.9.10                                                              
+gdb/12.1                                                                                   
+gdl/0.9.8-with-x11                                                                         
+gdl/0.9.8-without-x11                                                                      
+gdl/0.9.9-with-x11                                                                         
+gdl/0.9.9-without-x11                                                                      
+gdl/1.0.0-rc3                                                                              
+geos/3.8.2                                                                                 
+geos/3.9.2                                                                                 
+glpk/4.45                                                                                  
+gmsh/4.11.1-python-3.9.14                                                                  
+grass/7.2.0                                                                                
+gromacs/2018.2                                                                             
+gromacs/2018.2-gpu                                                                         
+gromacs/2018.5                                                                             
+gromacs/2018.5-gpu                                                                         
+gromacs/2018.5-plumed-2.5                                                                  
+gromacs/2018.8                                                                             
+gromacs/2018.8-chap-0.9.1                                                                  
+gromacs/2018.8-gpu                                                                         
+gromacs/2018.8-gpu-chap-0.9.1                                                              
+gromacs/2019.4                                                                             
+gromacs/2019.4-gpu                                                                         
+gromacs/2019.4-gpu-plumed-2.6                                                              
+gromacs/2019.6                                                                             
+gromacs/2019.6-gpu                                                                         
+gromacs/2020-gpu                                                                           
+gromacs/2020.0                                                                             
+gromacs/2020.6                                                                             
+gromacs/2020.6-gpu                                                                         
+gromacs/2021.2                                                                             
+gromacs/2021.2-gpu                                                                         
+gromacs/2021.4-gpu-plumed-2.8-test                                                         
+gromacs/2021.4-gpu-plumed-2.8-test2                                                        
+gromacs/2022.1-cpu-cp2k-9.1-double                                                         
+gromacs/2022.1-gpu-cp2k-9.1                                                                
+gromacs/2022.2-cpu-cp2k-9.1-double                                                         
+gromacs/2022.3-cpu-cp2k-9.1-double-plumed-2.8.1                                            
+gsl/2.7                                                                                    
+gurobi/5.6.2                                                                               
+gurobi/5.6.3                                                                               
+gurobi/6.0.0                                                                               
+gurobi/6.5.1                                                                               
+gurobi/7.0.1                                                                               
+gurobi/8.0.0                                                                               
+gurobi/8.1.0                                                                               
+gurobi/8.1.1(default)                                                                      
+gurobi/9.0.0                                                                               
+gurobi/9.1.0                                                                               
+gurobi/9.5.0                                                                               
+gurobi/9.5.1                                                                               
+gurobi/9.5.2                                                                               
+gurobi/10.0.0                                                                              
+gurobipy/gurobi-6.5.1-python-3.5.1                                                         
+gurobipy/gurobi-7.0.1-python-2.7.13                                                        
+gurobipy/gurobi-7.0.1-python-3.5.1                                                         
+gurobipy/gurobi-7.0.1-python-3.5.4                                                         
+gurobipy/gurobi-8.0.0-python-2.7.13                                                        
+gurobipy/gurobi-8.0.0-python-3.5.1                                                         
+gurobipy/gurobi-8.0.0-python-3.5.4                                                         
+gurobipy/gurobi-8.0.0-python-3.6.2                                                         
+gurobipy/gurobi-8.1.0-python-2.7.13                                                        
+gurobipy/gurobi-8.1.0-python-3.5.1                                                         
+gurobipy/gurobi-8.1.0-python-3.5.4                                                         
+gurobipy/gurobi-8.1.0-python-3.6.2                                                         
+gurobipy/gurobi-8.1.1-python-2.7.13                                                        
+gurobipy/gurobi-8.1.1-python-3.5.1                                                         
+gurobipy/gurobi-8.1.1-python-3.5.4                                                         
+gurobipy/gurobi-8.1.1-python-3.6.2                                                         
+gurobipy/gurobi-9.0.0-python-2.7.13                                                        
+gurobipy/gurobi-9.0.0-python-3.5.4                                                         
+gurobipy/gurobi-9.0.0-python-3.6.2                                                         
+gurobipy/gurobi-9.0.0-python-3.7.7                                                         
+gurobipy/gurobi-9.1.0-python-2.7.13                                                        
+gurobipy/gurobi-9.1.0-python-3.6.2                                                         
+gurobipy/gurobi-9.1.0-python-3.7.10                                                        
+gurobipy/gurobi-9.1.0-python-3.8.2                                                         
+gurobipy/gurobi-9.5.0-python-2.7.13                                                        
+gurobipy/gurobi-9.5.0-python-3.7.10                                                        
+gurobipy/gurobi-9.5.0-python-3.8.2                                                         
+gurobipy/gurobi-9.5.0-python-3.9.6                                                         
+gurobipy/gurobi-9.5.1-python-3.8.2                                                         
+gurobipy/gurobi-9.5.1-python-3.9.6                                                         
+gurobipy/gurobi-9.5.1-python-3.9.10                                                        
+gurobipy/gurobi-9.5.1-python-3.9.11                                                        
+gurobipy/gurobi-9.5.1-python-3.10.2                                                        
+gurobipy/gurobi-9.5.2-python-3.8.2                                                         
+gurobipy/gurobi-9.5.2-python-3.9.11                                                        
+gurobipy/gurobi-9.5.2-python-3.10.2                                                        
+gurobipy/gurobi-10.0.0-python-3.8.2                                                        
+gurobipy/gurobi-10.0.0-python-3.9.11                                                       
+gurobipy/gurobi-10.0.0-python-3.10.2                                                       
+gurobipy/gurobi-10.0.0-python-3.11.0                                                       
+h5py/2.6.0-python-2.7.3                                                                    
+h5py/2.7.1-python-2.7.12_ucs4                                                              
+h5py/2.7.1-python-3.5.4                                                                    
+h5py/2.8.0-python-3.6.2                                                                    
+h5py/3.1.0-python-3.6.13                                                                   
+h5py/3.2.1-python-3.7.10                                                                   
+h5py/3.2.1-python-3.8.9                                                                    
+h5py/3.2.1-python-3.9.5                                                                    
+h5py/3.3.0-python-3.7.11                                                                   
+h5py/3.3.0-python-3.8.11                                                                   
+h5py/3.3.0-python-3.9.6                                                                    
+h5py/3.6.0-python-3.9.10                                                                   
+h5py/3.6.0-python-3.9.11                                                                   
+h5py/3.6.0-python-3.10.2                                                                   
+h5py/3.7.0-python-3.7.14                                                                   
+h5py/3.7.0-python-3.8.14                                                                   
+h5py/3.7.0-python-3.9.14                                                                   
+h5py/3.7.0-python-3.10.7                                                                   
+h5py/3.7.0-python-3.11.0                                                                   
+h5py/3.8.0-python-3.9.16                                                                   
+h5py/3.8.0-python-3.10.11                                                                  
+h5py/3.8.0-python-3.11.1                                                                   
+h5py/3.8.0-python-3.11.2                                                                   
+h5py/3.8.0-python-3.11.3                                                                   
+h5py/3.8.0-python-3.11.3-openmpi                                                           
+harminv/1.4                                                                                
+hawc2/12.9.0                                                                               
+hawc2/13.0                                                                                 
+hawcstab2/3.13                                                                             
+hdf5/1.12.1-gcc-10.3.0                                                                     
+hdf5/1.12.2-gcc-11.3.0                                                                     
+hdf5/1.14.1-openmpi-4.1.5-gcc-12.2.0                                                       
+hmmer/3.3.2                                                                                
+idl/8.7                                                                                    
+intel/2013.0.028                                                                           
+intel/2013.1.039(default)                                                                  
+intel/2013.1.046                                                                           
+intel/2015.0.090                                                                           
+intel/2015.1.133                                                                           
+intel/2015.1.133.mkl                                                                       
+intel/2015.1.133.mpi                                                                       
+intel/2015.1.133.util                                                                      
+intel/2015.3.187                                                                           
+intel/2015.3.187.mkl                                                                       
+intel/2015.3.187.mpi                                                                       
+intel/2015.3.187.util                                                                      
+intel/2016.1.0.423501                                                                      
+intel/2016.1.0.423501.mkl                                                                  
+intel/2016.1.0.423501.mpi                                                                  
+intel/2016.1.0.423501.util                                                                 
+intel/2016.2.0                                                                             
+intel/2016.2.0.mkl                                                                         
+intel/2016.2.0.mpi                                                                         
+intel/2016.2.0.util                                                                        
+intel/2017.0.035                                                                           
+intel/2017.0.035.mkl                                                                       
+intel/2017.0.035.mpi                                                                       
+intel/2017.0.035.util                                                                      
+intel/2017.1.043                                                                           
+intel/2017.1.043.mkl                                                                       
+intel/2017.1.043.mpi                                                                       
+intel/2017.1.043.util                                                                      
+intel/2017.4.196                                                                           
+intel/2017.4.196.mkl                                                                       
+intel/2017.4.196.mpi                                                                       
+intel/2017.4.196.util                                                                      
+intel/2017.7.065                                                                           
+intel/2017.7.065.mkl                                                                       
+intel/2017.7.065.mpi                                                                       
+intel/2017.7.065.util                                                                      
+intel/2018.0.033                                                                           
+intel/2018.0.033.mkl                                                                       
+intel/2018.0.033.mpi                                                                       
+intel/2018.0.033.util                                                                      
+intel/2018.1.038                                                                           
+intel/2018.1.038.mkl                                                                       
+intel/2018.1.038.mpi                                                                       
+intel/2018.1.038.util                                                                      
+intel/2018.2.046                                                                           
+intel/2018.2.046.mkl                                                                       
+intel/2018.2.046.mpi                                                                       
+intel/2018.2.046.util                                                                      
+intel/2018.3.051                                                                           
+intel/2018.3.051.mkl                                                                       
+intel/2018.3.051.mpi                                                                       
+intel/2018.3.051.util                                                                      
+intel/2019.0.117                                                                           
+intel/2019.0.117.mkl                                                                       
+intel/2019.0.117.mpi                                                                       
+intel/2019.0.117.util                                                                      
+intel/2019.1.144                                                                           
+intel/2019.1.144.mkl                                                                       
+intel/2019.1.144.mpi                                                                       
+intel/2019.1.144.util                                                                      
+intel/2019.2.187                                                                           
+intel/2019.2.187.mkl                                                                       
+intel/2019.2.187.mpi                                                                       
+intel/2019.2.187.util                                                                      
+intel/2019.3.199                                                                           
+intel/2019.3.199.mkl                                                                       
+intel/2019.3.199.mpi                                                                       
+intel/2019.3.199.util                                                                      
+intel/2019.5.281                                                                           
+intel/2019.5.281.mkl                                                                       
+intel/2019.5.281.mpi                                                                       
+intel/2019.5.281.python2                                                                   
+intel/2019.5.281.python3                                                                   
+intel/2019.5.281.util                                                                      
+intel/2020.0.166                                                                           
+intel/2020.0.166.mkl                                                                       
+intel/2020.0.166.mpi                                                                       
+intel/2020.0.166.python3                                                                   
+intel/2020.0.166.util                                                                      
+intel/2020.1.217                                                                           
+intel/2020.1.217.mkl                                                                       
+intel/2020.1.217.mpi                                                                       
+intel/2020.1.217.python3                                                                   
+intel/2020.1.217.util                                                                      
+intel/2020.2.254                                                                           
+intel/2020.2.254.mkl                                                                       
+intel/2020.2.254.mpi                                                                       
+intel/2020.2.254.python3                                                                   
+intel/2020.2.254.util                                                                      
+intel/2020.4.304                                                                           
+intel/2020.4.304.mkl                                                                       
+intel/2020.4.304.mpi                                                                       
+intel/2020.4.304.python3                                                                   
+intel/2020.4.304.util                                                                      
+intel/2021.3.0                                                                             
+intel/2021.3.0.mkl                                                                         
+intel/2021.3.0.mpi                                                                         
+intel/2021.4.0                                                                             
+intel/2021.4.0.mkl                                                                         
+intel/2021.4.0.mpi                                                                         
+intel/2022.1.0                                                                             
+intel/2022.1.0.mkl                                                                         
+intel/2022.1.0.mpi                                                                         
+intel/2022.2.0                                                                             
+intel/2022.2.0.mkl                                                                         
+intel/2022.2.0.mpi                                                                         
+intel/2023.0.0                                                                             
+intel/2023.0.0.mkl                                                                         
+intel/2023.0.0.mpi                                                                         
+intel/2023.1.0                                                                             
+intel/2023.1.0.mkl                                                                         
+intel/2023.1.0.mpi                                                                         
+intelmpi/4.1.0.024                                                                         
+intelmpi/4.1.1.036                                                                         
+Ipopt/3.13.3                                                                               
+ipython/1.1.0-python-2.7.3                                                                 
+ipython/4.0.0-python-2.7.3                                                                 
+ipython/4.2.0-python-2.7.3                                                                 
+JAGS/3.4.0                                                                                 
+JAGS/4.2.0                                                                                 
+JCMsuite/4.2.1                                                                             
+julia/0.7.0                                                                                
+julia/1.0.2                                                                                
+julia/1.1.1                                                                                
+julia/1.2.0                                                                                
+julia/1.3.0                                                                                
+julia/1.3.1                                                                                
+julia/1.4.0                                                                                
+julia/1.5.0                                                                                
+julia/1.5.3                                                                                
+julia/1.6.1(default)                                                                       
+julia/1.6.4                                                                                
+julia/1.6.7                                                                                
+julia/1.7.0                                                                                
+julia/1.7.3                                                                                
+julia/1.8.2                                                                                
+julia/1.8.5                                                                                
+julia/1.9.0                                                                                
+lammps/23Jun2022                                                                           
+latex/TeXLive09                                                                            
+latex/TeXLive10                                                                            
+latex/TeXLive11                                                                            
+latex/TeXLive12                                                                            
+latex/TeXLive19(default) <L>                                                               
+make/4.3                                                                                   
+make/4.4                                                                                   
+make/4.4.1                                                                                 
+mathematica/12.1.1                                                                         
+mathematica/12.2.0(default)                                                                
+matlab/R2018a                                                                              
+matlab/R2018b                                                                              
+matlab/R2019a                                                                              
+matlab/R2019b                                                                              
+matlab/R2020a                                                                              
+matlab/R2020b                                                                              
+matlab/R2021a                                                                              
+matlab/R2021b(default)                                                                     
+matlab/R2022a                                                                              
+matlab/R2022b                                                                              
+matlabpython/matlab-8.5.0-python-2.7.10                                                    
+matplotlib/2.0.2-numpy-1.9.2-python-2.7.3                                                  
+matplotlib/2.0.2-python-2.7.3                                                              
+matplotlib/2.0.2-python-3.5.4                                                              
+matplotlib/2.0.2-python-3.6.2                                                              
+matplotlib/2.2.2-numpy-1.14.3-python-2.7.13                                                
+matplotlib/2.2.5-numpy-1.16.6-python-2.7.18                                                
+matplotlib/3.2.1-python-3.7.7                                                              
+matplotlib/3.2.1-python-3.8.2                                                              
+matplotlib/3.3.2-numpy-1.19.2-python-3.8.4                                                 
+matplotlib/3.3.4-numpy-1.19.5-python-3.6.13                                                
+matplotlib/3.3.4-numpy-1.19.5-python-3.7.10                                                
+matplotlib/3.3.4-numpy-1.19.5-python-3.8.9                                                 
+matplotlib/3.4.2-numpy-1.20.3-python-3.9.5                                                 
+matplotlib/3.4.2-numpy-1.21.1-python-3.7.11                                                
+matplotlib/3.4.2-numpy-1.21.1-python-3.8.11                                                
+matplotlib/3.4.2-numpy-1.21.1-python-3.9.6                                                 
+matplotlib/3.5.1-numpy-1.22.2-python-3.9.10                                                
+matplotlib/3.5.1-numpy-1.22.2-python-3.9.11                                                
+matplotlib/3.5.1-numpy-1.22.2-python-3.10.2                                                
+matplotlib/3.5.3-numpy-1.21.6-python-3.7.14                                                
+matplotlib/3.6.0-numpy-1.23.3-python-3.8.14                                                
+matplotlib/3.6.0-numpy-1.23.3-python-3.9.14                                                
+matplotlib/3.6.0-numpy-1.23.3-python-3.10.7                                                
+matplotlib/3.6.0-numpy-1.23.3-python-3.11.0                                                
+matplotlib/3.6.3-numpy-1.24.1-python-3.11.1                                                
+matplotlib/3.7.0-numpy-1.24.2-python-3.11.2                                                
+matplotlib/3.7.0-numpy-1.24.2-python-3.11.2-test2                                          
+matplotlib/3.7.1-numpy-1.24.2-python-3.9.16                                                
+matplotlib/3.7.1-numpy-1.24.2-python-3.10.11                                               
+matplotlib/3.7.1-numpy-1.24.2-python-3.11.3                                                
+matplotlib/3.7.1-numpy-1.24.3-python-3.8.17                                                
+matplotlib/matplotlib-1.4.0-python-2.7.3-pygtk                                             
+matplotlib/matplotlib-1.5.3-python-3.5.1                                                   
+matplotlib/matplotlib-2.0.0-python-2.7.13                                                  
+mesa/23.0.0-gcc-12.2.0-llvm-15.0.6                                                         
+molcas/80                                                                                  
+molcas/80.openmpi                                                                          
+molcas/80.openmpi-1.8.5                                                                    
+molpro/2012.1.30-openmpi-1.6.5-gcc-4.8.5                                                   
+molpro/2012.1.30-openmpi-1.8.5-gcc-5.2.0-i8                                                
+molpro/2012.1.30-openmpi-3.1.5-gcc-7.5.0-i8                                                
+mono/5.4.1.7                                                                               
+mosek/8.0                                                                                  
+mosek/8.1                                                                                  
+mosek/9.0                                                                                  
+mosek/9.2                                                                                  
+mpi/1.6.3-gcc-4.7.2                                                                        
+mpi/1.6.5-gcc-4.4.7                                                                        
+mpi/1.6.5-gcc-4.7.2                                                                        
+mpi/1.6.5-gcc-5.2.0                                                                        
+mpi/1.6.5-gcc-6.3.0                                                                        
+mpi/1.8.5-gcc-4.4.7                                                                        
+mpi/1.8.5-gcc-4.9.2                                                                        
+mpi/1.8.5-gcc-5.2.0                                                                        
+mpi/1.8.5-gcc-6.3.0                                                                        
+mpi/1.8.8-gcc-4.4.7                                                                        
+mpi/1.10.6-gcc-6.3.0                                                                       
+mpi/2.0.2-gcc-6.3.0                                                                        
+mpi/2.0.3-gcc-5.2.0                                                                        
+mpi/2.0.3-gcc-6.1.0                                                                        
+mpi/2.1.0-gcc-6.3.0                                                                        
+mpi/2.1.1-gcc-4.8.5                                                                        
+mpi/2.1.1-gcc-6.4.0                                                                        
+mpi/2.1.1-gcc-7.2.0                                                                        
+mpi/2.1.6-gcc-4.1.2                                                                        
+mpi/2.1.6-gcc-6.4.0                                                                        
+mpi/3.0.0-gcc-6.4.0                                                                        
+mpi/3.0.0-gcc-7.2.0                                                                        
+mpi/3.0.0-gcc-7.2.0-mxm                                                                    
+mpi/3.0.0-gcc-7.3.0                                                                        
+mpi/3.1.1-gcc-6.4.0                                                                        
+mpi/3.1.1-gcc-6.4.0-cuda-9.2                                                               
+mpi/3.1.1-gcc-6.4.0-cuda-9.2-without-mxm                                                   
+mpi/3.1.1-intel-2017-update7                                                               
+mpi/3.1.1-intel-2018-update3                                                               
+mpi/3.1.3-gcc-6.4.0                                                                        
+mpi/3.1.3-gcc-7.4.0                                                                        
+mpi/3.1.3-gcc-8.2.0                                                                        
+mpi/3.1.3-intel-2019-update1                                                               
+mpi/3.1.3-intel-2019-update2                                                               
+mpi/3.1.3-intel-2019-update3                                                               
+mpi/3.1.3-oracle-12u6                                                                      
+mpi/3.1.4-gcc-8.2.0                                                                        
+mpi/3.1.4-gcc-9.2.0                                                                        
+mpi/3.1.4-intel-2019-update5                                                               
+mpi/3.1.5-gcc-4.9.4                                                                        
+mpi/3.1.5-gcc-7.5.0                                                                        
+mpi/3.1.5-gcc-7.5.0-i8                                                                     
+mpi/3.1.5-gcc-9.2.0                                                                        
+mpi/3.1.5-gcc-9.2.0-i8                                                                     
+mpi/3.1.6-gcc-6.5.0                                                                        
+mpi/3.1.6-gcc-9.2.0                                                                        
+mpi/3.1.6-gcc-9.3.0-binutils-2.34                                                          
+mpi/4.0.1-gcc-6.4.0                                                                        
+mpi/4.0.1-gcc-7.4.0                                                                        
+mpi/4.0.1-gcc-8.3.0                                                                        
+mpi/4.0.3-gcc-7.5.0                                                                        
+mpi/4.0.3-gcc-8.4.0                                                                        
+mpi/4.0.3-gcc-9.3.0-binutils-2.34                                                          
+mpi/4.0.3-gcc-9.3.0-binutils-2.34-i8                                                       
+mpi/4.0.3-gcc-10.1.0-binutils-2.34                                                         
+mpi/4.0.3-intel-2019-update5-gcc-9.3.0-binutils-2.34                                       
+mpi/4.0.3-intel-2020-update1-gcc-9.3.0-binutils-2.34                                       
+mpi/4.0.4-gcc-10.2.0-binutils-2.34                                                         
+mpi/4.0.5-gcc-8.4.0                                                                        
+mpi/4.0.5-gcc-9.3.0-binutils-2.34                                                          
+mpi/4.0.5-gcc-9.3.0-binutils-2.34-i8                                                       
+mpi/4.0.5-gcc-10.1.0-binutils-2.34                                                         
+mpi/4.0.5-gcc-10.2.0-binutils-2.34                                                         
+mpi/4.0.5-intel-2020-gcc-9.3.0-binutils-2.34                                               
+mpi/4.0.5-intel-2020-update1-gcc-9.3.0-binutils-2.34                                       
+mpi/4.1.1-gcc-9.3.1-binutils-2.36.1                                                        
+mpi/4.1.1-gcc-9.4.0-binutils-2.36.1                                                        
+mpi/4.1.1-gcc-10.3.0-binutils-2.36.1                                                       
+mpi/4.1.1-gcc-11.1.0-binutils-2.36.1                                                       
+mpi/4.1.1-gcc-11.2.0-binutils-2.37                                                         
+mpi/4.1.2-gcc-9.4.0-binutils-2.36.1                                                        
+mpi/4.1.2-gcc-10.3.0-binutils-2.36.1                                                       
+mpi/4.1.2-gcc-11.2.0-binutils-2.37                                                         
+mpi/4.1.3-gcc-11.3.0-binutils-2.38                                                         
+mpi/4.1.3-gcc-12.1.0-binutils-2.38                                                         
+mpi/4.1.4-gcc-9.5.0-binutils-2.38                                                          
+mpi/4.1.4-gcc-10.3.0-binutils-2.36.1                                                       
+mpi/4.1.4-gcc-11.3.0-binutils-2.38                                                         
+mpi/4.1.4-gcc-12.1.0-binutils-2.38                                                         
+mpi/4.1.4-gcc-12.2.0-binutils-2.39                                                         
+mpi/4.1.5-gcc-10.4.0-binutils-2.38                                                         
+mpi/4.1.5-gcc-11.3.0-binutils-2.38                                                         
+mpi/4.1.5-gcc-11.4.0-binutils-2.40                                                         
+mpi/4.1.5-gcc-12.2.0-binutils-2.39                                                         
+mpi/4.1.5-gcc-12.3.0-binutils-2.40                                                         
+mpi/4.1.5-gcc-13.1.0-binutils-2.40                                                         
+mpi/4.1.5-nvhpc-23.1-avx512                                                                
+mpi/gcc(default)                                                                           
+mpi4py/2.0.0-python-2.7.3                                                                  
+mpi4py/2.0.0-python-3.5.1                                                                  
+mpi4py/2.0.0-python-3.5.4                                                                  
+mpi4py/2.0.0-python-3.5.4-intelmpi-2017.4                                                  
+mpi4py/2.0.0-python-3.5.4-intelmpi-2018.1                                                  
+mpi4py/2.0.0-python-3.6.2                                                                  
+mpi4py/2.0.0-python-3.6.2-intelmpi-2017.4                                                  
+mpi4py/3.0.0-python-2.7.13                                                                 
+mpi4py/3.0.0-python-3.6.2                                                                  
+mpi4py/3.0.3-python-3.6.13-openmpi-4.0.5                                                   
+mpi4py/3.0.3-python-3.7.10-openmpi-4.1.1                                                   
+mpi4py/3.0.3-python-3.7.11-openmpi-4.1.1                                                   
+mpi4py/3.0.3-python-3.8.9-openmpi-4.1.1                                                    
+mpi4py/3.0.3-python-3.8.11-openmpi-4.1.1                                                   
+mpi4py/3.0.3-python-3.9.5-openmpi-4.1.1                                                    
+mpi4py/3.0.3-python-3.9.6-openmpi-4.1.1                                                    
+mpi4py/3.1.3-python-3.7.14-intelmpi-2021.4                                                 
+mpi4py/3.1.3-python-3.7.14-openmpi-4.1.4                                                   
+mpi4py/3.1.3-python-3.8.14-openmpi-4.1.4                                                   
+mpi4py/3.1.3-python-3.9.10-openmpi-4.1.2                                                   
+mpi4py/3.1.3-python-3.9.11-openmpi-4.1.2                                                   
+mpi4py/3.1.3-python-3.9.14-openmpi-4.1.4                                                   
+mpi4py/3.1.3-python-3.10.2-openmpi-4.1.2                                                   
+mpi4py/3.1.3-python-3.10.7-openmpi-4.1.4                                                   
+mpi4py/3.1.4-python-3.9.16-openmpi-4.1.5                                                   
+mpi4py/3.1.4-python-3.10.11-openmpi-4.1.5                                                  
+mpi4py/3.1.4-python-3.11.0-openmpi-4.1.4                                                   
+mpi4py/3.1.4-python-3.11.1-openmpi-4.1.4                                                   
+mpi4py/3.1.4-python-3.11.2-openmpi-4.1.4                                                   
+mpi4py/3.1.4-python-3.11.3-openmpi-4.1.5                                                   
+namd2/2.9                                                                                  
+namd2/2.10.mc.cpu                                                                          
+namd2/2.10.mc.cuda                                                                         
+namd2/2.12.intelmpi2018                                                                    
+namd2/2.12.mc.cpu                                                                          
+namd2/2.12.mc.cuda                                                                         
+namd2/2.14_Linux-x86_64-multicore(default)                                                 
+namd2/2.14_Linux-x86_64-multicore-CUDA                                                     
+nccl/2.7.3-1-cuda-10.2                                                                     
+nccl/2.12.12-1-cuda-11.6                                                                   
+nccl/2.17.1-1-cuda-11.8                                                                    
+nccl/2.17.1-1-cuda-12.1                                                                    
+nccl/2.18.1-1-cuda-11.8                                                                    
+nccl/2.18.1-1-cuda-12.1                                                                    
+ncl/6.1.2                                                                                  
+ncl/6.2.0                                                                                  
+nco/4.5.2                                                                                  
+nco/4.7.6                                                                                  
+nco/4.7.8                                                                                  
+nektar/5.1.0                                                                               
+nektar/5.2.0                                                                               
+nektar/5.2.0-avx2                                                                          
+netcdf-fortran/4.4.4-intel-2017update4                                                     
+netcdf-fortran/4.6.0-hdf5-1.12.2                                                           
+netcdf/4.9.0-hdf5-1.12.2                                                                   
+netcdf/intel-2017update4                                                                   
+netcdf/intel2016                                                                           
+netcdf/pgi-4.2                                                                             
+ninja/1.10.1                                                                               
+ninja/1.10.2                                                                               
+ninja/1.11.1                                                                               
+nlopt/2.4.2-matlab-2016a                                                                   
+numba/0.35.0-python-3.5.4                                                                  
+numba/0.35.0-python-3.6.2                                                                  
+numbapro/2.1.0                                                                             
+numexpr/2.4.4-python-2.7.3                                                                 
+numpy/1.9.2-python-2.7.3-intel-mkl-2016                                                    
+numpy/1.9.2-python-2.7.3-openblas-0.2.14                                                   
+numpy/1.9.2-python-2.7.3-openblas-0.2.20                                                   
+numpy/1.11.2-python-2.7.12-openblas-0.2.15_ucs4                                            
+numpy/1.12.1-python-2.7.13-openblas-0.2.15                                                 
+numpy/1.13.1-python-2.7.3-openblas-0.2.20                                                  
+numpy/1.13.1-python-3.5.1-openblas-0.2.20                                                  
+numpy/1.13.1-python-3.5.4-openblas-0.2.20                                                  
+numpy/1.13.1-python-3.6.2-openblas-0.2.20                                                  
+numpy/1.13.3-python-2.7.12_ucs4-openblas-0.2.20                                            
+numpy/1.14.3-python-2.7.13-openblas-0.2.20                                                 
+numpy/1.16.6-python-2.7.18-openblas-0.3.9                                                  
+numpy/1.17.4-python-3.7.5-openblas-0.3.7                                                   
+numpy/1.17.4-python-3.8.0-openblas-0.3.7                                                   
+numpy/1.18.1-python-3.6.10-openblas-0.3.7                                                  
+numpy/1.18.1-python-3.7.6-openblas-0.3.7                                                   
+numpy/1.18.1-python-3.8.1-openblas-0.3.7                                                   
+numpy/1.18.2-python-3.7.7-openblas-0.3.9                                                   
+numpy/1.18.2-python-3.8.2-openblas-0.3.9                                                   
+numpy/1.19.2-python-3.8.4-openblas-0.3.10                                                  
+numpy/1.19.5-python-3.6.13-openblas-0.3.13                                                 
+numpy/1.19.5-python-3.7.10-openblas-0.3.13                                                 
+numpy/1.19.5-python-3.8.9-openblas-0.3.13                                                  
+numpy/1.20.3-python-3.9.5-openblas-0.3.15                                                  
+numpy/1.21.1-python-3.7.11-openblas-0.3.17                                                 
+numpy/1.21.1-python-3.8.11-openblas-0.3.17                                                 
+numpy/1.21.1-python-3.9.6-openblas-0.3.17                                                  
+numpy/1.21.6-python-3.7.14-openblas-0.3.21                                                 
+numpy/1.22.2-python-3.9.10-openblas-0.3.19                                                 
+numpy/1.22.2-python-3.10.2-openblas-0.3.19                                                 
+numpy/1.22.3-python-3.9.11-openblas-0.3.19(default)                                        
+numpy/1.23.3-python-3.8.14-openblas-0.3.21                                                 
+numpy/1.23.3-python-3.9.14-openblas-0.3.21                                                 
+numpy/1.23.3-python-3.10.7-openblas-0.3.21                                                 
+numpy/1.23.3-python-3.11.0-openblas-0.3.21                                                 
+numpy/1.24.1-python-3.11.1-openblas-0.3.21                                                 
+numpy/1.24.2-python-3.9.16-openblas-0.3.23                                                 
+numpy/1.24.2-python-3.10.11-openblas-0.3.23                                                
+numpy/1.24.2-python-3.11.2-openblas-0.3.21                                                 
+numpy/1.24.2-python-3.11.3-openblas-0.3.23                                                 
+numpy/1.24.3-python-3.8.17-openblas-0.3.23                                                 
+nvhpc/20.7-nompi                                                                           
+nvhpc/21.7-nompi                                                                           
+nvhpc/21.9-nompi                                                                           
+nvhpc/21.11-nompi                                                                          
+nvhpc/22.3-nompi                                                                           
+nvhpc/22.5-nompi                                                                           
+nvhpc/22.7-nompi                                                                           
+nvhpc/22.11-nompi                                                                          
+nvhpc/23.1-nompi                                                                           
+nvidiamodulusbase/pytorch-1.13.0-python-3.8.16                                             
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3                                              
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-ice8d                                        
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-ice8e                                        
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-znver4                                       
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-znver4c                                      
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-znver4d                                      
+nvidiamodulusbase/pytorch-2.0.0-python-3.11.3-znver4e                                      
+open64/4.2.4                                                                               
+open64/5.0(default)                                                                        
+openblas/0.2.14                                                                            
+openblas/0.2.15                                                                            
+openblas/0.2.15-i8                                                                         
+openblas/0.2.20                                                                            
+openblas/0.2.20-i8                                                                         
+openblas/0.3.4                                                                             
+openblas/0.3.5                                                                             
+openblas/0.3.5-i8                                                                          
+openblas/0.3.7                                                                             
+openblas/0.3.7-i8                                                                          
+openblas/0.3.8                                                                             
+openblas/0.3.9                                                                             
+openblas/0.3.10                                                                            
+openblas/0.3.10-i8                                                                         
+openblas/0.3.12-i8                                                                         
+openblas/0.3.13                                                                            
+openblas/0.3.15                                                                            
+openblas/0.3.17                                                                            
+openblas/0.3.19(default)                                                                   
+openblas/0.3.21                                                                            
+openblas/0.3.23                                                                            
+opencv/2.4.11                                                                              
+opencv/3.2.0                                                                               
+opencv/3.3.1-python-3.6.2                                                                  
+opencv/3.4.16-python-3.7.11-cuda-11.1                                                      
+opencv/3.4.16-python-3.8.11-cuda-11.1                                                      
+opencv/4.6.0-python-3.9.14-cuda-11.7-without-cudnn                                         
+opencv/4.6.0-python-3.9.14-cuda-11.8-without-cudnn                                         
+OpenFoam/2.0.1/gcc-4.4.7-openmpi                                                           
+OpenFoam/2.2.0/gcc-4.7.2-openmpi                                                           
+OpenFoam/2.2.2/gcc-4.7.2-openmpi                                                           
+OpenFoam/2.3.0/gcc-4.8.3-openmpi(default)                                                  
+OpenFoam/2.3.0/gcc-4.8.3-openmpi.old                                                       
+OpenFoam/2.3.0/gcc-4.9.2-openmpi-haswell                                                   
+OpenFoam/2.3.1/gcc-4.8.4-openmpi                                                           
+OpenFoam/3.0.0/gcc-5.1.0-openmpi                                                           
+OpenFoam/3.0.1/gcc-5.1.0-openmpi                                                           
+OpenFoam/4.0.0/gcc-6.1.0-openmpi                                                           
+OpenFoam/4.1/gcc-6.1.0-openmpi-2.0.0                                                       
+OpenFoam/5.0/gcc-6.3.0-openmpi                                                             
+OpenFoam/5.x/20220721-gcc-9.5.0-openmpi                                                    
+OpenFoam/6.0/gcc-8.2.0-openmpi                                                             
+OpenFoam/7.0/gcc-9.3.0-openmpi                                                             
+OpenFoam/8.0/gcc-11.2.0-openmpi                                                            
+OpenFoam/9.0/gcc-11.2.0-openmpi                                                            
+OpenFoam/extend-3.1/gcc-4.9.2-openmpi-1.8.5                                                
+OpenFoam/extend-3.1/gcc-4.9.4-openmpi-3.1.5                                                
+OpenFoam/extend-3.2/gcc-4.9.2-openmpi-1.8.5                                                
+OpenFoam/extend-3.2/gcc-4.9.4-openmpi-3.1.5                                                
+OpenFoam/extend-4.0/gcc-6.5.0-openmpi-3.1.6                                                
+OpenFoam/extend-4.1/gcc-9.3.0-openmpi-4.0.3                                                
+OpenFoam/extend-5.0/gcc-11.3.0-openmpi-4.1.4                                               
+OpenFoam/v1612/gcc-9.2.0-openmpi-3.1.5                                                     
+OpenFoam/v1712/gcc-7.3.0-openmpi-3.0.0                                                     
+OpenFoam/v1812/gcc-7.4.0-openmpi-3.1.3                                                     
+OpenFoam/v1906/gcc-9.3.1-binutils-2.36.1-openmpi-4.1.1                                     
+OpenFoam/v1912/gcc-9.2.0-openmpi-3.1.5                                                     
+OpenFoam/v2006/gcc-9.3.0-binutils-2.34-openmpi-4.0.3                                       
+OpenFoam/v2012/gcc-9.3.1-binutils-2.36.1-openmpi-4.1.1                                     
+OpenFoam/v2106/gcc-10.3.0-binutils-2.36.1-openmpi-4.1.1                                    
+OpenFoam/v2112/gcc-11.2.0-binutils-2.37-openmpi-4.1.2                                      
+OpenFoam/v2206/gcc-11.3.0-binutils-2.38-openmpi-4.1.4                                      
+OpenFoam/v2212/gcc-12.2.0-binutils-2.39-openmpi-4.1.4                                      
+openjdk/11(default)                                                                        
+openjdk/latest-openjdk-java-18                                                             
+openmm/7.5.0-cuda-11.1.1-gcc-9.3.0                                                         
+openmolcas/20.10                                                                           
+openmolcas/20200108                                                                        
+openmolcas/20200617-intel                                                                  
+opensees/3.1.0                                                                             
+orca/4.0.0                                                                                 
+orca/4.0.0.2                                                                               
+orca/4.0.1.2(default)                                                                      
+orca/4.1.0                                                                                 
+orca/4.1.2                                                                                 
+orca/4.2.0                                                                                 
+orca/5.0.0                                                                                 
+orca/5.0.2                                                                                 
+oscmpiexec                                                                                 
+pandas/0.16.2-python-2.7.3                                                                 
+pandas/0.20.3-python-2.7.3                                                                 
+pandas/0.20.3-python-3.5.4                                                                 
+pandas/0.20.3-python-3.6.2                                                                 
+pandas/0.23-python-2.7.13                                                                  
+pandas/0.25.3-python-3.7.5                                                                 
+pandas/0.25.3-python-3.8.0                                                                 
+pandas/1.0.3-python-3.6.10                                                                 
+pandas/1.0.3-python-3.7.6                                                                  
+pandas/1.0.3-python-3.7.7                                                                  
+pandas/1.0.3-python-3.8.1                                                                  
+pandas/1.0.3-python-3.8.2                                                                  
+pandas/1.1.3-python-3.8.4                                                                  
+pandas/1.1.5-python-3.6.13                                                                 
+pandas/1.2.4-python-3.7.10                                                                 
+pandas/1.2.4-python-3.8.9                                                                  
+pandas/1.2.4-python-3.9.5                                                                  
+pandas/1.3.1-python-3.7.11                                                                 
+pandas/1.3.1-python-3.8.11                                                                 
+pandas/1.3.1-python-3.9.6                                                                  
+pandas/1.3.5-python-3.7.14                                                                 
+pandas/1.4.1-python-3.9.10                                                                 
+pandas/1.4.1-python-3.9.11                                                                 
+pandas/1.4.1-python-3.10.2                                                                 
+pandas/1.4.4-python-3.8.14                                                                 
+pandas/1.4.4-python-3.9.14                                                                 
+pandas/1.4.4-python-3.10.7                                                                 
+pandas/1.4.4-python-3.11.0                                                                 
+pandas/1.5.3-python-3.9.16                                                                 
+pandas/1.5.3-python-3.10.11                                                                
+pandas/1.5.3-python-3.11.1                                                                 
+pandas/1.5.3-python-3.11.2                                                                 
+pandas/1.5.3-python-3.11.3                                                                 
+pandas/2.0.2-python-3.8.17                                                                 
+paraviewbatch/5.11.0-mesa-23.0.0-python-3.11.2                                             
+petsc/3.7.6-june-2017                                                                      
+petsc/3.8.4-gcc-9.2.0-intel-mkl-2019.5                                                     
+petsc/3.10.2-november-2018-complex-slepc                                                   
+petsc/3.10.2-november-2018-complex-slepc-debug                                             
+petsc/3.11.2-june-2019                                                                     
+petsc/3.11.2-may-2019                                                                      
+petsc/3.12.1-gcc-9.2.0-intel-mkl-2019.5                                                    
+petsc/3.12.4-april-2020-gcc-9.3.0-openblas-0.3.9-non-complex-slepc                         
+petsc/3.12.4-april-2021-gcc-9.3.0-openblas-0.3.13-non-complex-slepc-elemental              
+petsc/3.12.4-march-2020-gcc-9.2.0-openblas-0.3.8-complex-slepc                             
+petsc/3.12.4-march-2020-intel2020-mkl-complex-slepc                                        
+petsc/3.14.6-may-2021-gcc-9.3.1-openblas-0.3.13-complex-slepc                              
+petsc/3.14.6-may-2021-gcc-9.3.1-openblas-0.3.13-non-complex-slepc                          
+petsc/3.15.0-may-2021-gcc-9.3.1-openblas-0.3.13-complex-slepc                              
+petsc/3.15.0-may-2021-gcc-9.3.1-openblas-0.3.13-non-complex-slepc                          
+petsc/3.15.0-may-2021-gcc-9.3.1-openblas-0.3.13-non-complex-slepc-elemental-superlu        
+petsc/3.15.0-may-2021-gcc-9.3.1-openblas-0.3.13-non-complex-slepc-elemental-superlu-debug  
+petsc/3.16.4-mar-2022-gcc-10.3.0-openblas-0.3.19-non-complex-slepc-elemental-superlu       
+petsc/3.16.4-mar-2022-intel-2021.4.0-gcc-10.3.0-non-complex-slepc-elemental-superlu        
+petsc/3.18.6-apr-2023-gcc-12.2.0-openblas-0.3.23-non-complex-slepc-elemental-superlu       
+pgi/2011                                                                                   
+pgi/2012                                                                                   
+pgi/2013(default)                                                                          
+PIL/1.1.7                                                                                  
+pism/0.6.0                                                                                 
+pism/0.6.2                                                                                 
+pism/0.6.2friday                                                                           
+pism/0.6friday                                                                             
+pism/0.7.3                                                                                 
+pism/1.0.0                                                                                 
+pism/1.2.2(default)                                                                        
+pism/1.2.2-march-2022                                                                      
+pism/2.0.2                                                                                 
+povray/3.7.0.8-gcc-4.9.2                                                                   
+proj/7.2.0                                                                                 
+proj/7.2.1                                                                                 
+proj/8.2.1                                                                                 
+PuLP/1.6.1                                                                                 
+pygtk/python-2.7.3-pygtk-2.16.0                                                            
+pymol/1.7.6.0                                                                              
+pymol/2.4.0                                                                                
+pymol/2.4.1                                                                                
+pyrosetta/r56316                                                                           
+pytables/3.2.0-python-3.5.4                                                                
+python/2.6.8                                                                               
+python/2.7.3(default)                                                                      
+python/2.7.12_ucs4                                                                         
+python/2.7.13                                                                              
+python/2.7.13_ucs4                                                                         
+python/2.7.18                                                                              
+python3/3.2.5                                                                              
+python3/3.3.0                                                                              
+python3/3.4.1                                                                              
+python3/3.5.1                                                                              
+python3/3.5.4                                                                              
+python3/3.6.0                                                                              
+python3/3.6.2 <L>                                                                          
+python3/3.6.7                                                                              
+python3/3.6.10                                                                             
+python3/3.6.13                                                                             
+python3/3.7.5                                                                              
+python3/3.7.6                                                                              
+python3/3.7.7                                                                              
+python3/3.7.10                                                                             
+python3/3.7.11                                                                             
+python3/3.7.14                                                                             
+python3/3.8.0                                                                              
+python3/3.8.1                                                                              
+python3/3.8.2                                                                              
+python3/3.8.4                                                                              
+python3/3.8.9                                                                              
+python3/3.8.11                                                                             
+python3/3.8.14                                                                             
+python3/3.8.17                                                                             
+python3/3.9.5                                                                              
+python3/3.9.6                                                                              
+python3/3.9.10                                                                             
+python3/3.9.11(default)                                                                    
+python3/3.9.14                                                                             
+python3/3.9.16                                                                             
+python3/3.10.2                                                                             
+python3/3.10.7                                                                             
+python3/3.10.11                                                                            
+python3/3.11.0                                                                             
+python3/3.11.1                                                                             
+python3/3.11.2                                                                             
+python3/3.11.3                                                                             
+qt/4.8.4                                                                                   
+qt/5.5.0                                                                                   
+questa-sim/2022.3.1                                                                        
+R/3.6.3-mkl2021update4                                                                     
+R/4.0.5-mkl2021update4                                                                     
+R/4.1.0-mkl2020update4                                                                     
+R/4.1.1-mkl2020update4                                                                     
+R/4.1.2-mkl2021update4                                                                     
+R/4.1.3-mkl2021update4(default)                                                            
+R/4.2.0-mkl2021update4                                                                     
+R/4.2.1-mkl2022update1                                                                     
+R/4.2.2-mkl2022update2                                                                     
+R/4.2.3-mkl2023update1                                                                     
+R/4.3.0-mkl2023update1                                                                     
+rdkit/2019_03_1-python-3.6.8                                                               
+rdkit/2019_03_1-python-3.7.3                                                               
+rosetta/2020.11.61179-cxx11thread                                                          
+rosetta/2020.11.61179-cxx11thread-gcc-9.3                                                  
+rosetta/2020.11.61179-cxx11thread-gcc-9.3-mpi                                              
+rosetta/2021.16.61629                                                                      
+schrodinger/2012Update2(default)                                                           
+schrodinger/2015Update2                                                                    
+schrodinger/2015Update3                                                                    
+schrodinger/2015Update4                                                                    
+schrodinger/2016Update3                                                                    
+schrodinger/2018Update2                                                                    
+schrodinger/2018Update4                                                                    
+schrodinger/2022Update4                                                                    
+scipy/0.17.1-python-3.5.1                                                                  
+scipy/0.18.1-python-2.7.12_ucs4                                                            
+scipy/0.19.0-python-2.7.13                                                                 
+scipy/0.19.1-numpy-1.9.2-python-2.7.3                                                      
+scipy/0.19.1-numpy-1.13.3-python-2.7.12_ucs4                                               
+scipy/0.19.1-python-3.5.4                                                                  
+scipy/0.19.1-python-3.6.2                                                                  
+scipy/1.1.0-python-2.7.13                                                                  
+scipy/1.3.3-python-3.7.5                                                                   
+scipy/1.3.3-python-3.8.0                                                                   
+scipy/1.4.1-python-3.6.10                                                                  
+scipy/1.4.1-python-3.7.6                                                                   
+scipy/1.4.1-python-3.7.7                                                                   
+scipy/1.4.1-python-3.8.1                                                                   
+scipy/1.4.1-python-3.8.2                                                                   
+scipy/1.5.3-python-3.8.4                                                                   
+scipy/1.5.4-python-3.6.13                                                                  
+scipy/1.5.4-python-3.7.10                                                                  
+scipy/1.5.4-python-3.8.9                                                                   
+scipy/1.6.3-python-3.7.11                                                                  
+scipy/1.6.3-python-3.8.11                                                                  
+scipy/1.6.3-python-3.9.5                                                                   
+scipy/1.6.3-python-3.9.6                                                                   
+scipy/1.7.3-python-3.7.14                                                                  
+scipy/1.7.3-python-3.9.10                                                                  
+scipy/1.7.3-python-3.9.11(default)                                                         
+scipy/1.7.3-python-3.10.2                                                                  
+scipy/1.9.1-python-3.8.14                                                                  
+scipy/1.9.1-python-3.9.14                                                                  
+scipy/1.9.1-python-3.10.7                                                                  
+scipy/1.9.3-python-3.11.0                                                                  
+scipy/1.10.0-python-3.11.1                                                                 
+scipy/1.10.1-python-3.8.17                                                                 
+scipy/1.10.1-python-3.9.16                                                                 
+scipy/1.10.1-python-3.10.11                                                                
+scipy/1.10.1-python-3.11.2                                                                 
+scipy/1.10.1-python-3.11.3                                                                 
+sharc/2.1.1                                                                                
+sharc/2.1.1-python-2.7.18                                                                  
+sharc/2.1.1-with-openbabel                                                                 
+shipflow/7.0.1                                                                             
+shipflow/7.0.1-openmpi-1.8.8                                                               
+shipflow/7.0.11-openmpi-1.8.8                                                              
+simmobility/20210906                                                                       
+smv/6.7.15                                                                                 
+spot/1.2                                                                                   
+sqlite3/3.40.1                                                                             
+sqlite3/3.42.0                                                                             
+studio/12u4                                                                                
+studio/12u5                                                                                
+studio/12u6(default)                                                                       
+suitesparse/5.1.2                                                                          
+tensorflow-icg/20180712-skylake-python-3.6.2                                               
+tensorflow/1.5-cpu-python-3.6.2                                                            
+tensorflow/1.5-gpu-python-3.6.2(default)                                                   
+tensorflow/1.10-cpu-python-3.6.2                                                           
+tensorflow/1.10-gpu-python-3.6.2                                                           
+tensorflow/1.12-cpu-python-3.6.2                                                           
+tensorflow/1.12-gpu-python-3.6.2                                                           
+tensorrt/6.0.1.5-cuda-10.0                                                                 
+tensorrt/6.0.1.5-cuda-10.1                                                                 
+tensorrt/6.0.1.8-cuda-10.2                                                                 
+tensorrt/7.0.0.11-cuda-10.0                                                                
+tensorrt/7.0.0.11-cuda-10.2                                                                
+tensorrt/7.2.1.6-cuda-10.2                                                                 
+tensorrt/7.2.1.6-cuda-11.0                                                                 
+tensorrt/7.2.1.6-cuda-11.1                                                                 
+tensorrt/7.2.3.4-cuda-10.2                                                                 
+tensorrt/7.2.3.4-cuda-11.0                                                                 
+tensorrt/7.2.3.4-cuda-11.1                                                                 
+tensorrt/7.2.3.4-cuda-11.2                                                                 
+tensorrt/7.2.3.4-cuda-11.X                                                                 
+tensorrt/8.2.3.0-cuda-11.4                                                                 
+tensorrt/8.2.3.0-cuda-11.5                                                                 
+tensorrt/8.4.3.1-cuda-11.X                                                                 
+tensorrt/8.5.3.1-cuda-11.X                                                                 
+tensorrt/8.6.1.6-cuda-11.X                                                                 
+tensorrt/8.6.1.6-cuda-12.X                                                                 
+tensorrt/v8.0.1.6-cuda-11.3                                                                
+testmeep/test-20230515                                                                     
+testmeep/test-20230525                                                                     
+tmux/2.0                                                                                   
+udunits2/2.2.20                                                                            
+udunits2/2.2.26                                                                            
+valgrind/3.20.0                                                                            
+VTK/5.10.1                                                                                 
+VTK/9.0.3                                                                                  
+VTK/9.2.6-avx2                                                                             
+yaml-cpp/0.5.3                                                                             
+
+Key:
+(symbolic-version)  <module-tag>  <L>=loaded  
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"transformer3-1"</j> |
+| <c>GPU</c>        | <d>bool</d>       | <e>False</e>      |
+| <c>time</c>       | <d>int</d>        | <f>360000</f>     |
+| <c>model</c>      | <d>str</d>        | <j>"transformer3"</j> |
+
+# Output
+
+```
+seed is 371
+Subject 1
+Epoch: 0   Train loss: 1.3988574   Test loss: 1.3851961   Train accuracy: 0.3333333333333333   Test accuracy is: 0.26072485207100593   Train_predict: tensor([1, 3, 3, 2, 3, 3, 2, 1, 1, 1, 2, 1, 1, 0, 1, 1, 1, 3, 3, 0, 3, 1, 2, 3,
+        2, 2, 0, 3, 1, 3, 3, 3, 3, 1, 1, 0, 2, 1, 1, 3, 1, 2])   label: tensor([0, 3, 0, 3, 0, 1, 2, 1, 0, 2, 1, 2, 2, 0, 1, 2, 3, 0, 2, 1, 3, 1, 2, 3,
+        3, 3, 3, 0, 2, 1, 1, 2, 3, 0, 0, 2, 1, 3, 1, 3, 1, 2])
+Epoch: 1   Train loss: 1.3812186   Test loss: 1.3839717   Train accuracy: 0.30952380952380953   Test accuracy is: 0.2636834319526627   Train_predict: tensor([1, 3, 1, 2, 3, 3, 3, 3, 1, 0, 3, 3, 3, 3, 2, 2, 0, 1, 3, 2, 3, 3, 3, 2,
+        3, 2, 1, 3, 3, 2, 3, 0, 3, 2, 3, 2, 3, 3, 3, 3, 2, 3])   label: tensor([0, 3, 0, 2, 0, 2, 3, 1, 2, 3, 1, 2, 2, 0, 3, 3, 1, 1, 1, 3, 3, 3, 3, 0,
+        1, 0, 1, 0, 1, 1, 3, 3, 0, 0, 3, 1, 2, 0, 3, 1, 2, 3])
+Epoch: 2   Train loss: 1.3731943   Test loss: 1.3823117   Train accuracy: 0.3333333333333333   Test accuracy is: 0.27588757396449703   Train_predict: tensor([1, 0, 2, 0, 3, 1, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 0, 1, 3, 3, 0, 2, 3, 1,
+        2, 1, 2, 3, 3, 2, 1, 0, 1, 1, 2, 3, 3, 0, 1, 0, 0, 3])   label: tensor([0, 3, 2, 1, 1, 1, 2, 1, 3, 3, 0, 2, 1, 0, 1, 2, 2, 0, 1, 3, 1, 2, 0, 3,
+        1, 2, 0, 3, 1, 0, 1, 2, 1, 3, 2, 0, 1, 3, 1, 0, 0, 0])
+Epoch: 3   Train loss: 1.3833544   Test loss: 1.3811923   Train accuracy: 0.2857142857142857   Test accuracy is: 0.27662721893491127   Train_predict: tensor([3, 0, 1, 3, 1, 1, 3, 2, 3, 1, 3, 1, 3, 3, 3, 3, 1, 2, 3, 0, 1, 1, 0, 0,
+        0, 0, 0, 0, 3, 1, 3, 3, 1, 3, 3, 1, 3, 2, 2, 0, 3, 1])   label: tensor([2, 0, 3, 1, 2, 1, 0, 1, 1, 3, 2, 3, 3, 3, 3, 3, 1, 3, 0, 2, 2, 3, 2, 3,
+        1, 1, 2, 2, 0, 0, 2, 2, 1, 1, 0, 3, 3, 2, 0, 2, 3, 1])
+Epoch: 4   Train loss: 1.3773524   Test loss: 1.3795545   Train accuracy: 0.2857142857142857   Test accuracy is: 0.29105029585798814   Train_predict: tensor([1, 2, 1, 2, 3, 2, 2, 3, 0, 2, 2, 3, 0, 1, 1, 0, 0, 3, 3, 3, 1, 3, 3, 3,
+        3, 3, 0, 0, 3, 1, 1, 3, 0, 0, 1, 1, 1, 0, 2, 3, 3, 0])   label: tensor([2, 3, 2, 0, 1, 1, 0, 2, 1, 2, 1, 3, 1, 2, 2, 3, 1, 3, 3, 1, 1, 1, 0, 1,
+        1, 0, 3, 0, 3, 1, 0, 2, 0, 1, 1, 1, 0, 3, 2, 2, 0, 1])
+Epoch: 5   Train loss: 1.4068918   Test loss: 1.3784144   Train accuracy: 0.23809523809523808   Test accuracy is: 0.2906804733727811   Train_predict: tensor([1, 0, 1, 3, 2, 0, 0, 3, 3, 2, 1, 1, 1, 3, 0, 0, 3, 2, 3, 3, 3, 2, 1, 1,
+        1, 1, 1, 3, 0, 2, 1, 2, 3, 2, 3, 1, 3, 3, 2, 3, 0, 3])   label: tensor([1, 1, 0, 0, 3, 0, 2, 1, 0, 3, 0, 0, 1, 2, 1, 0, 0, 0, 3, 2, 3, 0, 3, 1,
+        3, 3, 0, 1, 1, 3, 0, 1, 2, 2, 3, 1, 0, 2, 1, 1, 1, 2])
+Epoch: 6   Train loss: 1.3603863   Test loss: 1.3778112   Train accuracy: 0.2857142857142857   Test accuracy is: 0.30288461538461536   Train_predict: tensor([0, 3, 2, 0, 2, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 0, 1, 1,
+        0, 0, 2, 2, 2, 0, 2, 0, 3, 0, 0, 0, 0, 3, 0, 2, 0, 2])   label: tensor([0, 2, 2, 0, 1, 1, 0, 1, 2, 1, 0, 1, 1, 1, 2, 1, 0, 3, 3, 1, 3, 2, 0, 0,
+        3, 0, 0, 1, 2, 0, 0, 2, 3, 3, 2, 0, 2, 3, 0, 1, 3, 0])
+Epoch: 7   Train loss: 1.4013726   Test loss: 1.3769213   Train accuracy: 0.19047619047619047   Test accuracy is: 0.3102810650887574   Train_predict: tensor([1, 2, 1, 1, 0, 2, 2, 0, 0, 2, 3, 2, 0, 3, 2, 2, 0, 1, 2, 1, 3, 3, 2, 3,
+        3, 0, 1, 3, 3, 3, 2, 3, 3, 3, 2, 3, 3, 1, 0, 2, 0, 3])   label: tensor([3, 2, 2, 0, 2, 3, 1, 3, 1, 1, 1, 1, 2, 1, 1, 1, 2, 3, 2, 0, 0, 0, 2, 3,
+        2, 0, 2, 3, 1, 0, 3, 2, 1, 1, 2, 0, 0, 0, 2, 3, 0, 0])
+Epoch: 8   Train loss: 1.3702307   Test loss: 1.3761286   Train accuracy: 0.30952380952380953   Test accuracy is: 0.30806213017751477   Train_predict: tensor([2, 0, 3, 1, 1, 1, 2, 2, 0, 1, 3, 0, 1, 0, 2, 3, 3, 2, 3, 0, 2, 0, 1, 3,
+        1, 2, 2, 3, 2, 1, 0, 3, 2, 2, 2, 2, 0, 0, 3, 0, 2, 3])   label: tensor([0, 0, 1, 1, 1, 0, 3, 0, 2, 2, 2, 3, 0, 2, 2, 0, 2, 3, 0, 3, 0, 2, 3, 2,
+        1, 2, 2, 2, 2, 0, 3, 3, 0, 2, 2, 2, 3, 2, 0, 0, 1, 0])
+Epoch: 9   Train loss: 1.3982887   Test loss: 1.3756489   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3102810650887574   Train_predict: tensor([0, 1, 1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 3, 2, 2, 3, 1, 2, 3, 3, 1, 1, 1, 2,
+        0, 2, 3, 1, 1, 2, 1, 0, 2, 0, 0, 1, 1, 3, 3, 3, 1, 2])   label: tensor([1, 1, 2, 2, 1, 1, 3, 0, 0, 2, 1, 2, 0, 1, 3, 0, 0, 0, 1, 0, 2, 0, 2, 0,
+        0, 1, 0, 3, 0, 3, 2, 2, 0, 1, 1, 3, 3, 3, 3, 3, 0, 2])
+Epoch: 10   Train loss: 1.3987136   Test loss: 1.3749548   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3128698224852071   Train_predict: tensor([1, 0, 3, 3, 2, 0, 1, 2, 0, 2, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 2, 2, 2, 1,
+        2, 2, 2, 1, 2, 2, 2, 2, 3, 3, 3, 3, 2, 0, 2, 1, 3, 2])   label: tensor([1, 1, 0, 1, 1, 1, 3, 2, 2, 3, 2, 2, 1, 3, 1, 1, 2, 0, 0, 3, 3, 1, 0, 2,
+        3, 2, 1, 1, 0, 2, 0, 1, 1, 1, 3, 1, 0, 3, 3, 3, 3, 3])
+Epoch: 11   Train loss: 1.4080622   Test loss: 1.374219   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3125   Train_predict: tensor([2, 3, 3, 2, 1, 0, 3, 0, 2, 0, 2, 2, 1, 0, 0, 0, 3, 0, 2, 0, 3, 3, 3, 2,
+        3, 1, 0, 2, 1, 3, 3, 3, 0, 3, 3, 3, 0, 0, 3, 3, 3, 3])   label: tensor([0, 3, 1, 1, 0, 3, 2, 1, 2, 2, 1, 3, 2, 3, 2, 2, 1, 0, 0, 0, 0, 1, 2, 3,
+        0, 3, 0, 3, 2, 1, 2, 1, 3, 3, 3, 3, 0, 2, 3, 2, 0, 1])
+Epoch: 12   Train loss: 1.3656194   Test loss: 1.3737819   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3143491124260355   Train_predict: tensor([2, 2, 1, 3, 0, 1, 0, 2, 2, 3, 3, 1, 1, 1, 2, 0, 1, 0, 2, 1, 1, 2, 2, 0,
+        1, 3, 2, 0, 0, 1, 3, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0, 2])   label: tensor([0, 2, 1, 3, 0, 3, 0, 1, 0, 1, 0, 1, 3, 1, 2, 0, 3, 1, 1, 1, 2, 0, 2, 2,
+        2, 1, 3, 1, 2, 2, 1, 3, 3, 0, 3, 2, 0, 1, 2, 2, 0, 2])
+Epoch: 13   Train loss: 1.39798   Test loss: 1.3734595   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3065828402366864   Train_predict: tensor([1, 2, 3, 3, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 3, 0, 3, 1, 3, 0, 0, 0, 3, 2,
+        2, 3, 2, 3, 0, 0, 2, 0, 2, 3, 0, 3, 0, 3, 2, 3, 0, 0])   label: tensor([1, 0, 0, 3, 1, 0, 3, 1, 2, 3, 3, 0, 1, 1, 3, 3, 3, 1, 2, 3, 1, 1, 0, 1,
+        0, 2, 1, 0, 0, 3, 1, 3, 2, 0, 0, 1, 1, 1, 1, 1, 2, 2])
+Epoch: 14   Train loss: 1.4034055   Test loss: 1.3721735   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3206360946745562   Train_predict: tensor([0, 3, 3, 0, 3, 0, 3, 1, 1, 0, 2, 1, 1, 3, 1, 3, 2, 2, 3, 1, 3, 0, 1, 0,
+        3, 1, 0, 0, 2, 3, 1, 0, 3, 3, 0, 3, 3, 2, 0, 2, 0, 0])   label: tensor([1, 0, 3, 0, 0, 2, 1, 3, 2, 3, 1, 3, 0, 1, 3, 0, 3, 2, 3, 0, 3, 0, 2, 2,
+        2, 1, 3, 2, 2, 0, 1, 3, 0, 2, 1, 2, 2, 0, 1, 1, 0, 1])
+Epoch: 15   Train loss: 1.3603737   Test loss: 1.3716853   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3176775147928994   Train_predict: tensor([3, 3, 0, 1, 3, 0, 3, 0, 0, 0, 1, 0, 1, 1, 0, 0, 3, 2, 3, 3, 1, 0, 3, 2,
+        1, 0, 3, 0, 2, 3, 3, 2, 2, 1, 0, 1, 2, 3, 3, 0, 0, 3])   label: tensor([1, 2, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 0, 2, 1, 2, 3, 3, 3, 0, 3, 3,
+        1, 1, 1, 2, 0, 3, 3, 1, 2, 3, 1, 0, 2, 1, 1, 1, 1, 3])
+Epoch: 16   Train loss: 1.4047581   Test loss: 1.3718523   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3206360946745562   Train_predict: tensor([2, 0, 3, 2, 1, 2, 1, 0, 3, 2, 1, 1, 1, 0, 2, 2, 2, 2, 2, 2, 3, 3, 1, 0,
+        1, 0, 1, 0, 1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 0, 2, 2, 1])   label: tensor([1, 1, 2, 1, 1, 3, 3, 2, 1, 3, 0, 3, 1, 1, 3, 2, 1, 0, 2, 0, 0, 2, 3, 0,
+        3, 2, 0, 0, 3, 3, 0, 2, 2, 0, 2, 2, 1, 2, 2, 1, 0, 2])
+Epoch: 17   Train loss: 1.3852651   Test loss: 1.3712163   Train accuracy: 0.30952380952380953   Test accuracy is: 0.31693786982248523   Train_predict: tensor([3, 1, 3, 0, 1, 0, 3, 2, 2, 3, 0, 0, 3, 0, 2, 0, 0, 0, 0, 1, 0, 2, 1, 0,
+        3, 3, 3, 3, 0, 0, 0, 0, 2, 1, 0, 1, 2, 2, 0, 0, 1, 0])   label: tensor([1, 1, 2, 3, 3, 1, 3, 2, 2, 2, 3, 2, 1, 2, 1, 1, 2, 3, 0, 3, 0, 2, 3, 0,
+        1, 2, 0, 1, 1, 3, 1, 0, 2, 0, 3, 0, 3, 1, 0, 0, 3, 0])
+Epoch: 18   Train loss: 1.368498   Test loss: 1.3709197   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3202662721893491   Train_predict: tensor([3, 2, 2, 3, 2, 3, 0, 0, 0, 2, 0, 1, 3, 1, 0, 3, 1, 0, 3, 3, 0, 2, 2, 3,
+        0, 1, 0, 0, 3, 0, 0, 0, 3, 2, 2, 2, 2, 2, 1, 0, 3, 3])   label: tensor([1, 3, 0, 2, 2, 3, 2, 1, 2, 2, 3, 1, 2, 1, 3, 1, 3, 2, 2, 2, 3, 2, 0, 2,
+        0, 0, 3, 0, 3, 3, 3, 3, 3, 3, 2, 0, 1, 1, 1, 1, 2, 0])
+Epoch: 19   Train loss: 1.3870625   Test loss: 1.3699801   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3269230769230769   Train_predict: tensor([0, 2, 1, 0, 1, 1, 0, 0, 1, 2, 0, 3, 3, 0, 3, 1, 2, 2, 2, 2, 2, 1, 1, 0,
+        0, 2, 1, 1, 3, 0, 2, 2, 2, 1, 3, 2, 1, 1, 3, 2, 3, 0])   label: tensor([0, 1, 0, 0, 3, 3, 3, 2, 1, 1, 3, 1, 0, 0, 2, 0, 1, 1, 0, 3, 2, 1, 3, 1,
+        0, 1, 3, 2, 1, 3, 0, 2, 2, 2, 1, 2, 2, 0, 2, 3, 1, 3])
+Epoch: 20   Train loss: 1.3820599   Test loss: 1.3696009   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3228550295857988   Train_predict: tensor([0, 2, 2, 2, 3, 1, 3, 0, 1, 1, 3, 0, 0, 3, 2, 0, 3, 0, 1, 0, 1, 1, 3, 2,
+        2, 0, 0, 2, 0, 3, 2, 3, 3, 3, 3, 1, 0, 1, 1, 1, 1, 1])   label: tensor([0, 0, 2, 0, 0, 1, 1, 0, 3, 2, 1, 1, 2, 3, 0, 2, 3, 1, 3, 2, 2, 2, 3, 1,
+        3, 3, 0, 2, 1, 0, 3, 1, 1, 0, 3, 3, 2, 1, 0, 1, 2, 3])
+Epoch: 21   Train loss: 1.3935922   Test loss: 1.3694048   Train accuracy: 0.30952380952380953   Test accuracy is: 0.32322485207100593   Train_predict: tensor([1, 0, 3, 1, 0, 0, 2, 2, 0, 2, 2, 3, 0, 2, 3, 3, 0, 3, 0, 0, 0, 0, 2, 3,
+        0, 0, 1, 3, 3, 2, 0, 3, 0, 0, 2, 0, 2, 0, 0, 3, 0, 2])   label: tensor([1, 2, 3, 2, 1, 0, 2, 1, 0, 2, 1, 1, 1, 3, 0, 2, 3, 1, 1, 1, 2, 2, 1, 2,
+        3, 0, 3, 3, 0, 2, 1, 2, 3, 2, 2, 0, 2, 2, 0, 2, 2, 1])
+Epoch: 22   Train loss: 1.3356309   Test loss: 1.3691077   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3250739644970414   Train_predict: tensor([2, 2, 1, 0, 1, 1, 1, 2, 3, 0, 3, 0, 3, 1, 0, 2, 3, 2, 1, 3, 0, 0, 2, 0,
+        1, 0, 1, 2, 1, 3, 2, 3, 1, 1, 0, 2, 2, 3, 2, 2, 2, 1])   label: tensor([0, 3, 1, 0, 0, 1, 0, 2, 3, 2, 3, 2, 2, 0, 1, 0, 0, 0, 1, 1, 3, 0, 2, 0,
+        3, 3, 1, 2, 2, 3, 2, 0, 1, 1, 0, 0, 1, 3, 1, 3, 1, 0])
+Epoch: 23   Train loss: 1.4089339   Test loss: 1.3685617   Train accuracy: 0.2619047619047619   Test accuracy is: 0.32470414201183434   Train_predict: tensor([3, 0, 2, 0, 3, 2, 3, 1, 3, 2, 1, 3, 3, 0, 2, 1, 3, 3, 2, 3, 2, 0, 1, 1,
+        0, 3, 2, 2, 2, 3, 2, 3, 2, 3, 3, 0, 2, 1, 3, 0, 0, 3])   label: tensor([3, 3, 3, 2, 1, 1, 2, 0, 1, 2, 0, 2, 2, 1, 1, 1, 1, 1, 1, 3, 1, 2, 2, 2,
+        2, 3, 2, 0, 2, 2, 2, 3, 2, 1, 2, 1, 1, 2, 3, 1, 2, 2])
+Epoch: 24   Train loss: 1.3400886   Test loss: 1.368114   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3261834319526627   Train_predict: tensor([3, 0, 1, 0, 0, 1, 2, 0, 3, 0, 2, 0, 3, 0, 0, 0, 0, 2, 3, 0, 0, 3, 0, 1,
+        0, 0, 0, 3, 3, 1, 2, 1, 3, 2, 2, 1, 1, 1, 2, 2, 0, 0])   label: tensor([3, 0, 1, 2, 1, 0, 1, 3, 0, 3, 3, 1, 1, 1, 0, 1, 3, 3, 3, 3, 2, 3, 0, 2,
+        3, 2, 0, 3, 3, 0, 2, 1, 1, 1, 1, 2, 0, 1, 0, 2, 0, 1])
+Epoch: 25   Train loss: 1.3772818   Test loss: 1.3679603   Train accuracy: 0.30952380952380953   Test accuracy is: 0.32840236686390534   Train_predict: tensor([2, 1, 1, 1, 1, 1, 3, 1, 3, 0, 2, 2, 2, 1, 2, 0, 3, 1, 2, 0, 3, 2, 0, 2,
+        1, 0, 2, 1, 1, 1, 2, 2, 3, 3, 2, 3, 0, 2, 2, 2, 2, 0])   label: tensor([2, 1, 1, 0, 1, 0, 0, 3, 3, 1, 0, 0, 3, 2, 0, 3, 0, 3, 0, 0, 3, 3, 2, 0,
+        1, 1, 3, 1, 0, 1, 2, 3, 2, 3, 0, 2, 3, 1, 2, 0, 1, 3])
+Epoch: 26   Train loss: 1.4078919   Test loss: 1.3674996   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3239644970414201   Train_predict: tensor([0, 0, 3, 3, 3, 0, 2, 0, 1, 2, 2, 2, 3, 0, 0, 1, 0, 3, 2, 2, 0, 0, 1, 2,
+        1, 3, 2, 2, 2, 0, 1, 0, 0, 2, 3, 1, 3, 1, 2, 3, 1, 1])   label: tensor([2, 3, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 0, 3, 1, 1, 0, 2, 0, 2, 2, 2, 0, 3,
+        0, 0, 0, 0, 3, 3, 1, 3, 3, 3, 3, 1, 0, 2, 0, 3, 0, 0])
+Epoch: 27   Train loss: 1.3561666   Test loss: 1.3675684   Train accuracy: 0.38095238095238093   Test accuracy is: 0.32322485207100593   Train_predict: tensor([1, 0, 0, 0, 1, 0, 0, 1, 2, 1, 0, 1, 2, 1, 1, 0, 0, 1, 0, 2, 1, 2, 3, 0,
+        3, 1, 0, 2, 0, 0, 3, 0, 1, 1, 1, 2, 1, 1, 2, 0, 0, 1])   label: tensor([2, 2, 1, 0, 3, 2, 3, 0, 2, 3, 1, 2, 2, 2, 0, 0, 1, 1, 0, 3, 1, 0, 2, 2,
+        3, 1, 3, 2, 2, 3, 1, 0, 1, 1, 3, 2, 1, 2, 3, 0, 3, 2])
+Epoch: 28   Train loss: 1.413879   Test loss: 1.3673582   Train accuracy: 0.23809523809523808   Test accuracy is: 0.319896449704142   Train_predict: tensor([0, 1, 1, 0, 2, 1, 0, 2, 0, 2, 0, 3, 1, 1, 2, 0, 2, 3, 0, 1, 1, 1, 1, 1,
+        3, 2, 3, 0, 2, 0, 0, 0, 1, 3, 3, 2, 2, 0, 2, 3, 3, 2])   label: tensor([3, 0, 0, 0, 0, 1, 0, 0, 3, 2, 3, 0, 1, 0, 3, 3, 2, 2, 0, 2, 0, 0, 2, 0,
+        2, 0, 0, 3, 2, 1, 1, 2, 2, 1, 1, 0, 0, 2, 3, 3, 2, 2])
+Epoch: 29   Train loss: 1.347122   Test loss: 1.3683023   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3213757396449704   Train_predict: tensor([2, 0, 2, 0, 2, 1, 1, 2, 2, 2, 1, 1, 3, 2, 2, 2, 0, 1, 2, 0, 1, 2, 1, 0,
+        0, 0, 1, 0, 3, 3, 2, 2, 0, 1, 0, 1, 1, 3, 2, 0, 3, 1])   label: tensor([2, 1, 1, 1, 2, 3, 2, 1, 1, 2, 3, 2, 3, 2, 3, 0, 3, 1, 3, 1, 2, 2, 3, 0,
+        3, 2, 3, 2, 3, 3, 0, 0, 2, 0, 1, 0, 1, 3, 2, 1, 1, 1])
+Epoch: 30   Train loss: 1.3961843   Test loss: 1.366427   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3243343195266272   Train_predict: tensor([0, 2, 2, 0, 3, 2, 3, 3, 3, 2, 2, 2, 2, 3, 1, 2, 3, 3, 0, 1, 3, 2, 3, 0,
+        1, 0, 1, 3, 3, 0, 3, 1, 1, 1, 3, 1, 3, 2, 3, 1, 3, 1])   label: tensor([2, 1, 0, 0, 1, 0, 1, 1, 0, 3, 3, 2, 0, 1, 3, 3, 2, 1, 0, 1, 0, 3, 0, 2,
+        3, 0, 2, 3, 0, 2, 3, 2, 2, 1, 2, 0, 0, 3, 2, 3, 0, 1])
+Epoch: 31   Train loss: 1.4047072   Test loss: 1.3661658   Train accuracy: 0.2619047619047619   Test accuracy is: 0.32470414201183434   Train_predict: tensor([2, 1, 1, 2, 2, 0, 3, 3, 0, 0, 3, 1, 0, 0, 2, 1, 3, 3, 2, 0, 0, 0, 1, 3,
+        3, 1, 0, 0, 0, 1, 2, 3, 0, 1, 0, 1, 0, 2, 3, 3, 1, 3])   label: tensor([3, 2, 3, 2, 1, 1, 3, 2, 0, 1, 2, 3, 1, 2, 1, 0, 3, 3, 3, 0, 0, 2, 3, 2,
+        0, 1, 3, 0, 2, 2, 0, 0, 3, 2, 3, 2, 1, 3, 3, 3, 3, 1])
+Epoch: 32   Train loss: 1.4329165   Test loss: 1.365368   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3317307692307692   Train_predict: tensor([3, 2, 0, 2, 0, 1, 3, 1, 1, 3, 2, 0, 3, 2, 1, 0, 1, 1, 1, 3, 1, 3, 2, 2,
+        1, 2, 0, 0, 1, 3, 1, 3, 1, 0, 1, 0, 3, 2, 0, 2, 1, 1])   label: tensor([3, 2, 2, 2, 2, 3, 3, 0, 0, 1, 2, 2, 3, 2, 3, 2, 0, 1, 0, 3, 2, 2, 3, 1,
+        1, 1, 2, 2, 1, 0, 3, 1, 0, 2, 0, 0, 2, 1, 2, 1, 1, 3])
+Epoch: 33   Train loss: 1.3611974   Test loss: 1.364991   Train accuracy: 0.23809523809523808   Test accuracy is: 0.32877218934911245   Train_predict: tensor([3, 1, 0, 3, 3, 2, 1, 3, 2, 0, 3, 3, 1, 2, 0, 3, 0, 1, 0, 1, 2, 2, 1, 0,
+        0, 3, 2, 2, 3, 1, 0, 0, 0, 1, 1, 1, 2, 3, 3, 2, 0, 2])   label: tensor([0, 2, 3, 0, 3, 1, 0, 0, 1, 3, 3, 2, 1, 1, 3, 0, 3, 0, 1, 0, 0, 2, 3, 2,
+        2, 0, 1, 3, 3, 1, 1, 2, 2, 1, 3, 0, 2, 1, 3, 3, 1, 2])
+Epoch: 34   Train loss: 1.349551   Test loss: 1.3649449   Train accuracy: 0.35714285714285715   Test accuracy is: 0.323594674556213   Train_predict: tensor([1, 2, 2, 3, 0, 0, 0, 1, 3, 0, 0, 0, 0, 3, 2, 3, 0, 3, 3, 3, 2, 2, 3, 0,
+        1, 2, 0, 3, 1, 0, 0, 2, 1, 3, 2, 3, 0, 0, 0, 1, 0, 1])   label: tensor([1, 2, 3, 0, 0, 2, 2, 1, 1, 1, 0, 3, 0, 3, 2, 3, 3, 3, 2, 2, 0, 1, 2, 0,
+        1, 3, 1, 1, 3, 1, 3, 0, 0, 0, 3, 3, 0, 1, 3, 1, 2, 0])
+Epoch: 35   Train loss: 1.3655981   Test loss: 1.3641626   Train accuracy: 0.35714285714285715   Test accuracy is: 0.33210059171597633   Train_predict: tensor([0, 2, 3, 2, 0, 2, 2, 2, 3, 3, 2, 2, 2, 2, 3, 3, 0, 2, 3, 2, 3, 0, 2, 1,
+        2, 0, 1, 3, 2, 3, 3, 2, 1, 1, 3, 0, 3, 0, 2, 1, 1, 1])   label: tensor([2, 2, 2, 2, 1, 0, 3, 2, 1, 3, 0, 1, 2, 0, 1, 3, 2, 1, 2, 0, 1, 3, 2, 2,
+        0, 1, 3, 3, 3, 3, 3, 2, 3, 2, 3, 3, 1, 2, 2, 0, 1, 1])
+Epoch: 36   Train loss: 1.3124591   Test loss: 1.3637174   Train accuracy: 0.40476190476190477   Test accuracy is: 0.32877218934911245   Train_predict: tensor([0, 1, 1, 0, 3, 1, 3, 3, 3, 1, 3, 1, 0, 2, 3, 0, 2, 3, 2, 0, 1, 0, 0, 3,
+        2, 2, 3, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 2, 0, 2, 0])   label: tensor([2, 1, 1, 1, 2, 1, 3, 3, 3, 0, 3, 3, 0, 2, 3, 1, 2, 0, 1, 0, 2, 1, 3, 0,
+        2, 1, 1, 2, 3, 0, 2, 3, 1, 2, 1, 2, 1, 2, 2, 1, 2, 3])
+Epoch: 37   Train loss: 1.3516752   Test loss: 1.3641164   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3239644970414201   Train_predict: tensor([3, 0, 2, 0, 3, 2, 0, 3, 0, 0, 1, 2, 0, 0, 0, 1, 3, 0, 0, 0, 2, 1, 0, 3,
+        1, 2, 1, 1, 1, 1, 2, 0, 2, 0, 0, 3, 0, 2, 0, 2, 0, 3])   label: tensor([0, 1, 1, 2, 0, 1, 1, 1, 0, 2, 2, 1, 0, 1, 3, 0, 3, 1, 0, 0, 3, 1, 0, 3,
+        1, 1, 2, 3, 0, 0, 0, 3, 3, 2, 0, 1, 2, 2, 2, 0, 2, 0])
+Epoch: 38   Train loss: 1.3156286   Test loss: 1.3630153   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3261834319526627   Train_predict: tensor([1, 0, 1, 0, 1, 3, 3, 1, 2, 2, 0, 0, 2, 2, 3, 3, 3, 2, 3, 0, 1, 3, 3, 1,
+        1, 0, 1, 0, 2, 2, 1, 2, 3, 0, 0, 2, 2, 2, 2, 3, 1, 0])   label: tensor([2, 1, 1, 1, 2, 0, 2, 1, 2, 3, 0, 0, 0, 2, 2, 1, 3, 0, 1, 1, 1, 0, 3, 1,
+        3, 3, 1, 0, 2, 1, 1, 2, 0, 0, 0, 1, 1, 3, 3, 0, 1, 1])
+Epoch: 39   Train loss: 1.359281   Test loss: 1.3630916   Train accuracy: 0.30952380952380953   Test accuracy is: 0.32470414201183434   Train_predict: tensor([0, 3, 3, 2, 3, 2, 3, 3, 3, 1, 3, 1, 0, 3, 0, 3, 2, 1, 0, 2, 0, 0, 2, 2,
+        2, 1, 2, 0, 0, 3, 3, 1, 3, 0, 0, 1, 2, 2, 2, 0, 0, 0])   label: tensor([3, 3, 3, 0, 0, 3, 0, 3, 3, 2, 0, 0, 0, 2, 0, 1, 0, 0, 1, 1, 2, 1, 0, 2,
+        2, 0, 2, 1, 0, 0, 0, 0, 1, 2, 3, 1, 0, 2, 1, 3, 3, 0])
+Epoch: 40   Train loss: 1.3926445   Test loss: 1.3631994   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3217455621301775   Train_predict: tensor([1, 0, 3, 1, 0, 0, 3, 0, 0, 2, 1, 0, 3, 3, 0, 0, 1, 2, 0, 3, 2, 3, 3, 1,
+        0, 2, 3, 0, 3, 2, 1, 0, 1, 2, 2, 3, 0, 0, 2, 0, 0, 0])   label: tensor([1, 0, 1, 2, 1, 3, 0, 0, 0, 3, 3, 0, 0, 0, 1, 0, 2, 0, 3, 3, 1, 2, 1, 1,
+        0, 2, 2, 2, 2, 2, 2, 3, 0, 3, 1, 1, 1, 2, 1, 1, 2, 0])
+Epoch: 41   Train loss: 1.3476648   Test loss: 1.3620337   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3276627218934911   Train_predict: tensor([0, 3, 1, 1, 3, 3, 1, 2, 1, 0, 0, 0, 2, 0, 1, 3, 0, 3, 3, 1, 1, 3, 0, 2,
+        0, 2, 3, 0, 2, 3, 2, 2, 0, 3, 1, 3, 3, 0, 1, 3, 2, 1])   label: tensor([2, 3, 1, 0, 3, 2, 2, 3, 1, 1, 3, 0, 1, 1, 3, 3, 0, 2, 2, 2, 1, 2, 0, 1,
+        2, 2, 3, 3, 3, 0, 2, 0, 1, 3, 1, 1, 2, 2, 2, 3, 0, 3])
+Epoch: 42   Train loss: 1.3573384   Test loss: 1.3620824   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3228550295857988   Train_predict: tensor([3, 0, 0, 0, 0, 1, 1, 3, 3, 0, 2, 3, 1, 1, 1, 2, 0, 0, 3, 0, 3, 3, 0, 0,
+        2, 3, 3, 0, 1, 2, 2, 2, 0, 3, 0, 2, 3, 3, 1, 3, 1, 1])   label: tensor([2, 0, 3, 3, 2, 3, 1, 2, 3, 0, 1, 2, 1, 0, 2, 0, 0, 2, 3, 3, 3, 1, 0, 3,
+        2, 3, 1, 2, 3, 3, 1, 2, 0, 2, 3, 0, 1, 3, 3, 1, 2, 1])
+Epoch: 43   Train loss: 1.3470572   Test loss: 1.3616369   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3254437869822485   Train_predict: tensor([0, 2, 0, 1, 0, 2, 2, 3, 2, 0, 0, 3, 1, 0, 3, 0, 3, 3, 1, 1, 0, 1, 0, 0,
+        1, 1, 0, 0, 2, 1, 3, 2, 2, 1, 0, 3, 1, 0, 1, 2, 2, 1])   label: tensor([3, 0, 0, 3, 1, 2, 3, 0, 3, 0, 1, 3, 0, 0, 3, 0, 3, 1, 2, 1, 1, 3, 1, 1,
+        1, 1, 1, 3, 1, 1, 3, 2, 1, 1, 3, 1, 3, 0, 2, 0, 2, 0])
+Epoch: 44   Train loss: 1.3149829   Test loss: 1.3617556   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3213757396449704   Train_predict: tensor([0, 3, 2, 1, 0, 2, 3, 0, 2, 2, 3, 2, 0, 0, 1, 3, 3, 2, 2, 0, 2, 0, 0, 0,
+        2, 1, 0, 2, 1, 0, 0, 0, 1, 2, 1, 2, 2, 2, 0, 2, 3, 1])   label: tensor([0, 0, 2, 0, 0, 0, 2, 0, 0, 2, 3, 1, 2, 1, 2, 0, 3, 2, 2, 1, 1, 0, 0, 3,
+        0, 1, 3, 3, 0, 3, 1, 3, 1, 3, 0, 1, 0, 0, 3, 2, 3, 1])
+Epoch: 45   Train loss: 1.4210621   Test loss: 1.3604274   Train accuracy: 0.11904761904761904   Test accuracy is: 0.3306213017751479   Train_predict: tensor([1, 0, 0, 3, 3, 2, 2, 1, 1, 3, 0, 3, 1, 0, 0, 0, 3, 2, 2, 3, 1, 0, 0, 2,
+        0, 3, 2, 2, 0, 0, 1, 2, 0, 1, 1, 2, 3, 0, 1, 2, 3, 2])   label: tensor([3, 1, 3, 2, 3, 0, 1, 3, 2, 1, 0, 1, 2, 3, 2, 3, 0, 2, 0, 0, 0, 3, 3, 3,
+        2, 0, 3, 2, 3, 3, 0, 1, 3, 0, 3, 2, 1, 1, 3, 0, 0, 0])
+Epoch: 46   Train loss: 1.3860755   Test loss: 1.359837   Train accuracy: 0.30952380952380953   Test accuracy is: 0.32840236686390534   Train_predict: tensor([0, 3, 2, 1, 2, 0, 0, 3, 0, 2, 2, 3, 2, 1, 3, 3, 0, 2, 0, 3, 2, 0, 0, 0,
+        1, 0, 2, 1, 0, 2, 1, 1, 2, 3, 3, 2, 2, 1, 1, 3, 1, 3])   label: tensor([2, 2, 1, 3, 2, 3, 0, 2, 1, 0, 2, 3, 3, 3, 1, 1, 0, 3, 3, 3, 0, 0, 0, 0,
+        3, 0, 0, 3, 1, 1, 2, 1, 3, 1, 1, 0, 3, 1, 3, 1, 1, 2])
+Epoch: 47   Train loss: 1.3405374   Test loss: 1.3591049   Train accuracy: 0.40476190476190477   Test accuracy is: 0.32877218934911245   Train_predict: tensor([1, 1, 0, 0, 0, 3, 1, 2, 0, 1, 3, 0, 3, 0, 3, 0, 1, 3, 0, 2, 0, 3, 3, 2,
+        3, 0, 3, 1, 2, 2, 2, 3, 3, 0, 1, 0, 0, 1, 2, 0, 3, 2])   label: tensor([2, 0, 1, 0, 2, 0, 1, 2, 1, 0, 3, 3, 3, 1, 2, 0, 1, 1, 0, 1, 2, 1, 0, 0,
+        3, 0, 1, 1, 1, 2, 3, 1, 3, 2, 1, 3, 3, 1, 3, 0, 2, 2])
+Epoch: 48   Train loss: 1.3655787   Test loss: 1.3594855   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33321005917159763   Train_predict: tensor([3, 2, 3, 2, 3, 3, 0, 1, 1, 1, 1, 1, 2, 2, 2, 1, 0, 2, 2, 1, 0, 2, 3, 1,
+        1, 2, 3, 1, 1, 2, 2, 1, 2, 3, 2, 2, 3, 2, 0, 1, 1, 2])   label: tensor([0, 2, 1, 3, 0, 3, 1, 0, 0, 2, 1, 3, 1, 3, 3, 3, 1, 1, 2, 1, 0, 2, 3, 2,
+        3, 2, 3, 2, 1, 3, 3, 2, 0, 1, 2, 0, 2, 2, 2, 3, 3, 1])
+Epoch: 49   Train loss: 1.4162054   Test loss: 1.3588344   Train accuracy: 0.19047619047619047   Test accuracy is: 0.33579881656804733   Train_predict: tensor([2, 2, 2, 2, 1, 3, 2, 3, 2, 0, 3, 1, 2, 1, 0, 3, 1, 1, 2, 3, 2, 2, 1, 0,
+        0, 3, 3, 2, 2, 0, 3, 0, 1, 1, 2, 0, 2, 0, 0, 3, 1, 2])   label: tensor([3, 0, 0, 1, 3, 0, 1, 0, 3, 1, 2, 2, 1, 3, 2, 2, 1, 3, 0, 2, 1, 2, 0, 0,
+        0, 1, 1, 3, 3, 0, 0, 1, 2, 3, 2, 0, 0, 3, 0, 2, 0, 3])
+Epoch: 50   Train loss: 1.3343748   Test loss: 1.3584154   Train accuracy: 0.38095238095238093   Test accuracy is: 0.33653846153846156   Train_predict: tensor([3, 1, 2, 3, 2, 3, 2, 0, 1, 2, 1, 3, 0, 2, 2, 1, 2, 2, 1, 2, 0, 1, 0, 0,
+        1, 1, 0, 0, 2, 0, 0, 3, 1, 1, 3, 0, 2, 2, 0, 2, 0, 2])   label: tensor([2, 1, 2, 0, 2, 2, 0, 2, 3, 2, 0, 3, 2, 2, 3, 2, 3, 2, 1, 3, 0, 0, 2, 2,
+        1, 0, 0, 0, 3, 3, 0, 0, 3, 1, 2, 0, 1, 0, 0, 0, 3, 0])
+Epoch: 51   Train loss: 1.3678199   Test loss: 1.3578296   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34134615384615385   Train_predict: tensor([1, 2, 3, 0, 0, 2, 1, 3, 1, 2, 2, 0, 0, 2, 0, 0, 2, 1, 2, 2, 2, 2, 3, 3,
+        3, 3, 2, 1, 2, 1, 0, 1, 2, 0, 0, 2, 3, 3, 0, 0, 0, 0])   label: tensor([1, 1, 2, 1, 1, 2, 2, 2, 3, 2, 3, 2, 3, 0, 3, 3, 1, 3, 2, 0, 0, 2, 0, 3,
+        0, 0, 2, 3, 3, 2, 0, 3, 3, 3, 0, 1, 1, 3, 3, 3, 0, 1])
+Epoch: 52   Train loss: 1.2756032   Test loss: 1.3571543   Train accuracy: 0.42857142857142855   Test accuracy is: 0.34097633136094674   Train_predict: tensor([1, 2, 1, 3, 3, 1, 0, 1, 1, 1, 0, 1, 2, 3, 0, 2, 2, 2, 3, 2, 3, 3, 2, 3,
+        0, 1, 2, 3, 0, 1, 2, 2, 1, 2, 2, 0, 0, 3, 3, 2, 2, 3])   label: tensor([1, 2, 1, 2, 1, 3, 1, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 3, 3, 0, 1, 0, 2, 3,
+        2, 3, 3, 2, 3, 1, 1, 2, 3, 2, 2, 0, 3, 0, 2, 3, 2, 3])
+Epoch: 53   Train loss: 1.3633214   Test loss: 1.3570999   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34467455621301774   Train_predict: tensor([0, 1, 2, 2, 0, 0, 2, 3, 0, 3, 3, 1, 1, 2, 3, 2, 1, 0, 3, 2, 3, 0, 0, 2,
+        2, 2, 0, 1, 2, 2, 2, 1, 0, 0, 2, 0, 0, 0, 1, 2, 2, 1])   label: tensor([3, 2, 0, 2, 1, 0, 2, 1, 3, 0, 0, 1, 2, 3, 3, 2, 0, 1, 3, 0, 3, 3, 3, 2,
+        1, 2, 3, 0, 0, 2, 3, 2, 2, 0, 2, 1, 2, 0, 0, 1, 1, 0])
+Epoch: 54   Train loss: 1.2671856   Test loss: 1.3568225   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34208579881656803   Train_predict: tensor([1, 0, 2, 2, 0, 3, 0, 2, 2, 1, 3, 2, 3, 3, 2, 1, 0, 0, 0, 0, 2, 1, 2, 1,
+        2, 1, 0, 1, 2, 3, 2, 3, 2, 3, 1, 2, 3, 0, 0, 2, 0, 3])   label: tensor([3, 3, 2, 1, 3, 3, 0, 2, 2, 1, 2, 2, 3, 2, 1, 2, 2, 3, 1, 3, 1, 0, 2, 3,
+        0, 1, 3, 2, 2, 0, 1, 3, 1, 0, 3, 2, 3, 3, 0, 2, 2, 2])
+Epoch: 55   Train loss: 1.4076413   Test loss: 1.3564247   Train accuracy: 0.2857142857142857   Test accuracy is: 0.33727810650887574   Train_predict: tensor([1, 0, 2, 1, 0, 3, 3, 0, 0, 0, 0, 0, 3, 1, 1, 1, 2, 0, 3, 1, 3, 3, 0, 0,
+        0, 2, 1, 0, 3, 3, 0, 0, 2, 2, 3, 3, 1, 3, 3, 1, 0, 2])   label: tensor([2, 0, 0, 2, 2, 3, 3, 0, 2, 1, 0, 2, 0, 1, 2, 1, 0, 3, 1, 1, 1, 0, 3, 2,
+        0, 1, 2, 0, 1, 2, 3, 2, 3, 2, 0, 3, 0, 2, 2, 0, 3, 3])
+Epoch: 56   Train loss: 1.3648634   Test loss: 1.3564649   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33949704142011833   Train_predict: tensor([0, 3, 2, 0, 2, 2, 1, 0, 1, 3, 3, 2, 1, 2, 2, 3, 0, 0, 3, 2, 2, 0, 0, 1,
+        1, 2, 1, 1, 1, 2, 3, 3, 3, 0, 0, 1, 2, 2, 2, 3, 0, 2])   label: tensor([0, 0, 2, 0, 1, 1, 3, 2, 2, 1, 1, 2, 1, 0, 0, 2, 3, 3, 2, 1, 1, 3, 0, 1,
+        1, 0, 1, 3, 1, 0, 0, 1, 3, 0, 1, 2, 2, 1, 1, 2, 1, 1])
+Epoch: 57   Train loss: 1.3901762   Test loss: 1.3558853   Train accuracy: 0.2857142857142857   Test accuracy is: 0.33653846153846156   Train_predict: tensor([2, 0, 3, 0, 1, 3, 1, 2, 2, 1, 3, 1, 1, 3, 3, 0, 2, 3, 3, 0, 0, 0, 3, 0,
+        2, 0, 2, 2, 1, 2, 3, 1, 1, 0, 0, 0, 1, 3, 1, 3, 0, 3])   label: tensor([2, 3, 0, 0, 0, 1, 0, 0, 0, 0, 3, 1, 0, 0, 1, 3, 1, 1, 2, 2, 3, 2, 1, 0,
+        0, 0, 0, 1, 2, 2, 2, 3, 1, 1, 0, 3, 1, 0, 1, 3, 3, 2])
+Epoch: 58   Train loss: 1.3157282   Test loss: 1.3558315   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34134615384615385   Train_predict: tensor([2, 0, 1, 0, 1, 2, 0, 2, 2, 2, 1, 3, 3, 1, 1, 0, 1, 3, 3, 2, 2, 3, 3, 0,
+        1, 2, 3, 3, 1, 2, 1, 1, 0, 3, 2, 3, 3, 2, 0, 0, 0, 3])   label: tensor([0, 2, 2, 0, 3, 0, 3, 2, 1, 2, 0, 3, 3, 2, 2, 1, 2, 1, 1, 1, 0, 0, 1, 2,
+        1, 2, 0, 2, 1, 2, 1, 2, 0, 3, 2, 2, 0, 2, 2, 0, 0, 2])
+Epoch: 59   Train loss: 1.2940359   Test loss: 1.3557259   Train accuracy: 0.5   Test accuracy is: 0.33986686390532544   Train_predict: tensor([1, 1, 1, 2, 2, 0, 2, 2, 2, 1, 0, 3, 0, 0, 2, 0, 1, 1, 2, 0, 2, 1, 1, 3,
+        3, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 3, 2, 1])   label: tensor([1, 3, 2, 3, 2, 3, 2, 1, 2, 1, 0, 3, 2, 0, 2, 0, 2, 0, 0, 3, 2, 1, 2, 2,
+        0, 1, 0, 3, 2, 0, 1, 2, 1, 1, 1, 1, 1, 2, 0, 0, 2, 1])
+Epoch: 60   Train loss: 1.348785   Test loss: 1.3547643   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34097633136094674   Train_predict: tensor([3, 0, 0, 1, 1, 1, 0, 1, 0, 2, 1, 0, 2, 3, 0, 1, 1, 3, 1, 2, 1, 3, 1, 0,
+        1, 2, 1, 2, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 1])   label: tensor([0, 0, 0, 0, 0, 1, 3, 2, 1, 0, 1, 2, 0, 0, 3, 3, 1, 0, 3, 0, 1, 3, 2, 0,
+        3, 3, 1, 0, 0, 0, 3, 2, 0, 0, 3, 1, 2, 3, 2, 1, 1, 2])
+Epoch: 61   Train loss: 1.3189713   Test loss: 1.3549837   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34245562130177515   Train_predict: tensor([3, 2, 2, 0, 0, 1, 3, 0, 1, 2, 0, 3, 1, 0, 3, 1, 0, 3, 2, 0, 0, 0, 3, 2,
+        2, 2, 3, 0, 0, 2, 0, 2, 0, 0, 2, 3, 1, 0, 2, 0, 2, 0])   label: tensor([1, 3, 1, 0, 3, 1, 3, 1, 0, 2, 0, 3, 3, 3, 1, 1, 1, 3, 2, 1, 2, 0, 0, 2,
+        1, 3, 1, 0, 2, 2, 1, 2, 3, 1, 0, 2, 0, 0, 0, 0, 1, 2])
+Epoch: 62   Train loss: 1.3362303   Test loss: 1.3542832   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34393491124260356   Train_predict: tensor([0, 1, 2, 2, 2, 0, 0, 1, 3, 1, 1, 0, 3, 2, 2, 3, 1, 2, 1, 1, 2, 0, 0, 3,
+        1, 0, 2, 3, 1, 1, 1, 0, 3, 0, 0, 2, 2, 1, 2, 3, 3, 1])   label: tensor([2, 2, 1, 3, 2, 0, 0, 2, 3, 1, 1, 2, 1, 3, 3, 1, 3, 1, 3, 1, 2, 1, 2, 0,
+        0, 1, 0, 3, 1, 0, 1, 0, 3, 0, 3, 0, 0, 0, 2, 1, 2, 3])
+Epoch: 63   Train loss: 1.3664916   Test loss: 1.3543688   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3443047337278107   Train_predict: tensor([2, 3, 1, 0, 3, 1, 1, 0, 0, 0, 0, 3, 3, 1, 0, 0, 2, 1, 0, 0, 1, 0, 1, 2,
+        3, 2, 0, 0, 0, 2, 0, 1, 2, 0, 2, 2, 1, 0, 3, 1, 1, 1])   label: tensor([0, 2, 2, 1, 3, 2, 1, 0, 3, 3, 3, 0, 0, 1, 0, 2, 0, 1, 0, 0, 2, 1, 0, 3,
+        3, 1, 1, 0, 1, 3, 3, 0, 2, 2, 0, 0, 1, 0, 2, 2, 0, 2])
+Epoch: 64   Train loss: 1.3680774   Test loss: 1.3544632   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34171597633136097   Train_predict: tensor([2, 3, 0, 0, 0, 1, 0, 3, 1, 1, 3, 2, 2, 3, 3, 3, 2, 2, 3, 3, 2, 0, 0, 0,
+        1, 2, 1, 3, 1, 0, 2, 1, 3, 3, 2, 1, 3, 3, 1, 3, 3, 0])   label: tensor([0, 2, 1, 2, 3, 2, 1, 2, 1, 3, 2, 0, 3, 3, 0, 0, 1, 0, 1, 3, 3, 0, 3, 1,
+        2, 1, 1, 3, 0, 3, 2, 3, 2, 2, 1, 3, 3, 3, 1, 3, 3, 0])
+Epoch: 65   Train loss: 1.3816719   Test loss: 1.3539932   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3443047337278107   Train_predict: tensor([2, 1, 3, 0, 3, 1, 1, 0, 1, 2, 0, 1, 0, 1, 0, 2, 1, 2, 0, 2, 1, 2, 0, 3,
+        3, 3, 1, 1, 0, 3, 2, 2, 0, 0, 3, 0, 0, 3, 2, 0, 2, 3])   label: tensor([2, 2, 1, 2, 3, 2, 1, 0, 1, 1, 0, 0, 3, 1, 1, 2, 1, 1, 2, 0, 3, 1, 3, 2,
+        1, 3, 3, 3, 0, 3, 3, 2, 3, 3, 0, 3, 3, 2, 0, 2, 3, 0])
+Epoch: 66   Train loss: 1.4008251   Test loss: 1.3539159   Train accuracy: 0.3333333333333333   Test accuracy is: 0.33579881656804733   Train_predict: tensor([0, 2, 3, 2, 1, 2, 3, 0, 3, 3, 0, 1, 3, 0, 1, 3, 3, 0, 2, 2, 1, 2, 0, 2,
+        3, 2, 0, 1, 3, 2, 0, 2, 3, 1, 1, 0, 1, 2, 0, 2, 2, 1])   label: tensor([3, 2, 1, 2, 1, 1, 3, 2, 0, 1, 0, 1, 3, 0, 1, 3, 0, 1, 3, 3, 3, 0, 1, 1,
+        0, 1, 0, 3, 3, 2, 1, 0, 2, 2, 2, 3, 3, 2, 3, 1, 0, 3])
+Epoch: 67   Train loss: 1.3683144   Test loss: 1.3532916   Train accuracy: 0.40476190476190477   Test accuracy is: 0.33949704142011833   Train_predict: tensor([2, 3, 3, 1, 1, 1, 3, 2, 0, 1, 3, 0, 3, 3, 0, 2, 1, 2, 2, 0, 0, 2, 2, 1,
+        3, 2, 0, 0, 0, 2, 1, 1, 2, 3, 3, 3, 0, 0, 1, 3, 2, 3])   label: tensor([2, 3, 1, 0, 0, 0, 3, 2, 2, 2, 1, 0, 3, 1, 0, 0, 2, 2, 2, 0, 2, 0, 3, 2,
+        2, 3, 2, 0, 0, 2, 3, 0, 2, 0, 2, 2, 2, 0, 1, 3, 0, 2])
+Epoch: 68   Train loss: 1.4455724   Test loss: 1.3535726   Train accuracy: 0.21428571428571427   Test accuracy is: 0.33394970414201186   Train_predict: tensor([0, 2, 1, 3, 0, 3, 3, 1, 2, 1, 3, 1, 0, 2, 1, 2, 2, 3, 0, 0, 3, 0, 1, 3,
+        2, 0, 3, 2, 3, 0, 2, 3, 3, 0, 3, 3, 0, 1, 0, 3, 3, 3])   label: tensor([0, 1, 3, 2, 2, 0, 3, 3, 0, 2, 0, 0, 0, 0, 3, 1, 2, 0, 0, 0, 1, 2, 0, 2,
+        0, 0, 1, 3, 3, 2, 0, 1, 0, 1, 1, 0, 3, 2, 0, 1, 1, 1])
+Epoch: 69   Train loss: 1.4009401   Test loss: 1.3532364   Train accuracy: 0.2619047619047619   Test accuracy is: 0.33357988165680474   Train_predict: tensor([1, 3, 0, 0, 3, 3, 0, 1, 2, 0, 2, 3, 3, 2, 0, 1, 2, 3, 3, 2, 2, 2, 3, 3,
+        2, 0, 0, 3, 2, 2, 2, 3, 2, 0, 3, 0, 1, 0, 2, 3, 0, 1])   label: tensor([0, 3, 2, 1, 3, 0, 1, 1, 2, 2, 1, 1, 0, 3, 0, 2, 3, 0, 3, 1, 0, 3, 2, 3,
+        0, 3, 0, 2, 0, 2, 0, 1, 1, 2, 2, 3, 0, 2, 2, 3, 2, 3])
+Epoch: 70   Train loss: 1.3108624   Test loss: 1.3531104   Train accuracy: 0.42857142857142855   Test accuracy is: 0.34356508875739644   Train_predict: tensor([1, 3, 0, 3, 0, 3, 1, 3, 2, 0, 3, 1, 3, 2, 2, 3, 1, 1, 3, 3, 3, 0, 3, 2,
+        3, 0, 2, 3, 0, 0, 1, 2, 3, 2, 2, 2, 1, 1, 1, 3, 2, 2])   label: tensor([1, 3, 2, 3, 2, 0, 1, 2, 2, 3, 0, 1, 3, 3, 1, 0, 1, 0, 0, 3, 3, 2, 3, 0,
+        0, 0, 2, 2, 2, 2, 1, 0, 1, 3, 3, 2, 2, 1, 1, 3, 1, 0])
+Epoch: 71   Train loss: 1.364918   Test loss: 1.3525462   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3443047337278107   Train_predict: tensor([0, 1, 2, 0, 1, 1, 0, 2, 2, 0, 1, 1, 2, 3, 3, 3, 0, 1, 0, 2, 1, 0, 0, 2,
+        3, 1, 2, 3, 2, 3, 2, 1, 1, 2, 3, 0, 3, 0, 1, 2, 2, 0])   label: tensor([3, 1, 2, 3, 3, 0, 3, 1, 1, 3, 0, 3, 2, 0, 3, 2, 2, 1, 3, 1, 1, 0, 2, 3,
+        2, 1, 3, 0, 3, 3, 2, 3, 3, 0, 1, 0, 1, 0, 1, 3, 1, 3])
+Epoch: 72   Train loss: 1.4338114   Test loss: 1.3513945   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34245562130177515   Train_predict: tensor([2, 0, 3, 2, 0, 2, 0, 2, 1, 3, 2, 1, 3, 3, 2, 2, 1, 2, 3, 1, 0, 1, 0, 2,
+        0, 2, 2, 2, 3, 0, 0, 2, 3, 2, 0, 1, 0, 2, 3, 3, 1, 2])   label: tensor([0, 2, 3, 3, 1, 1, 0, 1, 3, 2, 2, 1, 0, 2, 0, 0, 3, 3, 3, 2, 0, 1, 2, 1,
+        2, 2, 0, 1, 2, 2, 3, 1, 0, 0, 2, 0, 0, 1, 3, 0, 3, 0])
+Epoch: 73   Train loss: 1.3386842   Test loss: 1.3510029   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34134615384615385   Train_predict: tensor([0, 0, 3, 0, 1, 0, 1, 0, 3, 3, 0, 3, 0, 1, 3, 2, 1, 1, 0, 1, 0, 1, 0, 0,
+        3, 0, 1, 3, 3, 0, 1, 2, 0, 3, 1, 1, 3, 3, 1, 2, 0, 0])   label: tensor([2, 0, 1, 3, 1, 3, 0, 1, 2, 0, 0, 1, 0, 0, 1, 0, 2, 1, 3, 1, 2, 1, 1, 3,
+        2, 2, 1, 0, 1, 1, 1, 2, 2, 1, 0, 1, 2, 3, 1, 0, 0, 1])
+Epoch: 74   Train loss: 1.3510413   Test loss: 1.3508105   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34393491124260356   Train_predict: tensor([2, 3, 2, 0, 0, 0, 1, 0, 2, 3, 1, 0, 1, 2, 2, 0, 0, 1, 0, 3, 2, 2, 0, 1,
+        2, 3, 3, 3, 3, 2, 3, 0, 3, 3, 3, 3, 1, 1, 0, 1, 2, 1])   label: tensor([2, 2, 0, 0, 3, 2, 0, 3, 2, 3, 3, 3, 0, 1, 3, 3, 1, 2, 1, 1, 1, 3, 0, 2,
+        1, 2, 0, 0, 2, 2, 2, 0, 3, 3, 1, 1, 1, 1, 1, 0, 0, 3])
+Epoch: 75   Train loss: 1.2977217   Test loss: 1.3510517   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34356508875739644   Train_predict: tensor([1, 1, 3, 0, 2, 3, 2, 0, 2, 3, 2, 2, 0, 0, 3, 1, 0, 2, 2, 0, 2, 2, 2, 3,
+        0, 0, 1, 1, 3, 2, 1, 0, 1, 3, 2, 2, 2, 3, 0, 0, 1, 2])   label: tensor([0, 2, 2, 3, 2, 1, 0, 1, 3, 0, 2, 1, 3, 3, 1, 3, 3, 0, 2, 2, 2, 2, 3, 2,
+        0, 0, 2, 3, 2, 3, 3, 3, 1, 3, 1, 2, 3, 1, 3, 0, 3, 1])
+Epoch: 76   Train loss: 1.402257   Test loss: 1.3513246   Train accuracy: 0.23809523809523808   Test accuracy is: 0.33949704142011833   Train_predict: tensor([3, 1, 0, 0, 1, 2, 0, 3, 3, 3, 0, 3, 1, 1, 0, 3, 2, 3, 2, 0, 0, 3, 1, 3,
+        2, 0, 3, 1, 1, 0, 2, 0, 3, 3, 1, 0, 1, 0, 1, 1, 1, 3])   label: tensor([2, 0, 3, 2, 2, 2, 2, 1, 1, 1, 1, 2, 3, 1, 0, 3, 0, 0, 0, 3, 0, 2, 1, 0,
+        2, 0, 3, 2, 1, 2, 0, 1, 2, 0, 3, 3, 3, 1, 0, 2, 0, 1])
+Epoch: 77   Train loss: 1.3998058   Test loss: 1.3509452   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34208579881656803   Train_predict: tensor([2, 0, 0, 0, 0, 3, 3, 1, 3, 3, 2, 3, 1, 0, 3, 3, 2, 0, 2, 1, 2, 2, 1, 1,
+        1, 3, 1, 2, 0, 0, 2, 1, 0, 0, 2, 3, 3, 3, 1, 2, 2, 3])   label: tensor([2, 1, 2, 3, 0, 1, 2, 3, 3, 1, 1, 1, 0, 1, 1, 2, 3, 0, 1, 1, 2, 0, 2, 0,
+        1, 1, 1, 3, 0, 2, 0, 3, 2, 3, 3, 0, 3, 2, 1, 3, 2, 3])
+Epoch: 78   Train loss: 1.3582047   Test loss: 1.3506567   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34208579881656803   Train_predict: tensor([0, 2, 0, 0, 2, 0, 1, 3, 2, 3, 0, 1, 3, 1, 1, 1, 3, 1, 1, 0, 0, 2, 3, 2,
+        2, 1, 3, 1, 1, 2, 3, 1, 0, 2, 0, 2, 1, 3, 3, 3, 2, 0])   label: tensor([2, 2, 0, 3, 3, 1, 2, 0, 3, 3, 0, 2, 3, 3, 1, 1, 1, 3, 2, 3, 0, 2, 2, 2,
+        3, 2, 1, 1, 0, 2, 1, 0, 1, 3, 1, 2, 3, 3, 1, 1, 3, 2])
+Epoch: 79   Train loss: 1.3621752   Test loss: 1.3500637   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34023668639053256   Train_predict: tensor([2, 3, 0, 0, 3, 2, 1, 1, 0, 2, 3, 3, 3, 3, 2, 1, 3, 2, 3, 1, 1, 1, 2, 2,
+        3, 2, 0, 0, 0, 2, 1, 2, 1, 0, 3, 2, 3, 1, 3, 3, 2, 1])   label: tensor([1, 0, 1, 2, 3, 0, 2, 1, 2, 1, 3, 0, 3, 2, 3, 1, 1, 1, 3, 1, 2, 2, 0, 0,
+        2, 3, 0, 3, 2, 2, 1, 1, 3, 1, 3, 2, 2, 3, 2, 1, 2, 1])
+Epoch: 80   Train loss: 1.3867302   Test loss: 1.3497938   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3380177514792899   Train_predict: tensor([1, 3, 2, 1, 1, 0, 3, 0, 3, 1, 3, 0, 1, 1, 0, 1, 0, 0, 1, 1, 3, 0, 0, 1,
+        2, 1, 1, 2, 3, 3, 3, 1, 2, 3, 1, 3, 3, 1, 3, 3, 1, 1])   label: tensor([3, 3, 0, 1, 2, 0, 0, 1, 3, 0, 0, 0, 3, 2, 1, 0, 2, 2, 0, 1, 0, 3, 3, 0,
+        1, 1, 3, 0, 0, 2, 1, 3, 1, 0, 1, 2, 1, 3, 0, 0, 2, 1])
+Epoch: 81   Train loss: 1.3121575   Test loss: 1.3503714   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34245562130177515   Train_predict: tensor([1, 3, 2, 0, 0, 2, 3, 0, 3, 1, 2, 2, 0, 3, 0, 2, 0, 1, 1, 3, 3, 1, 1, 2,
+        0, 0, 2, 3, 2, 1, 0, 3, 3, 2, 3, 0, 3, 3, 3, 0, 1, 0])   label: tensor([2, 2, 2, 2, 0, 0, 1, 0, 2, 3, 1, 1, 3, 3, 1, 3, 3, 1, 1, 3, 3, 2, 3, 3,
+        1, 1, 2, 0, 2, 3, 0, 3, 0, 0, 3, 0, 0, 2, 2, 0, 0, 0])
+Epoch: 82   Train loss: 1.376909   Test loss: 1.3504515   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34282544378698226   Train_predict: tensor([3, 1, 0, 3, 3, 3, 2, 3, 2, 3, 2, 0, 3, 1, 0, 2, 3, 0, 3, 1, 2, 1, 2, 0,
+        3, 0, 2, 2, 3, 3, 1, 1, 0, 0, 3, 3, 0, 1, 0, 3, 2, 0])   label: tensor([0, 3, 0, 1, 3, 3, 2, 2, 3, 3, 3, 1, 0, 3, 2, 3, 2, 3, 2, 3, 3, 1, 2, 0,
+        2, 1, 3, 1, 2, 3, 1, 2, 0, 1, 0, 3, 2, 0, 2, 3, 1, 3])
+Epoch: 83   Train loss: 1.370856   Test loss: 1.349735   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34097633136094674   Train_predict: tensor([0, 2, 2, 3, 3, 3, 2, 3, 1, 2, 1, 3, 3, 2, 2, 2, 1, 0, 1, 3, 0, 3, 2, 1,
+        3, 0, 2, 0, 1, 3, 0, 2, 2, 2, 2, 2, 3, 0, 2, 2, 3, 1])   label: tensor([0, 3, 1, 1, 2, 0, 1, 3, 2, 1, 1, 1, 2, 1, 3, 1, 1, 0, 2, 1, 1, 0, 1, 1,
+        3, 0, 1, 1, 1, 3, 2, 3, 2, 2, 3, 2, 2, 1, 1, 1, 1, 3])
+Epoch: 84   Train loss: 1.3692172   Test loss: 1.3491921   Train accuracy: 0.4523809523809524   Test accuracy is: 0.34171597633136097   Train_predict: tensor([2, 2, 1, 1, 0, 0, 1, 3, 0, 0, 0, 0, 0, 3, 3, 3, 0, 1, 2, 0, 2, 2, 0, 0,
+        2, 3, 0, 1, 3, 0, 3, 3, 1, 0, 0, 3, 0, 0, 3, 1, 3, 3])   label: tensor([2, 2, 0, 3, 3, 2, 1, 3, 1, 0, 3, 1, 0, 3, 3, 3, 1, 2, 2, 2, 3, 3, 2, 2,
+        2, 0, 3, 1, 0, 1, 3, 3, 1, 0, 0, 3, 0, 3, 1, 0, 2, 2])
+Epoch: 85   Train loss: 1.3413928   Test loss: 1.3503584   Train accuracy: 0.40476190476190477   Test accuracy is: 0.34504437869822485   Train_predict: tensor([1, 2, 3, 3, 2, 2, 1, 1, 2, 1, 3, 0, 0, 0, 1, 2, 2, 1, 1, 0, 3, 2, 0, 3,
+        2, 1, 0, 1, 0, 2, 0, 1, 2, 0, 2, 2, 0, 1, 3, 1, 0, 1])   label: tensor([3, 2, 2, 0, 0, 2, 1, 2, 1, 1, 1, 0, 0, 1, 3, 3, 2, 1, 3, 2, 3, 3, 0, 2,
+        2, 0, 0, 3, 1, 2, 2, 2, 3, 0, 3, 1, 0, 2, 3, 0, 3, 1])
+Epoch: 86   Train loss: 1.4090794   Test loss: 1.3494505   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3406065088757396   Train_predict: tensor([1, 3, 2, 2, 1, 2, 2, 1, 3, 1, 1, 0, 2, 1, 3, 3, 3, 0, 0, 2, 0, 0, 2, 2,
+        1, 2, 3, 0, 3, 2, 3, 3, 2, 2, 0, 1, 1, 0, 1, 3, 3, 0])   label: tensor([0, 1, 0, 0, 3, 2, 2, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 3, 2, 0, 3, 2, 3, 1,
+        2, 0, 2, 1, 3, 3, 0, 3, 1, 2, 0, 2, 1, 3, 3, 2, 2, 1])
+Epoch: 87   Train loss: 1.2775432   Test loss: 1.3485776   Train accuracy: 0.40476190476190477   Test accuracy is: 0.34023668639053256   Train_predict: tensor([2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 2, 0, 3, 2, 3, 0, 0, 3, 0, 1,
+        3, 0, 1, 1, 3, 1, 2, 2, 3, 3, 0, 2, 1, 0, 3, 0, 2, 3])   label: tensor([2, 3, 0, 0, 2, 0, 0, 2, 3, 3, 0, 0, 1, 3, 0, 0, 1, 2, 0, 3, 3, 0, 3, 2,
+        3, 0, 1, 2, 0, 3, 1, 0, 2, 3, 0, 0, 2, 3, 2, 0, 3, 3])
+Epoch: 88   Train loss: 1.3060205   Test loss: 1.3490872   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34467455621301774   Train_predict: tensor([0, 0, 2, 1, 1, 1, 0, 0, 2, 1, 3, 3, 0, 2, 2, 3, 2, 2, 2, 0, 3, 2, 2, 1,
+        2, 0, 0, 2, 1, 2, 3, 0, 1, 1, 0, 1, 3, 1, 1, 3, 3, 0])   label: tensor([3, 2, 2, 3, 1, 1, 0, 0, 1, 1, 3, 3, 2, 0, 2, 2, 3, 2, 1, 1, 2, 0, 3, 1,
+        0, 2, 1, 2, 3, 3, 1, 1, 3, 0, 2, 1, 2, 2, 2, 2, 1, 0])
+Epoch: 89   Train loss: 1.3691686   Test loss: 1.349217   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34541420118343197   Train_predict: tensor([1, 0, 2, 0, 3, 0, 2, 2, 2, 3, 3, 0, 0, 3, 0, 3, 3, 3, 3, 0, 3, 3, 0, 0,
+        0, 1, 1, 0, 1, 3, 2, 3, 3, 1, 1, 1, 0, 3, 0, 2, 0, 1])   label: tensor([3, 3, 2, 3, 2, 3, 1, 3, 1, 1, 3, 3, 0, 3, 0, 0, 2, 0, 3, 1, 3, 0, 2, 1,
+        3, 3, 1, 3, 2, 1, 2, 2, 2, 2, 2, 1, 3, 0, 2, 0, 3, 1])
+Epoch: 90   Train loss: 1.3849386   Test loss: 1.3491253   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33579881656804733   Train_predict: tensor([2, 3, 2, 3, 3, 0, 2, 3, 0, 0, 0, 1, 0, 3, 1, 0, 2, 2, 0, 1, 1, 2, 2, 2,
+        0, 0, 0, 1, 1, 0, 1, 2, 0, 3, 0, 3, 2, 2, 3, 2, 2, 2])   label: tensor([2, 0, 0, 3, 1, 1, 2, 3, 1, 3, 0, 0, 2, 2, 0, 0, 3, 2, 0, 0, 1, 0, 3, 0,
+        1, 3, 2, 0, 0, 3, 3, 3, 1, 3, 2, 0, 2, 0, 2, 2, 2, 3])
+Epoch: 91   Train loss: 1.3739482   Test loss: 1.349556   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33986686390532544   Train_predict: tensor([3, 0, 0, 2, 0, 2, 0, 3, 0, 2, 3, 2, 1, 2, 3, 2, 3, 1, 2, 1, 2, 0, 0, 1,
+        1, 0, 3, 2, 2, 2, 2, 2, 0, 2, 2, 0, 3, 1, 2, 3, 3, 0])   label: tensor([2, 0, 0, 1, 3, 0, 2, 3, 2, 3, 0, 0, 1, 2, 0, 0, 1, 0, 0, 1, 3, 2, 0, 1,
+        3, 1, 1, 0, 1, 2, 1, 3, 3, 3, 1, 3, 2, 1, 2, 3, 2, 0])
+Epoch: 92   Train loss: 1.3233045   Test loss: 1.3488663   Train accuracy: 0.2857142857142857   Test accuracy is: 0.34134615384615385   Train_predict: tensor([3, 1, 1, 3, 1, 0, 2, 2, 1, 3, 2, 0, 0, 0, 1, 3, 3, 2, 2, 1, 0, 1, 1, 1,
+        1, 2, 3, 3, 2, 0, 0, 0, 3, 2, 1, 0, 3, 2, 1, 2, 0, 1])   label: tensor([1, 3, 2, 1, 0, 0, 1, 2, 3, 0, 2, 0, 2, 3, 3, 1, 1, 1, 0, 0, 0, 0, 2, 3,
+        0, 2, 1, 0, 1, 3, 2, 2, 1, 2, 1, 2, 3, 2, 1, 0, 0, 2])
+Epoch: 93   Train loss: 1.3168015   Test loss: 1.3488812   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34245562130177515   Train_predict: tensor([1, 2, 3, 3, 2, 3, 2, 1, 0, 2, 0, 2, 3, 1, 3, 3, 0, 0, 3, 0, 2, 3, 0, 2,
+        3, 1, 3, 3, 3, 2, 2, 3, 0, 1, 3, 0, 1, 0, 3, 0, 0, 2])   label: tensor([2, 3, 1, 3, 3, 3, 2, 1, 2, 1, 0, 3, 2, 3, 0, 2, 3, 3, 1, 1, 3, 1, 0, 1,
+        1, 0, 3, 2, 1, 2, 3, 2, 1, 0, 3, 3, 3, 1, 0, 2, 0, 0])
+Epoch: 94   Train loss: 1.390129   Test loss: 1.3485347   Train accuracy: 0.2857142857142857   Test accuracy is: 0.33949704142011833   Train_predict: tensor([0, 2, 3, 3, 3, 0, 0, 3, 0, 2, 3, 0, 2, 3, 1, 3, 2, 1, 2, 3, 3, 1, 1, 2,
+        2, 1, 0, 3, 2, 3, 2, 1, 2, 2, 2, 1, 1, 0, 3, 3, 3, 3])   label: tensor([3, 1, 3, 1, 3, 2, 0, 0, 0, 2, 1, 2, 1, 2, 0, 1, 3, 1, 2, 3, 2, 1, 1, 1,
+        3, 0, 0, 2, 1, 1, 0, 2, 1, 3, 0, 2, 1, 3, 0, 1, 0, 2])
+Epoch: 95   Train loss: 1.346538   Test loss: 1.3490263   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3431952662721893   Train_predict: tensor([2, 3, 1, 1, 3, 2, 1, 3, 1, 0, 3, 0, 0, 3, 2, 2, 3, 0, 1, 0, 0, 0, 3, 1,
+        3, 0, 2, 3, 1, 0, 0, 0, 1, 2, 2, 2, 1, 2, 0, 3, 2, 2])   label: tensor([2, 2, 2, 0, 2, 2, 2, 3, 2, 2, 0, 0, 0, 3, 2, 2, 0, 3, 2, 2, 1, 3, 1, 0,
+        1, 0, 2, 1, 2, 0, 1, 0, 3, 2, 0, 1, 1, 3, 2, 1, 3, 2])
+Epoch: 96   Train loss: 1.3855193   Test loss: 1.3489108   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34097633136094674   Train_predict: tensor([2, 0, 3, 2, 1, 3, 3, 1, 3, 1, 3, 0, 1, 1, 1, 2, 0, 0, 3, 2, 3, 2, 0, 2,
+        2, 2, 1, 1, 1, 1, 0, 2, 1, 1, 3, 1, 1, 3, 0, 3, 0, 1])   label: tensor([3, 1, 2, 2, 2, 1, 2, 1, 3, 3, 1, 0, 1, 1, 2, 3, 0, 0, 3, 1, 0, 1, 3, 0,
+        3, 0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 3, 3, 0, 1, 0, 2])
+Epoch: 97   Train loss: 1.3047897   Test loss: 1.3481439   Train accuracy: 0.42857142857142855   Test accuracy is: 0.33912721893491127   Train_predict: tensor([0, 2, 3, 0, 3, 3, 1, 3, 2, 2, 3, 1, 0, 0, 0, 0, 0, 1, 3, 3, 3, 2, 2, 2,
+        2, 3, 2, 3, 1, 1, 2, 3, 3, 1, 3, 3, 0, 1, 3, 2, 1, 3])   label: tensor([0, 0, 0, 3, 3, 0, 2, 2, 3, 2, 3, 2, 3, 1, 3, 2, 0, 1, 2, 0, 3, 1, 0, 0,
+        2, 3, 2, 3, 0, 1, 2, 3, 3, 1, 3, 0, 1, 3, 1, 1, 3, 3])
+Epoch: 98   Train loss: 1.3260547   Test loss: 1.3488686   Train accuracy: 0.3333333333333333   Test accuracy is: 0.33616863905325445   Train_predict: tensor([3, 2, 1, 3, 1, 2, 3, 2, 1, 3, 1, 3, 1, 2, 1, 3, 3, 3, 3, 2, 1, 0, 1, 0,
+        1, 1, 0, 1, 3, 0, 2, 1, 2, 2, 0, 3, 1, 0, 1, 3, 0, 0])   label: tensor([3, 3, 3, 1, 1, 1, 3, 2, 3, 3, 0, 2, 3, 1, 1, 2, 3, 3, 2, 1, 0, 1, 0, 0,
+        0, 3, 0, 1, 0, 3, 2, 0, 1, 0, 2, 1, 1, 2, 0, 0, 3, 0])
+Epoch: 99   Train loss: 1.37762   Test loss: 1.3475968   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34245562130177515   Train_predict: tensor([3, 1, 1, 0, 3, 0, 3, 0, 2, 0, 3, 0, 0, 1, 0, 3, 1, 0, 1, 3, 1, 3, 2, 0,
+        1, 1, 3, 0, 2, 2, 2, 2, 3, 0, 0, 1, 1, 1, 0, 2, 3, 3])   label: tensor([0, 1, 3, 0, 2, 2, 3, 0, 2, 2, 1, 3, 3, 1, 2, 0, 1, 2, 2, 0, 2, 3, 3, 3,
+        0, 1, 3, 3, 0, 1, 1, 0, 3, 1, 2, 1, 3, 2, 0, 1, 3, 1])
+Epoch: 100   Train loss: 1.4082798   Test loss: 1.34713   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34134615384615385   Train_predict: tensor([3, 1, 1, 3, 0, 3, 0, 0, 1, 1, 2, 2, 3, 1, 0, 1, 1, 3, 2, 2, 3, 2, 3, 3,
+        2, 0, 1, 2, 3, 0, 2, 1, 2, 0, 2, 3, 1, 2, 0, 3, 2, 2])   label: tensor([2, 2, 1, 1, 2, 2, 1, 0, 3, 1, 0, 2, 2, 1, 2, 1, 3, 3, 3, 2, 3, 2, 2, 0,
+        0, 3, 0, 3, 2, 2, 0, 3, 1, 3, 1, 0, 0, 3, 1, 3, 0, 0])
+Epoch: 101   Train loss: 1.404456   Test loss: 1.3477188   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3431952662721893   Train_predict: tensor([0, 0, 1, 3, 2, 3, 2, 1, 3, 3, 0, 3, 0, 2, 2, 2, 1, 2, 0, 3, 2, 2, 0, 3,
+        3, 3, 3, 3, 1, 1, 2, 1, 3, 1, 1, 1, 0, 1, 3, 1, 0, 0])   label: tensor([2, 0, 2, 2, 3, 1, 3, 0, 3, 2, 3, 0, 0, 1, 3, 2, 0, 0, 2, 1, 1, 1, 0, 3,
+        0, 1, 0, 0, 3, 1, 0, 3, 2, 1, 3, 3, 1, 1, 2, 3, 2, 2])
+Epoch: 102   Train loss: 1.351911   Test loss: 1.3460004   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34356508875739644   Train_predict: tensor([1, 3, 0, 3, 3, 0, 0, 3, 3, 1, 3, 0, 3, 1, 0, 3, 3, 1, 1, 3, 3, 2, 0, 2,
+        1, 2, 0, 3, 2, 2, 2, 1, 3, 0, 1, 2, 0, 0, 1, 3, 3, 1])   label: tensor([0, 1, 2, 1, 1, 2, 1, 1, 1, 1, 3, 2, 0, 1, 3, 2, 1, 1, 1, 2, 2, 3, 2, 2,
+        1, 3, 0, 1, 3, 1, 3, 1, 2, 2, 2, 0, 2, 3, 1, 3, 3, 1])
+Epoch: 103   Train loss: 1.2961519   Test loss: 1.3464737   Train accuracy: 0.4523809523809524   Test accuracy is: 0.34171597633136097   Train_predict: tensor([2, 0, 1, 3, 0, 3, 3, 1, 3, 3, 0, 1, 2, 2, 3, 1, 0, 2, 3, 3, 3, 0, 0, 1,
+        3, 3, 1, 1, 0, 0, 3, 1, 1, 1, 0, 0, 2, 0, 1, 3, 3, 0])   label: tensor([2, 0, 1, 3, 3, 3, 3, 1, 3, 3, 3, 1, 1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 2, 0,
+        2, 3, 3, 1, 1, 0, 3, 2, 2, 1, 3, 2, 0, 3, 1, 1, 2, 1])
+Epoch: 104   Train loss: 1.360002   Test loss: 1.345552   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3431952662721893   Train_predict: tensor([3, 0, 3, 2, 3, 0, 0, 3, 3, 3, 1, 3, 1, 3, 1, 0, 0, 0, 3, 1, 3, 3, 3, 0,
+        1, 0, 1, 1, 0, 2, 3, 0, 3, 3, 3, 3, 3, 1, 0, 0, 0, 1])   label: tensor([3, 2, 3, 3, 1, 0, 1, 0, 3, 3, 0, 1, 2, 1, 1, 2, 1, 1, 2, 3, 3, 0, 3, 1,
+        0, 3, 2, 3, 0, 3, 0, 0, 3, 3, 1, 0, 1, 0, 0, 2, 0, 0])
+Epoch: 105   Train loss: 1.3375978   Test loss: 1.3456347   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3431952662721893   Train_predict: tensor([2, 1, 0, 0, 1, 2, 2, 2, 2, 0, 3, 2, 2, 3, 1, 1, 3, 2, 1, 3, 3, 3, 2, 2,
+        0, 1, 3, 2, 1, 1, 0, 2, 2, 3, 2, 3, 2, 2, 0, 0, 0, 1])   label: tensor([2, 2, 2, 3, 1, 1, 3, 2, 3, 2, 2, 2, 1, 3, 3, 0, 0, 1, 2, 2, 2, 1, 3, 3,
+        3, 1, 0, 2, 2, 1, 0, 2, 3, 1, 2, 1, 1, 2, 0, 1, 2, 3])
+Epoch: 106   Train loss: 1.3214188   Test loss: 1.3438864   Train accuracy: 0.4523809523809524   Test accuracy is: 0.34393491124260356   Train_predict: tensor([3, 2, 2, 3, 2, 3, 0, 0, 3, 2, 2, 3, 2, 1, 0, 1, 1, 1, 3, 0, 3, 0, 0, 3,
+        2, 3, 2, 1, 3, 3, 0, 1, 3, 2, 1, 2, 2, 3, 1, 1, 2, 3])   label: tensor([3, 1, 2, 2, 3, 0, 0, 2, 2, 3, 3, 3, 2, 2, 1, 1, 3, 1, 3, 0, 3, 1, 3, 3,
+        1, 3, 2, 1, 3, 1, 2, 1, 3, 0, 1, 0, 3, 1, 3, 0, 3, 3])
+Epoch: 107   Train loss: 1.380429   Test loss: 1.3458987   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34134615384615385   Train_predict: tensor([2, 0, 2, 1, 0, 3, 1, 2, 0, 3, 1, 2, 1, 1, 0, 1, 2, 3, 0, 2, 2, 3, 2, 1,
+        2, 2, 3, 0, 0, 0, 2, 2, 0, 2, 1, 2, 3, 3, 2, 0, 1, 3])   label: tensor([1, 0, 0, 1, 1, 3, 2, 3, 1, 3, 3, 1, 3, 1, 2, 1, 1, 2, 0, 3, 2, 1, 2, 0,
+        2, 0, 0, 3, 1, 1, 2, 2, 0, 0, 3, 1, 3, 0, 3, 0, 3, 1])
+Epoch: 108   Train loss: 1.3808267   Test loss: 1.3447495   Train accuracy: 0.3333333333333333   Test accuracy is: 0.33986686390532544   Train_predict: tensor([0, 1, 3, 0, 3, 3, 2, 1, 3, 1, 3, 3, 3, 1, 1, 1, 0, 0, 1, 3, 3, 0, 3, 0,
+        0, 0, 3, 3, 1, 1, 3, 3, 2, 2, 1, 0, 3, 2, 0, 0, 3, 3])   label: tensor([1, 1, 3, 0, 1, 2, 1, 3, 2, 0, 1, 2, 2, 1, 1, 2, 2, 1, 0, 3, 2, 3, 1, 3,
+        1, 2, 0, 2, 1, 1, 3, 0, 2, 2, 0, 3, 0, 2, 2, 0, 3, 0])
+Epoch: 109   Train loss: 1.3140951   Test loss: 1.3451715   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34393491124260356   Train_predict: tensor([2, 0, 0, 2, 3, 0, 3, 0, 0, 2, 3, 3, 0, 3, 1, 3, 2, 3, 1, 1, 3, 1, 2, 2,
+        1, 0, 1, 0, 1, 0, 0, 0, 3, 3, 1, 3, 1, 1, 0, 3, 3, 1])   label: tensor([2, 0, 3, 2, 1, 1, 2, 1, 2, 3, 0, 1, 1, 3, 1, 3, 1, 1, 1, 1, 2, 3, 1, 0,
+        1, 2, 3, 2, 3, 0, 1, 3, 1, 0, 0, 1, 1, 3, 0, 3, 0, 1])
+Epoch: 110   Train loss: 1.2548516   Test loss: 1.344611   Train accuracy: 0.42857142857142855   Test accuracy is: 0.34245562130177515   Train_predict: tensor([2, 0, 1, 0, 3, 3, 1, 0, 3, 1, 1, 2, 3, 1, 1, 2, 2, 3, 3, 0, 1, 0, 2, 2,
+        0, 3, 1, 3, 3, 0, 3, 0, 2, 3, 0, 3, 3, 0, 1, 0, 0, 2])   label: tensor([2, 0, 1, 0, 3, 1, 3, 0, 3, 3, 1, 2, 0, 1, 0, 1, 0, 1, 0, 2, 0, 1, 2, 2,
+        0, 1, 3, 0, 2, 1, 0, 3, 2, 2, 3, 3, 3, 0, 0, 2, 0, 1])
+Epoch: 111   Train loss: 1.3196441   Test loss: 1.34509   Train accuracy: 0.35714285714285715   Test accuracy is: 0.33468934911242604   Train_predict: tensor([0, 2, 0, 1, 3, 0, 2, 0, 1, 0, 2, 2, 3, 1, 1, 3, 3, 1, 3, 3, 1, 3, 2, 0,
+        2, 2, 0, 0, 0, 2, 0, 0, 2, 0, 3, 3, 2, 0, 2, 0, 3, 3])   label: tensor([3, 2, 0, 1, 2, 0, 3, 1, 2, 0, 2, 1, 1, 0, 2, 3, 1, 0, 0, 3, 2, 3, 3, 0,
+        1, 3, 0, 0, 1, 0, 3, 1, 0, 0, 0, 2, 2, 0, 1, 3, 0, 1])
+Epoch: 112   Train loss: 1.3451074   Test loss: 1.3454436   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3380177514792899   Train_predict: tensor([1, 1, 3, 1, 0, 0, 3, 1, 0, 0, 0, 2, 3, 0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 2,
+        0, 0, 2, 2, 3, 3, 3, 2, 0, 2, 0, 2, 0, 2, 2, 2, 1, 0])   label: tensor([1, 2, 1, 0, 0, 0, 1, 1, 0, 3, 2, 2, 3, 0, 2, 2, 0, 0, 1, 3, 0, 3, 2, 2,
+        2, 3, 3, 2, 1, 1, 3, 3, 0, 3, 2, 3, 3, 3, 1, 2, 0, 1])
+Epoch: 113   Train loss: 1.3511289   Test loss: 1.3448459   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33394970414201186   Train_predict: tensor([3, 1, 2, 2, 1, 0, 1, 1, 0, 3, 1, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 1,
+        1, 0, 0, 1, 2, 1, 1, 2, 3, 2, 0, 2, 1, 0, 2, 0, 0, 0])   label: tensor([3, 0, 0, 1, 1, 2, 1, 1, 3, 0, 1, 2, 2, 1, 0, 0, 2, 1, 0, 2, 3, 0, 3, 0,
+        3, 1, 3, 0, 3, 2, 3, 1, 0, 1, 0, 2, 1, 0, 2, 2, 0, 1])
+Epoch: 114   Train loss: 1.4496255   Test loss: 1.344336   Train accuracy: 0.19047619047619047   Test accuracy is: 0.33505917159763315   Train_predict: tensor([1, 0, 3, 1, 1, 1, 3, 2, 2, 3, 1, 3, 1, 2, 3, 3, 3, 0, 0, 1, 3, 2, 3, 3,
+        3, 1, 1, 2, 0, 0, 1, 0, 0, 2, 2, 3, 2, 3, 0, 1, 3, 3])   label: tensor([0, 2, 2, 1, 0, 1, 0, 1, 3, 3, 3, 0, 0, 1, 1, 1, 2, 3, 2, 0, 2, 2, 2, 0,
+        0, 0, 2, 2, 3, 0, 0, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 0])
+Epoch: 115   Train loss: 1.3718568   Test loss: 1.3442801   Train accuracy: 0.3333333333333333   Test accuracy is: 0.33986686390532544   Train_predict: tensor([0, 0, 2, 1, 3, 1, 2, 1, 3, 0, 3, 1, 2, 3, 0, 2, 3, 1, 0, 1, 2, 0, 1, 3,
+        3, 0, 1, 0, 3, 0, 1, 2, 0, 2, 2, 1, 0, 0, 0, 0, 0, 2])   label: tensor([0, 3, 3, 2, 1, 1, 2, 1, 1, 0, 2, 3, 1, 0, 1, 0, 2, 2, 0, 1, 0, 0, 0, 0,
+        3, 3, 2, 0, 0, 3, 2, 3, 0, 1, 1, 3, 0, 2, 0, 3, 3, 2])
+Epoch: 116   Train loss: 1.3858614   Test loss: 1.3442564   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34393491124260356   Train_predict: tensor([2, 1, 1, 2, 1, 3, 1, 0, 0, 3, 1, 3, 0, 0, 3, 2, 3, 1, 0, 3, 3, 1, 3, 3,
+        3, 1, 0, 1, 1, 0, 0, 3, 2, 2, 3, 0, 1, 3, 2, 0, 0, 3])   label: tensor([2, 2, 2, 3, 2, 3, 0, 3, 1, 3, 3, 0, 0, 1, 2, 3, 3, 3, 0, 1, 1, 2, 2, 0,
+        2, 3, 1, 3, 3, 3, 0, 0, 1, 2, 2, 3, 1, 3, 0, 2, 0, 1])
+Epoch: 117   Train loss: 1.341425   Test loss: 1.3436259   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3380177514792899   Train_predict: tensor([2, 3, 3, 3, 0, 3, 3, 0, 3, 3, 3, 3, 1, 0, 2, 2, 2, 3, 2, 3, 3, 1, 1, 2,
+        2, 3, 1, 0, 3, 0, 2, 1, 0, 2, 2, 3, 2, 1, 0, 0, 1, 3])   label: tensor([0, 2, 0, 3, 0, 0, 1, 2, 3, 0, 1, 2, 3, 1, 2, 3, 2, 0, 3, 3, 0, 3, 0, 0,
+        3, 1, 2, 3, 0, 1, 0, 2, 2, 1, 3, 2, 0, 1, 0, 0, 1, 3])
+Epoch: 118   Train loss: 1.350767   Test loss: 1.3426213   Train accuracy: 0.2857142857142857   Test accuracy is: 0.33838757396449703   Train_predict: tensor([2, 3, 0, 1, 2, 2, 0, 1, 1, 0, 1, 3, 3, 3, 1, 3, 3, 1, 2, 3, 3, 1, 0, 3,
+        2, 0, 3, 3, 2, 0, 1, 2, 3, 0, 2, 3, 0, 2, 3, 2, 1, 1])   label: tensor([2, 2, 3, 1, 1, 0, 3, 0, 3, 2, 0, 1, 1, 3, 1, 2, 3, 2, 2, 0, 3, 2, 1, 3,
+        1, 1, 1, 1, 3, 2, 0, 2, 2, 3, 0, 3, 1, 1, 1, 2, 1, 2])
+Epoch: 119   Train loss: 1.3794365   Test loss: 1.3423343   Train accuracy: 0.30952380952380953   Test accuracy is: 0.33986686390532544   Train_predict: tensor([0, 3, 1, 0, 3, 3, 2, 2, 1, 3, 1, 3, 2, 0, 2, 2, 0, 3, 0, 1, 1, 2, 0, 0,
+        0, 3, 1, 2, 2, 0, 2, 1, 0, 0, 3, 1, 0, 3, 3, 1, 2, 1])   label: tensor([3, 1, 1, 3, 2, 0, 2, 2, 1, 0, 2, 1, 2, 3, 1, 3, 1, 0, 1, 0, 1, 2, 3, 2,
+        0, 3, 2, 1, 1, 0, 1, 1, 2, 1, 2, 1, 1, 2, 3, 3, 1, 3])
+Epoch: 120   Train loss: 1.3876332   Test loss: 1.3424948   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34134615384615385   Train_predict: tensor([1, 3, 3, 0, 0, 3, 0, 2, 1, 3, 3, 1, 3, 0, 0, 3, 2, 0, 1, 1, 2, 1, 1, 1,
+        3, 3, 2, 3, 3, 2, 2, 3, 0, 3, 0, 0, 3, 2, 3, 3, 2, 3])   label: tensor([2, 2, 2, 0, 1, 0, 3, 2, 0, 3, 3, 3, 2, 1, 0, 0, 1, 1, 0, 0, 2, 2, 1, 2,
+        2, 0, 2, 2, 2, 3, 0, 1, 2, 2, 2, 0, 2, 1, 0, 3, 2, 2])
+Epoch: 121   Train loss: 1.3410121   Test loss: 1.3427216   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34023668639053256   Train_predict: tensor([0, 0, 3, 3, 0, 3, 1, 1, 3, 1, 1, 1, 0, 0, 1, 2, 3, 2, 0, 1, 2, 1, 1, 0,
+        1, 1, 0, 0, 0, 1, 2, 0, 3, 0, 3, 2, 3, 3, 2, 1, 1, 2])   label: tensor([3, 1, 0, 3, 2, 3, 1, 2, 1, 1, 0, 0, 1, 2, 0, 3, 0, 1, 0, 3, 0, 1, 3, 3,
+        1, 1, 0, 3, 2, 3, 2, 3, 0, 0, 3, 0, 0, 1, 1, 2, 3, 2])
+Epoch: 122   Train loss: 1.4686111   Test loss: 1.3423395   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34097633136094674   Train_predict: tensor([2, 2, 0, 0, 2, 3, 0, 3, 0, 1, 3, 0, 0, 3, 3, 0, 3, 1, 3, 1, 3, 3, 2, 1,
+        1, 2, 3, 2, 0, 3, 1, 3, 0, 3, 3, 1, 3, 3, 1, 3, 2, 3])   label: tensor([0, 3, 1, 2, 0, 3, 0, 2, 2, 1, 2, 3, 1, 2, 1, 0, 3, 3, 1, 0, 2, 0, 1, 0,
+        1, 1, 3, 1, 0, 2, 1, 1, 1, 2, 3, 0, 0, 0, 0, 2, 3, 1])
+Epoch: 123   Train loss: 1.3487773   Test loss: 1.3432146   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34208579881656803   Train_predict: tensor([3, 0, 3, 2, 1, 3, 1, 1, 1, 3, 3, 3, 2, 2, 3, 1, 1, 2, 2, 2, 3, 3, 0, 3,
+        0, 0, 3, 1, 3, 1, 0, 0, 0, 3, 0, 0, 1, 0, 2, 1, 3, 3])   label: tensor([3, 2, 3, 2, 1, 1, 1, 2, 0, 0, 3, 1, 2, 3, 2, 2, 0, 2, 2, 2, 3, 0, 2, 0,
+        1, 0, 3, 2, 1, 0, 3, 1, 1, 3, 2, 2, 1, 3, 1, 0, 0, 1])
+Epoch: 124   Train loss: 1.3082311   Test loss: 1.3427008   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34023668639053256   Train_predict: tensor([1, 3, 1, 2, 2, 1, 0, 2, 0, 1, 2, 2, 1, 3, 3, 3, 1, 2, 1, 2, 2, 0, 2, 2,
+        0, 0, 0, 2, 3, 3, 3, 1, 3, 3, 1, 0, 3, 0, 2, 3, 3, 0])   label: tensor([3, 3, 3, 0, 2, 1, 0, 2, 0, 1, 2, 2, 3, 1, 2, 2, 3, 0, 0, 1, 1, 2, 3, 2,
+        1, 1, 1, 2, 2, 3, 1, 0, 0, 3, 2, 2, 0, 2, 2, 0, 0, 1])
+Epoch: 125   Train loss: 1.3803887   Test loss: 1.3418499   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34245562130177515   Train_predict: tensor([0, 0, 2, 3, 2, 3, 3, 0, 3, 0, 1, 1, 1, 2, 3, 2, 1, 2, 0, 0, 3, 3, 1, 2,
+        3, 0, 3, 1, 3, 2, 3, 3, 3, 3, 3, 3, 1, 0, 3, 2, 1, 1])   label: tensor([0, 1, 3, 0, 1, 2, 3, 0, 2, 3, 1, 2, 1, 3, 1, 3, 1, 1, 0, 0, 2, 3, 0, 0,
+        3, 2, 0, 0, 2, 2, 2, 0, 0, 0, 1, 0, 1, 2, 1, 2, 2, 1])
+Epoch: 126   Train loss: 1.3744056   Test loss: 1.3418125   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34134615384615385   Train_predict: tensor([3, 3, 2, 1, 2, 3, 3, 2, 3, 0, 1, 1, 2, 0, 0, 3, 3, 0, 3, 3, 0, 0, 3, 0,
+        3, 2, 3, 1, 0, 2, 3, 1, 3, 0, 3, 3, 3, 0, 0, 2, 3, 0])   label: tensor([1, 3, 3, 3, 2, 1, 1, 0, 2, 1, 2, 3, 2, 0, 2, 3, 1, 2, 2, 1, 0, 0, 2, 0,
+        0, 3, 2, 1, 2, 0, 3, 1, 3, 0, 1, 1, 0, 0, 0, 2, 0, 2])
+Epoch: 127   Train loss: 1.3753221   Test loss: 1.3415736   Train accuracy: 0.2619047619047619   Test accuracy is: 0.34134615384615385   Train_predict: tensor([3, 3, 2, 0, 1, 3, 1, 3, 3, 3, 3, 3, 3, 1, 2, 1, 0, 2, 3, 0, 3, 0, 3, 3,
+        0, 0, 3, 1, 2, 2, 2, 3, 3, 0, 3, 0, 3, 0, 3, 0, 2, 0])   label: tensor([2, 0, 1, 2, 0, 0, 0, 0, 3, 1, 1, 2, 1, 1, 2, 2, 2, 2, 3, 0, 0, 0, 2, 2,
+        1, 1, 3, 0, 3, 2, 1, 1, 3, 3, 2, 2, 1, 0, 2, 2, 0, 3])
+Epoch: 128   Train loss: 1.3081783   Test loss: 1.3423249   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3406065088757396   Train_predict: tensor([2, 3, 1, 3, 2, 0, 3, 1, 0, 2, 1, 3, 0, 1, 0, 1, 2, 3, 1, 3, 0, 1, 3, 3,
+        1, 1, 1, 0, 1, 3, 2, 3, 0, 2, 1, 3, 0, 3, 0, 1, 3, 0])   label: tensor([2, 3, 0, 2, 1, 0, 3, 2, 0, 0, 3, 0, 3, 2, 0, 0, 1, 1, 1, 2, 1, 2, 0, 3,
+        1, 2, 1, 0, 3, 1, 1, 2, 0, 2, 2, 3, 2, 3, 0, 1, 2, 3])
+Epoch: 129   Train loss: 1.3047454   Test loss: 1.341831   Train accuracy: 0.42857142857142855   Test accuracy is: 0.33986686390532544   Train_predict: tensor([3, 2, 2, 3, 0, 0, 2, 0, 3, 2, 3, 1, 3, 3, 1, 2, 0, 1, 0, 2, 0, 0, 0, 1,
+        1, 0, 2, 2, 2, 1, 3, 3, 2, 1, 1, 2, 2, 3, 0, 0, 2, 0])   label: tensor([0, 2, 2, 3, 0, 0, 3, 0, 2, 1, 3, 1, 3, 2, 1, 1, 1, 3, 1, 2, 2, 2, 1, 3,
+        1, 0, 3, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 3, 2, 0, 1, 3])
+Epoch: 130   Train loss: 1.4444182   Test loss: 1.3409537   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3443047337278107   Train_predict: tensor([3, 2, 1, 3, 1, 1, 1, 3, 0, 3, 3, 1, 1, 3, 1, 3, 2, 0, 0, 0, 0, 3, 2, 0,
+        1, 0, 3, 1, 0, 3, 3, 2, 1, 3, 0, 2, 0, 3, 3, 1, 1, 3])   label: tensor([0, 2, 1, 2, 1, 3, 2, 0, 2, 2, 1, 2, 1, 0, 2, 2, 0, 0, 2, 2, 2, 3, 3, 1,
+        0, 2, 3, 2, 1, 0, 2, 3, 2, 2, 3, 2, 0, 1, 3, 2, 1, 0])
+Epoch: 131   Train loss: 1.3043962   Test loss: 1.3410949   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34726331360946744   Train_predict: tensor([1, 3, 0, 3, 3, 0, 1, 2, 0, 3, 1, 1, 3, 2, 0, 2, 3, 0, 0, 3, 2, 0, 3, 1,
+        1, 1, 1, 0, 1, 2, 0, 0, 1, 1, 1, 2, 0, 3, 3, 0, 1, 1])   label: tensor([3, 3, 0, 1, 0, 0, 2, 1, 2, 1, 2, 1, 3, 2, 3, 1, 1, 1, 2, 2, 0, 2, 3, 1,
+        3, 1, 0, 0, 2, 1, 0, 0, 1, 1, 3, 2, 1, 2, 3, 1, 2, 3])
+Epoch: 132   Train loss: 1.2660431   Test loss: 1.3414121   Train accuracy: 0.38095238095238093   Test accuracy is: 0.33986686390532544   Train_predict: tensor([3, 3, 2, 0, 3, 1, 1, 0, 1, 3, 0, 3, 0, 0, 3, 2, 1, 3, 1, 1, 2, 1, 0, 1,
+        1, 1, 2, 3, 2, 2, 0, 0, 2, 0, 2, 1, 0, 0, 2, 0, 0, 0])   label: tensor([2, 3, 3, 0, 1, 2, 1, 2, 3, 3, 3, 3, 0, 3, 0, 2, 0, 3, 3, 1, 2, 3, 0, 3,
+        1, 2, 1, 1, 0, 2, 2, 0, 1, 3, 3, 2, 1, 1, 0, 0, 3, 0])
+Epoch: 133   Train loss: 1.4523062   Test loss: 1.3406309   Train accuracy: 0.21428571428571427   Test accuracy is: 0.34467455621301774   Train_predict: tensor([0, 2, 1, 2, 0, 0, 0, 0, 3, 0, 0, 3, 2, 2, 3, 1, 2, 3, 3, 0, 3, 1, 1, 1,
+        1, 1, 0, 1, 1, 1, 1, 3, 0, 0, 0, 3, 0, 0, 1, 0, 0, 2])   label: tensor([2, 2, 1, 3, 0, 3, 3, 1, 3, 1, 3, 2, 0, 3, 0, 1, 3, 0, 2, 0, 2, 3, 2, 3,
+        1, 1, 3, 2, 3, 3, 0, 2, 0, 1, 1, 1, 3, 1, 2, 3, 1, 0])
+Epoch: 134   Train loss: 1.3095661   Test loss: 1.3389182   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3431952662721893   Train_predict: tensor([1, 0, 3, 3, 3, 3, 3, 2, 3, 2, 2, 1, 2, 1, 3, 3, 3, 0, 1, 2, 1, 3, 3, 1,
+        1, 2, 2, 3, 0, 1, 2, 2, 0, 1, 0, 0, 2, 1, 2, 1, 3, 3])   label: tensor([0, 2, 2, 2, 2, 3, 3, 2, 1, 3, 3, 1, 1, 0, 3, 3, 3, 2, 1, 1, 1, 3, 3, 3,
+        0, 0, 3, 1, 3, 1, 0, 2, 3, 1, 3, 1, 0, 3, 2, 1, 2, 2])
+Epoch: 135   Train loss: 1.3270409   Test loss: 1.3393444   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34356508875739644   Train_predict: tensor([2, 3, 1, 3, 0, 0, 3, 1, 2, 1, 1, 3, 3, 0, 0, 3, 0, 0, 0, 1, 1, 1, 1, 3,
+        1, 2, 3, 0, 3, 0, 2, 3, 2, 2, 3, 0, 0, 1, 3, 2, 1, 3])   label: tensor([2, 3, 0, 1, 2, 1, 1, 3, 2, 0, 2, 3, 3, 2, 1, 2, 0, 1, 3, 1, 0, 2, 1, 3,
+        0, 2, 0, 1, 1, 3, 2, 0, 3, 0, 2, 3, 0, 2, 2, 2, 3, 3])
+Epoch: 136   Train loss: 1.371625   Test loss: 1.3381913   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3443047337278107   Train_predict: tensor([3, 0, 3, 3, 3, 0, 0, 3, 0, 3, 3, 3, 1, 3, 0, 2, 1, 2, 0, 3, 1, 0, 3, 1,
+        3, 2, 3, 0, 0, 3, 2, 2, 0, 1, 2, 2, 1, 1, 2, 0, 1, 0])   label: tensor([2, 2, 0, 3, 2, 0, 2, 0, 3, 3, 3, 3, 1, 1, 2, 2, 2, 0, 2, 3, 0, 0, 3, 2,
+        3, 0, 3, 2, 2, 3, 1, 3, 0, 1, 3, 2, 3, 3, 3, 2, 0, 2])
+Epoch: 137   Train loss: 1.3336638   Test loss: 1.3393173   Train accuracy: 0.3333333333333333   Test accuracy is: 0.33912721893491127   Train_predict: tensor([3, 1, 1, 0, 3, 2, 2, 3, 2, 0, 1, 3, 0, 2, 2, 2, 1, 3, 1, 1, 2, 1, 0, 1,
+        1, 0, 3, 3, 2, 1, 1, 2, 3, 3, 1, 2, 2, 1, 1, 3, 0, 1])   label: tensor([1, 2, 2, 3, 3, 2, 0, 3, 0, 0, 3, 1, 2, 0, 1, 1, 2, 3, 1, 2, 1, 1, 2, 0,
+        1, 0, 0, 0, 2, 3, 1, 2, 3, 2, 2, 3, 0, 3, 1, 2, 1, 2])
+Epoch: 138   Train loss: 1.3063074   Test loss: 1.3392327   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3406065088757396   Train_predict: tensor([0, 3, 3, 1, 1, 3, 0, 2, 2, 3, 2, 3, 0, 2, 3, 3, 0, 2, 0, 1, 0, 2, 3, 0,
+        0, 1, 0, 0, 1, 2, 3, 3, 2, 1, 3, 0, 3, 1, 3, 1, 1, 3])   label: tensor([3, 1, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 0, 3, 3, 0, 0, 2, 0, 2, 0, 2, 2, 3,
+        0, 3, 1, 0, 3, 0, 1, 3, 1, 2, 1, 3, 2, 2, 2, 2, 1, 1])
+Epoch: 139   Train loss: 1.3799553   Test loss: 1.3383044   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34245562130177515   Train_predict: tensor([0, 0, 3, 3, 3, 0, 3, 1, 0, 0, 1, 2, 0, 3, 1, 2, 1, 3, 1, 0, 0, 2, 3, 3,
+        0, 3, 2, 3, 3, 3, 3, 0, 3, 2, 3, 2, 0, 2, 3, 0, 3, 3])   label: tensor([3, 1, 3, 2, 2, 2, 2, 3, 2, 1, 2, 1, 0, 0, 0, 1, 3, 1, 3, 0, 3, 0, 1, 0,
+        0, 2, 2, 3, 0, 1, 2, 2, 2, 3, 2, 2, 0, 2, 1, 0, 1, 2])
+Epoch: 140   Train loss: 1.3008398   Test loss: 1.3384973   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34504437869822485   Train_predict: tensor([1, 3, 2, 2, 0, 0, 2, 3, 0, 2, 3, 2, 2, 3, 3, 2, 2, 2, 2, 3, 3, 0, 0, 2,
+        0, 2, 3, 0, 0, 2, 2, 2, 0, 1, 3, 2, 1, 0, 3, 2, 3, 0])   label: tensor([3, 2, 3, 2, 0, 1, 3, 1, 3, 2, 2, 2, 2, 2, 3, 0, 1, 3, 3, 3, 3, 3, 0, 1,
+        0, 1, 1, 2, 0, 3, 3, 0, 2, 2, 3, 0, 1, 1, 3, 0, 3, 1])
+Epoch: 141   Train loss: 1.4040499   Test loss: 1.3389132   Train accuracy: 0.2857142857142857   Test accuracy is: 0.33875739644970415   Train_predict: tensor([2, 1, 3, 3, 1, 0, 1, 0, 1, 2, 2, 0, 0, 3, 1, 1, 3, 2, 3, 2, 3, 1, 3, 0,
+        1, 3, 1, 3, 2, 1, 2, 2, 0, 2, 1, 1, 1, 2, 3, 1, 3, 0])   label: tensor([2, 0, 0, 3, 0, 2, 3, 2, 1, 3, 1, 2, 3, 2, 1, 3, 3, 1, 0, 2, 3, 3, 2, 1,
+        2, 0, 3, 3, 3, 2, 0, 1, 3, 0, 1, 3, 0, 2, 2, 3, 3, 0])
+Epoch: 142   Train loss: 1.2821796   Test loss: 1.3382541   Train accuracy: 0.40476190476190477   Test accuracy is: 0.34208579881656803   Train_predict: tensor([0, 2, 0, 2, 1, 3, 0, 1, 2, 3, 2, 0, 1, 2, 2, 1, 1, 0, 1, 3, 0, 0, 0, 2,
+        3, 1, 0, 3, 2, 1, 1, 1, 2, 0, 2, 1, 1, 3, 3, 3, 1, 0])   label: tensor([1, 3, 0, 1, 2, 0, 0, 0, 1, 3, 3, 1, 3, 2, 2, 3, 2, 0, 2, 3, 0, 2, 3, 0,
+        2, 1, 2, 3, 2, 1, 0, 1, 0, 3, 1, 0, 1, 1, 3, 0, 1, 0])
+Epoch: 143   Train loss: 1.315101   Test loss: 1.3379239   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34023668639053256   Train_predict: tensor([1, 0, 2, 3, 2, 2, 3, 0, 2, 1, 1, 3, 2, 3, 0, 3, 2, 0, 1, 1, 2, 0, 3, 2,
+        0, 0, 3, 0, 3, 3, 0, 2, 0, 0, 0, 2, 3, 2, 0, 1, 3, 2])   label: tensor([2, 2, 2, 1, 3, 2, 2, 3, 0, 1, 0, 0, 2, 3, 3, 0, 3, 0, 3, 2, 0, 1, 3, 3,
+        1, 0, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 3, 0, 1, 1, 0, 0])
+Epoch: 144   Train loss: 1.4277116   Test loss: 1.3374944   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34393491124260356   Train_predict: tensor([3, 1, 1, 3, 0, 2, 3, 0, 1, 3, 3, 2, 2, 1, 0, 3, 3, 2, 2, 3, 1, 0, 3, 2,
+        2, 3, 1, 1, 2, 3, 2, 1, 1, 2, 2, 0, 0, 3, 2, 3, 2, 3])   label: tensor([1, 2, 1, 0, 2, 2, 2, 3, 3, 0, 2, 0, 2, 1, 0, 1, 1, 2, 2, 1, 1, 3, 3, 3,
+        3, 1, 1, 1, 3, 2, 3, 3, 0, 3, 2, 3, 2, 3, 1, 0, 2, 0])
+Epoch: 145   Train loss: 1.3582085   Test loss: 1.3369566   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34578402366863903   Train_predict: tensor([2, 1, 0, 3, 3, 0, 3, 0, 2, 1, 0, 1, 2, 1, 2, 0, 0, 0, 3, 1, 3, 1, 2, 3,
+        3, 0, 0, 1, 3, 1, 3, 1, 1, 0, 2, 3, 2, 3, 3, 3, 0, 3])   label: tensor([2, 2, 2, 3, 0, 0, 0, 0, 0, 1, 2, 1, 3, 0, 0, 2, 2, 3, 1, 3, 3, 2, 0, 3,
+        3, 0, 1, 1, 2, 1, 0, 1, 0, 3, 3, 1, 3, 1, 0, 3, 2, 0])
+Epoch: 146   Train loss: 1.3240501   Test loss: 1.3363026   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3468934911242604   Train_predict: tensor([0, 2, 0, 3, 1, 1, 2, 2, 2, 3, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 3, 2, 2, 2,
+        0, 3, 3, 1, 1, 0, 3, 0, 0, 0, 1, 3, 3, 0, 0, 3, 2, 3])   label: tensor([0, 0, 2, 0, 1, 2, 3, 3, 3, 3, 0, 0, 0, 1, 2, 2, 0, 3, 3, 2, 3, 2, 2, 0,
+        3, 1, 1, 2, 3, 0, 3, 1, 2, 0, 1, 1, 1, 3, 0, 1, 1, 3])
+Epoch: 147   Train loss: 1.3655794   Test loss: 1.3356211   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35022189349112426   Train_predict: tensor([2, 2, 2, 0, 2, 1, 1, 1, 2, 0, 2, 3, 1, 3, 3, 1, 3, 2, 1, 3, 3, 1, 2, 0,
+        0, 1, 2, 0, 1, 0, 3, 0, 1, 2, 0, 1, 0, 3, 3, 1, 0, 1])   label: tensor([2, 3, 3, 3, 1, 3, 1, 0, 1, 1, 2, 0, 3, 3, 1, 1, 3, 3, 0, 0, 1, 1, 0, 0,
+        3, 3, 2, 2, 0, 3, 0, 1, 0, 3, 0, 0, 0, 1, 1, 1, 2, 3])
+Epoch: 148   Train loss: 1.3101507   Test loss: 1.336904   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3443047337278107   Train_predict: tensor([1, 0, 0, 3, 3, 0, 3, 3, 1, 1, 2, 1, 3, 3, 0, 2, 3, 2, 1, 2, 0, 1, 3, 1,
+        2, 2, 0, 3, 1, 2, 2, 2, 0, 2, 2, 2, 1, 2, 3, 1, 2, 2])   label: tensor([0, 2, 1, 0, 3, 0, 0, 3, 1, 3, 0, 0, 3, 0, 0, 2, 0, 1, 3, 1, 0, 1, 3, 2,
+        2, 0, 1, 2, 1, 3, 1, 3, 0, 3, 0, 3, 1, 1, 2, 1, 1, 3])
+Epoch: 149   Train loss: 1.3849953   Test loss: 1.3364788   Train accuracy: 0.19047619047619047   Test accuracy is: 0.3443047337278107   Train_predict: tensor([2, 1, 3, 2, 2, 1, 2, 1, 2, 3, 1, 1, 1, 3, 1, 1, 0, 2, 2, 2, 1, 0, 3, 1,
+        0, 2, 3, 1, 2, 0, 0, 0, 1, 1, 2, 1, 2, 1, 2, 2, 0, 0])   label: tensor([1, 3, 1, 1, 0, 0, 1, 1, 1, 1, 3, 0, 0, 0, 3, 3, 2, 0, 0, 0, 1, 0, 2, 3,
+        0, 3, 3, 2, 1, 2, 2, 3, 1, 3, 2, 3, 0, 2, 3, 1, 1, 0])
+Epoch: 150   Train loss: 1.2981722   Test loss: 1.3361913   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3431952662721893   Train_predict: tensor([3, 2, 1, 3, 1, 2, 0, 2, 3, 2, 2, 3, 0, 1, 2, 2, 3, 1, 3, 0, 0, 1, 3, 0,
+        1, 1, 2, 3, 2, 1, 1, 3, 1, 0, 1, 0, 1, 1, 0, 2, 0, 0])   label: tensor([3, 1, 2, 3, 0, 3, 3, 1, 3, 2, 3, 0, 0, 3, 1, 3, 3, 2, 1, 0, 0, 2, 1, 0,
+        0, 0, 0, 3, 1, 3, 1, 1, 1, 2, 1, 3, 2, 0, 0, 1, 0, 0])
+Epoch: 151   Train loss: 1.424394   Test loss: 1.3353633   Train accuracy: 0.21428571428571427   Test accuracy is: 0.34282544378698226   Train_predict: tensor([1, 2, 3, 1, 2, 1, 1, 3, 3, 1, 1, 3, 0, 3, 1, 0, 0, 1, 2, 1, 3, 1, 1, 0,
+        3, 0, 2, 3, 1, 1, 3, 2, 2, 0, 2, 2, 3, 0, 1, 0, 1, 0])   label: tensor([2, 3, 1, 2, 3, 2, 1, 1, 0, 3, 2, 1, 0, 3, 3, 1, 1, 2, 1, 2, 1, 0, 0, 1,
+        3, 1, 3, 1, 2, 1, 3, 1, 3, 3, 1, 2, 0, 0, 0, 3, 1, 2])
+Epoch: 152   Train loss: 1.4100114   Test loss: 1.3348737   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34615384615384615   Train_predict: tensor([1, 0, 2, 0, 0, 1, 3, 3, 1, 0, 2, 2, 3, 1, 0, 2, 3, 1, 2, 1, 0, 2, 0, 1,
+        1, 0, 3, 3, 1, 0, 2, 0, 2, 0, 3, 2, 1, 0, 0, 2, 1, 0])   label: tensor([3, 1, 2, 0, 3, 0, 1, 2, 3, 1, 2, 3, 0, 2, 1, 3, 2, 1, 0, 1, 2, 2, 2, 2,
+        0, 2, 2, 3, 1, 3, 2, 0, 3, 0, 3, 2, 2, 1, 0, 2, 2, 3])
+Epoch: 153   Train loss: 1.2665979   Test loss: 1.3355203   Train accuracy: 0.5238095238095238   Test accuracy is: 0.34578402366863903   Train_predict: tensor([0, 2, 2, 3, 3, 0, 2, 0, 3, 3, 0, 0, 1, 3, 2, 2, 1, 0, 1, 0, 0, 1, 0, 3,
+        3, 1, 2, 2, 3, 3, 3, 3, 3, 2, 1, 0, 1, 2, 0, 1, 3, 1])   label: tensor([1, 2, 2, 3, 0, 0, 2, 2, 0, 2, 1, 0, 1, 3, 3, 0, 1, 0, 1, 0, 2, 3, 3, 1,
+        2, 2, 1, 3, 1, 3, 3, 3, 2, 2, 1, 0, 1, 1, 0, 1, 2, 1])
+Epoch: 154   Train loss: 1.276759   Test loss: 1.3363554   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34911242603550297   Train_predict: tensor([2, 0, 3, 2, 3, 1, 0, 2, 0, 0, 0, 2, 1, 3, 0, 0, 3, 2, 3, 0, 1, 0, 0, 0,
+        3, 1, 2, 0, 1, 0, 1, 1, 2, 2, 3, 1, 2, 1, 0, 0, 0, 3])   label: tensor([2, 2, 3, 2, 2, 0, 3, 1, 0, 2, 3, 0, 2, 2, 3, 0, 3, 1, 3, 1, 0, 3, 0, 2,
+        2, 2, 2, 0, 1, 0, 3, 2, 2, 3, 3, 3, 0, 2, 2, 0, 1, 3])
+Epoch: 155   Train loss: 1.2479159   Test loss: 1.3362718   Train accuracy: 0.4523809523809524   Test accuracy is: 0.34134615384615385   Train_predict: tensor([0, 3, 3, 1, 3, 2, 0, 3, 3, 0, 3, 0, 1, 2, 1, 0, 3, 0, 1, 0, 1, 3, 0, 3,
+        3, 2, 2, 0, 0, 0, 3, 1, 1, 3, 0, 0, 3, 1, 0, 2, 0, 2])   label: tensor([0, 1, 3, 1, 3, 2, 3, 0, 2, 2, 3, 1, 0, 3, 2, 0, 3, 0, 2, 2, 1, 3, 3, 3,
+        2, 0, 2, 0, 3, 2, 3, 1, 0, 1, 3, 2, 3, 1, 2, 0, 3, 2])
+Epoch: 156   Train loss: 1.3850565   Test loss: 1.3359375   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3468934911242604   Train_predict: tensor([1, 0, 2, 1, 2, 1, 0, 0, 1, 2, 2, 2, 1, 0, 2, 0, 3, 0, 0, 3, 1, 2, 0, 1,
+        2, 1, 1, 0, 2, 3, 3, 0, 3, 0, 0, 1, 3, 0, 3, 0, 0, 0])   label: tensor([1, 3, 0, 3, 2, 1, 0, 2, 2, 3, 2, 3, 3, 2, 1, 3, 1, 2, 3, 0, 3, 2, 0, 2,
+        1, 3, 2, 1, 3, 1, 3, 3, 2, 3, 3, 0, 3, 1, 3, 3, 1, 1])
+Epoch: 157   Train loss: 1.299803   Test loss: 1.3362831   Train accuracy: 0.4523809523809524   Test accuracy is: 0.34578402366863903   Train_predict: tensor([2, 1, 3, 2, 0, 0, 0, 3, 3, 2, 1, 1, 1, 2, 1, 1, 2, 3, 3, 3, 0, 3, 2, 1,
+        1, 1, 0, 1, 3, 1, 3, 3, 1, 1, 0, 3, 0, 0, 3, 2, 3, 3])   label: tensor([3, 0, 3, 2, 0, 3, 0, 0, 3, 3, 3, 2, 1, 2, 1, 1, 3, 3, 3, 1, 0, 3, 3, 3,
+        1, 3, 1, 1, 3, 3, 3, 3, 2, 3, 2, 0, 1, 0, 2, 3, 1, 0])
+Epoch: 158   Train loss: 1.3444977   Test loss: 1.3374138   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34467455621301774   Train_predict: tensor([0, 1, 0, 2, 0, 2, 3, 2, 1, 3, 0, 1, 1, 0, 0, 3, 0, 2, 0, 2, 3, 2, 3, 1,
+        2, 0, 0, 3, 3, 0, 0, 2, 1, 3, 2, 3, 2, 0, 0, 0, 1, 0])   label: tensor([0, 2, 1, 0, 1, 1, 3, 2, 2, 3, 1, 1, 0, 2, 0, 0, 0, 1, 2, 0, 3, 2, 1, 3,
+        1, 2, 2, 2, 3, 1, 0, 2, 1, 2, 2, 0, 0, 1, 0, 2, 0, 3])
+Epoch: 159   Train loss: 1.3880091   Test loss: 1.3360552   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3380177514792899   Train_predict: tensor([3, 2, 1, 1, 2, 0, 0, 2, 0, 0, 0, 0, 3, 0, 1, 2, 3, 1, 2, 2, 0, 2, 3, 3,
+        2, 3, 1, 1, 2, 1, 1, 0, 2, 1, 2, 3, 2, 2, 3, 2, 2, 0])   label: tensor([1, 3, 0, 3, 3, 0, 0, 1, 2, 3, 0, 1, 1, 1, 1, 0, 3, 3, 1, 1, 3, 3, 1, 1,
+        1, 2, 1, 3, 1, 0, 3, 1, 0, 1, 2, 2, 2, 0, 3, 0, 1, 0])
+Epoch: 160   Train loss: 1.3434398   Test loss: 1.336306   Train accuracy: 0.16666666666666666   Test accuracy is: 0.3431952662721893   Train_predict: tensor([3, 2, 0, 3, 2, 3, 3, 2, 1, 0, 2, 0, 3, 0, 0, 0, 2, 3, 3, 3, 3, 2, 2, 1,
+        2, 3, 0, 0, 3, 0, 3, 2, 2, 1, 0, 2, 1, 0, 2, 1, 3, 1])   label: tensor([0, 0, 3, 2, 1, 0, 2, 1, 2, 3, 1, 0, 3, 3, 1, 1, 0, 2, 3, 0, 2, 1, 2, 0,
+        3, 0, 3, 1, 3, 2, 0, 0, 3, 0, 1, 0, 1, 2, 0, 2, 2, 1])
+Epoch: 161   Train loss: 1.3756038   Test loss: 1.3361496   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34726331360946744   Train_predict: tensor([0, 3, 0, 3, 0, 1, 2, 3, 1, 1, 3, 0, 2, 1, 0, 0, 2, 1, 3, 1, 0, 1, 1, 2,
+        3, 1, 0, 0, 3, 3, 0, 2, 0, 1, 1, 0, 1, 0, 1, 2, 2, 1])   label: tensor([0, 1, 0, 2, 3, 3, 3, 1, 0, 1, 0, 0, 1, 3, 3, 0, 3, 0, 2, 0, 2, 2, 2, 2,
+        0, 0, 3, 1, 0, 3, 0, 2, 0, 1, 1, 0, 0, 1, 3, 2, 0, 2])
+Epoch: 162   Train loss: 1.3949207   Test loss: 1.3352232   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34541420118343197   Train_predict: tensor([2, 2, 3, 1, 2, 1, 1, 2, 2, 2, 0, 1, 0, 0, 0, 1, 1, 0, 3, 0, 0, 0, 0, 2,
+        3, 0, 3, 1, 1, 3, 2, 2, 3, 0, 0, 2, 2, 1, 1, 2, 3, 1])   label: tensor([0, 3, 1, 0, 1, 1, 3, 3, 1, 2, 1, 0, 2, 0, 2, 3, 2, 0, 3, 1, 1, 3, 1, 2,
+        0, 1, 1, 3, 2, 3, 0, 1, 0, 3, 1, 2, 3, 0, 0, 2, 0, 1])
+Epoch: 163   Train loss: 1.2132868   Test loss: 1.3344322   Train accuracy: 0.5   Test accuracy is: 0.34578402366863903   Train_predict: tensor([0, 1, 0, 1, 3, 3, 1, 2, 1, 0, 1, 1, 3, 3, 3, 2, 1, 1, 1, 1, 3, 3, 1, 0,
+        2, 0, 2, 1, 3, 0, 0, 3, 0, 2, 2, 1, 0, 1, 1, 0, 2, 0])   label: tensor([0, 2, 3, 1, 3, 3, 1, 3, 1, 2, 1, 2, 0, 2, 3, 2, 2, 3, 2, 1, 0, 3, 1, 3,
+        1, 3, 1, 0, 3, 0, 0, 2, 0, 0, 2, 2, 2, 1, 1, 3, 2, 0])
+Epoch: 164   Train loss: 1.3199369   Test loss: 1.3337717   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3431952662721893   Train_predict: tensor([3, 3, 0, 0, 0, 2, 2, 1, 1, 0, 0, 1, 1, 1, 2, 1, 3, 0, 0, 0, 0, 3, 3, 0,
+        3, 1, 1, 3, 0, 3, 1, 3, 2, 2, 0, 3, 2, 0, 3, 3, 1, 2])   label: tensor([1, 3, 3, 1, 2, 2, 2, 2, 1, 0, 1, 2, 2, 1, 1, 2, 0, 1, 0, 1, 0, 3, 3, 2,
+        3, 3, 2, 3, 1, 2, 3, 3, 2, 3, 3, 2, 3, 3, 3, 0, 0, 2])
+Epoch: 165   Train loss: 1.414588   Test loss: 1.3335236   Train accuracy: 0.23809523809523808   Test accuracy is: 0.34467455621301774   Train_predict: tensor([0, 1, 0, 3, 2, 1, 0, 0, 1, 1, 3, 0, 3, 0, 2, 2, 2, 0, 3, 3, 3, 1, 2, 1,
+        0, 1, 2, 3, 0, 2, 3, 0, 0, 3, 0, 1, 0, 0, 2, 3, 3, 1])   label: tensor([0, 2, 1, 0, 3, 0, 3, 3, 1, 0, 2, 3, 2, 1, 2, 3, 1, 0, 3, 2, 3, 0, 3, 0,
+        2, 1, 3, 1, 3, 3, 1, 3, 3, 3, 2, 1, 2, 2, 2, 0, 0, 2])
+Epoch: 166   Train loss: 1.3048042   Test loss: 1.3347985   Train accuracy: 0.40476190476190477   Test accuracy is: 0.34837278106508873   Train_predict: tensor([0, 0, 0, 0, 2, 1, 3, 3, 3, 2, 2, 3, 3, 1, 0, 0, 3, 1, 1, 0, 2, 0, 1, 1,
+        0, 2, 3, 2, 2, 1, 2, 3, 1, 3, 2, 2, 1, 1, 1, 1, 0, 3])   label: tensor([1, 3, 3, 1, 3, 3, 2, 2, 3, 2, 3, 3, 2, 1, 3, 0, 0, 2, 1, 0, 1, 0, 2, 2,
+        0, 2, 1, 2, 2, 1, 2, 2, 3, 2, 0, 2, 1, 3, 1, 3, 1, 0])
+Epoch: 167   Train loss: 1.4064986   Test loss: 1.3340087   Train accuracy: 0.30952380952380953   Test accuracy is: 0.34504437869822485   Train_predict: tensor([1, 1, 1, 2, 0, 0, 0, 1, 3, 3, 2, 3, 2, 3, 2, 0, 1, 1, 3, 1, 2, 1, 2, 1,
+        0, 3, 3, 0, 2, 2, 1, 2, 0, 2, 3, 2, 3, 1, 3, 2, 0, 2])   label: tensor([3, 2, 3, 3, 0, 0, 2, 1, 2, 0, 0, 2, 2, 0, 0, 0, 2, 1, 1, 3, 3, 3, 0, 1,
+        3, 3, 0, 0, 2, 2, 1, 3, 2, 3, 2, 1, 1, 0, 1, 1, 0, 1])
+Epoch: 168   Train loss: 1.3793743   Test loss: 1.3335847   Train accuracy: 0.2857142857142857   Test accuracy is: 0.34504437869822485   Train_predict: tensor([3, 3, 1, 0, 2, 1, 1, 3, 2, 0, 2, 0, 1, 1, 0, 1, 3, 3, 2, 3, 3, 0, 1, 2,
+        0, 2, 2, 0, 2, 2, 0, 3, 3, 0, 3, 3, 3, 0, 3, 0, 0, 1])   label: tensor([2, 3, 1, 0, 2, 0, 3, 1, 0, 3, 3, 1, 1, 0, 2, 0, 2, 1, 2, 0, 1, 0, 1, 1,
+        0, 1, 0, 2, 0, 2, 3, 2, 2, 2, 3, 2, 1, 2, 0, 0, 1, 3])
+Epoch: 169   Train loss: 1.3185352   Test loss: 1.3337761   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34615384615384615   Train_predict: tensor([0, 2, 3, 3, 3, 3, 1, 3, 0, 0, 0, 0, 3, 0, 0, 0, 2, 2, 3, 0, 0, 3, 2, 2,
+        1, 1, 3, 3, 0, 2, 3, 2, 0, 0, 0, 1, 2, 2, 0, 1, 2, 2])   label: tensor([0, 2, 0, 0, 3, 0, 3, 0, 1, 2, 0, 3, 0, 0, 1, 1, 2, 3, 3, 0, 3, 1, 2, 1,
+        3, 3, 3, 3, 0, 3, 1, 0, 0, 0, 2, 0, 3, 0, 3, 2, 3, 2])
+Epoch: 170   Train loss: 1.3022223   Test loss: 1.3335191   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3468934911242604   Train_predict: tensor([0, 2, 3, 2, 3, 3, 0, 3, 1, 2, 0, 0, 2, 0, 0, 0, 3, 1, 3, 3, 3, 3, 1, 0,
+        3, 3, 2, 0, 3, 3, 3, 3, 2, 3, 1, 0, 3, 3, 1, 1, 0, 1])   label: tensor([1, 1, 3, 2, 0, 1, 1, 3, 3, 1, 0, 3, 3, 2, 0, 2, 3, 2, 1, 2, 3, 3, 1, 0,
+        0, 0, 3, 3, 3, 3, 3, 0, 1, 3, 2, 2, 3, 0, 0, 0, 2, 3])
+Epoch: 171   Train loss: 1.2988899   Test loss: 1.3332187   Train accuracy: 0.40476190476190477   Test accuracy is: 0.34726331360946744   Train_predict: tensor([3, 3, 3, 3, 1, 1, 2, 2, 0, 2, 1, 2, 3, 2, 3, 3, 3, 2, 1, 3, 2, 0, 0, 0,
+        2, 1, 1, 2, 1, 1, 2, 3, 2, 3, 1, 1, 2, 3, 2, 1, 1, 0])   label: tensor([3, 2, 0, 3, 2, 0, 3, 2, 0, 2, 2, 3, 1, 2, 2, 1, 0, 2, 3, 1, 3, 3, 0, 2,
+        1, 1, 0, 2, 1, 1, 3, 2, 3, 1, 1, 2, 0, 3, 2, 1, 2, 0])
+Epoch: 172   Train loss: 1.3435806   Test loss: 1.3330415   Train accuracy: 0.35714285714285715   Test accuracy is: 0.34911242603550297   Train_predict: tensor([0, 0, 3, 2, 2, 2, 0, 1, 1, 1, 1, 1, 3, 1, 0, 0, 1, 0, 3, 2, 0, 2, 3, 2,
+        1, 1, 3, 3, 0, 3, 2, 1, 1, 1, 0, 0, 1, 3, 3, 0, 3, 1])   label: tensor([0, 1, 0, 2, 2, 0, 0, 2, 3, 0, 1, 1, 0, 1, 2, 0, 0, 1, 0, 0, 0, 2, 3, 0,
+        1, 0, 2, 3, 2, 2, 3, 3, 2, 3, 2, 3, 1, 0, 2, 3, 3, 2])
+Epoch: 173   Train loss: 1.3228565   Test loss: 1.3327364   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35281065088757396   Train_predict: tensor([3, 2, 0, 3, 1, 0, 2, 3, 0, 1, 3, 0, 3, 2, 3, 3, 0, 3, 2, 2, 0, 3, 2, 2,
+        0, 3, 2, 0, 0, 3, 1, 0, 2, 3, 0, 1, 3, 3, 0, 3, 3, 3])   label: tensor([2, 3, 0, 2, 3, 0, 0, 2, 1, 3, 0, 3, 3, 0, 3, 3, 3, 2, 1, 1, 1, 3, 0, 2,
+        0, 0, 3, 1, 0, 2, 0, 1, 2, 2, 0, 0, 3, 3, 0, 0, 3, 2])
+Epoch: 174   Train loss: 1.3495624   Test loss: 1.3329489   Train accuracy: 0.2857142857142857   Test accuracy is: 0.34911242603550297   Train_predict: tensor([2, 1, 3, 0, 1, 0, 3, 2, 2, 2, 1, 2, 2, 2, 2, 0, 0, 3, 3, 2, 3, 3, 1, 1,
+        3, 1, 3, 0, 0, 2, 0, 3, 1, 1, 2, 1, 0, 1, 0, 2, 2, 2])   label: tensor([3, 0, 2, 0, 1, 1, 1, 3, 2, 1, 2, 0, 0, 3, 2, 0, 1, 3, 3, 1, 1, 2, 2, 3,
+        3, 0, 3, 3, 2, 0, 0, 1, 2, 2, 0, 2, 0, 0, 1, 2, 0, 3])
+Epoch: 175   Train loss: 1.3354503   Test loss: 1.3334931   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3505917159763314   Train_predict: tensor([2, 1, 1, 3, 2, 3, 3, 0, 2, 3, 0, 3, 0, 3, 0, 3, 1, 3, 0, 3, 2, 2, 0, 1,
+        1, 3, 2, 1, 0, 2, 0, 3, 1, 2, 3, 2, 0, 1, 3, 3, 3, 0])   label: tensor([2, 0, 0, 1, 3, 1, 1, 3, 2, 1, 3, 0, 0, 1, 2, 0, 2, 0, 0, 3, 2, 1, 2, 0,
+        1, 0, 2, 2, 2, 0, 0, 1, 2, 2, 2, 2, 0, 3, 0, 1, 1, 1])
+Epoch: 176   Train loss: 1.2601686   Test loss: 1.3329955   Train accuracy: 0.5   Test accuracy is: 0.34578402366863903   Train_predict: tensor([0, 0, 0, 0, 1, 1, 0, 0, 2, 1, 1, 3, 0, 0, 3, 0, 1, 1, 3, 2, 3, 0, 0, 0,
+        2, 1, 1, 1, 0, 1, 0, 3, 3, 0, 3, 2, 0, 0, 2, 0, 2, 0])   label: tensor([0, 0, 1, 3, 3, 2, 1, 0, 2, 1, 1, 3, 1, 0, 3, 0, 1, 2, 2, 1, 2, 0, 3, 1,
+        3, 1, 1, 2, 0, 1, 0, 1, 3, 3, 3, 2, 1, 3, 2, 3, 3, 3])
+Epoch: 177   Train loss: 1.3293774   Test loss: 1.3329053   Train accuracy: 0.2857142857142857   Test accuracy is: 0.34874260355029585   Train_predict: tensor([0, 2, 1, 3, 1, 0, 2, 3, 3, 1, 0, 3, 3, 2, 2, 1, 2, 0, 3, 2, 1, 3, 1, 0,
+        3, 3, 3, 3, 1, 3, 1, 2, 3, 2, 3, 1, 1, 0, 1, 1, 1, 3])   label: tensor([1, 3, 1, 2, 3, 0, 0, 0, 3, 0, 3, 2, 0, 0, 2, 2, 1, 0, 2, 3, 2, 0, 1, 3,
+        2, 3, 3, 2, 1, 0, 1, 2, 2, 3, 0, 0, 2, 1, 1, 2, 0, 0])
+Epoch: 178   Train loss: 1.3492744   Test loss: 1.3326005   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3494822485207101   Train_predict: tensor([0, 1, 3, 2, 0, 0, 3, 3, 0, 0, 0, 1, 0, 0, 0, 2, 2, 1, 3, 2, 0, 3, 1, 2,
+        0, 0, 3, 0, 0, 1, 2, 2, 0, 3, 0, 3, 1, 1, 3, 0, 2, 2])   label: tensor([2, 0, 1, 1, 1, 2, 3, 3, 1, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 0, 3, 2, 3, 0,
+        0, 0, 0, 0, 0, 0, 1, 3, 0, 1, 0, 3, 2, 2, 0, 0, 3, 2])
+Epoch: 179   Train loss: 1.2697057   Test loss: 1.3326648   Train accuracy: 0.47619047619047616   Test accuracy is: 0.34541420118343197   Train_predict: tensor([2, 2, 1, 3, 3, 1, 0, 0, 0, 2, 0, 3, 2, 3, 1, 3, 1, 1, 0, 2, 1, 0, 3, 0,
+        2, 2, 1, 3, 3, 0, 1, 3, 1, 0, 0, 0, 0, 2, 3, 1, 1, 2])   label: tensor([2, 1, 0, 3, 1, 3, 0, 1, 0, 0, 0, 1, 2, 1, 2, 2, 1, 1, 0, 0, 2, 3, 1, 0,
+        1, 2, 1, 3, 0, 1, 3, 3, 1, 0, 2, 2, 2, 2, 1, 1, 1, 2])
+Epoch: 180   Train loss: 1.2313563   Test loss: 1.3317097   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35133136094674555   Train_predict: tensor([1, 0, 3, 1, 1, 2, 2, 1, 2, 0, 2, 1, 0, 0, 0, 0, 2, 3, 3, 0, 1, 1, 1, 1,
+        2, 1, 3, 2, 0, 3, 3, 1, 0, 0, 2, 2, 3, 3, 1, 1, 2, 2])   label: tensor([2, 0, 1, 1, 2, 1, 2, 1, 1, 0, 1, 2, 1, 0, 3, 3, 3, 0, 2, 3, 1, 1, 1, 0,
+        2, 1, 2, 1, 0, 3, 3, 2, 2, 0, 3, 2, 0, 1, 2, 0, 2, 2])
+Epoch: 181   Train loss: 1.3327135   Test loss: 1.3321904   Train accuracy: 0.3333333333333333   Test accuracy is: 0.34837278106508873   Train_predict: tensor([1, 1, 0, 0, 3, 3, 0, 0, 3, 3, 0, 3, 0, 0, 1, 0, 3, 0, 0, 3, 0, 3, 1, 0,
+        3, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 3, 0, 3, 0, 2, 0, 2])   label: tensor([1, 2, 3, 1, 0, 0, 0, 3, 1, 3, 1, 3, 1, 1, 2, 0, 3, 3, 2, 0, 1, 0, 1, 0,
+        0, 0, 1, 1, 1, 3, 3, 0, 3, 3, 0, 0, 1, 0, 0, 1, 0, 2])
+Epoch: 182   Train loss: 1.2505827   Test loss: 1.3314155   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 2, 0, 0, 0, 3, 2, 2, 1, 1, 0, 3, 0, 3, 0, 0, 2, 0, 0, 3, 3, 2, 2, 3,
+        0, 0, 1, 2, 1, 1, 3, 1, 0, 2, 3, 2, 0, 1, 1, 2, 1, 0])   label: tensor([1, 0, 1, 1, 0, 0, 0, 3, 3, 2, 0, 1, 0, 3, 0, 0, 0, 0, 3, 3, 3, 1, 2, 3,
+        0, 2, 3, 2, 2, 3, 3, 1, 1, 3, 3, 2, 0, 3, 2, 3, 1, 1])
+Epoch: 183   Train loss: 1.3467405   Test loss: 1.3326507   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3520710059171598   Train_predict: tensor([3, 2, 0, 2, 1, 1, 1, 0, 1, 3, 1, 1, 1, 0, 0, 0, 3, 1, 2, 1, 2, 0, 3, 1,
+        0, 1, 1, 1, 3, 1, 0, 1, 3, 1, 0, 0, 0, 2, 3, 3, 3, 1])   label: tensor([3, 1, 1, 3, 3, 1, 1, 0, 1, 3, 1, 1, 0, 1, 2, 3, 0, 3, 0, 3, 1, 1, 0, 2,
+        1, 2, 0, 2, 2, 1, 3, 2, 3, 1, 1, 2, 3, 3, 1, 1, 1, 0])
+Epoch: 184   Train loss: 1.3638102   Test loss: 1.332095   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35355029585798814   Train_predict: tensor([1, 1, 1, 2, 0, 2, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 3, 1, 1, 0, 3, 2, 0, 3,
+        0, 0, 3, 2, 2, 0, 3, 2, 2, 2, 2, 3, 3, 1, 0, 3, 0, 1])   label: tensor([0, 3, 1, 2, 0, 1, 3, 1, 0, 2, 2, 2, 2, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1,
+        0, 0, 2, 1, 1, 0, 1, 0, 2, 1, 2, 0, 0, 2, 1, 3, 0, 2])
+Epoch: 185   Train loss: 1.3295348   Test loss: 1.3313715   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3520710059171598   Train_predict: tensor([3, 3, 1, 2, 1, 1, 0, 2, 3, 1, 1, 0, 3, 2, 2, 2, 1, 3, 0, 0, 2, 3, 3, 3,
+        2, 0, 0, 2, 0, 0, 1, 3, 2, 0, 1, 1, 1, 3, 1, 1, 2, 1])   label: tensor([1, 1, 1, 2, 2, 2, 1, 3, 3, 3, 0, 3, 3, 3, 3, 3, 1, 3, 0, 1, 0, 3, 0, 3,
+        1, 0, 1, 1, 1, 1, 1, 3, 2, 1, 0, 3, 3, 3, 0, 1, 3, 1])
+Epoch: 186   Train loss: 1.3242464   Test loss: 1.3301526   Train accuracy: 0.47619047619047616   Test accuracy is: 0.34985207100591714   Train_predict: tensor([3, 1, 0, 3, 3, 1, 2, 3, 0, 3, 3, 3, 0, 3, 2, 0, 3, 2, 0, 3, 0, 1, 3, 0,
+        0, 1, 0, 0, 3, 0, 2, 1, 3, 3, 3, 0, 3, 3, 2, 2, 3, 0])   label: tensor([0, 0, 2, 1, 1, 1, 3, 2, 0, 3, 2, 3, 3, 3, 2, 0, 2, 2, 0, 1, 0, 1, 2, 2,
+        2, 0, 0, 0, 3, 2, 3, 1, 3, 3, 1, 3, 0, 3, 2, 2, 0, 1])
+Epoch: 187   Train loss: 1.3868738   Test loss: 1.329792   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 2, 3, 1, 1, 3, 3, 3, 3, 3, 2, 0, 0, 3, 1, 1, 3, 3, 3, 0, 0, 3, 3, 1,
+        2, 2, 1, 3, 0, 2, 2, 1, 0, 0, 3, 3, 0, 1, 3, 1, 1, 0])   label: tensor([0, 2, 0, 2, 3, 3, 2, 3, 3, 1, 3, 1, 2, 3, 3, 2, 1, 3, 2, 1, 1, 1, 3, 1,
+        3, 3, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 1, 0, 1, 2, 1, 2])
+Epoch: 188   Train loss: 1.3774956   Test loss: 1.3303946   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35428994082840237   Train_predict: tensor([1, 1, 3, 3, 3, 3, 3, 1, 0, 3, 3, 0, 3, 3, 0, 1, 1, 0, 0, 0, 1, 0, 2, 0,
+        0, 3, 3, 3, 3, 0, 3, 3, 1, 0, 3, 3, 0, 1, 2, 1, 3, 0])   label: tensor([3, 0, 2, 2, 1, 1, 2, 2, 3, 2, 2, 0, 3, 1, 0, 1, 1, 1, 2, 0, 3, 0, 1, 2,
+        0, 0, 3, 1, 0, 0, 3, 2, 3, 2, 3, 3, 1, 1, 2, 0, 2, 1])
+Epoch: 189   Train loss: 1.312597   Test loss: 1.3327354   Train accuracy: 0.19047619047619047   Test accuracy is: 0.34874260355029585   Train_predict: tensor([3, 3, 0, 2, 3, 0, 2, 0, 2, 1, 1, 2, 2, 3, 3, 3, 2, 2, 1, 0, 3, 3, 2, 3,
+        3, 3, 0, 0, 3, 3, 2, 1, 3, 1, 2, 3, 3, 1, 3, 0, 0, 0])   label: tensor([2, 2, 3, 0, 2, 3, 0, 2, 0, 2, 2, 2, 2, 1, 3, 2, 2, 3, 3, 0, 2, 1, 1, 3,
+        1, 3, 3, 2, 1, 1, 2, 2, 1, 0, 1, 2, 0, 3, 1, 1, 1, 1])
+Epoch: 190   Train loss: 1.3579882   Test loss: 1.3305854   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35281065088757396   Train_predict: tensor([2, 1, 3, 0, 2, 3, 3, 3, 2, 2, 3, 0, 2, 0, 1, 0, 0, 3, 1, 2, 2, 3, 2, 0,
+        0, 2, 3, 3, 1, 0, 1, 1, 2, 3, 0, 3, 0, 3, 3, 2, 2, 3])   label: tensor([3, 3, 3, 1, 2, 2, 3, 1, 2, 2, 0, 0, 0, 1, 3, 2, 1, 3, 1, 0, 2, 2, 1, 3,
+        2, 3, 3, 3, 0, 2, 1, 2, 0, 1, 0, 0, 2, 3, 2, 3, 2, 0])
+Epoch: 191   Train loss: 1.3822954   Test loss: 1.3313214   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 2, 3, 0, 1, 3, 1, 0, 1, 3, 0, 1, 2, 3, 2, 1, 1, 2, 3, 1, 3, 3, 3, 1,
+        3, 1, 2, 2, 3, 2, 1, 3, 2, 0, 1, 2, 0, 1, 0, 1, 1, 1])   label: tensor([0, 2, 3, 0, 2, 0, 1, 3, 3, 0, 2, 0, 2, 2, 0, 1, 3, 3, 3, 1, 2, 1, 2, 3,
+        1, 0, 1, 3, 0, 2, 0, 2, 3, 3, 2, 3, 0, 0, 0, 0, 2, 0])
+Epoch: 192   Train loss: 1.3745184   Test loss: 1.3310174   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3557692307692308   Train_predict: tensor([1, 1, 3, 0, 3, 0, 3, 0, 0, 3, 0, 2, 2, 3, 3, 0, 3, 3, 3, 1, 1, 2, 3, 2,
+        3, 0, 3, 3, 0, 3, 0, 0, 2, 1, 0, 1, 1, 0, 1, 0, 2, 0])   label: tensor([0, 2, 3, 0, 0, 1, 0, 2, 2, 2, 1, 3, 2, 2, 3, 3, 0, 3, 2, 0, 1, 0, 1, 0,
+        3, 3, 2, 0, 2, 0, 2, 2, 0, 0, 0, 1, 1, 2, 0, 0, 2, 3])
+Epoch: 193   Train loss: 1.3381194   Test loss: 1.3295684   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 3, 0, 2, 1, 3, 0, 0, 3, 2, 3, 0, 1, 0, 1, 1, 3, 1, 3, 1, 3, 0, 0, 1,
+        3, 0, 2, 0, 1, 1, 1, 0, 0, 0, 1, 1, 3, 1, 3, 0, 3, 1])   label: tensor([3, 3, 1, 0, 3, 0, 0, 0, 3, 2, 3, 1, 1, 0, 2, 3, 2, 2, 2, 2, 0, 2, 3, 3,
+        0, 0, 2, 1, 1, 2, 1, 1, 3, 1, 1, 3, 3, 1, 3, 0, 2, 1])
+Epoch: 194   Train loss: 1.3256549   Test loss: 1.3287561   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 1, 0, 1, 3, 3, 1, 1, 2, 0, 3, 3, 1, 1, 0, 0, 3, 1, 1, 3, 3, 0, 1, 0,
+        3, 3, 2, 3, 3, 3, 3, 0, 3, 1, 0, 0, 2, 0, 3, 1, 1, 0])   label: tensor([1, 2, 0, 2, 3, 3, 2, 1, 2, 1, 3, 1, 3, 1, 0, 1, 0, 2, 0, 0, 3, 2, 1, 3,
+        2, 0, 2, 3, 0, 0, 3, 3, 3, 0, 0, 2, 3, 2, 3, 2, 1, 1])
+Epoch: 195   Train loss: 1.416564   Test loss: 1.329488   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35428994082840237   Train_predict: tensor([0, 3, 1, 0, 2, 2, 3, 3, 1, 1, 1, 1, 1, 0, 0, 2, 1, 2, 3, 3, 3, 1, 2, 2,
+        3, 1, 1, 3, 1, 3, 1, 2, 0, 2, 1, 1, 3, 3, 3, 0, 3, 3])   label: tensor([2, 3, 3, 1, 0, 2, 2, 3, 2, 0, 0, 1, 3, 3, 1, 0, 1, 1, 1, 1, 3, 3, 3, 1,
+        3, 1, 3, 3, 3, 2, 3, 2, 3, 0, 1, 3, 1, 1, 3, 0, 1, 1])
+Epoch: 196   Train loss: 1.2541195   Test loss: 1.329206   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35281065088757396   Train_predict: tensor([0, 1, 3, 0, 2, 2, 0, 2, 3, 1, 0, 1, 0, 2, 2, 2, 0, 3, 2, 0, 3, 1, 0, 0,
+        3, 3, 2, 3, 3, 1, 0, 1, 2, 1, 3, 0, 2, 2, 1, 3, 3, 2])   label: tensor([2, 0, 2, 3, 3, 3, 0, 2, 1, 1, 0, 1, 0, 2, 2, 1, 2, 3, 2, 2, 2, 2, 0, 3,
+        0, 2, 0, 3, 2, 2, 1, 1, 2, 1, 2, 0, 2, 1, 0, 2, 2, 0])
+Epoch: 197   Train loss: 1.234078   Test loss: 1.3284827   Train accuracy: 0.5952380952380952   Test accuracy is: 0.3613165680473373   Train_predict: tensor([2, 2, 0, 2, 1, 0, 3, 2, 0, 1, 2, 2, 1, 3, 2, 1, 3, 0, 1, 1, 0, 1, 3, 3,
+        0, 2, 1, 3, 2, 0, 2, 3, 0, 0, 1, 3, 2, 0, 0, 1, 0, 1])   label: tensor([1, 2, 0, 3, 1, 0, 0, 2, 3, 1, 2, 2, 1, 0, 0, 1, 3, 0, 0, 1, 1, 1, 3, 3,
+        3, 2, 1, 1, 0, 0, 0, 1, 0, 3, 1, 3, 3, 3, 0, 1, 0, 2])
+Epoch: 198   Train loss: 1.2325265   Test loss: 1.3282957   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3531804733727811   Train_predict: tensor([2, 3, 3, 3, 2, 1, 3, 3, 2, 1, 0, 3, 2, 2, 1, 2, 0, 1, 1, 1, 3, 3, 3, 0,
+        0, 0, 0, 1, 3, 1, 0, 1, 2, 2, 0, 0, 3, 3, 1, 1, 0, 1])   label: tensor([0, 3, 3, 3, 0, 0, 0, 1, 0, 3, 3, 3, 0, 2, 0, 2, 3, 1, 1, 3, 1, 3, 0, 1,
+        0, 3, 0, 2, 2, 1, 0, 2, 2, 1, 0, 0, 3, 3, 3, 1, 0, 2])
+Epoch: 199   Train loss: 1.3781492   Test loss: 1.3285512   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3572485207100592   Train_predict: tensor([1, 1, 0, 3, 2, 0, 1, 3, 3, 3, 0, 3, 1, 3, 3, 0, 0, 0, 1, 3, 1, 3, 3, 3,
+        1, 3, 2, 3, 2, 0, 0, 2, 2, 1, 0, 1, 3, 1, 1, 2, 3, 1])   label: tensor([1, 3, 0, 2, 0, 1, 3, 1, 0, 1, 2, 2, 0, 0, 3, 0, 2, 1, 3, 2, 1, 3, 3, 3,
+        0, 1, 3, 2, 2, 0, 0, 1, 2, 3, 0, 0, 0, 2, 1, 2, 3, 0])
+Epoch: 200   Train loss: 1.2580302   Test loss: 1.3287781   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35872781065088755   Train_predict: tensor([1, 1, 1, 0, 1, 2, 0, 2, 1, 0, 2, 0, 0, 3, 1, 3, 3, 2, 0, 1, 1, 1, 2, 0,
+        0, 0, 1, 3, 0, 0, 0, 3, 1, 1, 2, 3, 1, 2, 3, 2, 0, 1])   label: tensor([3, 2, 1, 1, 2, 2, 2, 2, 1, 0, 3, 0, 0, 3, 1, 2, 1, 0, 2, 1, 1, 1, 2, 0,
+        2, 3, 1, 0, 2, 2, 2, 1, 2, 1, 2, 3, 1, 0, 3, 3, 1, 2])
+Epoch: 201   Train loss: 1.2979853   Test loss: 1.3287406   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 1, 1, 1, 1, 3, 2, 2, 3, 3, 0, 0, 3, 1, 2, 1, 3, 2, 3, 0, 0, 1, 0, 2,
+        1, 0, 0, 0, 2, 3, 3, 3, 3, 2, 0, 0, 0, 0, 2, 3, 0, 2])   label: tensor([0, 3, 1, 3, 2, 2, 1, 0, 1, 3, 2, 1, 3, 0, 2, 2, 3, 2, 2, 1, 2, 3, 0, 0,
+        2, 0, 0, 0, 3, 1, 2, 0, 1, 2, 3, 3, 3, 3, 1, 3, 3, 0])
+Epoch: 202   Train loss: 1.3122022   Test loss: 1.3281583   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 0, 3, 2, 0, 0, 3, 2, 0, 2, 0, 1, 3, 2, 0, 1, 3, 2, 3, 3, 3, 3, 0, 2,
+        0, 3, 0, 0, 2, 2, 1, 0, 2, 0, 0, 0, 1, 2, 2, 2, 1, 1])   label: tensor([2, 0, 2, 0, 1, 1, 3, 1, 3, 1, 3, 0, 1, 2, 0, 1, 1, 1, 2, 2, 0, 0, 0, 2,
+        2, 3, 1, 0, 2, 0, 1, 0, 3, 0, 1, 1, 1, 3, 1, 3, 2, 2])
+Epoch: 203   Train loss: 1.3106018   Test loss: 1.3285215   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35539940828402367   Train_predict: tensor([1, 1, 0, 1, 2, 3, 0, 2, 2, 0, 1, 3, 2, 0, 3, 3, 2, 0, 1, 2, 1, 2, 1, 0,
+        0, 0, 2, 3, 3, 2, 0, 0, 3, 0, 0, 1, 2, 0, 1, 1, 0, 1])   label: tensor([0, 0, 0, 3, 0, 2, 2, 3, 2, 0, 1, 2, 2, 0, 2, 0, 2, 3, 1, 1, 3, 3, 2, 0,
+        2, 2, 1, 0, 3, 0, 2, 0, 3, 3, 3, 2, 1, 0, 3, 1, 0, 3])
+Epoch: 204   Train loss: 1.3742064   Test loss: 1.3275461   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 2, 1, 1, 3, 3, 3, 1, 0, 0, 0, 0, 0, 1, 0, 3, 2, 0, 2, 3, 0, 0, 0, 1,
+        0, 1, 1, 0, 1, 0, 0, 2, 1, 1, 2, 3, 3, 0, 1, 0, 2, 1])   label: tensor([3, 3, 1, 0, 0, 0, 2, 0, 3, 1, 2, 3, 2, 1, 1, 2, 2, 2, 1, 3, 2, 0, 1, 0,
+        3, 1, 2, 0, 3, 2, 1, 2, 0, 1, 0, 3, 0, 0, 0, 1, 2, 0])
+Epoch: 205   Train loss: 1.3336943   Test loss: 1.3278466   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35502958579881655   Train_predict: tensor([3, 1, 3, 1, 3, 2, 3, 3, 3, 3, 2, 1, 3, 3, 1, 3, 0, 1, 0, 1, 2, 3, 3, 1,
+        3, 3, 2, 0, 2, 2, 0, 2, 2, 1, 2, 2, 1, 3, 3, 1, 0, 2])   label: tensor([3, 3, 3, 1, 3, 2, 3, 1, 1, 2, 2, 1, 3, 1, 0, 1, 0, 0, 0, 0, 2, 1, 2, 3,
+        3, 1, 2, 3, 1, 0, 3, 0, 3, 1, 2, 1, 1, 0, 1, 1, 3, 1])
+Epoch: 206   Train loss: 1.2939668   Test loss: 1.3289987   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35428994082840237   Train_predict: tensor([0, 1, 3, 3, 0, 3, 1, 3, 0, 0, 0, 1, 1, 3, 0, 0, 0, 0, 3, 2, 1, 1, 2, 2,
+        2, 0, 2, 3, 2, 1, 0, 2, 0, 0, 0, 0, 3, 0, 3, 0, 3, 0])   label: tensor([0, 3, 1, 1, 2, 3, 2, 1, 0, 2, 0, 1, 2, 3, 2, 0, 2, 2, 0, 2, 1, 1, 2, 0,
+        3, 3, 3, 2, 2, 0, 0, 1, 2, 0, 1, 3, 3, 3, 1, 0, 2, 1])
+Epoch: 207   Train loss: 1.3150826   Test loss: 1.3277167   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35539940828402367   Train_predict: tensor([3, 0, 0, 0, 0, 2, 1, 3, 2, 2, 2, 2, 3, 3, 3, 0, 3, 0, 2, 0, 3, 1, 2, 0,
+        1, 2, 2, 2, 1, 2, 3, 1, 0, 0, 1, 2, 3, 1, 3, 3, 3, 1])   label: tensor([2, 0, 0, 3, 2, 2, 1, 0, 2, 0, 2, 2, 3, 2, 0, 3, 3, 2, 1, 0, 2, 3, 0, 1,
+        1, 0, 2, 0, 0, 2, 3, 2, 3, 0, 0, 2, 0, 1, 0, 1, 2, 2])
+Epoch: 208   Train loss: 1.2837533   Test loss: 1.328218   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 1, 0, 2, 3, 3, 2, 1, 1, 1, 1, 3, 1, 0, 3, 3, 1, 3, 3, 2, 3, 3, 0, 3,
+        3, 1, 0, 2, 0, 3, 3, 0, 3, 1, 2, 3, 3, 2, 1, 1, 0, 0])   label: tensor([0, 1, 0, 1, 2, 2, 3, 1, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 2, 2, 3, 0, 3,
+        2, 3, 3, 0, 3, 1, 3, 0, 3, 1, 1, 0, 0, 3, 2, 1, 0, 0])
+Epoch: 209   Train loss: 1.288019   Test loss: 1.3270333   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3594674556213018   Train_predict: tensor([1, 1, 2, 3, 2, 1, 2, 1, 0, 0, 3, 3, 3, 3, 2, 0, 0, 3, 2, 0, 0, 1, 1, 2,
+        2, 0, 2, 3, 3, 0, 1, 3, 2, 3, 2, 1, 3, 0, 1, 0, 3, 0])   label: tensor([2, 3, 0, 3, 1, 2, 1, 3, 1, 0, 2, 2, 2, 2, 3, 0, 0, 3, 3, 3, 0, 2, 3, 1,
+        2, 2, 1, 0, 1, 3, 1, 2, 3, 1, 2, 2, 1, 0, 2, 0, 0, 2])
+Epoch: 210   Train loss: 1.3970367   Test loss: 1.328402   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35355029585798814   Train_predict: tensor([0, 0, 2, 2, 1, 3, 1, 3, 3, 1, 3, 0, 1, 0, 1, 3, 0, 0, 1, 2, 1, 3, 3, 0,
+        1, 2, 0, 0, 0, 1, 1, 0, 1, 1, 3, 2, 2, 0, 1, 1, 0, 2])   label: tensor([3, 1, 1, 0, 1, 0, 0, 1, 0, 1, 3, 0, 1, 3, 0, 0, 0, 2, 1, 1, 2, 3, 3, 3,
+        1, 3, 3, 3, 2, 0, 3, 0, 2, 2, 2, 3, 0, 1, 0, 2, 2, 0])
+Epoch: 211   Train loss: 1.3806479   Test loss: 1.3271892   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3505917159763314   Train_predict: tensor([3, 0, 3, 0, 0, 0, 3, 0, 0, 2, 2, 0, 0, 1, 0, 1, 1, 3, 2, 0, 0, 0, 3, 2,
+        3, 3, 0, 3, 3, 3, 0, 2, 2, 2, 2, 0, 3, 0, 1, 0, 3, 1])   label: tensor([0, 2, 2, 0, 0, 3, 0, 3, 2, 2, 2, 1, 3, 2, 3, 3, 1, 0, 0, 0, 0, 0, 1, 1,
+        3, 1, 2, 0, 2, 1, 1, 0, 1, 1, 0, 2, 0, 3, 2, 3, 3, 0])
+Epoch: 212   Train loss: 1.3255205   Test loss: 1.3280336   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 1, 1, 3, 3, 3, 2, 3, 3, 1, 0, 3, 3, 3, 0, 0, 0, 3, 0, 3, 0, 3, 1, 3,
+        2, 3, 0, 2, 3, 2, 3, 2, 0, 1, 0, 3, 3, 0, 0, 2, 3, 3])   label: tensor([1, 3, 1, 2, 2, 2, 3, 3, 1, 1, 1, 1, 2, 3, 1, 3, 0, 3, 3, 2, 0, 2, 0, 2,
+        3, 3, 2, 2, 1, 1, 1, 2, 0, 3, 2, 0, 2, 2, 0, 3, 3, 3])
+Epoch: 213   Train loss: 1.295681   Test loss: 1.3273451   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 0, 0, 3, 1, 0, 1, 1, 3, 1, 1, 0, 3, 2, 3, 2, 3, 1, 2, 3, 2, 3, 2, 1,
+        1, 0, 3, 0, 3, 0, 0, 1, 1, 0, 0, 3, 1, 3, 0, 2, 0, 1])   label: tensor([2, 0, 3, 3, 0, 3, 3, 0, 3, 3, 2, 3, 2, 1, 3, 0, 0, 3, 3, 0, 2, 0, 0, 0,
+        1, 0, 3, 0, 3, 2, 0, 2, 2, 0, 2, 2, 2, 1, 3, 1, 0, 3])
+Epoch: 214   Train loss: 1.3440435   Test loss: 1.3277518   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3557692307692308   Train_predict: tensor([1, 0, 0, 3, 3, 3, 0, 0, 3, 0, 0, 3, 2, 1, 1, 1, 0, 3, 0, 3, 0, 0, 1, 2,
+        2, 1, 1, 3, 1, 3, 0, 3, 1, 3, 1, 0, 3, 2, 3, 2, 0, 2])   label: tensor([0, 2, 0, 2, 1, 3, 2, 1, 0, 1, 0, 1, 0, 2, 0, 1, 2, 3, 0, 0, 1, 1, 1, 3,
+        3, 3, 1, 0, 0, 1, 1, 0, 1, 1, 2, 0, 0, 1, 0, 3, 1, 2])
+Epoch: 215   Train loss: 1.3792304   Test loss: 1.3273728   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 0, 2, 0, 0, 2, 3, 0, 2, 1, 1, 0, 0, 0, 3, 3, 1, 0, 1, 0, 0, 1, 3, 0,
+        1, 1, 2, 2, 1, 0, 0, 0, 0, 0, 3, 3, 2, 2, 0, 3, 3, 1])   label: tensor([2, 0, 0, 2, 3, 2, 0, 0, 1, 1, 2, 0, 1, 2, 1, 0, 1, 3, 3, 0, 0, 3, 3, 2,
+        3, 0, 2, 2, 1, 3, 1, 2, 0, 0, 1, 2, 2, 2, 0, 2, 3, 2])
+Epoch: 216   Train loss: 1.3490314   Test loss: 1.3264463   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3598372781065089   Train_predict: tensor([2, 2, 2, 1, 2, 0, 3, 3, 3, 3, 1, 1, 3, 3, 2, 3, 0, 1, 3, 2, 2, 1, 0, 2,
+        0, 3, 3, 3, 1, 2, 3, 2, 1, 0, 1, 0, 1, 3, 0, 2, 0, 0])   label: tensor([3, 1, 2, 1, 2, 3, 2, 3, 1, 3, 0, 2, 2, 3, 2, 2, 1, 1, 2, 0, 1, 3, 1, 3,
+        2, 0, 2, 0, 2, 3, 2, 1, 2, 0, 1, 0, 1, 2, 1, 2, 0, 3])
+Epoch: 217   Train loss: 1.326904   Test loss: 1.326034   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3546597633136095   Train_predict: tensor([2, 2, 2, 3, 1, 2, 3, 3, 0, 1, 0, 1, 3, 1, 1, 1, 0, 1, 3, 0, 0, 0, 3, 3,
+        0, 1, 3, 0, 3, 3, 1, 0, 0, 3, 3, 2, 1, 1, 1, 3, 2, 1])   label: tensor([1, 2, 0, 3, 0, 3, 2, 1, 0, 0, 0, 1, 0, 1, 1, 0, 3, 3, 2, 2, 3, 0, 2, 3,
+        3, 1, 2, 0, 0, 1, 1, 0, 2, 0, 1, 2, 1, 0, 3, 0, 2, 0])
+Epoch: 218   Train loss: 1.2442559   Test loss: 1.3274933   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 0, 0, 2, 3, 1, 2, 0, 1, 3, 3, 3, 2, 1, 2, 2, 1, 0, 1, 2, 2, 0, 2, 2,
+        2, 0, 0, 1, 1, 1, 0, 0, 2, 2, 2, 2, 2, 0, 3, 3, 2, 3])   label: tensor([2, 0, 3, 2, 3, 1, 2, 2, 2, 0, 3, 2, 1, 1, 2, 0, 1, 3, 1, 2, 2, 2, 2, 1,
+        2, 2, 3, 1, 1, 2, 1, 0, 3, 1, 2, 2, 3, 1, 1, 1, 1, 0])
+Epoch: 219   Train loss: 1.2899119   Test loss: 1.3270051   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 0, 1, 3, 2, 0, 3, 0, 3, 3, 0, 2, 3, 3, 1, 1, 1, 0, 1, 2, 3, 2, 0, 3,
+        0, 3, 0, 0, 1, 2, 3, 2, 1, 1, 2, 3, 2, 2, 0, 1, 0, 1])   label: tensor([2, 0, 1, 3, 1, 2, 3, 2, 2, 0, 0, 2, 2, 0, 1, 1, 3, 1, 0, 2, 3, 2, 0, 0,
+        0, 2, 3, 3, 1, 3, 0, 2, 3, 3, 1, 0, 3, 2, 0, 1, 0, 2])
+Epoch: 220   Train loss: 1.2957113   Test loss: 1.3271744   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34911242603550297   Train_predict: tensor([3, 0, 1, 1, 1, 3, 3, 0, 3, 0, 1, 3, 2, 2, 3, 0, 0, 2, 3, 0, 0, 3, 0, 1,
+        3, 3, 2, 0, 0, 3, 3, 3, 3, 3, 1, 1, 2, 0, 0, 0, 0, 3])   label: tensor([0, 3, 1, 2, 2, 3, 3, 0, 0, 0, 3, 3, 1, 0, 0, 0, 0, 1, 2, 3, 2, 3, 0, 0,
+        2, 2, 2, 0, 2, 0, 2, 0, 1, 3, 3, 1, 2, 0, 1, 2, 1, 2])
+Epoch: 221   Train loss: 1.3132544   Test loss: 1.3268684   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 3, 3, 3, 3, 1, 1, 3, 3, 3, 1, 3, 0, 0, 0, 2, 1, 2, 3, 1, 1, 1, 0, 1,
+        0, 2, 0, 3, 1, 0, 3, 2, 2, 1, 3, 3, 1, 3, 0, 3, 3, 1])   label: tensor([1, 3, 3, 0, 1, 0, 1, 3, 3, 2, 1, 2, 2, 0, 3, 1, 0, 1, 0, 1, 1, 2, 0, 1,
+        3, 2, 3, 1, 0, 1, 1, 2, 1, 0, 3, 2, 1, 3, 1, 2, 0, 2])
+Epoch: 222   Train loss: 1.2739046   Test loss: 1.3261569   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 0, 1, 3, 0, 1, 0, 1, 2, 1, 3, 1, 2, 2, 2, 1, 3, 0, 3, 3, 0, 0, 3, 0,
+        3, 0, 3, 1, 0, 2, 3, 1, 3, 3, 2, 1, 3, 2, 0, 0, 2, 3])   label: tensor([3, 1, 1, 0, 1, 1, 1, 1, 1, 0, 2, 1, 2, 0, 3, 2, 2, 0, 3, 0, 0, 1, 2, 0,
+        2, 3, 0, 2, 3, 2, 3, 1, 1, 2, 3, 1, 3, 2, 0, 2, 2, 3])
+Epoch: 223   Train loss: 1.3144276   Test loss: 1.3264292   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 0, 3, 3, 0, 0, 0, 2, 3, 1, 1, 1, 1, 1, 0, 0, 0, 2, 0, 2, 0, 0, 1, 2,
+        3, 0, 3, 1, 1, 3, 0, 0, 2, 3, 3, 1, 0, 1, 2, 0, 0, 0])   label: tensor([2, 3, 3, 2, 2, 2, 0, 1, 2, 1, 1, 1, 1, 1, 0, 1, 3, 3, 3, 2, 3, 1, 1, 2,
+        2, 1, 3, 2, 3, 0, 2, 1, 2, 1, 3, 2, 0, 3, 1, 1, 0, 1])
+Epoch: 224   Train loss: 1.3624994   Test loss: 1.326657   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35355029585798814   Train_predict: tensor([2, 0, 0, 2, 0, 0, 0, 3, 0, 2, 0, 1, 3, 0, 2, 0, 0, 0, 0, 3, 1, 0, 1, 3,
+        1, 2, 0, 3, 0, 1, 1, 2, 0, 3, 3, 2, 0, 3, 2, 2, 0, 0])   label: tensor([2, 0, 0, 1, 0, 3, 2, 3, 2, 0, 1, 3, 1, 0, 2, 1, 1, 2, 2, 2, 1, 0, 1, 2,
+        1, 0, 3, 2, 1, 3, 2, 0, 1, 3, 3, 2, 2, 1, 3, 2, 1, 3])
+Epoch: 225   Train loss: 1.2961643   Test loss: 1.3268074   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36020710059171596   Train_predict: tensor([3, 0, 0, 1, 0, 0, 0, 3, 0, 0, 2, 3, 1, 1, 3, 2, 1, 3, 0, 2, 0, 3, 1, 3,
+        3, 0, 2, 1, 1, 1, 1, 3, 0, 3, 2, 1, 2, 3, 1, 3, 1, 0])   label: tensor([0, 0, 1, 2, 3, 0, 1, 2, 1, 2, 3, 2, 1, 1, 3, 2, 1, 3, 3, 1, 1, 3, 1, 0,
+        2, 0, 1, 1, 3, 1, 0, 0, 1, 3, 1, 2, 2, 2, 1, 0, 3, 0])
+Epoch: 226   Train loss: 1.3281413   Test loss: 1.3266299   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35798816568047337   Train_predict: tensor([1, 0, 0, 2, 2, 2, 3, 3, 0, 3, 0, 1, 1, 2, 3, 3, 3, 3, 0, 2, 3, 2, 1, 1,
+        2, 3, 0, 0, 1, 0, 3, 0, 1, 2, 2, 2, 0, 1, 1, 2, 3, 2])   label: tensor([2, 3, 2, 2, 1, 3, 3, 2, 2, 3, 0, 1, 1, 2, 2, 3, 3, 1, 3, 0, 3, 1, 1, 1,
+        1, 3, 0, 3, 0, 0, 2, 2, 2, 2, 1, 0, 1, 1, 0, 3, 3, 1])
+Epoch: 227   Train loss: 1.3114054   Test loss: 1.3247825   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3594674556213018   Train_predict: tensor([2, 3, 3, 1, 3, 1, 0, 0, 3, 1, 0, 0, 2, 3, 1, 1, 2, 0, 3, 1, 1, 3, 3, 2,
+        1, 3, 1, 3, 1, 3, 0, 2, 3, 3, 2, 3, 1, 3, 0, 2, 0, 1])   label: tensor([2, 2, 0, 1, 2, 3, 0, 1, 3, 2, 0, 2, 2, 2, 2, 0, 0, 2, 3, 0, 3, 3, 2, 3,
+        2, 0, 1, 2, 0, 2, 3, 2, 3, 1, 2, 2, 0, 3, 1, 1, 3, 2])
+Epoch: 228   Train loss: 1.2400004   Test loss: 1.3248482   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3583579881656805   Train_predict: tensor([1, 2, 2, 3, 3, 0, 1, 1, 2, 3, 1, 1, 2, 0, 0, 0, 1, 0, 2, 0, 3, 2, 0, 0,
+        2, 0, 1, 2, 3, 0, 3, 1, 2, 1, 1, 3, 0, 3, 3, 1, 3, 2])   label: tensor([2, 0, 3, 0, 1, 0, 2, 2, 1, 3, 2, 1, 3, 1, 1, 0, 1, 0, 0, 0, 0, 2, 0, 0,
+        1, 2, 3, 2, 3, 0, 1, 3, 2, 0, 0, 0, 2, 3, 3, 1, 3, 2])
+Epoch: 229   Train loss: 1.2644964   Test loss: 1.327003   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35650887573964496   Train_predict: tensor([2, 1, 0, 3, 2, 2, 0, 1, 0, 0, 2, 0, 1, 3, 3, 0, 2, 1, 1, 0, 3, 0, 1, 0,
+        2, 1, 0, 2, 2, 3, 0, 1, 3, 3, 0, 0, 1, 3, 3, 3, 1, 3])   label: tensor([3, 1, 0, 3, 0, 0, 3, 1, 2, 1, 2, 0, 0, 3, 1, 0, 1, 1, 0, 1, 2, 0, 0, 0,
+        1, 0, 0, 2, 1, 0, 3, 3, 0, 3, 1, 3, 0, 2, 3, 0, 3, 3])
+Epoch: 230   Train loss: 1.3287653   Test loss: 1.3264179   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 1, 1, 2, 0, 1, 0, 3, 1, 3, 2, 2, 0, 1, 0, 3, 0, 1, 2, 3, 2, 3, 1, 2,
+        3, 0, 3, 1, 3, 1, 1, 1, 1, 2, 0, 0, 3, 1, 0, 0, 0, 3])   label: tensor([3, 2, 3, 2, 1, 1, 2, 0, 0, 2, 2, 2, 1, 1, 0, 1, 2, 3, 3, 1, 1, 3, 2, 2,
+        3, 0, 3, 1, 3, 0, 3, 2, 3, 0, 3, 0, 3, 2, 1, 2, 3, 3])
+Epoch: 231   Train loss: 1.359074   Test loss: 1.3259941   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35355029585798814   Train_predict: tensor([1, 1, 0, 0, 1, 0, 3, 1, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 3, 0, 2, 1, 3, 3,
+        3, 2, 1, 2, 0, 3, 2, 2, 0, 1, 1, 3, 0, 1, 1, 3, 2, 1])   label: tensor([3, 2, 0, 0, 2, 2, 3, 1, 2, 0, 1, 1, 2, 0, 2, 3, 1, 2, 0, 3, 0, 3, 1, 1,
+        3, 2, 1, 0, 0, 0, 1, 3, 0, 3, 2, 0, 2, 2, 1, 0, 1, 3])
+Epoch: 232   Train loss: 1.3994814   Test loss: 1.3265276   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3520710059171598   Train_predict: tensor([3, 3, 0, 2, 1, 0, 1, 0, 1, 3, 2, 0, 2, 1, 3, 2, 2, 2, 0, 1, 0, 0, 1, 0,
+        0, 2, 0, 1, 3, 0, 1, 1, 1, 3, 2, 1, 1, 1, 0, 2, 0, 3])   label: tensor([0, 2, 0, 2, 2, 0, 3, 0, 1, 3, 2, 3, 2, 3, 2, 1, 0, 2, 3, 3, 0, 2, 3, 3,
+        2, 0, 0, 3, 3, 2, 2, 3, 2, 1, 3, 0, 0, 3, 0, 0, 0, 2])
+Epoch: 233   Train loss: 1.2986523   Test loss: 1.3253801   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3546597633136095   Train_predict: tensor([3, 1, 1, 0, 3, 0, 0, 3, 1, 1, 2, 3, 3, 3, 0, 0, 1, 0, 1, 3, 3, 1, 2, 3,
+        2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 3, 2, 0])   label: tensor([3, 2, 1, 3, 0, 1, 0, 1, 0, 2, 3, 3, 3, 3, 2, 3, 2, 0, 2, 0, 1, 0, 1, 0,
+        1, 2, 0, 3, 3, 2, 0, 0, 0, 2, 2, 2, 3, 1, 1, 1, 2, 0])
+Epoch: 234   Train loss: 1.3353822   Test loss: 1.32617   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 3, 1, 2, 1, 0, 1, 2, 2, 3, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 3, 3, 3,
+        0, 3, 3, 2, 3, 0, 3, 0, 1, 1, 0, 3, 3, 2, 2, 0, 0, 2])   label: tensor([3, 3, 0, 2, 2, 0, 1, 3, 3, 0, 3, 1, 0, 1, 0, 0, 1, 1, 1, 3, 2, 1, 2, 3,
+        1, 0, 3, 0, 0, 2, 0, 3, 3, 1, 1, 1, 2, 1, 0, 0, 3, 3])
+Epoch: 235   Train loss: 1.3980026   Test loss: 1.3244075   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35539940828402367   Train_predict: tensor([1, 3, 0, 1, 0, 0, 0, 0, 1, 1, 2, 3, 0, 0, 3, 2, 3, 2, 3, 2, 1, 3, 1, 2,
+        2, 3, 0, 3, 0, 2, 0, 1, 0, 1, 0, 2, 1, 3, 1, 3, 0, 2])   label: tensor([2, 1, 1, 1, 2, 1, 1, 0, 1, 2, 0, 2, 3, 3, 3, 2, 2, 3, 1, 0, 1, 1, 1, 1,
+        0, 1, 0, 1, 3, 0, 1, 2, 0, 1, 0, 1, 1, 2, 1, 3, 2, 0])
+Epoch: 236   Train loss: 1.4291631   Test loss: 1.3246278   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 0, 0, 2, 0, 0, 3, 1, 2, 2, 2, 0, 3, 2, 1, 3, 2, 1, 0, 3, 0, 0, 1, 0,
+        0, 1, 3, 1, 0, 0, 2, 0, 0, 3, 2, 2, 2, 2, 1, 2, 1, 3])   label: tensor([1, 3, 2, 2, 2, 0, 2, 0, 3, 2, 3, 1, 2, 3, 2, 0, 2, 1, 2, 3, 2, 0, 2, 2,
+        1, 0, 1, 2, 0, 3, 2, 0, 2, 0, 1, 1, 0, 2, 3, 1, 0, 2])
+Epoch: 237   Train loss: 1.229018   Test loss: 1.3250391   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35798816568047337   Train_predict: tensor([0, 3, 0, 1, 3, 1, 3, 0, 3, 0, 0, 3, 2, 3, 0, 1, 1, 1, 2, 0, 1, 3, 0, 1,
+        3, 1, 2, 0, 1, 1, 0, 0, 3, 0, 3, 1, 2, 1, 2, 0, 0, 0])   label: tensor([3, 2, 3, 2, 0, 1, 3, 1, 3, 1, 2, 2, 2, 3, 0, 1, 1, 2, 2, 2, 1, 3, 0, 1,
+        0, 1, 3, 2, 3, 3, 3, 1, 1, 2, 1, 1, 2, 1, 0, 0, 0, 1])
+Epoch: 238   Train loss: 1.382117   Test loss: 1.3252543   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 0, 0, 0, 2, 1, 0, 3, 3, 3, 2, 1, 2, 2, 0, 0, 0, 2, 2, 0, 2, 1, 1, 3,
+        0, 2, 3, 2, 0, 0, 2, 1, 1, 2, 0, 0, 1, 1, 3, 3, 2, 3])   label: tensor([0, 0, 0, 0, 2, 0, 1, 2, 3, 0, 2, 2, 2, 1, 0, 0, 0, 3, 3, 3, 2, 1, 1, 3,
+        1, 1, 2, 3, 3, 2, 3, 3, 0, 1, 1, 1, 3, 2, 3, 0, 3, 1])
+Epoch: 239   Train loss: 1.3418683   Test loss: 1.3241969   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35539940828402367   Train_predict: tensor([1, 3, 1, 2, 1, 2, 0, 2, 3, 3, 3, 0, 3, 3, 1, 3, 2, 1, 1, 1, 0, 0, 0, 3,
+        1, 3, 1, 3, 3, 2, 0, 3, 3, 3, 3, 2, 1, 2, 2, 2, 2, 3])   label: tensor([2, 0, 0, 2, 1, 2, 3, 3, 2, 0, 1, 2, 3, 1, 1, 2, 1, 2, 3, 1, 2, 0, 3, 1,
+        3, 3, 2, 3, 3, 0, 0, 0, 0, 0, 2, 1, 1, 3, 2, 2, 1, 2])
+Epoch: 240   Train loss: 1.2837783   Test loss: 1.325362   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3583579881656805   Train_predict: tensor([2, 2, 1, 0, 3, 1, 3, 1, 0, 1, 0, 3, 3, 2, 1, 3, 2, 3, 2, 2, 3, 3, 0, 3,
+        2, 0, 1, 3, 0, 3, 2, 0, 3, 0, 0, 0, 3, 1, 2, 1, 3, 0])   label: tensor([2, 0, 1, 0, 1, 3, 1, 0, 1, 2, 1, 0, 3, 1, 1, 1, 0, 3, 0, 0, 3, 3, 3, 3,
+        2, 0, 1, 3, 1, 1, 3, 2, 1, 3, 0, 0, 1, 1, 2, 2, 3, 0])
+Epoch: 241   Train loss: 1.3454126   Test loss: 1.3239527   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3594674556213018   Train_predict: tensor([0, 0, 0, 3, 1, 1, 2, 3, 3, 1, 0, 3, 2, 0, 2, 0, 3, 0, 1, 0, 0, 2, 0, 0,
+        2, 3, 3, 3, 1, 0, 3, 3, 3, 0, 2, 3, 0, 0, 2, 0, 0, 0])   label: tensor([0, 3, 2, 3, 2, 0, 3, 3, 3, 0, 0, 0, 3, 1, 1, 1, 2, 1, 3, 1, 0, 0, 2, 3,
+        2, 0, 2, 0, 2, 0, 3, 3, 0, 0, 1, 3, 3, 3, 0, 2, 0, 1])
+Epoch: 242   Train loss: 1.3477148   Test loss: 1.324577   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 1, 0, 1, 3, 0, 1, 0, 0, 1, 3, 3, 1, 0, 1, 3, 3, 2, 2, 3, 3, 1, 0, 0,
+        0, 3, 3, 0, 1, 0, 2, 2, 3, 0, 2, 3, 2, 1, 2, 1, 3, 2])   label: tensor([1, 0, 2, 2, 2, 2, 2, 0, 1, 1, 3, 1, 1, 3, 2, 0, 1, 1, 3, 3, 3, 1, 0, 1,
+        0, 1, 3, 0, 1, 0, 3, 2, 2, 1, 3, 2, 0, 2, 0, 1, 3, 0])
+Epoch: 243   Train loss: 1.2785318   Test loss: 1.3248844   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35613905325443784   Train_predict: tensor([3, 3, 1, 1, 0, 3, 1, 1, 2, 3, 2, 1, 0, 3, 3, 0, 3, 2, 2, 0, 1, 3, 0, 3,
+        0, 0, 0, 3, 3, 1, 1, 3, 1, 2, 3, 0, 0, 0, 2, 3, 0, 1])   label: tensor([1, 3, 3, 2, 3, 2, 0, 2, 3, 0, 2, 0, 1, 3, 3, 0, 3, 1, 3, 0, 3, 2, 1, 3,
+        1, 0, 0, 1, 2, 1, 0, 1, 1, 2, 3, 1, 2, 1, 1, 0, 0, 1])
+Epoch: 244   Train loss: 1.1359155   Test loss: 1.3238497   Train accuracy: 0.5714285714285714   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 0, 1, 3, 2, 1, 0, 1, 2, 0, 1, 0, 3, 3, 3, 0, 1, 2, 0, 3, 3, 0, 1, 3,
+        1, 2, 0, 0, 0, 3, 0, 3, 1, 1, 2, 0, 3, 2, 3, 0, 2, 3])   label: tensor([3, 0, 2, 3, 3, 1, 0, 0, 2, 3, 1, 0, 3, 0, 0, 0, 1, 2, 0, 3, 2, 2, 1, 3,
+        3, 2, 1, 0, 3, 0, 0, 3, 1, 1, 1, 0, 3, 2, 2, 1, 3, 1])
+Epoch: 245   Train loss: 1.3022618   Test loss: 1.3234704   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3583579881656805   Train_predict: tensor([2, 0, 3, 3, 1, 2, 3, 3, 2, 0, 0, 0, 1, 2, 3, 0, 2, 1, 1, 2, 2, 2, 2, 2,
+        3, 1, 2, 1, 2, 2, 1, 1, 3, 3, 1, 2, 1, 2, 3, 3, 0, 2])   label: tensor([2, 1, 2, 1, 1, 3, 1, 0, 2, 3, 1, 2, 1, 1, 3, 3, 3, 0, 3, 2, 2, 0, 1, 2,
+        2, 1, 1, 2, 2, 0, 1, 2, 1, 2, 1, 2, 0, 1, 2, 3, 0, 1])
+Epoch: 246   Train loss: 1.3608817   Test loss: 1.3238559   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35798816568047337   Train_predict: tensor([1, 2, 2, 3, 2, 0, 2, 1, 0, 2, 1, 1, 0, 3, 3, 2, 0, 1, 2, 3, 1, 2, 2, 2,
+        2, 0, 3, 0, 3, 0, 2, 0, 3, 1, 1, 3, 2, 2, 3, 3, 1, 3])   label: tensor([3, 2, 1, 3, 2, 2, 1, 3, 3, 3, 2, 3, 0, 3, 3, 2, 3, 1, 1, 0, 1, 3, 3, 3,
+        2, 2, 2, 2, 3, 1, 2, 3, 0, 3, 1, 1, 1, 1, 2, 2, 0, 0])
+Epoch: 247   Train loss: 1.2669824   Test loss: 1.3239439   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35650887573964496   Train_predict: tensor([2, 3, 2, 2, 2, 3, 1, 1, 2, 3, 0, 1, 1, 1, 0, 3, 2, 1, 0, 3, 0, 2, 0, 0,
+        1, 0, 1, 2, 2, 2, 0, 1, 0, 1, 0, 2, 1, 3, 1, 3, 1, 3])   label: tensor([0, 3, 0, 2, 2, 3, 3, 1, 3, 3, 3, 0, 3, 1, 2, 0, 0, 3, 1, 3, 3, 2, 1, 0,
+        1, 3, 2, 3, 2, 3, 0, 1, 0, 1, 0, 1, 2, 3, 1, 0, 0, 0])
+Epoch: 248   Train loss: 1.3771563   Test loss: 1.3242894   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 3, 2, 2, 1, 3, 1, 0, 0, 0, 0, 2, 0, 0, 0, 2, 2, 1, 3, 3, 0, 3, 1, 1,
+        2, 0, 2, 3, 1, 3, 0, 1, 3, 2, 3, 1, 3, 0, 2, 1, 3, 0])   label: tensor([0, 3, 2, 2, 1, 3, 1, 2, 3, 2, 0, 2, 2, 0, 1, 0, 1, 1, 1, 1, 3, 1, 0, 1,
+        1, 3, 2, 3, 1, 2, 1, 1, 3, 1, 3, 0, 0, 3, 0, 1, 2, 1])
+Epoch: 249   Train loss: 1.4207137   Test loss: 1.3246934   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 0, 1, 1, 1, 2, 1, 2, 0, 3, 3, 2, 1, 0, 0, 3, 0, 0, 0, 0, 3, 0, 1, 1,
+        3, 2, 3, 2, 1, 3, 1, 1, 0, 0, 2, 3, 0, 2, 3, 3, 0, 2])   label: tensor([0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 0, 3, 1, 3, 2, 0, 2, 0, 2, 2, 3, 0, 3, 2,
+        3, 2, 1, 2, 2, 0, 2, 1, 3, 2, 2, 0, 2, 0, 1, 3, 0, 3])
+Epoch: 250   Train loss: 1.321065   Test loss: 1.3235409   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 3, 2, 2, 1, 0, 2, 0, 3, 1, 1, 3, 0, 2, 3, 0, 1, 3, 0, 0, 1, 1, 1, 1,
+        3, 2, 0, 2, 2, 0, 0, 1, 3, 0, 0, 2, 1, 2, 2, 2, 3, 2])   label: tensor([2, 2, 3, 3, 2, 0, 2, 2, 2, 3, 0, 3, 0, 1, 2, 3, 3, 3, 0, 0, 0, 3, 3, 0,
+        3, 1, 0, 2, 0, 0, 0, 1, 1, 2, 2, 0, 0, 2, 1, 3, 3, 2])
+Epoch: 251   Train loss: 1.3035336   Test loss: 1.322598   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 2, 3, 0, 3, 1, 2, 3, 0, 0, 0, 1, 1, 0, 1, 3, 2, 2, 3, 2, 3, 1, 1, 2,
+        3, 0, 2, 0, 0, 1, 2, 3, 0, 1, 1, 3, 1, 0, 0, 0, 2, 0])   label: tensor([0, 2, 1, 2, 1, 3, 2, 3, 0, 3, 3, 1, 3, 2, 1, 0, 0, 2, 3, 3, 1, 0, 2, 2,
+        1, 1, 2, 1, 1, 2, 2, 0, 0, 3, 3, 0, 3, 0, 1, 0, 2, 1])
+Epoch: 252   Train loss: 1.3920332   Test loss: 1.3233722   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3594674556213018   Train_predict: tensor([3, 1, 1, 1, 0, 3, 2, 0, 1, 3, 2, 1, 1, 1, 2, 1, 0, 2, 1, 0, 2, 1, 2, 1,
+        2, 0, 2, 2, 3, 0, 3, 0, 0, 2, 2, 2, 1, 3, 3, 3, 2, 0])   label: tensor([1, 2, 1, 2, 0, 2, 2, 1, 1, 2, 1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 3, 3, 0, 0,
+        3, 2, 2, 1, 1, 0, 2, 2, 3, 3, 1, 2, 2, 0, 2, 2, 3, 1])
+Epoch: 253   Train loss: 1.3072436   Test loss: 1.3220813   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 1, 2, 3, 3, 0, 0, 3, 3, 1, 1, 3, 3, 0, 0, 0, 3, 3, 3, 0, 1, 3, 1, 0,
+        1, 2, 0, 1, 1, 3, 1, 0, 2, 2, 2, 3, 0, 0, 2, 0, 3, 2])   label: tensor([3, 3, 2, 3, 3, 0, 2, 0, 1, 3, 1, 3, 2, 1, 3, 2, 0, 3, 3, 2, 3, 3, 1, 3,
+        0, 3, 0, 3, 1, 2, 3, 0, 3, 2, 0, 3, 1, 3, 2, 3, 1, 2])
+Epoch: 254   Train loss: 1.4695588   Test loss: 1.3249084   Train accuracy: 0.16666666666666666   Test accuracy is: 0.3572485207100592   Train_predict: tensor([0, 0, 3, 0, 3, 0, 2, 1, 3, 2, 3, 1, 3, 1, 3, 3, 3, 0, 3, 0, 3, 0, 3, 0,
+        3, 0, 2, 1, 2, 1, 2, 3, 1, 0, 3, 0, 3, 0, 3, 1, 2, 1])   label: tensor([3, 2, 0, 2, 0, 1, 0, 0, 3, 0, 0, 2, 2, 0, 3, 2, 2, 0, 0, 1, 0, 2, 2, 3,
+        3, 0, 2, 3, 1, 2, 3, 0, 3, 1, 1, 1, 1, 0, 2, 0, 0, 2])
+Epoch: 255   Train loss: 1.237179   Test loss: 1.3224316   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 0, 2, 2, 2, 3, 0, 2, 2, 0, 0, 2, 2, 0, 1, 0, 1, 1, 0, 2, 2, 2, 1, 1,
+        1, 0, 1, 3, 2, 0, 0, 0, 0, 0, 1, 2, 2, 1, 2, 3, 0, 3])   label: tensor([0, 0, 2, 0, 3, 3, 2, 0, 2, 2, 0, 3, 2, 0, 0, 2, 0, 1, 2, 1, 2, 2, 3, 1,
+        1, 0, 3, 3, 1, 0, 1, 0, 2, 3, 1, 0, 0, 3, 1, 2, 2, 3])
+Epoch: 256   Train loss: 1.4514874   Test loss: 1.3229182   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36279585798816566   Train_predict: tensor([2, 3, 3, 3, 2, 2, 3, 0, 1, 3, 2, 2, 2, 0, 2, 0, 1, 3, 2, 0, 0, 3, 3, 3,
+        0, 2, 0, 2, 0, 1, 0, 0, 2, 0, 1, 0, 1, 1, 2, 3, 0, 1])   label: tensor([2, 2, 1, 0, 0, 1, 0, 0, 1, 0, 2, 2, 2, 2, 1, 0, 2, 1, 0, 1, 3, 3, 2, 2,
+        0, 3, 3, 1, 1, 1, 3, 0, 1, 2, 2, 2, 3, 1, 2, 2, 2, 0])
+Epoch: 257   Train loss: 1.4163014   Test loss: 1.3250188   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 3, 0, 2, 2, 2, 1, 0, 1, 2, 0, 0, 2, 0, 0, 3, 2, 1, 1, 3, 1, 3, 2, 1,
+        0, 3, 1, 1, 3, 2, 2, 0, 1, 3, 3, 0, 0, 0, 2, 2, 0, 0])   label: tensor([2, 1, 0, 3, 1, 1, 2, 3, 0, 2, 3, 1, 0, 0, 1, 2, 2, 2, 3, 0, 1, 1, 2, 1,
+        0, 1, 1, 2, 3, 1, 1, 3, 1, 2, 0, 1, 0, 3, 0, 1, 3, 2])
+Epoch: 258   Train loss: 1.3133466   Test loss: 1.3240372   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3624260355029586   Train_predict: tensor([2, 0, 2, 1, 2, 1, 1, 2, 2, 3, 3, 0, 3, 1, 2, 1, 3, 0, 0, 2, 1, 2, 2, 3,
+        3, 2, 3, 1, 3, 2, 3, 3, 0, 3, 0, 2, 3, 3, 1, 2, 2, 0])   label: tensor([3, 3, 3, 2, 1, 1, 3, 2, 1, 3, 2, 0, 3, 0, 2, 0, 2, 3, 3, 2, 2, 1, 2, 2,
+        2, 2, 1, 0, 2, 1, 3, 2, 0, 0, 0, 1, 3, 0, 2, 1, 3, 1])
+Epoch: 259   Train loss: 1.3466555   Test loss: 1.3250625   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 0, 2, 2, 1, 2, 0, 0, 2, 1, 0, 0, 0, 2, 2, 2, 3, 0, 1, 0, 2, 0, 0, 0,
+        2, 1, 2, 2, 0, 0, 3, 2, 2, 0, 0, 0, 0, 0, 1, 2, 1, 1])   label: tensor([1, 3, 2, 2, 1, 2, 1, 0, 3, 2, 0, 2, 0, 1, 0, 2, 3, 0, 0, 3, 1, 3, 0, 2,
+        1, 2, 0, 3, 2, 3, 2, 3, 3, 2, 0, 0, 3, 3, 0, 1, 0, 2])
+Epoch: 260   Train loss: 1.3156592   Test loss: 1.3246291   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 3, 0, 3, 3, 1, 0, 0, 0, 0, 1, 3, 1, 0, 0, 2, 0, 0, 0, 2, 2, 3, 1, 2,
+        3, 3, 1, 0, 0, 3, 1, 3, 3, 2, 2, 0, 0, 3, 0, 3, 0, 2])   label: tensor([3, 1, 0, 0, 0, 2, 1, 2, 0, 0, 2, 0, 1, 2, 0, 1, 3, 2, 0, 2, 0, 0, 3, 0,
+        2, 0, 3, 1, 0, 1, 3, 1, 1, 2, 2, 0, 2, 2, 0, 3, 3, 2])
+Epoch: 261   Train loss: 1.2790402   Test loss: 1.3256972   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3605769230769231   Train_predict: tensor([1, 0, 3, 1, 2, 1, 3, 3, 0, 0, 3, 0, 1, 0, 2, 0, 2, 0, 1, 2, 0, 1, 1, 1,
+        0, 3, 2, 3, 3, 2, 1, 2, 2, 3, 3, 1, 2, 1, 3, 0, 0, 3])   label: tensor([0, 0, 2, 0, 3, 1, 1, 3, 0, 1, 1, 3, 2, 3, 1, 0, 2, 2, 2, 2, 0, 1, 3, 2,
+        1, 1, 3, 0, 0, 2, 0, 2, 2, 3, 2, 1, 1, 1, 3, 2, 2, 1])
+Epoch: 262   Train loss: 1.2142918   Test loss: 1.3242666   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 3, 1, 1, 0, 2, 0, 0, 3, 1, 0, 3, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 2, 2,
+        2, 2, 0, 0, 3, 3, 2, 0, 1, 0, 3, 1, 0, 2, 3, 1, 2, 3])   label: tensor([3, 3, 1, 2, 1, 3, 3, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 2, 0, 0, 0, 1, 2, 1,
+        2, 2, 1, 2, 3, 3, 1, 0, 3, 0, 0, 1, 2, 3, 2, 1, 3, 3])
+Epoch: 263   Train loss: 1.2770702   Test loss: 1.325867   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 1, 1, 0, 0, 3, 3, 2, 1, 3, 3, 0, 1, 3, 3, 0, 3, 0, 1, 3, 2, 0, 2, 1,
+        2, 0, 0, 1, 1, 0, 2, 1, 3, 2, 1, 2, 0, 0, 0, 0, 2, 3])   label: tensor([0, 2, 0, 2, 1, 0, 1, 3, 1, 0, 0, 0, 1, 3, 1, 0, 2, 1, 1, 3, 2, 2, 0, 2,
+        1, 1, 0, 2, 1, 0, 2, 1, 3, 3, 1, 3, 0, 2, 0, 2, 2, 0])
+Epoch: 264   Train loss: 1.3428897   Test loss: 1.323159   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 2, 3, 3, 2, 0, 2, 3, 3, 2, 3, 1, 0, 1, 0, 3, 2, 0, 0, 3, 3, 2, 1, 0,
+        2, 0, 0, 3, 2, 3, 1, 0, 1, 0, 2, 3, 2, 1, 2, 3, 3, 2])   label: tensor([2, 0, 1, 2, 3, 3, 2, 2, 3, 0, 2, 1, 0, 2, 3, 3, 2, 0, 2, 1, 2, 0, 0, 3,
+        0, 0, 2, 3, 2, 3, 2, 2, 1, 0, 0, 0, 3, 2, 1, 2, 3, 2])
+Epoch: 265   Train loss: 1.2992045   Test loss: 1.3247304   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35650887573964496   Train_predict: tensor([1, 1, 3, 3, 1, 0, 3, 1, 0, 3, 3, 1, 0, 3, 0, 3, 0, 0, 0, 3, 2, 3, 1, 3,
+        0, 1, 2, 3, 0, 3, 1, 3, 1, 0, 3, 0, 1, 0, 1, 0, 0, 3])   label: tensor([1, 2, 3, 0, 2, 1, 2, 2, 3, 2, 1, 0, 0, 1, 1, 3, 0, 3, 3, 3, 1, 2, 0, 3,
+        2, 3, 3, 3, 2, 0, 1, 2, 0, 0, 0, 0, 1, 1, 0, 2, 3, 3])
+Epoch: 266   Train loss: 1.3790079   Test loss: 1.3221319   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3594674556213018   Train_predict: tensor([0, 0, 1, 1, 2, 1, 2, 2, 0, 3, 2, 3, 0, 1, 0, 2, 0, 0, 3, 0, 3, 1, 3, 3,
+        0, 3, 3, 2, 2, 0, 0, 1, 2, 1, 3, 3, 2, 0, 3, 0, 1, 0])   label: tensor([0, 1, 3, 2, 1, 1, 0, 3, 2, 3, 0, 0, 0, 0, 0, 2, 2, 1, 2, 0, 1, 1, 2, 0,
+        3, 2, 0, 3, 2, 3, 0, 1, 2, 0, 3, 3, 1, 1, 0, 0, 3, 3])
+Epoch: 267   Train loss: 1.4309535   Test loss: 1.3215501   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 1, 2, 1, 3, 3, 0, 2, 0, 3, 1, 0, 2, 3, 3, 0, 3, 3, 1, 3, 3, 1, 2, 3,
+        3, 0, 0, 1, 0, 3, 1, 0, 3, 0, 0, 0, 3, 1, 0, 0, 2, 3])   label: tensor([3, 3, 0, 0, 3, 3, 0, 0, 3, 0, 3, 0, 2, 1, 3, 2, 3, 2, 0, 0, 2, 1, 3, 3,
+        3, 3, 1, 1, 2, 3, 0, 2, 1, 1, 0, 1, 1, 0, 3, 3, 3, 0])
+Epoch: 268   Train loss: 1.2813951   Test loss: 1.3232126   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 2, 3, 0, 1, 3, 3, 1, 0, 3, 2, 1, 1, 2, 0, 2, 1, 1, 3, 2, 0, 3, 1, 1,
+        0, 2, 2, 1, 0, 1, 3, 1, 0, 1, 1, 1, 2, 0, 2, 2, 0, 3])   label: tensor([3, 2, 3, 1, 1, 0, 3, 1, 2, 3, 2, 1, 1, 3, 3, 2, 3, 3, 0, 3, 1, 2, 0, 0,
+        1, 0, 2, 1, 0, 2, 2, 2, 1, 3, 0, 0, 2, 0, 1, 2, 3, 0])
+Epoch: 269   Train loss: 1.2369077   Test loss: 1.3229642   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3613165680473373   Train_predict: tensor([2, 0, 3, 1, 3, 2, 2, 3, 1, 1, 2, 0, 1, 3, 3, 3, 0, 3, 0, 0, 0, 1, 3, 0,
+        0, 1, 3, 2, 3, 1, 2, 1, 2, 0, 2, 0, 3, 1, 0, 3, 2, 3])   label: tensor([1, 2, 3, 0, 3, 1, 2, 0, 0, 3, 0, 0, 1, 3, 2, 3, 1, 2, 3, 1, 2, 3, 2, 3,
+        0, 1, 1, 0, 3, 3, 3, 0, 2, 0, 2, 2, 2, 2, 0, 3, 2, 2])
+Epoch: 270   Train loss: 1.3119644   Test loss: 1.3240947   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36168639053254437   Train_predict: tensor([3, 2, 1, 2, 1, 0, 3, 0, 1, 1, 2, 3, 2, 3, 1, 3, 3, 0, 1, 1, 1, 2, 3, 1,
+        1, 1, 0, 3, 1, 2, 1, 0, 0, 0, 1, 3, 3, 2, 3, 1, 0, 2])   label: tensor([1, 2, 2, 3, 2, 2, 1, 0, 1, 3, 0, 3, 2, 1, 2, 0, 0, 2, 2, 3, 3, 0, 1, 1,
+        1, 2, 3, 2, 1, 3, 3, 0, 0, 0, 1, 2, 1, 2, 3, 1, 0, 2])
+Epoch: 271   Train loss: 1.3442646   Test loss: 1.3237027   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3594674556213018   Train_predict: tensor([3, 2, 1, 3, 1, 0, 2, 3, 3, 3, 0, 0, 0, 0, 1, 2, 1, 2, 0, 2, 0, 1, 3, 1,
+        3, 1, 2, 0, 0, 3, 0, 0, 0, 0, 2, 1, 2, 1, 0, 2, 0, 0])   label: tensor([2, 2, 3, 2, 2, 2, 2, 2, 2, 1, 2, 0, 0, 3, 0, 0, 0, 1, 1, 0, 2, 0, 3, 2,
+        3, 3, 0, 0, 3, 2, 0, 3, 1, 0, 3, 3, 0, 2, 0, 0, 3, 1])
+Epoch: 272   Train loss: 1.2835522   Test loss: 1.3233902   Train accuracy: 0.5   Test accuracy is: 0.35872781065088755   Train_predict: tensor([1, 0, 1, 1, 2, 1, 3, 3, 3, 0, 0, 3, 0, 3, 0, 2, 0, 2, 2, 2, 0, 2, 3, 3,
+        1, 2, 3, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 2, 1, 0, 0, 3])   label: tensor([2, 2, 2, 1, 3, 0, 3, 1, 3, 0, 2, 3, 3, 3, 0, 0, 1, 3, 2, 2, 3, 3, 3, 1,
+        2, 2, 1, 1, 2, 0, 0, 1, 1, 1, 0, 1, 2, 2, 1, 0, 3, 1])
+Epoch: 273   Train loss: 1.3453668   Test loss: 1.3234262   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 3, 2, 0, 0, 0, 0, 2, 2, 2, 2, 0, 1, 0, 1, 1, 0, 3, 1, 1, 3, 0, 1, 0,
+        0, 1, 1, 3, 3, 3, 0, 0, 0, 3, 3, 1, 2, 0, 3, 0, 0, 1])   label: tensor([2, 3, 2, 2, 0, 3, 2, 1, 2, 1, 1, 0, 0, 0, 0, 0, 3, 3, 3, 1, 3, 2, 1, 1,
+        2, 2, 1, 2, 2, 1, 1, 2, 3, 3, 3, 3, 0, 0, 0, 2, 0, 2])
+Epoch: 274   Train loss: 1.4144315   Test loss: 1.3219694   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 1, 2, 1, 0, 3, 2, 0, 3, 2, 3, 0, 2, 0, 0, 0, 1, 0, 0, 2, 1, 3, 1, 3,
+        0, 1, 3, 3, 1, 3, 2, 0, 1, 2, 1, 3, 1, 0, 0, 0, 3, 3])   label: tensor([2, 2, 1, 1, 2, 3, 3, 0, 3, 0, 2, 2, 1, 3, 0, 0, 0, 1, 2, 3, 0, 0, 2, 3,
+        1, 0, 0, 1, 0, 3, 1, 3, 0, 2, 2, 2, 1, 3, 2, 1, 2, 2])
+Epoch: 275   Train loss: 1.2156903   Test loss: 1.3235798   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3531804733727811   Train_predict: tensor([0, 1, 0, 3, 3, 3, 1, 3, 0, 1, 2, 1, 1, 3, 1, 1, 0, 2, 0, 2, 0, 0, 1, 3,
+        3, 0, 1, 3, 0, 1, 0, 1, 0, 0, 0, 2, 3, 3, 0, 0, 3, 3])   label: tensor([0, 1, 0, 0, 3, 2, 1, 0, 3, 1, 0, 0, 2, 1, 1, 3, 0, 2, 0, 2, 0, 3, 2, 1,
+        3, 0, 2, 0, 2, 3, 2, 1, 0, 1, 0, 3, 0, 1, 3, 0, 3, 0])
+Epoch: 276   Train loss: 1.3471315   Test loss: 1.3246245   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 1, 1, 2, 1, 1, 1, 1, 3, 0, 1, 1, 1, 2, 3, 0, 2, 1, 2, 2, 1, 1, 3, 3,
+        1, 3, 2, 0, 1, 0, 1, 1, 0, 1, 0, 0, 2, 0, 3, 2, 3, 3])   label: tensor([2, 0, 1, 1, 1, 1, 2, 2, 0, 0, 3, 2, 0, 0, 3, 0, 1, 0, 3, 1, 2, 1, 2, 2,
+        2, 3, 2, 0, 1, 1, 3, 2, 0, 1, 0, 0, 3, 0, 1, 0, 1, 2])
+Epoch: 277   Train loss: 1.2801925   Test loss: 1.3236456   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35909763313609466   Train_predict: tensor([3, 1, 3, 0, 3, 1, 0, 3, 1, 2, 3, 0, 1, 0, 0, 2, 0, 0, 0, 3, 1, 1, 3, 3,
+        1, 3, 2, 2, 0, 0, 2, 2, 0, 0, 1, 1, 3, 0, 1, 1, 2, 2])   label: tensor([3, 1, 1, 1, 1, 1, 0, 2, 3, 2, 2, 0, 1, 0, 0, 1, 3, 2, 1, 2, 2, 2, 2, 3,
+        1, 1, 2, 2, 2, 0, 2, 3, 2, 0, 1, 0, 2, 0, 3, 3, 2, 3])
+Epoch: 278   Train loss: 1.2647493   Test loss: 1.3231148   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 3, 1, 2, 0, 1, 0, 2, 3, 3, 0, 2, 0, 1, 1, 3, 3, 1, 2, 3, 0, 0, 0, 0,
+        2, 3, 3, 3, 0, 3, 3, 1, 3, 0, 1, 2, 2, 1, 2, 3, 2, 0])   label: tensor([1, 3, 3, 3, 0, 3, 0, 3, 3, 2, 2, 2, 2, 1, 1, 0, 1, 1, 1, 2, 2, 3, 3, 0,
+        2, 3, 3, 0, 3, 3, 1, 1, 2, 0, 2, 2, 0, 1, 0, 3, 3, 0])
+Epoch: 279   Train loss: 1.3574587   Test loss: 1.3244952   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 1, 2, 0, 2, 2, 0, 2, 1, 0, 2, 2, 0, 1, 0, 0, 0, 2, 0, 0, 1, 0, 3, 3,
+        3, 3, 2, 1, 3, 1, 3, 0, 1, 0, 2, 2, 0, 1, 1, 1, 0, 0])   label: tensor([3, 1, 2, 3, 0, 1, 0, 2, 2, 1, 3, 0, 3, 1, 0, 3, 1, 2, 0, 2, 1, 3, 3, 0,
+        3, 2, 0, 3, 0, 2, 3, 1, 3, 0, 2, 3, 2, 0, 2, 2, 0, 3])
+Epoch: 280   Train loss: 1.3192521   Test loss: 1.32504   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 1, 3, 2, 1, 3, 0, 3, 0, 0, 1, 1, 1, 2, 0, 3, 1, 2, 0, 1, 0, 2, 1, 3,
+        1, 0, 0, 2, 2, 2, 0, 1, 0, 0, 1, 3, 3, 1, 2, 3, 1, 2])   label: tensor([2, 2, 3, 1, 1, 1, 0, 3, 1, 1, 0, 0, 3, 2, 3, 1, 0, 2, 2, 3, 0, 1, 1, 3,
+        3, 0, 1, 3, 2, 1, 2, 2, 0, 2, 3, 3, 3, 2, 2, 1, 0, 1])
+Epoch: 281   Train loss: 1.2983961   Test loss: 1.32533   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36168639053254437   Train_predict: tensor([1, 0, 3, 1, 3, 2, 1, 2, 0, 3, 1, 1, 1, 0, 3, 0, 0, 3, 3, 3, 0, 3, 3, 0,
+        0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3, 3, 3, 0, 1, 1, 2])   label: tensor([3, 3, 1, 1, 2, 2, 2, 1, 0, 2, 1, 2, 0, 0, 2, 0, 1, 0, 3, 1, 3, 3, 3, 2,
+        2, 0, 0, 1, 1, 0, 0, 3, 1, 0, 1, 3, 3, 3, 0, 1, 0, 3])
+Epoch: 282   Train loss: 1.365193   Test loss: 1.3215477   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3594674556213018   Train_predict: tensor([3, 0, 0, 1, 0, 1, 0, 1, 3, 1, 3, 0, 0, 0, 3, 0, 3, 3, 1, 1, 1, 0, 2, 3,
+        1, 1, 0, 0, 0, 0, 1, 0, 3, 0, 2, 1, 1, 2, 1, 0, 0, 1])   label: tensor([3, 3, 2, 3, 3, 0, 0, 2, 2, 2, 3, 3, 1, 0, 3, 0, 0, 0, 1, 3, 1, 3, 2, 3,
+        0, 3, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3, 0, 2, 1, 3, 0, 3])
+Epoch: 283   Train loss: 1.3304236   Test loss: 1.3235639   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35650887573964496   Train_predict: tensor([1, 0, 1, 0, 1, 0, 0, 1, 0, 2, 3, 2, 3, 0, 0, 3, 0, 1, 2, 2, 2, 3, 1, 1,
+        1, 0, 3, 1, 2, 0, 3, 1, 1, 2, 3, 0, 1, 2, 0, 2, 1, 3])   label: tensor([1, 1, 1, 1, 0, 0, 0, 2, 1, 2, 3, 3, 2, 0, 0, 1, 1, 0, 2, 3, 2, 3, 2, 1,
+        1, 1, 1, 3, 2, 0, 0, 3, 1, 1, 1, 3, 2, 0, 2, 1, 2, 0])
+Epoch: 284   Train loss: 1.3042685   Test loss: 1.3227191   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 3, 1, 2, 0, 2, 3, 3, 1, 0, 3, 3, 0, 0, 0, 3, 1, 2, 3, 2, 1, 0, 3, 3,
+        2, 0, 0, 1, 2, 1, 0, 0, 1, 3, 3, 2, 0, 3, 3, 3, 1, 1])   label: tensor([2, 3, 0, 2, 3, 2, 0, 3, 1, 0, 3, 2, 3, 0, 1, 2, 1, 2, 1, 1, 0, 2, 2, 3,
+        1, 3, 3, 1, 2, 0, 2, 3, 0, 3, 0, 0, 2, 3, 1, 3, 1, 2])
+Epoch: 285   Train loss: 1.383261   Test loss: 1.3215479   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3583579881656805   Train_predict: tensor([1, 0, 2, 3, 3, 3, 3, 3, 1, 2, 1, 3, 1, 1, 2, 3, 2, 2, 2, 0, 1, 0, 1, 3,
+        3, 3, 3, 1, 2, 0, 2, 3, 0, 1, 2, 2, 1, 0, 1, 2, 0, 3])   label: tensor([1, 3, 0, 2, 1, 3, 2, 2, 2, 3, 0, 0, 2, 1, 2, 1, 3, 0, 0, 1, 3, 2, 1, 3,
+        1, 0, 2, 0, 1, 0, 2, 1, 2, 0, 3, 1, 1, 1, 3, 3, 1, 1])
+Epoch: 286   Train loss: 1.3548957   Test loss: 1.3230208   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 0, 0, 1, 1, 2, 0, 0, 0, 0, 3, 2, 2, 1, 3, 2, 3, 3, 3, 0, 0, 3, 3, 0,
+        0, 1, 2, 0, 3, 0, 1, 3, 0, 0, 0, 2, 2, 0, 3, 1, 3, 3])   label: tensor([1, 0, 1, 2, 3, 3, 3, 1, 2, 0, 3, 1, 3, 1, 3, 0, 3, 2, 1, 1, 3, 2, 3, 0,
+        0, 0, 2, 0, 0, 2, 3, 3, 0, 2, 3, 3, 3, 0, 1, 1, 0, 0])
+Epoch: 287   Train loss: 1.3197794   Test loss: 1.3232182   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 3, 2, 0, 0, 2, 1, 3, 0, 0, 1, 3, 3, 3, 1, 3, 3, 1, 3, 1, 1, 1, 0, 0,
+        2, 1, 0, 3, 0, 3, 2, 0, 1, 3, 3, 1, 1, 3, 0, 3, 2, 0])   label: tensor([1, 3, 2, 1, 0, 1, 0, 0, 0, 1, 2, 2, 2, 1, 0, 3, 1, 2, 3, 2, 3, 3, 0, 3,
+        1, 1, 0, 0, 0, 2, 2, 0, 3, 2, 1, 3, 2, 3, 2, 1, 2, 0])
+Epoch: 288   Train loss: 1.4381816   Test loss: 1.3230962   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35798816568047337   Train_predict: tensor([0, 0, 1, 0, 3, 1, 2, 2, 0, 1, 1, 3, 2, 0, 2, 2, 3, 1, 0, 3, 1, 3, 3, 3,
+        1, 0, 2, 1, 3, 2, 1, 1, 2, 1, 1, 3, 1, 0, 0, 3, 3, 0])   label: tensor([3, 1, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 3, 0, 0, 0, 0, 1, 2, 3, 2, 2, 1, 1,
+        1, 0, 2, 3, 3, 3, 2, 2, 1, 1, 0, 3, 2, 3, 1, 2, 3, 0])
+Epoch: 289   Train loss: 1.3266672   Test loss: 1.3228766   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 3, 2, 0, 0, 0, 0, 0, 0, 2, 3, 2, 2, 3, 0, 0, 2, 1, 2, 1, 1, 2, 2, 1,
+        0, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0, 1, 2, 1, 0, 3, 0, 1])   label: tensor([2, 3, 3, 1, 0, 3, 0, 1, 3, 1, 0, 1, 3, 3, 3, 0, 2, 1, 1, 2, 1, 1, 0, 2,
+        3, 3, 2, 3, 0, 3, 0, 1, 2, 1, 0, 0, 2, 0, 0, 3, 0, 2])
+Epoch: 290   Train loss: 1.3646779   Test loss: 1.322945   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35872781065088755   Train_predict: tensor([2, 0, 3, 1, 0, 3, 2, 2, 1, 1, 0, 0, 1, 0, 1, 2, 1, 1, 3, 3, 1, 3, 0, 0,
+        0, 1, 2, 2, 1, 1, 3, 2, 1, 0, 2, 2, 1, 0, 3, 3, 1, 1])   label: tensor([1, 0, 3, 3, 2, 0, 3, 2, 0, 1, 0, 0, 2, 1, 2, 3, 3, 2, 1, 3, 2, 1, 1, 0,
+        2, 2, 3, 0, 2, 1, 0, 1, 1, 3, 1, 3, 0, 0, 1, 1, 0, 1])
+Epoch: 291   Train loss: 1.2768301   Test loss: 1.322335   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3624260355029586   Train_predict: tensor([3, 3, 3, 1, 2, 0, 3, 1, 3, 2, 0, 3, 1, 0, 0, 2, 3, 2, 1, 1, 3, 3, 0, 0,
+        2, 2, 3, 3, 0, 0, 0, 0, 0, 0, 2, 2, 3, 2, 1, 0, 3, 1])   label: tensor([3, 3, 0, 2, 3, 0, 3, 1, 1, 0, 2, 3, 3, 1, 0, 2, 3, 3, 1, 3, 1, 3, 0, 0,
+        1, 1, 1, 2, 1, 0, 0, 0, 0, 1, 2, 1, 0, 2, 1, 0, 0, 1])
+Epoch: 292   Train loss: 1.3966817   Test loss: 1.3202534   Train accuracy: 0.21428571428571427   Test accuracy is: 0.35761834319526625   Train_predict: tensor([1, 2, 1, 2, 1, 2, 2, 0, 0, 0, 3, 3, 1, 0, 1, 1, 1, 0, 3, 0, 1, 3, 1, 0,
+        3, 2, 3, 1, 1, 3, 3, 0, 1, 3, 2, 3, 1, 1, 3, 1, 0, 0])   label: tensor([1, 2, 3, 1, 3, 3, 0, 0, 3, 1, 1, 2, 2, 2, 0, 2, 3, 3, 0, 1, 2, 1, 3, 3,
+        3, 3, 3, 2, 2, 0, 1, 0, 0, 2, 1, 3, 1, 2, 1, 1, 2, 1])
+Epoch: 293   Train loss: 1.3352385   Test loss: 1.3207712   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 2, 2, 0, 2, 0, 2, 2, 1, 1, 0, 1, 0, 0, 2, 3, 1, 1, 0, 3, 0, 3, 1, 3,
+        3, 2, 3, 3, 1, 0, 1, 0, 1, 3, 0, 0, 2, 1, 2, 3, 0, 0])   label: tensor([2, 2, 1, 1, 0, 0, 0, 1, 3, 3, 0, 0, 2, 3, 1, 2, 2, 1, 1, 3, 0, 3, 0, 1,
+        3, 2, 1, 0, 3, 3, 1, 1, 1, 0, 0, 2, 2, 3, 3, 1, 2, 2])
+Epoch: 294   Train loss: 1.3698766   Test loss: 1.3203976   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 0, 1, 0, 3, 2, 3, 1, 1, 1, 1, 0, 3, 3, 1, 3, 1, 3, 3, 0, 0, 3, 1, 0,
+        0, 3, 2, 1, 0, 2, 3, 0, 2, 3, 2, 1, 0, 0, 0, 0, 0, 1])   label: tensor([0, 0, 2, 2, 3, 0, 2, 2, 1, 3, 2, 0, 1, 1, 0, 3, 1, 0, 3, 0, 3, 2, 0, 2,
+        3, 2, 2, 2, 2, 0, 3, 2, 1, 0, 1, 1, 3, 2, 3, 0, 3, 0])
+Epoch: 295   Train loss: 1.3483168   Test loss: 1.3200308   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 0, 3, 0, 3, 2, 0, 3, 0, 3, 0, 2, 1, 0, 0, 3, 1, 3, 1, 2, 3, 0, 0, 2,
+        2, 3, 3, 1, 2, 3, 3, 2, 3, 0, 1, 0, 0, 1, 3, 3, 0, 2])   label: tensor([2, 1, 1, 3, 3, 2, 2, 3, 1, 3, 0, 1, 1, 3, 0, 2, 1, 3, 3, 3, 1, 0, 2, 2,
+        0, 0, 3, 2, 0, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1])
+Epoch: 296   Train loss: 1.3152115   Test loss: 1.3195367   Train accuracy: 0.5   Test accuracy is: 0.3650147928994083   Train_predict: tensor([2, 1, 1, 0, 3, 3, 0, 3, 0, 0, 3, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 3, 0, 2,
+        0, 1, 3, 0, 1, 0, 1, 3, 1, 3, 1, 1, 3, 0, 0, 3, 3, 1])   label: tensor([3, 1, 3, 1, 0, 2, 3, 0, 1, 2, 3, 3, 1, 1, 0, 0, 1, 2, 1, 0, 0, 0, 1, 2,
+        0, 0, 3, 0, 1, 0, 1, 1, 1, 0, 1, 1, 3, 0, 3, 3, 3, 2])
+Epoch: 297   Train loss: 1.2642778   Test loss: 1.3213881   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 0, 0, 0, 2, 2, 0, 2, 0, 0, 1, 1, 1, 1, 0, 0, 3, 2, 2, 0, 1, 2, 2, 2,
+        2, 0, 2, 3, 3, 1, 0, 2, 1, 0, 0, 0, 1, 2, 2, 2, 1, 3])   label: tensor([1, 1, 1, 3, 0, 2, 2, 3, 3, 0, 3, 2, 2, 1, 3, 1, 0, 3, 2, 2, 1, 2, 3, 2,
+        3, 3, 2, 3, 1, 2, 3, 2, 3, 0, 0, 3, 3, 2, 0, 2, 0, 3])
+Epoch: 298   Train loss: 1.3821155   Test loss: 1.3215656   Train accuracy: 0.23809523809523808   Test accuracy is: 0.35650887573964496   Train_predict: tensor([3, 1, 1, 3, 1, 0, 1, 0, 2, 2, 0, 3, 3, 3, 0, 3, 0, 0, 1, 1, 1, 2, 1, 0,
+        2, 1, 3, 0, 3, 1, 3, 3, 0, 3, 3, 0, 1, 0, 3, 2, 1, 3])   label: tensor([2, 2, 0, 0, 1, 3, 0, 2, 1, 0, 2, 3, 1, 0, 1, 3, 1, 0, 2, 2, 3, 0, 0, 2,
+        3, 1, 2, 0, 0, 0, 1, 1, 2, 1, 2, 0, 1, 0, 0, 2, 3, 2])
+Epoch: 299   Train loss: 1.3155203   Test loss: 1.3222839   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35355029585798814   Train_predict: tensor([1, 2, 3, 0, 0, 3, 0, 1, 1, 2, 1, 3, 0, 3, 3, 0, 3, 0, 0, 3, 0, 3, 3, 3,
+        3, 3, 1, 0, 0, 0, 1, 0, 2, 1, 3, 3, 0, 1, 3, 3, 1, 1])   label: tensor([0, 2, 2, 0, 3, 2, 2, 2, 0, 2, 2, 0, 2, 3, 0, 2, 2, 1, 2, 0, 3, 2, 1, 3,
+        3, 2, 0, 0, 0, 1, 2, 0, 2, 0, 3, 1, 1, 2, 3, 2, 2, 1])
+Epoch: 300   Train loss: 1.3883711   Test loss: 1.3203157   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 0, 2, 2, 2, 0, 1, 2, 0, 1, 1, 1, 3, 3, 3, 0, 2, 1, 0, 3, 3, 3, 0, 1,
+        0, 0, 0, 3, 1, 3, 2, 0, 3, 0, 3, 0, 0, 2, 2, 0, 2, 0])   label: tensor([2, 3, 2, 1, 2, 2, 2, 1, 1, 1, 0, 0, 0, 3, 0, 3, 1, 1, 1, 3, 3, 3, 0, 2,
+        2, 3, 3, 1, 3, 3, 1, 2, 2, 1, 0, 0, 0, 0, 2, 2, 1, 1])
+Epoch: 301   Train loss: 1.3112452   Test loss: 1.3215145   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 3, 2, 2, 3, 0, 3, 1, 2, 2, 2, 2, 3, 0, 3, 1, 1, 0, 3, 2, 2, 2, 1, 3,
+        0, 1, 3, 0, 0, 0, 2, 2, 1, 0, 3, 0, 1, 2, 0, 2, 3, 1])   label: tensor([2, 3, 1, 0, 1, 3, 3, 0, 0, 1, 2, 2, 2, 3, 1, 0, 1, 1, 3, 2, 3, 2, 2, 3,
+        3, 2, 3, 1, 1, 0, 1, 0, 1, 2, 2, 1, 3, 3, 3, 3, 2, 1])
+Epoch: 302   Train loss: 1.3868368   Test loss: 1.3209972   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 3, 0, 0, 0, 1, 1, 3, 1, 0, 2, 3, 0, 3, 3, 3, 1, 3, 3, 0, 3, 0, 3, 1,
+        3, 1, 3, 1, 3, 2, 3, 1, 1, 3, 3, 0, 3, 0, 0, 3, 0, 3])   label: tensor([2, 1, 2, 0, 1, 2, 3, 2, 0, 1, 1, 1, 1, 0, 1, 0, 3, 1, 2, 1, 3, 3, 2, 3,
+        0, 2, 3, 1, 0, 2, 2, 2, 3, 2, 0, 0, 0, 1, 1, 3, 0, 3])
+Epoch: 303   Train loss: 1.2685541   Test loss: 1.3203081   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3572485207100592   Train_predict: tensor([0, 3, 0, 0, 1, 0, 2, 2, 1, 0, 3, 0, 1, 0, 3, 0, 2, 2, 1, 1, 1, 3, 1, 2,
+        0, 2, 0, 0, 2, 0, 1, 3, 0, 1, 3, 3, 1, 2, 3, 1, 0, 0])   label: tensor([3, 3, 0, 0, 1, 0, 3, 2, 2, 3, 0, 2, 1, 1, 0, 0, 2, 1, 1, 3, 1, 3, 3, 1,
+        3, 2, 0, 2, 3, 2, 3, 2, 3, 1, 1, 3, 0, 0, 2, 1, 2, 1])
+Epoch: 304   Train loss: 1.3658377   Test loss: 1.3213601   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 2, 3, 0, 0, 0, 3, 1, 1, 1, 0, 1, 0, 0, 1, 1, 3, 1, 1, 2, 0, 3, 3, 1,
+        3, 3, 2, 1, 1, 1, 3, 3, 1, 0, 0, 1, 0, 2, 1, 3, 3, 3])   label: tensor([2, 0, 3, 3, 1, 1, 2, 0, 0, 2, 1, 0, 1, 1, 3, 3, 3, 3, 3, 2, 1, 3, 0, 1,
+        2, 0, 2, 1, 1, 1, 0, 2, 1, 2, 2, 1, 3, 3, 1, 0, 1, 3])
+Epoch: 305   Train loss: 1.3635023   Test loss: 1.3222816   Train accuracy: 0.23809523809523808   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 0, 1, 0, 1, 0, 2, 1, 0, 1, 0, 3, 2, 3, 3, 0, 1, 3, 3, 1, 3, 3, 2, 2,
+        0, 3, 0, 1, 0, 1, 2, 2, 3, 0, 2, 2, 1, 1, 3, 1, 3, 2])   label: tensor([3, 0, 2, 1, 2, 3, 3, 0, 3, 2, 3, 3, 3, 0, 0, 1, 1, 2, 0, 1, 0, 1, 2, 2,
+        3, 1, 2, 2, 0, 2, 0, 1, 2, 0, 3, 0, 2, 3, 0, 1, 2, 0])
+Epoch: 306   Train loss: 1.3309034   Test loss: 1.3211257   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 0, 3, 1, 1, 3, 2, 2, 0, 2, 0, 3, 0, 0, 1, 3, 3, 2, 0, 0, 3, 0, 3, 2,
+        2, 3, 1, 1, 3, 2, 0, 2, 1, 2, 0, 1, 0, 0, 3, 1, 3, 0])   label: tensor([0, 0, 0, 2, 2, 1, 2, 1, 0, 1, 2, 0, 1, 0, 1, 3, 2, 2, 1, 0, 0, 0, 0, 0,
+        2, 1, 2, 1, 2, 0, 1, 2, 0, 2, 0, 1, 3, 1, 1, 3, 3, 1])
+Epoch: 307   Train loss: 1.3609225   Test loss: 1.3203088   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35428994082840237   Train_predict: tensor([0, 0, 3, 0, 2, 0, 0, 1, 3, 0, 0, 3, 1, 2, 0, 0, 3, 1, 1, 0, 2, 3, 1, 1,
+        2, 0, 0, 1, 0, 3, 1, 3, 0, 3, 1, 3, 3, 1, 1, 3, 2, 1])   label: tensor([3, 2, 2, 1, 3, 0, 2, 1, 2, 3, 0, 3, 3, 3, 0, 3, 0, 1, 0, 2, 3, 2, 0, 3,
+        1, 2, 0, 2, 0, 3, 0, 3, 1, 0, 2, 2, 1, 1, 3, 1, 1, 2])
+Epoch: 308   Train loss: 1.3245128   Test loss: 1.3222378   Train accuracy: 0.5   Test accuracy is: 0.3572485207100592   Train_predict: tensor([0, 2, 1, 1, 3, 2, 2, 3, 0, 2, 2, 2, 0, 3, 2, 3, 2, 2, 0, 2, 3, 0, 0, 3,
+        3, 0, 3, 0, 0, 3, 0, 2, 1, 1, 1, 0, 1, 2, 0, 0, 1, 3])   label: tensor([2, 0, 1, 2, 3, 2, 3, 3, 0, 2, 0, 0, 2, 0, 2, 1, 3, 1, 0, 1, 2, 1, 0, 3,
+        3, 3, 2, 0, 0, 2, 0, 2, 0, 1, 0, 0, 1, 3, 2, 0, 1, 3])
+Epoch: 309   Train loss: 1.3687028   Test loss: 1.3214513   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 1, 0, 0, 2, 0, 2, 1, 1, 3, 0, 0, 2, 1, 1, 0, 3, 3, 1, 3, 1, 2, 0, 1,
+        3, 0, 0, 2, 3, 0, 3, 0, 2, 2, 2, 2, 3, 1, 2, 0, 0, 0])   label: tensor([1, 3, 1, 3, 0, 0, 2, 1, 2, 3, 0, 3, 0, 1, 2, 3, 1, 2, 0, 3, 1, 3, 2, 2,
+        2, 3, 0, 2, 2, 1, 1, 3, 2, 0, 2, 2, 3, 2, 0, 1, 2, 0])
+Epoch: 310   Train loss: 1.2861714   Test loss: 1.3196547   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3572485207100592   Train_predict: tensor([3, 1, 2, 1, 0, 1, 1, 0, 3, 0, 3, 0, 3, 1, 1, 3, 2, 3, 2, 1, 0, 3, 0, 3,
+        0, 0, 2, 3, 2, 0, 2, 3, 3, 3, 2, 2, 3, 1, 2, 2, 0, 1])   label: tensor([0, 1, 2, 0, 2, 1, 1, 0, 3, 1, 0, 2, 0, 1, 2, 1, 1, 3, 2, 1, 0, 3, 1, 0,
+        1, 1, 0, 0, 2, 3, 0, 2, 3, 0, 0, 1, 3, 3, 1, 3, 1, 2])
+Epoch: 311   Train loss: 1.3146172   Test loss: 1.3221501   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35022189349112426   Train_predict: tensor([0, 3, 0, 2, 1, 0, 2, 1, 0, 3, 2, 0, 3, 3, 0, 0, 3, 3, 2, 3, 0, 2, 3, 1,
+        0, 0, 1, 1, 0, 1, 3, 0, 0, 3, 3, 0, 3, 2, 0, 0, 3, 3])   label: tensor([2, 3, 0, 0, 2, 1, 3, 0, 3, 0, 2, 2, 0, 1, 2, 0, 1, 1, 0, 3, 2, 1, 3, 1,
+        0, 2, 1, 1, 0, 2, 0, 0, 0, 1, 2, 0, 3, 2, 2, 1, 3, 2])
+Epoch: 312   Train loss: 1.3190815   Test loss: 1.322151   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 2, 3, 1, 1, 1, 1, 1, 1, 3, 1, 0, 1, 2, 3, 2, 1, 2, 2, 1, 0, 3, 0, 3,
+        3, 1, 2, 0, 2, 1, 0, 1, 1, 2, 3, 1, 1, 1, 2, 3, 2, 1])   label: tensor([3, 2, 2, 2, 0, 1, 1, 1, 3, 3, 2, 1, 0, 0, 0, 2, 2, 0, 0, 3, 2, 2, 3, 0,
+        3, 0, 2, 0, 3, 3, 0, 1, 0, 0, 1, 3, 3, 1, 0, 1, 1, 1])
+Epoch: 313   Train loss: 1.445531   Test loss: 1.3215215   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3583579881656805   Train_predict: tensor([0, 0, 3, 0, 2, 1, 1, 3, 1, 0, 3, 0, 0, 0, 0, 0, 2, 1, 3, 0, 0, 3, 0, 3,
+        3, 3, 3, 0, 3, 1, 1, 3, 3, 2, 3, 0, 2, 3, 0, 3, 2, 3])   label: tensor([1, 3, 3, 2, 2, 1, 3, 2, 1, 3, 0, 1, 3, 3, 2, 3, 3, 0, 0, 2, 0, 0, 2, 0,
+        3, 3, 1, 3, 2, 2, 2, 0, 1, 1, 1, 0, 2, 1, 1, 2, 2, 0])
+Epoch: 314   Train loss: 1.270039   Test loss: 1.3222989   Train accuracy: 0.5238095238095238   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 1, 2, 0, 0, 1, 2, 2, 0, 1, 0, 0, 1, 0, 3, 1, 1, 3, 0, 2, 2, 3, 0, 3,
+        1, 0, 0, 0, 1, 0, 1, 2, 3, 3, 3, 3, 1, 1, 2, 1, 1, 1])   label: tensor([1, 1, 2, 2, 3, 1, 1, 2, 2, 0, 1, 3, 1, 0, 1, 2, 1, 0, 1, 2, 2, 3, 0, 0,
+        1, 0, 0, 1, 0, 1, 1, 2, 3, 3, 3, 2, 1, 2, 2, 1, 3, 0])
+Epoch: 315   Train loss: 1.3896097   Test loss: 1.3204823   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35761834319526625   Train_predict: tensor([0, 3, 1, 0, 2, 2, 2, 0, 0, 2, 3, 3, 3, 3, 1, 3, 1, 1, 2, 3, 3, 1, 0, 3,
+        3, 3, 0, 1, 0, 3, 0, 1, 3, 2, 3, 3, 2, 2, 1, 3, 2, 3])   label: tensor([3, 0, 0, 0, 2, 0, 2, 0, 3, 3, 3, 3, 1, 3, 3, 0, 3, 0, 0, 0, 3, 3, 3, 0,
+        0, 3, 3, 2, 2, 3, 0, 1, 0, 0, 1, 2, 2, 0, 3, 1, 1, 0])
+Epoch: 316   Train loss: 1.3512694   Test loss: 1.3218222   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 2, 1, 1, 0, 3, 1, 2, 0, 2, 3, 0, 0, 0, 2, 3, 1, 0, 2, 2, 3, 0, 3, 0,
+        2, 1, 0, 0, 1, 3, 0, 2, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2])   label: tensor([3, 1, 2, 1, 3, 2, 1, 3, 0, 2, 3, 1, 1, 1, 2, 3, 3, 0, 2, 3, 2, 0, 3, 0,
+        1, 3, 2, 1, 2, 2, 0, 1, 0, 3, 1, 1, 2, 0, 2, 0, 1, 1])
+Epoch: 317   Train loss: 1.3001505   Test loss: 1.320912   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3531804733727811   Train_predict: tensor([1, 2, 3, 1, 3, 3, 1, 2, 2, 3, 1, 0, 1, 3, 1, 1, 2, 2, 3, 0, 0, 1, 1, 1,
+        0, 1, 1, 0, 3, 1, 3, 1, 0, 3, 1, 1, 1, 1, 0, 3, 0, 3])   label: tensor([2, 1, 2, 2, 0, 3, 1, 2, 2, 3, 1, 0, 3, 2, 1, 0, 2, 2, 3, 3, 2, 0, 1, 3,
+        0, 0, 1, 0, 2, 3, 2, 3, 3, 3, 3, 2, 0, 3, 0, 0, 1, 1])
+Epoch: 318   Train loss: 1.2790428   Test loss: 1.3206134   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35539940828402367   Train_predict: tensor([3, 0, 1, 1, 3, 1, 3, 1, 3, 1, 3, 1, 0, 0, 2, 1, 0, 3, 1, 0, 0, 0, 3, 3,
+        3, 0, 2, 2, 0, 0, 3, 3, 2, 0, 0, 1, 3, 2, 0, 0, 3, 1])   label: tensor([0, 0, 2, 1, 0, 1, 1, 0, 3, 2, 3, 2, 3, 3, 2, 1, 3, 2, 1, 0, 2, 3, 1, 2,
+        3, 0, 2, 2, 2, 2, 3, 3, 3, 0, 0, 3, 3, 1, 2, 0, 2, 1])
+Epoch: 319   Train loss: 1.337734   Test loss: 1.3215284   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3568786982248521   Train_predict: tensor([3, 2, 1, 2, 0, 3, 3, 2, 2, 2, 3, 1, 3, 0, 3, 0, 1, 2, 2, 0, 2, 1, 3, 0,
+        0, 1, 1, 1, 1, 3, 1, 2, 3, 0, 2, 3, 3, 1, 0, 0, 1, 1])   label: tensor([0, 2, 3, 3, 0, 3, 2, 0, 3, 1, 3, 1, 1, 1, 3, 2, 1, 2, 3, 2, 3, 0, 1, 3,
+        2, 1, 1, 2, 2, 0, 1, 0, 3, 0, 2, 0, 0, 2, 0, 1, 1, 2])
+Epoch: 320   Train loss: 1.2569869   Test loss: 1.3221203   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 3, 0, 0, 1, 1, 1, 1, 2, 0, 0, 3, 1, 1, 3, 0, 1, 1, 2, 3, 3, 2, 1, 3,
+        0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1, 2, 0, 1, 2, 3, 3, 2])   label: tensor([3, 0, 1, 0, 2, 3, 2, 2, 2, 3, 0, 3, 1, 1, 1, 1, 3, 1, 3, 0, 3, 2, 1, 3,
+        0, 3, 0, 0, 0, 3, 1, 0, 3, 2, 0, 1, 1, 1, 1, 3, 3, 0])
+Epoch: 321   Train loss: 1.3738276   Test loss: 1.3238579   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35355029585798814   Train_predict: tensor([3, 0, 0, 3, 2, 0, 0, 1, 1, 0, 0, 3, 3, 3, 0, 3, 3, 0, 0, 2, 2, 1, 2, 2,
+        0, 1, 3, 2, 3, 2, 3, 2, 2, 0, 0, 3, 0, 2, 2, 1, 1, 2])   label: tensor([2, 3, 1, 3, 1, 3, 1, 3, 1, 0, 0, 3, 1, 3, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0,
+        2, 2, 0, 1, 3, 3, 2, 2, 3, 0, 0, 1, 2, 3, 2, 3, 3, 2])
+Epoch: 322   Train loss: 1.3722055   Test loss: 1.3228126   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 3, 3, 3, 3, 2, 2, 3, 0, 2, 2, 3, 0, 1, 3, 1, 2, 3, 3, 3, 3, 2, 2, 0,
+        3, 3, 2, 2, 2, 1, 2, 0, 1, 1, 0, 1, 2, 0, 0, 3, 1, 3])   label: tensor([2, 3, 3, 1, 2, 0, 2, 2, 0, 0, 3, 1, 2, 1, 0, 1, 0, 1, 1, 0, 0, 3, 1, 3,
+        0, 0, 2, 0, 2, 2, 1, 2, 2, 3, 2, 2, 2, 1, 3, 1, 1, 2])
+Epoch: 323   Train loss: 1.3110948   Test loss: 1.3215077   Train accuracy: 0.4523809523809524   Test accuracy is: 0.363905325443787   Train_predict: tensor([0, 0, 1, 0, 3, 3, 3, 0, 0, 0, 0, 2, 3, 0, 3, 1, 3, 2, 0, 1, 1, 3, 1, 0,
+        3, 2, 0, 1, 2, 2, 3, 0, 2, 0, 2, 0, 2, 0, 0, 3, 0, 1])   label: tensor([0, 0, 3, 0, 2, 3, 3, 2, 0, 1, 0, 3, 3, 2, 2, 0, 1, 2, 0, 1, 3, 2, 0, 0,
+        3, 1, 1, 2, 3, 2, 3, 2, 3, 1, 3, 2, 2, 3, 0, 3, 0, 3])
+Epoch: 324   Train loss: 1.3217874   Test loss: 1.320292   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3594674556213018   Train_predict: tensor([0, 2, 0, 3, 1, 3, 3, 3, 3, 3, 3, 0, 3, 1, 0, 1, 0, 2, 1, 2, 3, 0, 0, 0,
+        2, 1, 0, 0, 3, 1, 2, 1, 0, 3, 3, 3, 3, 0, 0, 3, 0, 2])   label: tensor([0, 0, 1, 3, 1, 0, 0, 3, 1, 0, 3, 3, 2, 1, 2, 2, 0, 1, 1, 2, 3, 0, 1, 3,
+        0, 3, 1, 3, 2, 2, 2, 1, 0, 0, 3, 0, 3, 2, 0, 3, 2, 3])
+Epoch: 325   Train loss: 1.3350248   Test loss: 1.3192747   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35650887573964496   Train_predict: tensor([2, 1, 1, 0, 2, 1, 1, 0, 1, 1, 3, 2, 2, 0, 0, 0, 1, 3, 1, 3, 0, 2, 1, 3,
+        1, 0, 1, 0, 1, 3, 0, 1, 1, 3, 2, 3, 0, 1, 3, 1, 1, 0])   label: tensor([2, 1, 3, 0, 2, 2, 0, 3, 1, 1, 1, 2, 2, 2, 2, 0, 0, 3, 1, 0, 1, 0, 3, 3,
+        1, 1, 3, 0, 1, 2, 3, 2, 0, 0, 1, 0, 2, 3, 0, 2, 2, 3])
+Epoch: 326   Train loss: 1.3847761   Test loss: 1.3217136   Train accuracy: 0.23809523809523808   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 0, 1, 1, 1, 2, 2, 2, 1, 1, 2, 2, 0, 1, 3, 0, 3, 1, 3, 1, 1, 1, 2, 1,
+        3, 0, 3, 3, 0, 2, 2, 3, 2, 2, 0, 0, 0, 0, 3, 0, 2, 0])   label: tensor([3, 1, 1, 1, 3, 2, 3, 0, 3, 3, 1, 0, 3, 1, 2, 2, 3, 0, 1, 0, 2, 0, 1, 3,
+        3, 3, 0, 1, 2, 2, 0, 1, 1, 2, 3, 1, 1, 0, 2, 1, 3, 1])
+Epoch: 327   Train loss: 1.3155673   Test loss: 1.3216752   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 1, 0, 1, 0, 0, 2, 2, 2, 0, 1, 2, 0, 2, 0, 3, 1, 0, 1, 2, 0, 3, 0, 2,
+        0, 1, 1, 3, 3, 0, 0, 2, 0, 0, 2, 3, 3, 3, 0, 0, 0, 0])   label: tensor([2, 0, 0, 1, 3, 2, 0, 2, 0, 0, 2, 2, 1, 2, 3, 2, 2, 1, 1, 0, 1, 3, 3, 0,
+        2, 0, 1, 1, 3, 3, 3, 1, 3, 1, 2, 2, 0, 3, 0, 3, 1, 1])
+Epoch: 328   Train loss: 1.3287486   Test loss: 1.32195   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 0, 3, 0, 3, 3, 0, 1, 3, 3, 2, 2, 0, 3, 0, 0, 3, 0, 0, 3, 1, 0, 0, 1,
+        2, 1, 2, 1, 3, 3, 0, 0, 3, 2, 0, 1, 1, 2, 3, 3, 1, 3])   label: tensor([0, 3, 1, 1, 2, 1, 0, 1, 3, 0, 3, 2, 3, 0, 3, 3, 3, 3, 2, 2, 1, 3, 3, 2,
+        2, 0, 2, 0, 0, 3, 3, 3, 3, 1, 3, 2, 3, 3, 1, 3, 1, 3])
+Epoch: 329   Train loss: 1.3859861   Test loss: 1.3209944   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 1, 1, 0, 3, 0, 2, 1, 0, 1, 2, 3, 3, 1, 0, 1, 1, 1, 2, 1, 1, 2, 2, 2,
+        2, 1, 0, 2, 2, 3, 1, 0, 1, 1, 1, 1, 0, 1, 3, 1, 3, 0])   label: tensor([1, 1, 3, 0, 3, 1, 3, 3, 1, 2, 1, 0, 3, 3, 2, 3, 0, 1, 3, 0, 0, 2, 2, 2,
+        2, 0, 1, 0, 2, 0, 1, 1, 2, 2, 2, 0, 0, 1, 2, 0, 3, 2])
+Epoch: 330   Train loss: 1.3058434   Test loss: 1.320498   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35392011834319526   Train_predict: tensor([2, 2, 3, 3, 1, 0, 2, 1, 0, 3, 3, 3, 1, 0, 3, 0, 3, 3, 1, 2, 2, 1, 2, 0,
+        3, 2, 0, 1, 1, 0, 0, 3, 0, 2, 3, 1, 0, 0, 1, 1, 2, 3])   label: tensor([0, 2, 2, 0, 2, 2, 2, 1, 2, 2, 3, 3, 0, 0, 3, 3, 3, 0, 0, 3, 2, 3, 2, 1,
+        2, 0, 1, 0, 0, 1, 2, 0, 2, 2, 2, 1, 3, 1, 0, 3, 1, 0])
+Epoch: 331   Train loss: 1.2218406   Test loss: 1.3210894   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35613905325443784   Train_predict: tensor([2, 3, 1, 0, 2, 2, 0, 0, 0, 3, 2, 3, 0, 1, 0, 0, 1, 1, 0, 0, 1, 3, 0, 3,
+        0, 1, 0, 1, 2, 3, 1, 0, 2, 3, 0, 3, 1, 3, 0, 0, 3, 1])   label: tensor([3, 3, 1, 1, 0, 2, 0, 3, 3, 3, 2, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1, 0, 3, 2,
+        0, 2, 0, 2, 0, 2, 1, 1, 2, 0, 0, 2, 3, 0, 0, 0, 3, 3])
+Epoch: 332   Train loss: 1.322145   Test loss: 1.3215513   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3557692307692308   Train_predict: tensor([3, 1, 1, 3, 0, 1, 0, 0, 1, 1, 2, 2, 0, 2, 3, 0, 0, 3, 0, 1, 0, 0, 0, 3,
+        1, 2, 3, 1, 2, 1, 3, 3, 0, 1, 0, 1, 1, 2, 0, 2, 0, 2])   label: tensor([3, 1, 1, 3, 0, 2, 0, 1, 3, 0, 2, 2, 0, 1, 3, 2, 1, 3, 3, 2, 2, 0, 0, 2,
+        3, 2, 0, 3, 2, 0, 1, 3, 0, 3, 0, 3, 1, 2, 2, 0, 1, 0])
+Epoch: 333   Train loss: 1.4410089   Test loss: 1.3220237   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35798816568047337   Train_predict: tensor([3, 0, 0, 0, 3, 1, 2, 2, 1, 3, 1, 0, 0, 1, 0, 0, 1, 3, 0, 1, 1, 3, 0, 0,
+        1, 3, 2, 0, 2, 1, 0, 2, 2, 1, 2, 2, 2, 0, 3, 0, 1, 3])   label: tensor([2, 1, 0, 1, 3, 2, 0, 2, 0, 0, 1, 1, 1, 1, 0, 0, 3, 2, 3, 0, 0, 1, 2, 2,
+        3, 0, 3, 0, 0, 0, 3, 2, 2, 0, 0, 0, 3, 1, 0, 3, 2, 3])
+Epoch: 334   Train loss: 1.3026258   Test loss: 1.3207757   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3572485207100592   Train_predict: tensor([3, 1, 3, 2, 3, 2, 2, 3, 3, 1, 0, 0, 2, 3, 0, 0, 0, 0, 0, 2, 1, 2, 2, 1,
+        1, 3, 1, 1, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 2, 3, 0, 3])   label: tensor([2, 0, 2, 3, 3, 2, 0, 3, 1, 1, 3, 0, 1, 3, 0, 3, 3, 0, 1, 2, 1, 3, 2, 0,
+        0, 0, 1, 2, 2, 0, 3, 2, 2, 0, 0, 0, 1, 0, 1, 3, 0, 3])
+Epoch: 335   Train loss: 1.3978999   Test loss: 1.3207468   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 1, 1, 0, 2, 3, 3, 1, 0, 0, 2, 2, 1, 3, 3, 0, 0, 3, 1, 1, 3, 3, 0, 1,
+        0, 2, 0, 1, 1, 3, 3, 0, 3, 2, 2, 2, 0, 0, 2, 0, 1, 1])   label: tensor([1, 1, 2, 0, 3, 2, 3, 2, 1, 2, 0, 1, 0, 0, 1, 3, 0, 2, 2, 3, 0, 1, 0, 0,
+        2, 2, 3, 0, 0, 0, 3, 0, 1, 2, 2, 3, 3, 0, 1, 3, 1, 3])
+Epoch: 336   Train loss: 1.2589502   Test loss: 1.3220574   Train accuracy: 0.42857142857142855   Test accuracy is: 0.34911242603550297   Train_predict: tensor([1, 3, 1, 2, 3, 2, 3, 3, 3, 2, 3, 3, 2, 0, 1, 3, 1, 0, 0, 2, 3, 3, 1, 3,
+        1, 3, 1, 1, 2, 3, 2, 3, 3, 0, 3, 3, 1, 3, 1, 2, 2, 3])   label: tensor([1, 2, 1, 1, 3, 1, 3, 0, 1, 0, 2, 0, 2, 3, 1, 0, 1, 3, 1, 1, 2, 1, 1, 0,
+        3, 3, 0, 1, 0, 3, 2, 2, 1, 0, 1, 3, 1, 2, 1, 2, 2, 2])
+Epoch: 337   Train loss: 1.4110055   Test loss: 1.319949   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3583579881656805   Train_predict: tensor([3, 1, 0, 1, 3, 3, 2, 2, 0, 0, 3, 1, 3, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 3,
+        1, 0, 2, 2, 3, 3, 3, 3, 0, 2, 2, 0, 3, 3, 1, 2, 2, 3])   label: tensor([1, 3, 0, 2, 1, 2, 2, 3, 2, 3, 3, 3, 1, 3, 0, 2, 3, 3, 3, 0, 2, 0, 3, 2,
+        2, 0, 1, 0, 1, 1, 1, 3, 1, 3, 1, 0, 0, 3, 2, 1, 3, 3])
+Epoch: 338   Train loss: 1.4018842   Test loss: 1.3214809   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3594674556213018   Train_predict: tensor([0, 1, 1, 0, 2, 0, 3, 0, 1, 2, 3, 0, 3, 1, 0, 0, 0, 0, 1, 2, 0, 3, 3, 3,
+        1, 0, 2, 0, 3, 3, 0, 2, 0, 3, 1, 1, 3, 1, 3, 2, 2, 3])   label: tensor([3, 0, 3, 3, 3, 1, 0, 2, 1, 0, 0, 3, 2, 0, 0, 2, 0, 1, 1, 2, 2, 1, 3, 2,
+        2, 3, 1, 2, 3, 0, 3, 3, 3, 3, 1, 0, 3, 3, 2, 0, 0, 3])
+Epoch: 339   Train loss: 1.2881658   Test loss: 1.3191955   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 2, 2, 2, 0, 0, 2, 1, 3, 1, 3, 2, 0, 0, 3, 3, 0, 1, 0, 0, 2, 3, 3, 0,
+        2, 1, 2, 3, 2, 1, 1, 0, 2, 1, 1, 1, 3, 1, 2, 3, 0, 0])   label: tensor([1, 2, 1, 2, 2, 0, 1, 2, 3, 1, 1, 1, 2, 0, 3, 1, 0, 1, 0, 0, 3, 3, 1, 0,
+        2, 3, 0, 2, 2, 1, 1, 3, 2, 2, 3, 3, 2, 3, 0, 0, 0, 3])
+Epoch: 340   Train loss: 1.2666948   Test loss: 1.3211949   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3520710059171598   Train_predict: tensor([3, 0, 1, 0, 0, 3, 0, 1, 1, 3, 1, 3, 2, 1, 1, 3, 1, 2, 2, 2, 0, 1, 0, 0,
+        1, 2, 0, 0, 0, 3, 2, 2, 0, 2, 2, 3, 0, 3, 1, 0, 2, 0])   label: tensor([1, 3, 3, 3, 3, 1, 0, 3, 0, 2, 0, 2, 2, 1, 0, 1, 0, 3, 2, 1, 3, 3, 3, 0,
+        1, 3, 0, 2, 3, 1, 0, 2, 0, 0, 2, 1, 0, 0, 0, 3, 2, 3])
+Epoch: 341   Train loss: 1.3800017   Test loss: 1.3201524   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35428994082840237   Train_predict: tensor([0, 2, 0, 1, 0, 1, 0, 1, 2, 3, 2, 0, 3, 2, 3, 3, 2, 3, 0, 0, 2, 1, 0, 0,
+        2, 2, 3, 0, 1, 3, 3, 3, 3, 1, 1, 3, 0, 0, 1, 1, 0, 2])   label: tensor([2, 1, 2, 0, 2, 1, 2, 0, 0, 1, 2, 2, 2, 0, 3, 2, 0, 3, 1, 1, 0, 2, 3, 0,
+        3, 2, 2, 0, 1, 2, 3, 3, 0, 1, 3, 1, 3, 2, 3, 1, 0, 2])
+Epoch: 342   Train loss: 1.2772086   Test loss: 1.320013   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3531804733727811   Train_predict: tensor([2, 3, 2, 3, 1, 0, 1, 1, 3, 1, 1, 3, 0, 0, 3, 1, 3, 0, 2, 0, 0, 3, 1, 1,
+        3, 0, 2, 0, 2, 2, 1, 3, 0, 2, 0, 0, 3, 0, 3, 3, 2, 3])   label: tensor([2, 0, 1, 3, 1, 0, 3, 1, 0, 1, 1, 2, 0, 2, 3, 0, 0, 0, 2, 0, 3, 0, 0, 2,
+        0, 0, 2, 0, 2, 3, 2, 1, 3, 2, 3, 3, 1, 3, 2, 3, 2, 3])
+Epoch: 343   Train loss: 1.288033   Test loss: 1.3187573   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 3, 0, 0, 0, 2, 0, 2, 3, 1, 3, 3, 0, 3, 0, 3, 3, 1, 3, 0, 1, 3, 3, 1,
+        3, 0, 3, 0, 2, 3, 2, 0, 2, 3, 3, 3, 0, 3, 3, 3, 1, 0])   label: tensor([1, 2, 3, 3, 0, 2, 3, 0, 0, 0, 1, 3, 3, 3, 1, 0, 0, 1, 1, 0, 2, 2, 3, 3,
+        1, 2, 2, 2, 2, 0, 0, 2, 2, 3, 3, 3, 0, 3, 3, 3, 2, 1])
+Epoch: 344   Train loss: 1.3425457   Test loss: 1.320335   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3520710059171598   Train_predict: tensor([1, 1, 1, 0, 0, 0, 0, 3, 0, 2, 2, 2, 0, 1, 1, 2, 1, 1, 0, 0, 0, 3, 2, 2,
+        0, 0, 2, 2, 3, 0, 0, 1, 0, 0, 3, 2, 2, 3, 2, 1, 2, 3])   label: tensor([1, 3, 0, 0, 0, 0, 2, 0, 3, 1, 2, 0, 1, 1, 1, 3, 1, 1, 0, 3, 0, 1, 1, 0,
+        3, 1, 3, 3, 0, 0, 1, 1, 3, 2, 2, 2, 1, 3, 1, 0, 0, 3])
+Epoch: 345   Train loss: 1.3377546   Test loss: 1.3190142   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 2, 1, 2, 0, 1, 1, 1, 3, 0, 1, 1, 0, 0, 0, 3, 3, 0, 2, 0, 0, 3, 0, 1,
+        0, 3, 2, 0, 1, 2, 0, 0, 0, 1, 1, 2, 0, 1, 0, 2, 0, 3])   label: tensor([1, 1, 2, 3, 2, 2, 0, 0, 2, 1, 1, 0, 0, 1, 1, 0, 3, 2, 2, 2, 0, 0, 0, 0,
+        0, 0, 1, 2, 1, 1, 0, 2, 2, 1, 2, 1, 3, 1, 0, 2, 1, 3])
+Epoch: 346   Train loss: 1.356511   Test loss: 1.3221382   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35392011834319526   Train_predict: tensor([3, 3, 2, 2, 0, 3, 0, 1, 3, 1, 2, 1, 2, 1, 3, 2, 0, 1, 3, 2, 0, 2, 3, 0,
+        3, 0, 1, 2, 0, 3, 3, 2, 3, 0, 0, 3, 1, 1, 0, 3, 3, 1])   label: tensor([1, 1, 2, 3, 1, 1, 0, 2, 1, 1, 0, 1, 1, 3, 3, 0, 0, 3, 3, 0, 3, 2, 1, 1,
+        1, 1, 1, 1, 1, 0, 1, 2, 3, 1, 0, 1, 3, 0, 3, 1, 0, 1])
+Epoch: 347   Train loss: 1.3704863   Test loss: 1.3222064   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 0, 0, 0, 3, 2, 3, 1, 3, 2, 0, 1, 0, 3, 0, 3, 2, 1, 0, 3, 1, 3, 1, 2,
+        1, 0, 1, 0, 3, 0, 3, 0, 0, 0, 1, 1, 0, 3, 0, 1, 2, 1])   label: tensor([1, 0, 2, 2, 3, 1, 1, 2, 3, 0, 0, 1, 1, 3, 3, 0, 0, 2, 0, 1, 0, 1, 0, 1,
+        0, 1, 2, 0, 0, 3, 3, 0, 2, 1, 3, 1, 3, 2, 0, 0, 3, 0])
+Epoch: 348   Train loss: 1.3291903   Test loss: 1.3210983   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3520710059171598   Train_predict: tensor([1, 2, 3, 2, 2, 1, 0, 2, 1, 0, 3, 1, 1, 2, 2, 1, 1, 1, 0, 2, 2, 3, 1, 1,
+        1, 1, 3, 1, 0, 1, 1, 2, 2, 0, 2, 3, 0, 3, 2, 1, 1, 2])   label: tensor([1, 2, 2, 2, 3, 1, 2, 1, 1, 0, 1, 2, 3, 2, 1, 0, 1, 1, 2, 2, 3, 3, 1, 1,
+        1, 2, 3, 3, 3, 0, 0, 2, 2, 2, 1, 3, 2, 0, 1, 2, 3, 1])
+Epoch: 349   Train loss: 1.3011858   Test loss: 1.3212366   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3505917159763314   Train_predict: tensor([0, 0, 1, 3, 3, 3, 0, 1, 2, 0, 3, 0, 2, 1, 1, 1, 3, 1, 0, 0, 2, 3, 1, 1,
+        1, 3, 3, 1, 0, 1, 1, 3, 0, 3, 2, 0, 2, 0, 0, 3, 0, 3])   label: tensor([2, 3, 2, 2, 2, 0, 0, 0, 2, 0, 3, 1, 2, 2, 3, 1, 2, 0, 0, 2, 2, 2, 2, 2,
+        1, 2, 0, 3, 0, 2, 1, 3, 1, 2, 3, 1, 1, 0, 2, 1, 0, 1])
+Epoch: 350   Train loss: 1.2919257   Test loss: 1.3211769   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35761834319526625   Train_predict: tensor([1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 3, 1, 2, 0, 3, 1, 0, 0, 0, 3, 0, 3, 3, 1,
+        3, 1, 1, 1, 3, 1, 3, 3, 3, 0, 1, 0, 0, 2, 0, 3, 2, 0])   label: tensor([0, 2, 2, 1, 3, 1, 3, 2, 1, 1, 3, 0, 2, 0, 0, 0, 0, 0, 0, 3, 2, 3, 3, 3,
+        2, 3, 0, 2, 3, 3, 0, 1, 0, 0, 3, 2, 0, 3, 3, 1, 1, 1])
+Epoch: 351   Train loss: 1.2429594   Test loss: 1.3222744   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35650887573964496   Train_predict: tensor([1, 3, 3, 0, 2, 0, 0, 0, 1, 0, 1, 0, 1, 3, 1, 2, 2, 3, 3, 0, 2, 0, 1, 0,
+        3, 2, 0, 1, 2, 3, 0, 1, 0, 1, 3, 2, 1, 0, 0, 2, 2, 1])   label: tensor([0, 2, 3, 1, 0, 0, 2, 0, 0, 0, 0, 2, 1, 3, 2, 1, 1, 0, 3, 0, 0, 0, 0, 2,
+        2, 1, 1, 3, 3, 1, 2, 1, 0, 1, 3, 3, 3, 0, 3, 3, 3, 1])
+Epoch: 352   Train loss: 1.2575518   Test loss: 1.3195416   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 1, 0, 0, 3, 1, 3, 2, 0, 2, 1, 3, 1, 2, 0, 1, 2, 1, 3, 3, 3, 1, 3, 3,
+        2, 1, 3, 2, 0, 3, 2, 0, 0, 1, 1, 1, 3, 0, 3, 2, 1, 1])   label: tensor([0, 2, 0, 0, 0, 0, 1, 3, 3, 3, 1, 0, 3, 1, 0, 1, 1, 0, 3, 3, 0, 2, 1, 3,
+        3, 1, 0, 3, 0, 2, 2, 2, 1, 2, 3, 3, 0, 2, 3, 1, 1, 0])
+Epoch: 353   Train loss: 1.2956802   Test loss: 1.321802   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35355029585798814   Train_predict: tensor([0, 0, 2, 2, 3, 0, 1, 0, 0, 3, 2, 3, 1, 1, 2, 3, 2, 1, 0, 0, 2, 0, 3, 1,
+        3, 2, 3, 2, 1, 2, 2, 0, 3, 0, 0, 0, 2, 3, 2, 0, 2, 2])   label: tensor([1, 3, 0, 0, 3, 1, 1, 2, 0, 0, 2, 2, 1, 2, 2, 2, 1, 1, 0, 3, 2, 3, 2, 0,
+        2, 2, 1, 2, 0, 1, 1, 0, 0, 2, 3, 1, 0, 0, 2, 0, 3, 0])
+Epoch: 354   Train loss: 1.3125451   Test loss: 1.3225673   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35244082840236685   Train_predict: tensor([0, 2, 2, 2, 2, 1, 0, 1, 2, 1, 0, 1, 2, 0, 0, 0, 3, 2, 0, 0, 3, 0, 3, 3,
+        2, 1, 1, 0, 3, 3, 3, 0, 0, 3, 1, 1, 3, 2, 2, 1, 1, 0])   label: tensor([2, 3, 0, 2, 3, 1, 2, 3, 2, 1, 0, 2, 0, 1, 1, 1, 2, 2, 1, 3, 2, 3, 3, 3,
+        1, 0, 2, 1, 3, 3, 2, 0, 0, 0, 3, 1, 0, 2, 0, 0, 1, 0])
+Epoch: 355   Train loss: 1.2548219   Test loss: 1.32201   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 0, 2, 1, 0, 3, 0, 1, 1, 2, 1, 0, 3, 2, 1, 3, 3, 0, 0, 2, 3, 1, 0, 2,
+        2, 1, 0, 0, 1, 3, 0, 2, 3, 1, 1, 1, 0, 1, 3, 3, 2, 2])   label: tensor([0, 0, 1, 3, 1, 3, 0, 1, 3, 2, 2, 1, 2, 2, 1, 3, 3, 3, 3, 2, 2, 0, 0, 3,
+        1, 3, 0, 0, 1, 2, 0, 0, 3, 1, 2, 2, 0, 2, 3, 1, 1, 3])
+Epoch: 356   Train loss: 1.3668029   Test loss: 1.3215678   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 0, 0, 1, 0, 3, 1, 0, 2, 0, 3, 0, 3, 1, 3, 1, 2, 3, 0, 3, 0, 3, 1, 1,
+        3, 2, 0, 3, 1, 3, 0, 0, 3, 3, 0, 0, 0, 3, 1, 3, 0, 2])   label: tensor([0, 2, 3, 1, 0, 0, 2, 3, 2, 0, 1, 0, 3, 2, 2, 1, 1, 1, 2, 0, 3, 0, 2, 0,
+        2, 3, 0, 1, 0, 1, 1, 2, 2, 3, 1, 2, 0, 3, 1, 3, 3, 0])
+Epoch: 357   Train loss: 1.2696009   Test loss: 1.3226663   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35539940828402367   Train_predict: tensor([1, 0, 1, 2, 0, 1, 1, 0, 0, 2, 2, 1, 2, 3, 2, 2, 3, 0, 0, 0, 2, 2, 0, 1,
+        3, 0, 1, 1, 1, 3, 1, 0, 1, 0, 1, 0, 3, 0, 2, 2, 0, 1])   label: tensor([0, 1, 0, 0, 0, 1, 2, 2, 1, 2, 2, 2, 2, 3, 2, 2, 1, 0, 3, 2, 2, 2, 3, 3,
+        2, 0, 0, 3, 1, 0, 2, 1, 1, 0, 0, 1, 2, 0, 3, 1, 3, 1])
+Epoch: 358   Train loss: 1.3901026   Test loss: 1.3202729   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 0, 3, 2, 0, 3, 3, 2, 0, 2, 1, 0, 3, 0, 0, 0, 0, 3, 0, 3, 3, 1, 0,
+        3, 0, 1, 1, 1, 1, 2, 2, 1, 1, 1, 3, 1, 3, 3, 3, 1, 0])   label: tensor([0, 0, 0, 0, 2, 0, 1, 0, 1, 1, 2, 3, 2, 0, 1, 0, 2, 0, 2, 0, 1, 1, 3, 3,
+        1, 2, 3, 2, 0, 2, 0, 2, 0, 0, 1, 2, 2, 2, 2, 1, 3, 3])
+Epoch: 359   Train loss: 1.3393896   Test loss: 1.3227495   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 2, 1, 0, 1, 3, 3, 3, 0, 1, 0, 1, 0, 2, 0, 1, 1, 1, 2, 1, 0, 2, 3, 0,
+        0, 3, 3, 2, 0, 1, 0, 0, 1, 2, 1, 3, 0, 2, 1, 1, 1, 3])   label: tensor([0, 0, 0, 0, 1, 2, 1, 3, 2, 1, 1, 1, 0, 2, 2, 3, 0, 1, 0, 2, 0, 2, 3, 0,
+        1, 3, 2, 1, 2, 0, 2, 3, 0, 1, 3, 3, 1, 1, 3, 2, 2, 2])
+Epoch: 360   Train loss: 1.3455925   Test loss: 1.3229182   Train accuracy: 0.2857142857142857   Test accuracy is: 0.34356508875739644   Train_predict: tensor([1, 1, 3, 0, 0, 0, 1, 0, 3, 1, 2, 2, 2, 1, 2, 0, 1, 2, 3, 2, 3, 3, 1, 0,
+        3, 0, 3, 0, 1, 0, 0, 0, 3, 2, 1, 2, 3, 3, 0, 0, 0, 1])   label: tensor([0, 1, 1, 2, 2, 0, 3, 2, 2, 2, 3, 2, 3, 1, 2, 1, 2, 3, 0, 0, 3, 3, 2, 1,
+        1, 3, 2, 0, 3, 2, 0, 0, 2, 3, 2, 2, 0, 1, 3, 1, 3, 1])
+Epoch: 361   Train loss: 1.2887582   Test loss: 1.3222604   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35502958579881655   Train_predict: tensor([3, 2, 1, 3, 3, 1, 3, 1, 3, 3, 3, 3, 0, 0, 2, 3, 3, 2, 1, 0, 3, 0, 3, 3,
+        3, 3, 0, 0, 3, 3, 1, 0, 1, 2, 2, 1, 0, 0, 1, 3, 0, 3])   label: tensor([0, 1, 3, 1, 2, 0, 3, 2, 3, 2, 2, 3, 3, 0, 2, 2, 3, 2, 0, 1, 0, 0, 1, 0,
+        2, 3, 2, 1, 3, 3, 2, 0, 1, 1, 0, 0, 0, 3, 1, 1, 1, 3])
+Epoch: 362   Train loss: 1.2857374   Test loss: 1.3227448   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35539940828402367   Train_predict: tensor([2, 0, 1, 1, 3, 0, 2, 2, 0, 3, 3, 0, 2, 1, 0, 3, 1, 3, 3, 0, 2, 0, 3, 0,
+        2, 0, 1, 0, 0, 3, 3, 0, 1, 0, 1, 1, 0, 3, 2, 3, 0, 0])   label: tensor([0, 0, 2, 1, 3, 0, 2, 0, 1, 3, 0, 1, 1, 2, 0, 3, 0, 1, 3, 2, 2, 1, 2, 2,
+        0, 0, 0, 0, 3, 2, 3, 1, 1, 1, 2, 0, 0, 0, 3, 3, 2, 2])
+Epoch: 363   Train loss: 1.2687286   Test loss: 1.3220224   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35761834319526625   Train_predict: tensor([1, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 1, 0, 2, 3, 3, 2, 3, 3, 1, 0, 0, 2, 1,
+        1, 2, 3, 2, 0, 0, 2, 3, 1, 2, 3, 0, 2, 2, 1, 0, 0, 1])   label: tensor([3, 2, 3, 2, 3, 0, 1, 1, 1, 3, 3, 2, 2, 3, 1, 1, 3, 3, 0, 1, 0, 0, 2, 0,
+        1, 2, 2, 3, 0, 0, 2, 1, 2, 1, 3, 0, 1, 1, 1, 1, 0, 1])
+Epoch: 364   Train loss: 1.3214759   Test loss: 1.3216894   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36020710059171596   Train_predict: tensor([0, 1, 3, 0, 2, 3, 2, 1, 0, 1, 0, 2, 0, 1, 3, 1, 3, 2, 3, 2, 1, 1, 1, 3,
+        2, 3, 0, 2, 0, 3, 0, 3, 2, 3, 3, 2, 3, 3, 0, 2, 3, 0])   label: tensor([0, 3, 3, 3, 0, 3, 1, 1, 2, 3, 0, 0, 3, 2, 3, 1, 2, 3, 1, 3, 2, 3, 0, 1,
+        1, 1, 3, 2, 1, 3, 1, 2, 0, 0, 2, 2, 3, 1, 1, 2, 3, 3])
+Epoch: 365   Train loss: 1.2864493   Test loss: 1.3210719   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3583579881656805   Train_predict: tensor([3, 3, 0, 0, 3, 2, 1, 3, 2, 1, 1, 3, 2, 3, 1, 1, 2, 0, 3, 0, 0, 0, 2, 3,
+        3, 3, 1, 3, 1, 2, 0, 1, 2, 1, 1, 3, 1, 2, 3, 0, 2, 2])   label: tensor([1, 3, 1, 1, 3, 3, 1, 1, 0, 1, 3, 2, 3, 0, 1, 0, 2, 0, 3, 1, 1, 0, 1, 2,
+        2, 1, 2, 0, 2, 2, 2, 3, 1, 1, 1, 3, 2, 2, 0, 1, 2, 3])
+Epoch: 366   Train loss: 1.3060607   Test loss: 1.3214444   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3531804733727811   Train_predict: tensor([0, 0, 0, 2, 1, 1, 2, 3, 0, 0, 1, 0, 0, 2, 1, 1, 1, 1, 1, 3, 2, 2, 2, 3,
+        2, 3, 3, 3, 3, 0, 1, 1, 1, 1, 3, 3, 3, 2, 0, 0, 0, 3])   label: tensor([0, 1, 2, 2, 3, 1, 3, 1, 0, 2, 3, 2, 3, 3, 1, 2, 1, 2, 3, 3, 2, 2, 1, 0,
+        1, 0, 1, 3, 3, 1, 2, 1, 1, 2, 3, 3, 3, 3, 1, 0, 2, 3])
+Epoch: 367   Train loss: 1.2262969   Test loss: 1.3227681   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35022189349112426   Train_predict: tensor([1, 1, 0, 1, 1, 3, 0, 0, 1, 2, 2, 3, 3, 3, 1, 3, 3, 1, 3, 3, 2, 0, 1, 0,
+        3, 3, 3, 3, 3, 3, 3, 2, 0, 0, 2, 3, 3, 3, 3, 3, 2, 2])   label: tensor([3, 1, 1, 1, 1, 3, 0, 0, 2, 2, 3, 3, 1, 3, 1, 1, 0, 3, 0, 1, 2, 0, 2, 0,
+        1, 0, 3, 3, 0, 3, 0, 2, 1, 1, 2, 1, 0, 0, 1, 3, 2, 3])
+Epoch: 368   Train loss: 1.3426584   Test loss: 1.3224392   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35133136094674555   Train_predict: tensor([1, 1, 0, 0, 3, 3, 1, 2, 0, 1, 1, 0, 3, 1, 1, 3, 1, 3, 3, 2, 0, 1, 1, 0,
+        2, 2, 1, 0, 1, 1, 3, 3, 3, 3, 2, 0, 3, 2, 3, 3, 0, 1])   label: tensor([1, 2, 3, 1, 2, 3, 1, 0, 0, 1, 2, 1, 1, 1, 3, 1, 1, 3, 3, 0, 2, 1, 2, 3,
+        1, 0, 1, 0, 3, 3, 3, 2, 2, 0, 1, 0, 2, 3, 3, 2, 2, 1])
+Epoch: 369   Train loss: 1.2839152   Test loss: 1.3221166   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35872781065088755   Train_predict: tensor([1, 0, 0, 2, 0, 2, 0, 3, 0, 1, 1, 3, 0, 3, 3, 2, 3, 1, 3, 3, 0, 3, 3, 1,
+        1, 3, 1, 0, 2, 0, 1, 2, 3, 3, 1, 3, 0, 2, 2, 0, 1, 3])   label: tensor([1, 2, 0, 3, 1, 0, 3, 3, 3, 1, 1, 3, 3, 3, 1, 2, 2, 1, 1, 1, 0, 3, 2, 0,
+        0, 3, 2, 0, 3, 0, 1, 2, 1, 3, 1, 3, 2, 1, 3, 3, 3, 1])
+Epoch: 370   Train loss: 1.3153646   Test loss: 1.32353   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35650887573964496   Train_predict: tensor([0, 2, 1, 2, 1, 1, 2, 3, 0, 1, 3, 1, 3, 0, 0, 0, 0, 2, 3, 0, 2, 1, 3, 1,
+        3, 0, 3, 3, 1, 0, 3, 3, 1, 2, 2, 2, 3, 1, 0, 0, 0, 3])   label: tensor([0, 1, 3, 0, 1, 2, 3, 1, 1, 2, 1, 3, 2, 1, 0, 3, 0, 2, 0, 3, 3, 2, 2, 1,
+        2, 3, 3, 1, 1, 2, 1, 3, 2, 2, 3, 0, 3, 2, 0, 1, 0, 3])
+Epoch: 371   Train loss: 1.249079   Test loss: 1.3226293   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35022189349112426   Train_predict: tensor([1, 3, 1, 1, 0, 0, 2, 3, 0, 2, 0, 0, 0, 0, 3, 0, 2, 3, 1, 0, 2, 2, 1, 0,
+        0, 1, 0, 2, 1, 0, 2, 2, 2, 2, 0, 0, 0, 2, 0, 0, 1, 0])   label: tensor([1, 2, 2, 1, 3, 3, 1, 3, 2, 2, 3, 1, 1, 1, 2, 2, 2, 3, 0, 0, 2, 0, 0, 3,
+        2, 2, 2, 2, 1, 0, 3, 2, 0, 1, 0, 0, 2, 3, 2, 2, 2, 0])
+Epoch: 372   Train loss: 1.3003664   Test loss: 1.3214703   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35613905325443784   Train_predict: tensor([1, 1, 2, 0, 3, 0, 2, 1, 3, 0, 3, 3, 2, 3, 3, 3, 1, 2, 3, 1, 0, 2, 0, 3,
+        1, 2, 0, 1, 1, 2, 3, 1, 0, 3, 1, 3, 1, 3, 1, 0, 0, 3])   label: tensor([2, 1, 1, 3, 3, 3, 0, 3, 3, 0, 3, 0, 3, 1, 1, 3, 2, 2, 3, 2, 1, 0, 0, 3,
+        3, 0, 1, 1, 0, 2, 1, 0, 0, 0, 1, 2, 0, 3, 0, 1, 3, 0])
+Epoch: 373   Train loss: 1.3150122   Test loss: 1.3208295   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35798816568047337   Train_predict: tensor([3, 3, 0, 0, 1, 3, 1, 3, 0, 2, 0, 0, 1, 0, 3, 0, 1, 3, 1, 0, 3, 1, 3, 3,
+        1, 0, 3, 2, 1, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 2, 3, 2])   label: tensor([1, 3, 0, 1, 2, 2, 3, 3, 1, 3, 0, 0, 3, 0, 0, 3, 0, 1, 2, 0, 2, 0, 3, 2,
+        2, 3, 3, 2, 1, 0, 2, 0, 1, 3, 1, 2, 2, 2, 1, 3, 3, 2])
+Epoch: 374   Train loss: 1.33409   Test loss: 1.3219262   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35281065088757396   Train_predict: tensor([1, 3, 1, 2, 3, 3, 0, 3, 2, 0, 2, 0, 3, 3, 3, 0, 1, 1, 3, 3, 2, 2, 2, 0,
+        0, 1, 2, 0, 0, 1, 0, 3, 2, 1, 1, 3, 0, 0, 1, 1, 1, 2])   label: tensor([3, 0, 3, 2, 1, 2, 0, 3, 0, 0, 1, 2, 3, 3, 3, 1, 0, 0, 1, 1, 2, 1, 0, 1,
+        0, 1, 1, 3, 3, 1, 0, 3, 3, 3, 1, 2, 0, 3, 3, 2, 1, 2])
+Epoch: 375   Train loss: 1.3379327   Test loss: 1.3213488   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35650887573964496   Train_predict: tensor([3, 0, 2, 2, 3, 0, 0, 0, 0, 2, 0, 1, 0, 3, 2, 1, 0, 3, 1, 0, 0, 2, 1, 1,
+        3, 0, 1, 3, 3, 0, 1, 3, 3, 3, 0, 0, 0, 0, 2, 2, 3, 3])   label: tensor([0, 1, 2, 1, 3, 1, 0, 1, 2, 3, 3, 0, 0, 2, 1, 1, 0, 0, 1, 1, 0, 2, 3, 3,
+        2, 1, 2, 0, 3, 0, 0, 2, 1, 2, 0, 0, 0, 3, 3, 3, 3, 1])
+Epoch: 376   Train loss: 1.36607   Test loss: 1.3212227   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 0, 1, 3, 0, 0, 1, 0, 0, 1, 1, 3, 2, 2, 2, 0, 2, 0, 0, 2, 0, 0, 3, 3,
+        2, 1, 0, 3, 2, 1, 2, 1, 2, 0, 1, 0, 0, 1, 0, 3, 0, 2])   label: tensor([2, 3, 1, 3, 1, 3, 3, 1, 3, 1, 1, 1, 0, 2, 0, 0, 0, 3, 1, 1, 2, 3, 1, 2,
+        0, 0, 0, 3, 0, 2, 2, 3, 3, 1, 3, 1, 2, 0, 2, 3, 0, 2])
+Epoch: 377   Train loss: 1.2788135   Test loss: 1.3200665   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35355029585798814   Train_predict: tensor([0, 2, 3, 0, 3, 1, 0, 0, 0, 3, 3, 0, 3, 3, 1, 3, 3, 1, 2, 0, 1, 1, 1, 0,
+        1, 1, 3, 3, 2, 3, 3, 0, 3, 0, 0, 2, 1, 0, 1, 3, 1, 1])   label: tensor([1, 2, 1, 0, 3, 2, 2, 1, 0, 3, 2, 3, 1, 2, 2, 3, 1, 1, 2, 0, 0, 0, 0, 1,
+        1, 3, 0, 2, 2, 0, 1, 3, 2, 0, 2, 3, 0, 0, 1, 3, 2, 1])
+Epoch: 378   Train loss: 1.4126291   Test loss: 1.3201227   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3531804733727811   Train_predict: tensor([1, 3, 2, 2, 3, 3, 2, 2, 0, 1, 1, 1, 2, 1, 1, 2, 3, 1, 1, 0, 3, 1, 1, 1,
+        3, 1, 1, 0, 2, 0, 0, 0, 2, 1, 1, 2, 2, 0, 2, 1, 1, 2])   label: tensor([3, 1, 1, 0, 1, 0, 0, 2, 2, 1, 2, 1, 3, 1, 0, 1, 3, 3, 1, 1, 1, 3, 1, 3,
+        0, 2, 2, 1, 3, 2, 2, 1, 2, 3, 1, 1, 1, 0, 2, 0, 2, 1])
+Epoch: 379   Train loss: 1.28002   Test loss: 1.320083   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3557692307692308   Train_predict: tensor([2, 3, 3, 3, 0, 0, 3, 3, 3, 1, 0, 2, 2, 1, 0, 0, 0, 3, 1, 3, 3, 0, 0, 1,
+        0, 1, 0, 0, 2, 0, 2, 2, 3, 3, 0, 2, 1, 0, 2, 2, 1, 0])   label: tensor([3, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 2, 1, 3, 2, 0, 0, 1, 3, 3, 2, 1, 0,
+        1, 0, 0, 0, 0, 2, 2, 3, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0])
+Epoch: 380   Train loss: 1.3903561   Test loss: 1.3204696   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35502958579881655   Train_predict: tensor([1, 1, 0, 3, 3, 1, 1, 2, 0, 2, 0, 0, 1, 2, 1, 1, 1, 3, 3, 0, 2, 0, 0, 0,
+        0, 2, 2, 0, 2, 1, 0, 3, 2, 2, 3, 0, 0, 1, 1, 0, 2, 0])   label: tensor([0, 1, 0, 3, 3, 2, 3, 3, 1, 1, 0, 3, 1, 0, 0, 2, 3, 3, 3, 3, 0, 1, 0, 0,
+        3, 1, 3, 1, 0, 2, 3, 1, 1, 3, 3, 1, 0, 1, 2, 3, 2, 3])
+Epoch: 381   Train loss: 1.335868   Test loss: 1.3203546   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 3, 3, 1, 1, 1, 3, 2, 3, 3, 1, 1, 0, 1, 2, 0, 1, 2, 3, 3, 0, 0, 0, 1,
+        2, 0, 3, 0, 2, 0, 0, 0, 3, 2, 3, 0, 0, 1, 0, 1, 1, 0])   label: tensor([2, 0, 2, 0, 3, 2, 0, 0, 3, 2, 1, 0, 3, 1, 1, 2, 1, 1, 2, 3, 0, 2, 0, 1,
+        1, 0, 2, 0, 3, 2, 1, 0, 3, 3, 3, 0, 1, 3, 3, 1, 1, 3])
+Epoch: 382   Train loss: 1.3301783   Test loss: 1.322764   Train accuracy: 0.38095238095238093   Test accuracy is: 0.34985207100591714   Train_predict: tensor([2, 3, 3, 3, 0, 0, 0, 2, 0, 2, 2, 1, 0, 1, 3, 0, 3, 0, 3, 2, 1, 3, 1, 0,
+        0, 3, 0, 3, 0, 0, 0, 0, 2, 1, 0, 3, 3, 3, 1, 3, 0, 2])   label: tensor([2, 2, 1, 0, 0, 1, 1, 0, 0, 1, 2, 1, 2, 1, 3, 3, 2, 3, 2, 0, 0, 2, 0, 2,
+        0, 0, 0, 3, 0, 1, 2, 0, 1, 2, 3, 3, 1, 3, 3, 2, 0, 2])
+Epoch: 383   Train loss: 1.3022635   Test loss: 1.3201684   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35613905325443784   Train_predict: tensor([1, 3, 3, 0, 3, 0, 3, 2, 2, 0, 3, 1, 2, 3, 0, 2, 2, 3, 0, 1, 1, 1, 2, 2,
+        0, 0, 3, 0, 1, 1, 0, 0, 2, 0, 0, 3, 1, 2, 1, 0, 2, 3])   label: tensor([1, 3, 1, 0, 1, 0, 3, 3, 1, 0, 0, 1, 0, 3, 0, 3, 2, 2, 1, 0, 1, 1, 1, 2,
+        3, 2, 1, 0, 2, 1, 1, 2, 2, 3, 3, 3, 0, 2, 2, 2, 3, 2])
+Epoch: 384   Train loss: 1.3594633   Test loss: 1.319791   Train accuracy: 0.5   Test accuracy is: 0.35798816568047337   Train_predict: tensor([0, 1, 0, 0, 1, 3, 0, 1, 3, 0, 1, 2, 0, 2, 3, 2, 0, 0, 3, 3, 0, 0, 0, 0,
+        3, 0, 1, 3, 3, 1, 3, 1, 0, 1, 2, 0, 3, 0, 2, 1, 3, 0])   label: tensor([3, 3, 2, 1, 3, 3, 2, 0, 0, 0, 0, 1, 0, 2, 1, 2, 2, 0, 1, 2, 0, 0, 1, 0,
+        3, 0, 1, 3, 3, 1, 2, 2, 2, 1, 2, 0, 3, 1, 0, 1, 3, 3])
+Epoch: 385   Train loss: 1.3631991   Test loss: 1.3214182   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 2, 1, 2, 0, 2, 2, 2, 2, 0, 1, 1, 3, 3, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1,
+        3, 2, 2, 3, 2, 1, 2, 0, 2, 0, 0, 1, 0, 1, 2, 1, 0, 2])   label: tensor([0, 0, 1, 0, 1, 1, 1, 3, 3, 3, 1, 2, 0, 2, 0, 0, 0, 2, 3, 3, 0, 3, 0, 2,
+        1, 2, 1, 1, 2, 1, 0, 3, 2, 2, 2, 1, 1, 1, 2, 2, 3, 1])
+Epoch: 386   Train loss: 1.2960775   Test loss: 1.3204597   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35761834319526625   Train_predict: tensor([0, 2, 2, 1, 3, 0, 0, 3, 2, 0, 2, 3, 3, 3, 0, 3, 1, 0, 1, 1, 0, 3, 2, 2,
+        0, 0, 3, 0, 0, 1, 3, 1, 0, 2, 0, 3, 0, 3, 0, 2, 0, 0])   label: tensor([1, 0, 2, 1, 2, 3, 2, 0, 3, 0, 3, 0, 3, 0, 3, 3, 1, 2, 1, 3, 3, 1, 3, 1,
+        1, 1, 1, 3, 0, 1, 3, 0, 0, 2, 1, 1, 0, 1, 2, 2, 2, 3])
+Epoch: 387   Train loss: 1.3281832   Test loss: 1.319759   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35909763313609466   Train_predict: tensor([3, 0, 1, 0, 1, 1, 3, 0, 1, 1, 3, 0, 0, 1, 2, 1, 0, 0, 3, 0, 1, 0, 2, 0,
+        1, 3, 1, 0, 0, 0, 0, 0, 3, 3, 0, 2, 0, 0, 1, 1, 1, 3])   label: tensor([2, 0, 3, 0, 3, 2, 1, 2, 2, 3, 3, 2, 1, 2, 0, 2, 3, 3, 0, 0, 1, 0, 3, 1,
+        0, 3, 1, 0, 2, 2, 2, 3, 3, 1, 0, 3, 1, 0, 1, 0, 2, 2])
+Epoch: 388   Train loss: 1.2452114   Test loss: 1.3189554   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35650887573964496   Train_predict: tensor([3, 0, 0, 3, 0, 2, 3, 3, 2, 1, 1, 1, 0, 3, 0, 2, 0, 3, 0, 1, 0, 2, 3, 3,
+        0, 1, 2, 2, 3, 0, 0, 1, 0, 2, 2, 1, 2, 1, 3, 0, 2, 0])   label: tensor([3, 0, 1, 1, 2, 3, 3, 3, 2, 1, 1, 3, 3, 1, 0, 2, 3, 3, 0, 1, 0, 2, 3, 1,
+        3, 3, 3, 1, 1, 0, 1, 1, 1, 0, 2, 2, 0, 1, 2, 2, 1, 2])
+Epoch: 389   Train loss: 1.2964073   Test loss: 1.3208175   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 1, 0, 1, 0, 0, 2, 1, 0, 1, 1, 1, 0, 1, 3, 0, 2, 0, 0, 0, 3, 2, 2, 3,
+        0, 0, 2, 0, 0, 2, 1, 0, 2, 1, 1, 2, 2, 2, 0, 2, 3, 0])   label: tensor([3, 3, 1, 1, 0, 1, 1, 1, 3, 3, 1, 2, 2, 2, 3, 0, 3, 2, 0, 0, 0, 2, 2, 2,
+        2, 0, 0, 0, 0, 2, 3, 2, 0, 0, 0, 2, 2, 1, 0, 0, 2, 3])
+Epoch: 390   Train loss: 1.3709147   Test loss: 1.3221682   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3572485207100592   Train_predict: tensor([1, 0, 1, 3, 3, 1, 0, 1, 1, 3, 2, 0, 3, 2, 0, 2, 0, 0, 3, 0, 1, 0, 3, 2,
+        2, 0, 0, 2, 3, 3, 1, 0, 3, 1, 2, 1, 0, 3, 3, 3, 3, 0])   label: tensor([1, 3, 0, 3, 3, 3, 0, 2, 1, 3, 1, 1, 0, 2, 0, 0, 1, 0, 0, 0, 0, 2, 2, 0,
+        3, 0, 1, 0, 2, 1, 3, 2, 2, 2, 3, 0, 2, 1, 3, 0, 2, 2])
+Epoch: 391   Train loss: 1.3045343   Test loss: 1.3203626   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35502958579881655   Train_predict: tensor([2, 1, 2, 0, 1, 0, 3, 2, 0, 0, 0, 3, 1, 0, 2, 2, 0, 2, 1, 0, 1, 2, 3, 3,
+        1, 3, 3, 0, 0, 0, 1, 0, 3, 3, 1, 2, 3, 3, 2, 0, 0, 2])   label: tensor([1, 2, 1, 3, 3, 3, 3, 0, 2, 0, 0, 3, 1, 3, 3, 0, 2, 2, 3, 0, 1, 2, 3, 3,
+        1, 2, 1, 3, 0, 3, 1, 3, 3, 0, 2, 1, 1, 2, 0, 2, 3, 1])
+Epoch: 392   Train loss: 1.3583715   Test loss: 1.3221793   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 0, 3, 3, 1, 2, 2, 1, 2, 1, 2, 3, 1, 1, 2, 2, 0, 0, 2, 3, 2, 2, 0, 2,
+        3, 0, 0, 3, 0, 3, 0, 2, 1, 1, 3, 2, 3, 1, 0, 1, 2, 0])   label: tensor([2, 1, 1, 0, 0, 2, 0, 3, 2, 1, 1, 0, 0, 1, 1, 1, 3, 0, 2, 0, 2, 0, 1, 0,
+        2, 0, 3, 1, 1, 3, 0, 1, 1, 3, 1, 3, 2, 3, 2, 2, 2, 0])
+Epoch: 393   Train loss: 1.2602748   Test loss: 1.3212221   Train accuracy: 0.5   Test accuracy is: 0.3583579881656805   Train_predict: tensor([2, 1, 1, 2, 1, 3, 2, 2, 0, 1, 2, 3, 0, 2, 1, 3, 0, 0, 0, 3, 0, 3, 2, 0,
+        3, 1, 3, 1, 1, 0, 3, 0, 3, 0, 0, 2, 2, 3, 0, 1, 2, 1])   label: tensor([2, 2, 1, 1, 1, 1, 2, 1, 1, 1, 2, 0, 2, 2, 1, 1, 0, 1, 1, 3, 1, 1, 0, 0,
+        3, 0, 1, 0, 1, 3, 3, 2, 3, 0, 0, 1, 2, 3, 2, 1, 2, 2])
+Epoch: 394   Train loss: 1.3502128   Test loss: 1.3203055   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3583579881656805   Train_predict: tensor([1, 0, 1, 3, 0, 2, 1, 0, 0, 2, 0, 2, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 1,
+        1, 0, 0, 0, 2, 1, 2, 3, 2, 2, 3, 2, 0, 2, 0, 2, 0, 1])   label: tensor([0, 2, 2, 2, 0, 3, 1, 3, 2, 2, 1, 3, 0, 0, 0, 2, 0, 2, 1, 0, 2, 2, 2, 1,
+        3, 2, 2, 3, 0, 1, 1, 3, 2, 2, 2, 1, 0, 1, 3, 2, 1, 0])
+Epoch: 395   Train loss: 1.3333547   Test loss: 1.3200122   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 0, 1, 3, 1, 1, 0, 2, 1, 2, 2, 1, 0, 0, 0, 1, 2, 1, 2, 2, 0, 3, 1, 3,
+        3, 3, 3, 2, 3, 0, 2, 3, 0, 3, 2, 1, 0, 2, 0, 2, 1, 0])   label: tensor([1, 3, 1, 3, 0, 0, 0, 0, 3, 0, 2, 3, 0, 3, 2, 1, 3, 0, 2, 0, 3, 3, 0, 1,
+        0, 3, 2, 3, 3, 0, 2, 1, 0, 1, 3, 2, 1, 0, 3, 2, 2, 3])
+Epoch: 396   Train loss: 1.3445628   Test loss: 1.3210964   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3531804733727811   Train_predict: tensor([2, 2, 2, 0, 2, 0, 0, 3, 1, 0, 1, 2, 2, 3, 0, 0, 2, 2, 0, 3, 2, 1, 1, 0,
+        3, 0, 2, 3, 2, 2, 3, 2, 1, 3, 3, 1, 0, 3, 3, 1, 0, 3])   label: tensor([2, 1, 2, 2, 3, 3, 3, 3, 0, 3, 1, 3, 3, 3, 3, 0, 2, 1, 1, 1, 0, 1, 0, 0,
+        1, 3, 0, 0, 2, 3, 2, 2, 1, 3, 2, 0, 3, 2, 2, 1, 3, 1])
+Epoch: 397   Train loss: 1.308787   Test loss: 1.321152   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3546597633136095   Train_predict: tensor([0, 1, 1, 2, 2, 2, 0, 3, 1, 3, 1, 0, 3, 0, 3, 0, 2, 3, 1, 0, 3, 2, 0, 2,
+        3, 0, 1, 3, 2, 1, 1, 3, 0, 1, 0, 2, 3, 3, 3, 1, 0, 2])   label: tensor([0, 3, 0, 0, 1, 3, 3, 3, 1, 3, 2, 1, 3, 0, 1, 3, 3, 0, 2, 0, 3, 2, 1, 3,
+        0, 1, 2, 2, 3, 0, 3, 3, 3, 2, 3, 2, 2, 3, 2, 1, 3, 1])
+Epoch: 398   Train loss: 1.2857981   Test loss: 1.3211538   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36020710059171596   Train_predict: tensor([3, 0, 3, 1, 2, 1, 1, 2, 1, 1, 1, 3, 0, 3, 1, 0, 2, 0, 0, 0, 1, 1, 2, 3,
+        1, 0, 2, 3, 3, 1, 2, 3, 2, 0, 3, 1, 0, 0, 2, 1, 1, 3])   label: tensor([3, 3, 3, 2, 2, 1, 0, 2, 3, 2, 3, 0, 3, 3, 0, 0, 3, 0, 0, 0, 3, 1, 0, 0,
+        1, 3, 1, 1, 2, 1, 1, 3, 1, 0, 1, 1, 1, 2, 0, 1, 2, 3])
+Epoch: 399   Train loss: 1.2522014   Test loss: 1.320993   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35613905325443784   Train_predict: tensor([1, 0, 0, 0, 0, 1, 1, 2, 0, 0, 1, 3, 0, 0, 2, 1, 3, 0, 3, 0, 0, 3, 1, 3,
+        2, 3, 2, 3, 1, 1, 2, 3, 2, 0, 3, 2, 1, 1, 0, 0, 1, 2])   label: tensor([0, 3, 0, 2, 1, 1, 0, 2, 1, 3, 0, 1, 3, 0, 1, 0, 3, 1, 0, 0, 0, 2, 0, 1,
+        1, 0, 1, 0, 0, 1, 2, 0, 1, 0, 2, 2, 1, 0, 1, 2, 3, 2])
+Epoch: 400   Train loss: 1.3296064   Test loss: 1.3212868   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3531804733727811   Train_predict: tensor([3, 2, 0, 1, 1, 2, 0, 3, 2, 3, 2, 2, 2, 2, 3, 3, 3, 2, 0, 3, 1, 3, 1, 3,
+        1, 2, 3, 0, 3, 2, 1, 2, 0, 1, 1, 1, 0, 2, 1, 2, 1, 1])   label: tensor([3, 0, 2, 0, 0, 2, 0, 0, 0, 1, 2, 2, 2, 2, 2, 0, 2, 0, 2, 3, 2, 2, 2, 1,
+        3, 1, 1, 3, 1, 1, 2, 2, 3, 0, 1, 1, 2, 3, 2, 3, 2, 1])
+Epoch: 401   Train loss: 1.2581106   Test loss: 1.3200771   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3583579881656805   Train_predict: tensor([3, 2, 2, 0, 1, 2, 1, 2, 0, 3, 1, 2, 1, 2, 3, 0, 3, 0, 3, 0, 3, 1, 0, 2,
+        1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 0, 0, 3, 0, 1, 3, 0, 1])   label: tensor([3, 2, 1, 3, 1, 3, 1, 2, 3, 2, 2, 2, 2, 2, 2, 3, 0, 0, 3, 0, 2, 3, 2, 2,
+        1, 0, 3, 1, 0, 3, 0, 0, 1, 0, 1, 0, 0, 0, 2, 0, 3, 2])
+Epoch: 402   Train loss: 1.3056271   Test loss: 1.3201272   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3568786982248521   Train_predict: tensor([2, 2, 1, 2, 2, 0, 0, 3, 1, 0, 1, 3, 2, 3, 3, 0, 3, 1, 0, 1, 3, 0, 1, 3,
+        3, 0, 2, 3, 2, 2, 0, 3, 3, 3, 0, 3, 2, 0, 3, 3, 0, 1])   label: tensor([2, 1, 1, 0, 2, 3, 0, 0, 0, 1, 2, 0, 2, 2, 3, 0, 3, 3, 0, 1, 2, 3, 1, 3,
+        2, 2, 2, 1, 2, 1, 3, 0, 1, 2, 1, 0, 0, 2, 1, 1, 1, 1])
+Epoch: 403   Train loss: 1.3177902   Test loss: 1.3186545   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 1, 3, 3, 0, 3, 1, 0, 1, 3, 3, 3, 2, 2, 2, 0, 1, 0, 3, 2, 2, 1, 2, 0,
+        1, 3, 3, 3, 3, 3, 0, 1, 0, 3, 3, 1, 0, 1, 1, 2, 0, 2])   label: tensor([1, 1, 3, 3, 0, 1, 2, 3, 0, 1, 0, 2, 2, 1, 2, 3, 3, 3, 1, 0, 3, 3, 2, 1,
+        1, 1, 2, 3, 0, 3, 0, 0, 0, 3, 3, 2, 1, 3, 1, 0, 0, 1])
+Epoch: 404   Train loss: 1.3151108   Test loss: 1.321101   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3583579881656805   Train_predict: tensor([0, 2, 0, 3, 3, 3, 3, 3, 2, 2, 3, 3, 2, 0, 0, 2, 3, 0, 1, 1, 0, 3, 0, 0,
+        2, 1, 1, 1, 1, 1, 3, 0, 3, 3, 3, 3, 1, 1, 0, 2, 2, 1])   label: tensor([2, 0, 1, 3, 3, 0, 3, 3, 2, 0, 3, 2, 2, 0, 0, 1, 1, 1, 2, 3, 0, 1, 0, 2,
+        0, 0, 1, 1, 2, 0, 2, 0, 0, 3, 2, 2, 1, 0, 0, 1, 3, 1])
+Epoch: 405   Train loss: 1.3631189   Test loss: 1.3209666   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35872781065088755   Train_predict: tensor([2, 1, 3, 2, 1, 3, 3, 3, 0, 0, 0, 3, 3, 2, 0, 1, 1, 2, 3, 0, 3, 3, 2, 3,
+        3, 3, 0, 1, 0, 0, 3, 0, 3, 0, 1, 1, 1, 3, 0, 1, 3, 1])   label: tensor([1, 1, 1, 2, 3, 2, 3, 0, 0, 2, 0, 3, 0, 2, 3, 1, 0, 1, 3, 0, 0, 3, 1, 0,
+        0, 2, 1, 3, 0, 0, 2, 2, 2, 2, 0, 3, 0, 0, 1, 1, 3, 3])
+Epoch: 406   Train loss: 1.4070258   Test loss: 1.3202071   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35650887573964496   Train_predict: tensor([3, 1, 0, 2, 0, 3, 0, 0, 3, 3, 3, 3, 2, 1, 2, 1, 0, 0, 0, 2, 0, 3, 3, 1,
+        3, 3, 2, 3, 2, 0, 1, 0, 2, 0, 0, 1, 0, 1, 3, 3, 2, 1])   label: tensor([1, 0, 2, 1, 0, 3, 2, 2, 0, 0, 2, 1, 0, 2, 2, 1, 0, 2, 1, 3, 2, 0, 1, 0,
+        2, 0, 2, 0, 0, 1, 1, 2, 2, 3, 0, 1, 0, 1, 3, 2, 3, 2])
+Epoch: 407   Train loss: 1.3532885   Test loss: 1.3186538   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 2, 3, 1, 3, 0, 3, 0, 3, 0, 2, 0, 2, 0, 2, 1, 0, 0, 3, 0, 2, 0, 2, 0,
+        2, 1, 1, 3, 0, 2, 1, 0, 2, 1, 1, 3, 3, 0, 0, 0, 2, 0])   label: tensor([1, 2, 0, 0, 2, 1, 3, 0, 1, 2, 2, 0, 1, 2, 2, 3, 3, 0, 0, 1, 2, 1, 3, 1,
+        1, 0, 1, 3, 0, 1, 0, 1, 0, 2, 3, 3, 0, 1, 2, 0, 2, 2])
+Epoch: 408   Train loss: 1.2486119   Test loss: 1.3205825   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35650887573964496   Train_predict: tensor([2, 2, 0, 1, 1, 3, 0, 3, 2, 3, 2, 1, 2, 3, 3, 0, 3, 0, 2, 3, 0, 0, 3, 1,
+        0, 1, 2, 2, 1, 1, 0, 2, 3, 0, 3, 3, 2, 0, 1, 0, 3, 2])   label: tensor([2, 3, 0, 1, 3, 2, 0, 2, 1, 3, 0, 1, 0, 3, 2, 0, 3, 2, 2, 3, 3, 2, 0, 1,
+        3, 2, 0, 3, 3, 1, 3, 1, 3, 2, 2, 3, 3, 0, 1, 3, 2, 3])
+Epoch: 409   Train loss: 1.3000472   Test loss: 1.3221701   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3520710059171598   Train_predict: tensor([2, 2, 1, 0, 1, 2, 0, 3, 2, 0, 3, 0, 3, 2, 0, 0, 1, 3, 2, 1, 0, 0, 2, 1,
+        0, 2, 1, 1, 0, 0, 3, 3, 3, 2, 3, 3, 0, 2, 3, 0, 3, 1])   label: tensor([1, 2, 0, 1, 0, 3, 3, 3, 1, 2, 2, 3, 1, 2, 0, 2, 1, 3, 2, 1, 0, 3, 1, 2,
+        3, 1, 1, 1, 3, 1, 3, 1, 3, 1, 1, 3, 1, 0, 3, 0, 3, 3])
+Epoch: 410   Train loss: 1.3538674   Test loss: 1.3232415   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35022189349112426   Train_predict: tensor([1, 1, 3, 2, 2, 1, 1, 0, 0, 2, 0, 3, 2, 1, 3, 1, 2, 2, 1, 3, 1, 3, 3, 3,
+        3, 3, 3, 2, 2, 1, 3, 0, 1, 3, 0, 3, 2, 0, 1, 0, 0, 0])   label: tensor([3, 1, 3, 0, 3, 1, 2, 1, 1, 2, 1, 0, 2, 2, 3, 2, 2, 2, 1, 2, 0, 3, 0, 3,
+        1, 1, 3, 1, 0, 0, 1, 1, 2, 3, 0, 0, 3, 1, 0, 3, 3, 2])
+Epoch: 411   Train loss: 1.2337383   Test loss: 1.3230228   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35355029585798814   Train_predict: tensor([0, 3, 1, 0, 1, 1, 1, 0, 0, 1, 3, 1, 2, 3, 0, 1, 2, 2, 0, 0, 3, 0, 3, 3,
+        0, 2, 0, 2, 3, 0, 3, 3, 0, 3, 1, 0, 0, 0, 3, 2, 0, 1])   label: tensor([1, 2, 1, 0, 1, 3, 2, 3, 0, 3, 0, 1, 0, 3, 2, 1, 1, 2, 0, 0, 3, 1, 0, 2,
+        0, 0, 0, 2, 3, 2, 1, 3, 0, 3, 2, 0, 1, 1, 1, 2, 3, 3])
+Epoch: 412   Train loss: 1.3001951   Test loss: 1.321333   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35428994082840237   Train_predict: tensor([3, 2, 0, 0, 0, 3, 0, 3, 0, 3, 2, 0, 2, 1, 1, 3, 2, 3, 1, 2, 3, 3, 2, 1,
+        2, 3, 3, 1, 0, 2, 1, 3, 3, 3, 2, 3, 2, 2, 0, 3, 0, 1])   label: tensor([1, 2, 0, 3, 0, 3, 1, 3, 1, 0, 3, 1, 3, 2, 0, 3, 2, 2, 2, 0, 1, 2, 3, 1,
+        2, 0, 3, 2, 0, 3, 1, 1, 0, 3, 0, 1, 1, 1, 3, 1, 2, 2])
+Epoch: 413   Train loss: 1.2534356   Test loss: 1.3215922   Train accuracy: 0.47619047619047616   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 3, 1, 0, 1, 3, 2, 3, 0, 1, 0, 3, 3, 0, 2, 1, 2, 2, 2, 1, 1, 0, 2, 0,
+        1, 2, 0, 3, 1, 3, 1, 3, 0, 0, 2, 0, 3, 1, 0, 0, 3, 1])   label: tensor([0, 3, 2, 0, 3, 3, 2, 3, 3, 2, 0, 0, 3, 0, 1, 1, 2, 2, 1, 0, 1, 0, 3, 2,
+        0, 3, 0, 3, 2, 3, 3, 1, 3, 0, 3, 0, 1, 1, 3, 3, 2, 0])
+Epoch: 414   Train loss: 1.2905954   Test loss: 1.321345   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 2, 0, 3, 3, 3, 3, 0, 3, 0, 2, 0, 2, 2, 0,
+        3, 1, 2, 3, 1, 2, 1, 3, 2, 3, 2, 0, 0, 3, 3, 3, 3, 0])   label: tensor([0, 0, 0, 2, 3, 1, 2, 0, 1, 0, 1, 0, 0, 2, 1, 0, 2, 0, 0, 1, 0, 2, 2, 0,
+        3, 0, 0, 1, 3, 1, 2, 2, 3, 0, 2, 0, 0, 0, 0, 1, 3, 0])
+Epoch: 415   Train loss: 1.3212733   Test loss: 1.3218858   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35170118343195267   Train_predict: tensor([2, 3, 0, 3, 2, 2, 3, 1, 1, 0, 2, 3, 0, 1, 0, 3, 3, 0, 2, 0, 0, 0, 1, 1,
+        1, 3, 3, 3, 3, 2, 3, 1, 1, 0, 2, 3, 3, 3, 3, 0, 0, 1])   label: tensor([2, 1, 1, 3, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0, 2, 2, 3, 0, 1, 3, 0, 0, 2, 1,
+        3, 0, 0, 3, 2, 0, 3, 1, 2, 0, 1, 0, 3, 3, 1, 0, 3, 1])
+Epoch: 416   Train loss: 1.4149153   Test loss: 1.322198   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3546597633136095   Train_predict: tensor([0, 0, 2, 1, 2, 3, 1, 1, 3, 1, 0, 3, 0, 2, 0, 2, 0, 0, 0, 2, 1, 0, 2, 0,
+        2, 2, 0, 0, 2, 0, 0, 1, 0, 2, 2, 0, 1, 0, 3, 1, 2, 0])   label: tensor([0, 3, 2, 2, 2, 1, 2, 1, 0, 3, 0, 3, 1, 3, 0, 0, 0, 0, 2, 1, 2, 1, 3, 3,
+        3, 2, 1, 1, 1, 3, 3, 0, 0, 2, 1, 3, 1, 1, 3, 3, 1, 3])
+Epoch: 417   Train loss: 1.2665564   Test loss: 1.319337   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36168639053254437   Train_predict: tensor([1, 2, 1, 0, 0, 2, 0, 3, 1, 1, 3, 2, 3, 1, 0, 0, 0, 3, 0, 0, 1, 0, 2, 3,
+        2, 0, 2, 3, 1, 1, 1, 3, 1, 0, 2, 0, 1, 1, 2, 0, 0, 0])   label: tensor([2, 2, 2, 1, 0, 0, 1, 0, 0, 2, 2, 3, 1, 2, 1, 0, 0, 2, 1, 2, 2, 2, 3, 1,
+        0, 1, 2, 3, 1, 3, 1, 3, 1, 3, 0, 0, 3, 1, 1, 3, 0, 3])
+Epoch: 418   Train loss: 1.3509483   Test loss: 1.3208251   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 0, 3, 1, 1, 3, 0, 2, 2, 0, 3, 2, 1, 1, 0, 2, 3, 0, 2, 1, 3, 1, 1, 3,
+        0, 2, 0, 1, 3, 3, 1, 2, 2, 2, 0, 3, 1, 0, 1, 1, 1, 0])   label: tensor([3, 0, 1, 3, 2, 3, 2, 2, 3, 0, 3, 2, 1, 1, 1, 0, 0, 1, 2, 3, 1, 1, 1, 1,
+        0, 2, 0, 3, 0, 2, 2, 0, 2, 1, 3, 2, 2, 3, 0, 0, 2, 1])
+Epoch: 419   Train loss: 1.2015532   Test loss: 1.3211116   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3557692307692308   Train_predict: tensor([2, 3, 0, 1, 3, 0, 0, 1, 1, 3, 3, 0, 0, 1, 3, 3, 1, 1, 3, 0, 1, 0, 0, 1,
+        1, 2, 1, 2, 1, 1, 1, 2, 0, 3, 2, 1, 1, 2, 1, 0, 1, 0])   label: tensor([3, 1, 1, 2, 3, 0, 2, 1, 1, 0, 2, 2, 0, 1, 3, 3, 1, 1, 3, 0, 2, 3, 0, 3,
+        1, 2, 1, 0, 1, 1, 0, 0, 2, 3, 1, 1, 3, 0, 1, 0, 2, 3])
+Epoch: 420   Train loss: 1.2952493   Test loss: 1.3206365   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35392011834319526   Train_predict: tensor([3, 1, 0, 0, 3, 1, 1, 0, 2, 2, 1, 0, 0, 2, 0, 0, 1, 2, 1, 1, 1, 0, 3, 2,
+        2, 3, 3, 3, 2, 0, 3, 3, 2, 3, 0, 0, 3, 1, 0, 0, 0, 0])   label: tensor([0, 3, 0, 0, 3, 1, 1, 1, 0, 0, 0, 3, 1, 1, 3, 0, 3, 1, 3, 2, 1, 3, 3, 2,
+        1, 3, 1, 2, 2, 0, 2, 0, 3, 3, 2, 1, 2, 2, 0, 3, 3, 1])
+Epoch: 421   Train loss: 1.3235954   Test loss: 1.3225263   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3546597633136095   Train_predict: tensor([3, 3, 2, 1, 0, 3, 2, 0, 1, 0, 0, 2, 3, 1, 1, 2, 0, 3, 3, 2, 3, 3, 2, 3,
+        3, 2, 2, 2, 3, 3, 0, 1, 2, 2, 2, 1, 1, 2, 3, 1, 1, 1])   label: tensor([3, 3, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1, 3, 3, 3, 0, 0, 1, 2, 0, 0, 3, 2, 3,
+        1, 1, 3, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 2, 3, 3, 1, 1])
+Epoch: 422   Train loss: 1.3456147   Test loss: 1.3225999   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35502958579881655   Train_predict: tensor([0, 3, 0, 2, 0, 0, 3, 3, 1, 3, 0, 1, 1, 0, 1, 0, 0, 3, 1, 0, 0, 3, 3, 3,
+        0, 0, 0, 1, 0, 3, 0, 2, 0, 0, 2, 1, 3, 1, 3, 3, 1, 2])   label: tensor([3, 1, 0, 0, 0, 3, 2, 1, 1, 1, 3, 0, 0, 2, 0, 0, 3, 3, 3, 3, 2, 3, 2, 0,
+        3, 0, 0, 0, 3, 1, 0, 3, 2, 2, 0, 1, 3, 0, 1, 2, 2, 2])
+Epoch: 423   Train loss: 1.231991   Test loss: 1.3211519   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35428994082840237   Train_predict: tensor([1, 2, 3, 1, 1, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 2, 2, 3, 0, 2, 1, 3,
+        1, 3, 1, 3, 0, 0, 3, 2, 2, 2, 1, 3, 3, 0, 1, 1, 1, 1])   label: tensor([3, 3, 3, 1, 1, 2, 0, 2, 3, 0, 1, 3, 3, 2, 3, 2, 2, 3, 0, 1, 0, 3, 1, 0,
+        2, 3, 0, 3, 0, 1, 3, 3, 0, 1, 3, 2, 3, 2, 1, 1, 1, 3])
+Epoch: 424   Train loss: 1.351384   Test loss: 1.3211653   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 1, 0, 1, 3, 3, 3, 2, 3, 1, 0, 0, 1, 2, 2, 0, 3, 1, 3, 1, 2, 0, 2, 1,
+        0, 0, 0, 0, 3, 1, 0, 0, 1, 1, 1, 0, 0, 1, 3, 3, 3, 0])   label: tensor([2, 2, 0, 1, 1, 2, 0, 0, 1, 0, 3, 2, 3, 3, 1, 2, 0, 1, 3, 0, 2, 3, 2, 3,
+        3, 3, 0, 2, 0, 1, 1, 2, 2, 0, 1, 1, 1, 3, 3, 1, 0, 1])
+Epoch: 425   Train loss: 1.3110884   Test loss: 1.3214121   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35798816568047337   Train_predict: tensor([1, 3, 3, 2, 3, 1, 0, 3, 0, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 0, 1, 0, 3,
+        0, 0, 1, 2, 0, 3, 0, 0, 0, 0, 3, 3, 0, 3, 2, 0, 0, 2])   label: tensor([1, 1, 3, 0, 2, 3, 2, 0, 1, 3, 3, 0, 1, 1, 2, 0, 3, 0, 3, 2, 0, 2, 3, 1,
+        3, 1, 2, 2, 0, 3, 1, 3, 1, 3, 3, 3, 3, 3, 1, 2, 2, 0])
+Epoch: 426   Train loss: 1.3720667   Test loss: 1.3219842   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35355029585798814   Train_predict: tensor([3, 1, 2, 0, 0, 0, 3, 2, 1, 1, 3, 1, 1, 3, 0, 0, 0, 0, 2, 1, 3, 0, 1, 1,
+        2, 1, 0, 1, 0, 0, 1, 1, 1, 3, 0, 0, 2, 3, 0, 2, 1, 1])   label: tensor([3, 3, 1, 0, 0, 2, 1, 2, 1, 2, 2, 1, 2, 1, 3, 3, 3, 3, 3, 1, 2, 1, 2, 2,
+        2, 1, 2, 2, 3, 2, 1, 1, 2, 1, 0, 1, 0, 2, 3, 1, 1, 1])
+Epoch: 427   Train loss: 1.262945   Test loss: 1.322063   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3520710059171598   Train_predict: tensor([0, 2, 2, 0, 2, 3, 1, 1, 3, 1, 1, 0, 3, 3, 3, 0, 1, 2, 1, 3, 1, 0, 3, 0,
+        1, 2, 0, 3, 3, 1, 0, 1, 2, 2, 1, 0, 0, 0, 3, 1, 2, 0])   label: tensor([3, 2, 3, 2, 3, 3, 1, 0, 2, 1, 1, 0, 1, 3, 0, 0, 1, 3, 1, 3, 3, 2, 2, 3,
+        1, 1, 1, 2, 2, 0, 2, 0, 0, 3, 1, 1, 3, 0, 3, 2, 2, 2])
+Epoch: 428   Train loss: 1.2523624   Test loss: 1.319963   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3598372781065089   Train_predict: tensor([2, 3, 0, 1, 2, 3, 2, 1, 0, 2, 1, 3, 1, 0, 0, 2, 0, 3, 2, 1, 0, 3, 3, 0,
+        0, 0, 0, 3, 2, 1, 1, 0, 3, 1, 3, 3, 0, 3, 2, 2, 3, 1])   label: tensor([1, 3, 2, 3, 2, 1, 1, 2, 0, 0, 1, 2, 3, 0, 3, 2, 0, 2, 2, 2, 3, 1, 3, 0,
+        1, 0, 2, 0, 3, 2, 1, 3, 1, 1, 2, 2, 0, 3, 2, 1, 3, 0])
+Epoch: 429   Train loss: 1.1995928   Test loss: 1.3202695   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35613905325443784   Train_predict: tensor([0, 1, 0, 1, 3, 0, 3, 1, 1, 1, 0, 3, 3, 0, 2, 2, 1, 3, 2, 0, 0, 2, 2, 0,
+        0, 1, 0, 1, 3, 1, 3, 1, 0, 2, 0, 2, 0, 2, 3, 2, 0, 0])   label: tensor([1, 3, 3, 1, 3, 1, 2, 1, 2, 1, 0, 0, 2, 3, 2, 3, 3, 2, 2, 0, 1, 3, 0, 0,
+        2, 2, 0, 0, 3, 1, 3, 0, 2, 2, 0, 2, 0, 2, 2, 0, 3, 1])
+Epoch: 430   Train loss: 1.3612791   Test loss: 1.3204929   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3598372781065089   Train_predict: tensor([1, 3, 0, 0, 0, 1, 1, 0, 0, 2, 2, 1, 2, 3, 3, 1, 1, 2, 3, 2, 3, 1, 0, 2,
+        1, 3, 1, 3, 2, 3, 3, 2, 2, 0, 3, 0, 1, 3, 2, 1, 0, 0])   label: tensor([1, 0, 3, 3, 3, 0, 1, 2, 2, 0, 3, 2, 3, 2, 3, 2, 0, 2, 0, 2, 1, 2, 1, 0,
+        3, 2, 3, 0, 2, 3, 0, 3, 2, 3, 1, 0, 3, 3, 2, 1, 3, 2])
+Epoch: 431   Train loss: 1.3299143   Test loss: 1.3213389   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35761834319526625   Train_predict: tensor([1, 0, 3, 0, 1, 2, 1, 1, 2, 0, 3, 2, 0, 1, 1, 0, 2, 3, 2, 2, 3, 0, 2, 1,
+        2, 2, 3, 2, 1, 1, 0, 3, 0, 1, 2, 3, 0, 3, 0, 0, 0, 1])   label: tensor([0, 1, 3, 0, 2, 0, 1, 1, 1, 3, 3, 3, 3, 2, 2, 0, 0, 1, 3, 0, 1, 2, 2, 2,
+        3, 2, 2, 1, 0, 1, 3, 3, 0, 1, 2, 1, 0, 3, 0, 1, 2, 0])
+Epoch: 432   Train loss: 1.3349801   Test loss: 1.3203   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 1, 2, 3, 2, 3, 0, 3, 0, 0, 1, 1, 3, 2, 3, 2, 2, 2, 2, 0, 3, 2, 0, 2,
+        0, 0, 0, 0, 0, 0, 2, 3, 2, 0, 3, 0, 1, 3, 2, 0, 0, 1])   label: tensor([0, 2, 0, 1, 3, 3, 1, 3, 1, 0, 3, 0, 0, 2, 3, 0, 2, 3, 2, 3, 0, 0, 0, 2,
+        0, 0, 1, 0, 1, 2, 0, 3, 1, 2, 1, 0, 0, 1, 3, 3, 3, 0])
+Epoch: 433   Train loss: 1.3297852   Test loss: 1.3209648   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 1, 2, 0, 3, 0, 2, 2, 3, 2, 0, 0, 0, 1, 0, 1, 3, 3, 0, 0, 3, 1, 3, 2,
+        1, 2, 1, 2, 0, 3, 2, 3, 2, 1, 3, 3, 1, 2, 0, 3, 3, 3])   label: tensor([0, 1, 1, 1, 2, 1, 3, 2, 3, 1, 0, 2, 0, 1, 3, 0, 3, 3, 0, 2, 3, 3, 1, 2,
+        1, 0, 3, 0, 0, 0, 0, 2, 2, 3, 2, 1, 1, 3, 3, 2, 3, 3])
+Epoch: 434   Train loss: 1.4132997   Test loss: 1.3203382   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 0, 2, 1, 3, 3, 3, 1, 0, 3, 0, 2, 1, 1, 0, 0, 3, 3, 1, 0, 0, 3, 2, 3,
+        0, 0, 0, 1, 0, 0, 3, 1, 0, 0, 0, 3, 0, 0, 0, 2, 0, 3])   label: tensor([1, 0, 1, 0, 2, 2, 3, 0, 1, 0, 0, 1, 2, 3, 2, 1, 1, 1, 1, 1, 0, 1, 1, 3,
+        3, 3, 2, 3, 0, 3, 0, 2, 3, 1, 1, 0, 1, 2, 3, 2, 1, 1])
+Epoch: 435   Train loss: 1.2566078   Test loss: 1.3232526   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3583579881656805   Train_predict: tensor([0, 3, 3, 0, 3, 2, 3, 1, 3, 0, 0, 1, 1, 3, 2, 3, 1, 1, 3, 0, 0, 3, 1, 1,
+        3, 2, 2, 3, 1, 3, 2, 2, 1, 3, 0, 2, 0, 0, 3, 3, 1, 3])   label: tensor([0, 0, 0, 1, 3, 2, 2, 0, 0, 0, 2, 1, 0, 2, 1, 3, 2, 2, 2, 0, 2, 3, 1, 0,
+        1, 1, 2, 3, 1, 2, 3, 2, 0, 1, 1, 2, 0, 1, 2, 1, 2, 3])
+Epoch: 436   Train loss: 1.303276   Test loss: 1.3212446   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3631656804733728   Train_predict: tensor([1, 0, 1, 0, 2, 3, 1, 3, 2, 0, 3, 1, 3, 0, 3, 0, 1, 3, 0, 1, 0, 3, 1, 1,
+        0, 3, 3, 1, 3, 0, 2, 2, 0, 3, 0, 0, 2, 2, 0, 1, 0, 3])   label: tensor([0, 0, 2, 3, 2, 1, 1, 2, 0, 0, 3, 3, 3, 0, 3, 2, 0, 3, 0, 3, 3, 3, 3, 0,
+        1, 3, 3, 3, 0, 1, 2, 2, 1, 1, 3, 2, 2, 0, 0, 3, 3, 2])
+Epoch: 437   Train loss: 1.3306364   Test loss: 1.3216414   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3594674556213018   Train_predict: tensor([2, 3, 0, 0, 2, 3, 0, 1, 1, 3, 3, 3, 1, 1, 0, 3, 3, 0, 2, 0, 0, 0, 0, 0,
+        0, 0, 0, 1, 3, 3, 0, 2, 2, 3, 1, 3, 1, 0, 3, 2, 0, 2])   label: tensor([3, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 3, 2, 0, 1, 1, 3, 0, 3, 2, 0, 0, 2, 0,
+        3, 1, 0, 2, 1, 3, 0, 3, 3, 1, 1, 3, 3, 0, 3, 2, 0, 1])
+Epoch: 438   Train loss: 1.2069625   Test loss: 1.3197515   Train accuracy: 0.5238095238095238   Test accuracy is: 0.34763313609467456   Train_predict: tensor([3, 3, 3, 3, 1, 2, 2, 1, 2, 2, 0, 3, 2, 2, 3, 0, 3, 1, 1, 1, 2, 2, 3, 3,
+        2, 0, 1, 2, 3, 1, 1, 1, 0, 0, 0, 1, 1, 0, 3, 1, 2, 3])   label: tensor([3, 3, 2, 0, 1, 1, 0, 1, 2, 2, 0, 3, 1, 0, 3, 2, 3, 1, 1, 2, 2, 2, 0, 3,
+        2, 0, 1, 3, 1, 1, 2, 2, 1, 0, 0, 1, 0, 2, 2, 2, 3, 1])
+Epoch: 439   Train loss: 1.3483258   Test loss: 1.3200651   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 0, 1, 1, 3, 1, 1, 1, 2, 1, 0, 3, 1, 3, 3, 2, 2, 3, 3, 1, 3, 1, 3, 0,
+        3, 0, 1, 1, 1, 1, 0, 3, 0, 3, 0, 2, 2, 3, 2, 3, 0, 1])   label: tensor([0, 3, 1, 2, 2, 3, 2, 2, 3, 2, 0, 0, 1, 3, 3, 1, 0, 3, 3, 0, 2, 3, 0, 3,
+        3, 1, 1, 1, 1, 0, 3, 3, 1, 3, 3, 2, 3, 2, 0, 0, 0, 1])
+Epoch: 440   Train loss: 1.2831591   Test loss: 1.3197993   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 2, 3, 1, 3, 1, 0, 3, 2, 1, 0, 3, 2, 0, 1, 0, 0, 0, 1, 3, 0, 0, 1, 0,
+        1, 1, 2, 2, 0, 1, 3, 3, 1, 0, 1, 2, 3, 1, 2, 1, 3, 0])   label: tensor([2, 2, 2, 1, 2, 1, 2, 2, 0, 3, 2, 3, 2, 0, 2, 0, 0, 1, 2, 3, 2, 0, 0, 1,
+        1, 1, 2, 2, 0, 2, 0, 3, 3, 3, 1, 0, 0, 3, 3, 3, 0, 0])
+Epoch: 441   Train loss: 1.338503   Test loss: 1.32053   Train accuracy: 0.5   Test accuracy is: 0.35650887573964496   Train_predict: tensor([2, 1, 3, 3, 3, 3, 3, 1, 0, 3, 0, 3, 1, 3, 0, 3, 0, 2, 3, 2, 1, 3, 3, 0,
+        0, 2, 3, 3, 0, 1, 3, 0, 0, 0, 1, 1, 2, 0, 0, 0, 1, 0])   label: tensor([0, 3, 3, 3, 2, 3, 2, 3, 0, 3, 3, 3, 2, 0, 0, 3, 0, 2, 2, 3, 1, 3, 3, 0,
+        3, 2, 0, 3, 3, 3, 1, 1, 0, 2, 0, 1, 3, 2, 0, 0, 1, 1])
+Epoch: 442   Train loss: 1.3104796   Test loss: 1.3209506   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 3, 0, 0, 1, 1, 0, 1, 1, 3, 2, 3, 0, 3, 2, 3, 0, 3, 0, 2, 0, 2, 0, 1,
+        2, 1, 3, 0, 1, 0, 1, 1, 0, 1, 2, 3, 0, 3, 2, 2, 0, 3])   label: tensor([1, 2, 2, 3, 3, 3, 0, 0, 0, 1, 3, 1, 3, 1, 2, 0, 2, 3, 0, 2, 1, 1, 0, 2,
+        2, 2, 1, 1, 0, 0, 1, 1, 0, 1, 3, 0, 2, 3, 2, 1, 3, 0])
+Epoch: 443   Train loss: 1.3426276   Test loss: 1.320555   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36538461538461536   Train_predict: tensor([0, 0, 1, 0, 3, 3, 0, 0, 2, 2, 1, 2, 0, 1, 1, 0, 1, 1, 1, 2, 0, 1, 0, 1,
+        0, 0, 2, 1, 0, 0, 1, 2, 0, 0, 2, 0, 1, 2, 2, 1, 0, 1])   label: tensor([2, 0, 0, 0, 3, 3, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 3, 3, 0, 2, 0, 1, 0, 0,
+        1, 0, 1, 2, 1, 0, 2, 0, 1, 3, 2, 1, 3, 1, 0, 1, 3, 1])
+Epoch: 444   Train loss: 1.3027594   Test loss: 1.3186085   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 3, 2, 2, 3, 2, 1, 0, 3, 2, 2, 1, 3, 0, 3, 0, 3, 0, 1, 1, 1, 2, 3, 3,
+        1, 1, 3, 1, 0, 0, 1, 0, 1, 2, 2, 0, 0, 2, 0, 2, 3, 2])   label: tensor([1, 3, 2, 2, 3, 1, 0, 1, 1, 3, 2, 3, 3, 3, 0, 1, 3, 0, 1, 1, 2, 2, 3, 2,
+        3, 3, 1, 1, 0, 0, 3, 1, 2, 2, 0, 0, 0, 1, 2, 1, 2, 1])
+Epoch: 445   Train loss: 1.403537   Test loss: 1.3200017   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 3, 3, 0, 3, 3, 0, 0, 1, 0, 0, 0, 3, 2, 0, 2, 0, 0, 2, 0, 3, 0, 1, 0,
+        1, 0, 3, 2, 2, 1, 0, 0, 1, 2, 2, 0, 3, 0, 2, 2, 3, 1])   label: tensor([0, 0, 3, 3, 3, 0, 1, 2, 0, 1, 2, 2, 3, 0, 1, 3, 1, 1, 3, 2, 3, 0, 2, 2,
+        1, 1, 1, 3, 1, 1, 0, 1, 0, 3, 3, 2, 1, 1, 2, 2, 1, 1])
+Epoch: 446   Train loss: 1.3884022   Test loss: 1.319293   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36020710059171596   Train_predict: tensor([0, 1, 0, 3, 2, 3, 0, 1, 0, 1, 0, 2, 0, 1, 2, 1, 2, 1, 2, 2, 3, 1, 0, 1,
+        2, 0, 0, 3, 0, 1, 1, 2, 1, 0, 3, 3, 3, 0, 0, 3, 0, 3])   label: tensor([3, 2, 0, 2, 1, 1, 3, 0, 3, 0, 0, 2, 3, 3, 3, 2, 0, 1, 2, 2, 1, 1, 2, 1,
+        2, 2, 0, 3, 0, 1, 0, 3, 0, 0, 3, 0, 0, 1, 1, 3, 2, 2])
+Epoch: 447   Train loss: 1.42703   Test loss: 1.3203071   Train accuracy: 0.19047619047619047   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 1, 0, 0, 0, 2, 0, 2, 3, 1, 2, 2, 3, 3, 1, 0, 0, 1, 3, 2, 1, 1, 0, 2,
+        1, 1, 2, 0, 0, 1, 0, 3, 2, 1, 0, 2, 3, 3, 3, 2, 3, 0])   label: tensor([2, 3, 2, 1, 2, 1, 3, 1, 2, 2, 3, 1, 0, 0, 0, 3, 3, 1, 0, 3, 3, 3, 1, 2,
+        2, 3, 1, 1, 0, 2, 1, 3, 1, 0, 0, 3, 2, 3, 1, 0, 3, 3])
+Epoch: 448   Train loss: 1.3570822   Test loss: 1.3199825   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3624260355029586   Train_predict: tensor([3, 2, 1, 3, 2, 2, 3, 3, 0, 0, 0, 0, 3, 1, 3, 0, 1, 3, 1, 1, 0, 0, 2, 2,
+        1, 3, 2, 3, 1, 0, 2, 1, 0, 3, 0, 3, 3, 0, 0, 0, 0, 3])   label: tensor([2, 0, 2, 1, 1, 2, 0, 3, 0, 2, 1, 2, 3, 2, 2, 1, 1, 3, 0, 0, 1, 3, 2, 2,
+        0, 2, 2, 1, 2, 1, 3, 1, 0, 2, 1, 3, 1, 1, 3, 0, 3, 2])
+Epoch: 449   Train loss: 1.219695   Test loss: 1.3201002   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36279585798816566   Train_predict: tensor([1, 1, 3, 3, 2, 1, 2, 0, 3, 3, 1, 0, 1, 1, 3, 2, 3, 2, 0, 3, 1, 0, 1, 1,
+        2, 3, 1, 1, 2, 0, 0, 2, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2])   label: tensor([1, 2, 0, 1, 3, 1, 3, 2, 1, 1, 3, 3, 1, 0, 3, 0, 2, 3, 0, 3, 2, 3, 1, 1,
+        2, 3, 1, 2, 3, 2, 0, 2, 3, 1, 3, 1, 2, 0, 2, 1, 2, 1])
+Epoch: 450   Train loss: 1.3842652   Test loss: 1.3202326   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35428994082840237   Train_predict: tensor([2, 3, 1, 2, 3, 0, 3, 1, 0, 0, 1, 0, 0, 2, 3, 2, 1, 2, 2, 0, 3, 0, 1, 0,
+        1, 2, 0, 3, 3, 1, 0, 3, 3, 0, 2, 1, 3, 1, 0, 2, 1, 0])   label: tensor([0, 1, 1, 2, 1, 1, 0, 3, 2, 0, 2, 0, 1, 2, 1, 2, 2, 1, 1, 3, 2, 3, 2, 0,
+        1, 2, 2, 3, 1, 2, 1, 2, 3, 0, 0, 3, 1, 3, 3, 3, 3, 0])
+Epoch: 451   Train loss: 1.3296261   Test loss: 1.3194294   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 0, 3, 3, 0, 1, 0, 0, 2, 0, 3, 2, 3, 1, 2, 0, 2, 3, 1, 1, 0, 3, 0, 1,
+        1, 0, 0, 1, 0, 2, 3, 2, 1, 2, 2, 1, 3, 2, 3, 3, 2, 0])   label: tensor([1, 1, 1, 0, 1, 1, 0, 3, 3, 3, 3, 2, 0, 3, 1, 3, 1, 2, 3, 1, 1, 3, 1, 1,
+        2, 0, 2, 1, 1, 0, 3, 1, 2, 3, 3, 1, 2, 2, 2, 3, 2, 3])
+Epoch: 452   Train loss: 1.4253176   Test loss: 1.3202039   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3609467455621302   Train_predict: tensor([2, 1, 1, 2, 1, 1, 3, 2, 1, 0, 1, 1, 0, 1, 0, 0, 2, 1, 1, 0, 3, 3, 2, 0,
+        2, 0, 2, 2, 0, 2, 3, 2, 2, 1, 0, 3, 0, 2, 3, 0, 2, 0])   label: tensor([3, 3, 1, 2, 0, 1, 1, 0, 0, 2, 0, 2, 1, 0, 1, 2, 0, 0, 3, 1, 0, 3, 3, 0,
+        3, 1, 2, 2, 2, 1, 1, 0, 0, 1, 2, 0, 3, 3, 3, 1, 1, 0])
+Epoch: 453   Train loss: 1.3627889   Test loss: 1.3213153   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35392011834319526   Train_predict: tensor([3, 3, 0, 2, 3, 2, 3, 3, 3, 3, 3, 0, 0, 0, 0, 1, 0, 3, 1, 0, 1, 1, 3, 0,
+        3, 3, 0, 0, 0, 3, 0, 1, 0, 0, 3, 1, 1, 3, 1, 0, 3, 0])   label: tensor([1, 3, 2, 2, 3, 3, 3, 3, 2, 1, 3, 0, 0, 2, 1, 3, 3, 3, 0, 1, 1, 0, 3, 2,
+        3, 1, 3, 0, 3, 2, 0, 3, 3, 0, 2, 1, 0, 1, 0, 0, 3, 2])
+Epoch: 454   Train loss: 1.3935564   Test loss: 1.3219163   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35392011834319526   Train_predict: tensor([0, 0, 1, 1, 1, 0, 2, 1, 2, 3, 2, 0, 0, 0, 2, 1, 3, 3, 2, 2, 0, 3, 1, 2,
+        1, 1, 1, 0, 1, 3, 3, 1, 3, 3, 1, 3, 2, 1, 1, 2, 3, 2])   label: tensor([0, 3, 3, 1, 3, 3, 1, 3, 2, 2, 2, 0, 0, 3, 0, 2, 3, 0, 2, 3, 1, 0, 3, 0,
+        3, 2, 3, 3, 3, 3, 3, 0, 1, 3, 3, 0, 2, 2, 2, 1, 1, 1])
+Epoch: 455   Train loss: 1.3906689   Test loss: 1.3222055   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 1, 1, 0, 0, 0, 0, 2, 0, 3, 1, 0, 0, 3, 0, 2, 0, 3, 2, 0, 2, 0, 0, 3,
+        2, 2, 1, 1, 1, 2, 0, 3, 3, 0, 0, 2, 1, 3, 1, 1, 0, 2])   label: tensor([1, 2, 3, 0, 2, 2, 1, 3, 1, 1, 1, 3, 0, 2, 2, 2, 2, 0, 3, 1, 1, 0, 1, 2,
+        1, 3, 1, 3, 3, 1, 1, 3, 1, 1, 0, 2, 2, 0, 2, 2, 0, 2])
+Epoch: 456   Train loss: 1.2923703   Test loss: 1.3209836   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3557692307692308   Train_predict: tensor([1, 1, 0, 2, 0, 1, 2, 3, 2, 0, 1, 1, 3, 2, 0, 2, 1, 3, 0, 1, 2, 1, 3, 0,
+        0, 0, 3, 0, 2, 0, 2, 3, 3, 0, 2, 0, 3, 0, 1, 2, 0, 0])   label: tensor([3, 3, 2, 2, 0, 1, 3, 3, 2, 3, 1, 0, 0, 0, 1, 0, 0, 1, 0, 3, 2, 3, 3, 0,
+        0, 0, 0, 3, 2, 0, 1, 0, 3, 0, 2, 3, 2, 1, 2, 3, 1, 0])
+Epoch: 457   Train loss: 1.3312755   Test loss: 1.3196208   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 1, 3, 3, 3, 2, 0, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 1, 0, 3, 2, 1, 0, 2,
+        1, 0, 0, 1, 2, 2, 1, 3, 3, 3, 1, 3, 1, 3, 1, 2, 0, 3])   label: tensor([1, 3, 0, 3, 0, 2, 0, 3, 0, 3, 1, 1, 2, 0, 2, 0, 0, 3, 0, 2, 1, 3, 3, 0,
+        3, 0, 0, 0, 1, 1, 0, 3, 2, 0, 2, 3, 0, 2, 1, 1, 3, 3])
+Epoch: 458   Train loss: 1.4243014   Test loss: 1.3207607   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 3, 2, 1, 1, 0, 3, 3, 3, 0, 1, 2, 1, 3, 0, 2, 1, 0, 1, 2, 0, 0, 2, 2,
+        2, 3, 1, 2, 0, 3, 2, 0, 1, 0, 0, 1, 0, 1, 2, 2, 3, 2])   label: tensor([2, 0, 3, 1, 2, 2, 2, 3, 3, 2, 3, 0, 1, 3, 1, 0, 2, 3, 3, 2, 0, 0, 2, 0,
+        1, 2, 1, 3, 3, 0, 3, 0, 3, 3, 0, 2, 3, 3, 2, 1, 3, 3])
+Epoch: 459   Train loss: 1.304143   Test loss: 1.3209163   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3605769230769231   Train_predict: tensor([2, 2, 3, 3, 3, 3, 3, 1, 2, 3, 3, 3, 0, 1, 0, 2, 2, 2, 0, 2, 1, 0, 3, 0,
+        2, 2, 0, 0, 2, 1, 3, 3, 2, 3, 0, 2, 1, 0, 3, 1, 2, 3])   label: tensor([1, 1, 1, 0, 2, 2, 3, 1, 3, 3, 1, 3, 0, 2, 1, 3, 3, 1, 0, 2, 2, 0, 0, 3,
+        2, 0, 2, 2, 0, 1, 0, 2, 0, 0, 2, 2, 1, 0, 3, 3, 2, 3])
+Epoch: 460   Train loss: 1.2869984   Test loss: 1.3222429   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3572485207100592   Train_predict: tensor([2, 3, 2, 1, 3, 0, 2, 0, 1, 1, 0, 0, 1, 3, 3, 1, 3, 2, 3, 0, 0, 0, 3, 1,
+        3, 3, 3, 0, 0, 0, 2, 2, 3, 2, 3, 1, 1, 1, 0, 1, 2, 3])   label: tensor([3, 0, 2, 1, 3, 2, 1, 0, 2, 1, 0, 2, 0, 2, 1, 1, 1, 2, 0, 3, 0, 0, 0, 3,
+        2, 3, 2, 0, 0, 0, 2, 2, 2, 2, 0, 1, 2, 3, 1, 2, 3, 3])
+Epoch: 461   Train loss: 1.4192495   Test loss: 1.3205143   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 0, 1, 3, 3, 1, 1, 3, 0, 1, 3, 1, 3, 2, 0, 2, 1, 0, 1, 2, 2, 2, 0, 3,
+        0, 0, 1, 1, 0, 3, 3, 1, 0, 3, 1, 1, 0, 2, 3, 0, 1, 0])   label: tensor([2, 2, 2, 3, 0, 2, 1, 3, 0, 3, 3, 2, 3, 2, 1, 1, 2, 1, 1, 0, 2, 2, 3, 2,
+        3, 0, 0, 1, 3, 3, 3, 3, 1, 3, 1, 0, 3, 3, 1, 0, 0, 3])
+Epoch: 462   Train loss: 1.324851   Test loss: 1.3200554   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3661242603550296   Train_predict: tensor([2, 1, 1, 0, 1, 3, 3, 2, 2, 0, 1, 0, 3, 3, 2, 1, 0, 1, 2, 0, 3, 3, 0, 2,
+        0, 2, 3, 3, 2, 0, 3, 3, 0, 3, 1, 3, 2, 3, 0, 0, 0, 2])   label: tensor([2, 1, 2, 2, 1, 2, 2, 2, 2, 0, 2, 1, 0, 1, 2, 2, 0, 3, 1, 2, 3, 1, 3, 2,
+        2, 2, 3, 3, 2, 1, 0, 1, 2, 2, 0, 0, 1, 0, 1, 0, 0, 2])
+Epoch: 463   Train loss: 1.2477528   Test loss: 1.3185248   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3594674556213018   Train_predict: tensor([1, 0, 1, 0, 0, 0, 2, 0, 1, 2, 2, 1, 1, 0, 1, 3, 0, 3, 1, 0, 2, 3, 1, 0,
+        2, 0, 1, 3, 0, 2, 1, 0, 3, 1, 3, 1, 0, 0, 2, 0, 3, 3])   label: tensor([2, 1, 1, 1, 0, 3, 1, 3, 1, 1, 0, 0, 2, 0, 2, 0, 1, 2, 0, 1, 1, 3, 1, 3,
+        1, 2, 2, 1, 0, 2, 0, 1, 2, 1, 2, 1, 3, 0, 1, 0, 3, 0])
+Epoch: 464   Train loss: 1.3607838   Test loss: 1.3208832   Train accuracy: 0.3333333333333333   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 3, 3, 0, 2, 1, 0, 3, 3, 1, 0, 1, 0, 0, 0, 0, 2, 3, 2, 2, 0, 2, 1, 0,
+        2, 0, 2, 0, 1, 0, 3, 3, 2, 2, 1, 0, 1, 0, 0, 0, 3, 1])   label: tensor([0, 2, 2, 3, 1, 1, 2, 2, 0, 3, 3, 1, 0, 1, 0, 2, 2, 1, 2, 3, 2, 0, 1, 3,
+        2, 3, 2, 3, 1, 0, 1, 3, 2, 0, 0, 1, 3, 2, 2, 0, 1, 0])
+Epoch: 465   Train loss: 1.2288854   Test loss: 1.320475   Train accuracy: 0.5476190476190477   Test accuracy is: 0.35761834319526625   Train_predict: tensor([0, 0, 1, 2, 0, 3, 0, 1, 0, 0, 3, 2, 1, 2, 0, 1, 3, 1, 0, 0, 3, 1, 1, 0,
+        0, 3, 2, 0, 0, 0, 2, 0, 3, 1, 3, 0, 1, 1, 3, 0, 0, 1])   label: tensor([0, 0, 1, 2, 1, 3, 3, 1, 3, 0, 3, 1, 1, 0, 0, 1, 3, 2, 3, 3, 1, 1, 1, 3,
+        0, 3, 2, 0, 0, 3, 1, 1, 3, 2, 1, 3, 1, 1, 0, 3, 0, 2])
+Epoch: 466   Train loss: 1.2924848   Test loss: 1.3204602   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 2, 0, 0, 0, 0, 3, 1, 1, 0, 1, 1, 1, 0, 1, 2, 3, 1, 3, 0, 1, 0, 1, 2,
+        1, 3, 1, 2, 3, 2, 2, 1, 1, 1, 1, 2, 3, 0, 2, 3, 0, 3])   label: tensor([0, 2, 3, 0, 3, 2, 1, 3, 3, 0, 2, 2, 0, 1, 1, 3, 2, 1, 1, 1, 1, 0, 2, 2,
+        0, 3, 0, 2, 1, 0, 1, 1, 0, 2, 0, 2, 3, 2, 1, 0, 1, 2])
+Epoch: 467   Train loss: 1.2668855   Test loss: 1.3193659   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3583579881656805   Train_predict: tensor([1, 0, 0, 3, 1, 0, 3, 1, 3, 2, 2, 3, 0, 0, 1, 2, 0, 0, 3, 2, 1, 2, 0, 2,
+        1, 0, 0, 2, 0, 0, 2, 1, 1, 0, 0, 1, 0, 2, 0, 1, 2, 0])   label: tensor([0, 0, 0, 2, 2, 0, 1, 1, 2, 3, 3, 3, 2, 1, 2, 2, 0, 1, 0, 1, 1, 1, 3, 3,
+        3, 0, 0, 3, 0, 0, 2, 2, 0, 0, 1, 2, 0, 0, 3, 1, 3, 0])
+Epoch: 468   Train loss: 1.3694001   Test loss: 1.318421   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 3, 0, 3, 2, 3, 2, 0, 0, 3, 3, 1, 3, 3, 1, 1, 3, 2, 1, 1, 3, 2, 3, 0,
+        0, 0, 3, 1, 0, 0, 2, 0, 2, 1, 3, 3, 0, 0, 2, 2, 0, 2])   label: tensor([1, 0, 1, 3, 2, 2, 3, 1, 1, 0, 0, 1, 3, 1, 2, 1, 0, 1, 2, 0, 1, 2, 2, 0,
+        1, 0, 3, 3, 0, 2, 3, 3, 0, 2, 3, 0, 3, 0, 2, 0, 0, 1])
+Epoch: 469   Train loss: 1.3146842   Test loss: 1.3208078   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35909763313609466   Train_predict: tensor([3, 1, 3, 3, 2, 3, 2, 2, 1, 3, 2, 1, 1, 3, 0, 1, 3, 1, 1, 0, 2, 0, 3, 3,
+        3, 1, 2, 1, 3, 3, 1, 0, 3, 0, 0, 3, 0, 3, 1, 0, 2, 2])   label: tensor([2, 2, 0, 2, 2, 1, 3, 2, 3, 3, 2, 3, 1, 0, 0, 0, 3, 2, 1, 2, 1, 2, 0, 1,
+        1, 3, 0, 0, 3, 0, 1, 0, 3, 3, 1, 1, 0, 2, 3, 0, 0, 2])
+Epoch: 470   Train loss: 1.4369869   Test loss: 1.3195632   Train accuracy: 0.21428571428571427   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 0, 2, 3, 3, 1, 2, 0, 2, 3, 2, 2, 2, 0, 0, 2, 3, 1, 0, 0, 2, 1, 1, 2,
+        0, 1, 1, 3, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0, 2, 0])   label: tensor([0, 1, 3, 2, 0, 0, 1, 0, 0, 0, 0, 3, 3, 3, 1, 0, 2, 0, 0, 0, 3, 2, 0, 2,
+        0, 1, 3, 1, 2, 1, 3, 1, 3, 3, 1, 3, 1, 1, 2, 1, 3, 0])
+Epoch: 471   Train loss: 1.3462975   Test loss: 1.3202597   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3568786982248521   Train_predict: tensor([0, 3, 1, 3, 1, 1, 0, 0, 2, 0, 0, 0, 1, 2, 1, 1, 3, 0, 0, 1, 3, 0, 1, 0,
+        2, 3, 1, 3, 2, 0, 0, 1, 0, 0, 0, 0, 3, 1, 2, 0, 1, 1])   label: tensor([3, 0, 2, 3, 1, 0, 1, 2, 1, 0, 2, 0, 1, 3, 0, 1, 2, 1, 2, 1, 2, 3, 3, 2,
+        2, 1, 1, 0, 3, 1, 3, 0, 0, 3, 2, 3, 3, 2, 2, 0, 2, 2])
+Epoch: 472   Train loss: 1.1880152   Test loss: 1.318434   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 3, 0, 0, 3, 1, 0, 0, 0, 1, 0, 2, 1, 0, 1, 1, 2, 0, 3, 0, 2, 2, 0, 2,
+        3, 1, 0, 0, 1, 3, 3, 0, 1, 1, 3, 2, 0, 0, 0, 0, 0, 1])   label: tensor([2, 1, 3, 3, 2, 1, 2, 0, 3, 3, 1, 2, 1, 1, 1, 3, 3, 3, 3, 0, 0, 2, 3, 0,
+        1, 1, 0, 1, 1, 2, 3, 3, 2, 1, 3, 2, 0, 0, 0, 0, 3, 1])
+Epoch: 473   Train loss: 1.2212721   Test loss: 1.3193855   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 2, 3, 2, 0, 3, 3, 3, 0, 2, 3, 3, 2, 2, 2, 3, 3, 0, 2, 2, 0, 1, 0, 1,
+        2, 1, 3, 3, 0, 2, 1, 3, 0, 2, 1, 0, 3, 0, 3, 0, 1, 3])   label: tensor([2, 1, 2, 1, 3, 1, 3, 1, 3, 3, 1, 2, 2, 2, 3, 0, 1, 0, 3, 2, 0, 1, 1, 2,
+        2, 1, 3, 2, 0, 3, 1, 3, 1, 3, 3, 1, 0, 1, 3, 1, 0, 3])
+Epoch: 474   Train loss: 1.293116   Test loss: 1.320859   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35539940828402367   Train_predict: tensor([0, 0, 2, 0, 0, 2, 1, 3, 3, 2, 1, 1, 2, 1, 3, 3, 2, 1, 0, 0, 3, 3, 0, 0,
+        1, 0, 1, 1, 1, 0, 3, 0, 2, 0, 3, 3, 2, 2, 1, 3, 1, 2])   label: tensor([1, 1, 2, 3, 3, 2, 3, 3, 1, 2, 1, 0, 3, 2, 1, 3, 3, 1, 0, 0, 0, 0, 0, 0,
+        2, 3, 3, 1, 1, 1, 1, 0, 3, 1, 2, 3, 2, 3, 1, 3, 2, 0])
+Epoch: 475   Train loss: 1.296914   Test loss: 1.3187143   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3594674556213018   Train_predict: tensor([1, 3, 1, 1, 0, 3, 0, 0, 3, 3, 3, 2, 0, 1, 0, 3, 0, 1, 3, 2, 1, 3, 2, 2,
+        0, 3, 1, 1, 2, 0, 3, 1, 3, 1, 3, 0, 2, 2, 2, 3, 3, 3])   label: tensor([3, 0, 3, 1, 0, 0, 1, 0, 3, 2, 0, 3, 2, 1, 3, 1, 2, 0, 0, 2, 1, 2, 2, 2,
+        0, 2, 1, 3, 0, 0, 1, 2, 2, 0, 3, 1, 3, 2, 1, 2, 2, 3])
+Epoch: 476   Train loss: 1.302564   Test loss: 1.3184384   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 1, 3, 0, 3, 0, 0, 0, 1, 0, 1, 2, 3, 1, 2, 2, 2, 1, 3, 0, 2, 3, 1,
+        3, 2, 0, 1, 3, 1, 3, 3, 1, 0, 0, 3, 3, 3, 3, 3, 3, 0])   label: tensor([0, 1, 0, 3, 2, 2, 2, 3, 3, 2, 3, 3, 0, 0, 1, 1, 2, 2, 2, 0, 2, 2, 0, 0,
+        3, 1, 2, 1, 0, 3, 3, 2, 2, 0, 3, 1, 2, 3, 3, 3, 2, 0])
+Epoch: 477   Train loss: 1.254498   Test loss: 1.3208486   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35798816568047337   Train_predict: tensor([3, 2, 3, 3, 3, 3, 2, 0, 1, 3, 3, 0, 0, 3, 1, 0, 0, 3, 1, 3, 0, 3, 1, 1,
+        2, 3, 3, 3, 3, 1, 0, 0, 0, 3, 0, 3, 0, 0, 1, 1, 0, 1])   label: tensor([1, 3, 3, 3, 0, 3, 0, 2, 2, 2, 1, 3, 3, 0, 1, 2, 0, 3, 2, 2, 3, 1, 1, 2,
+        2, 0, 3, 0, 3, 3, 1, 3, 0, 2, 2, 0, 3, 1, 1, 3, 2, 1])
+Epoch: 478   Train loss: 1.3454863   Test loss: 1.3210796   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 0, 1, 1, 0, 1, 0, 2, 3, 1, 1, 1, 1, 0, 2, 3, 1, 0, 1, 0, 3, 1, 2, 0,
+        3, 1, 1, 1, 2, 3, 0, 1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 1])   label: tensor([2, 2, 3, 1, 3, 3, 0, 0, 2, 2, 1, 0, 0, 2, 3, 2, 2, 0, 1, 0, 2, 0, 0, 1,
+        1, 3, 0, 0, 2, 1, 3, 0, 3, 3, 2, 0, 2, 2, 2, 1, 0, 2])
+Epoch: 479   Train loss: 1.3060347   Test loss: 1.3213961   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35798816568047337   Train_predict: tensor([1, 0, 3, 1, 3, 3, 2, 1, 1, 1, 1, 2, 0, 0, 0, 3, 1, 3, 2, 3, 3, 0, 2, 0,
+        3, 3, 0, 1, 1, 1, 1, 1, 1, 2, 0, 1, 0, 3, 3, 0, 1, 1])   label: tensor([1, 1, 0, 2, 2, 2, 2, 0, 3, 3, 2, 0, 0, 2, 0, 3, 3, 0, 3, 0, 2, 2, 0, 1,
+        1, 2, 2, 1, 2, 1, 1, 2, 1, 0, 0, 2, 0, 3, 2, 3, 1, 1])
+Epoch: 480   Train loss: 1.2798733   Test loss: 1.3195791   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 0, 1, 2, 0, 1, 1, 2, 0, 0, 0, 3, 2, 2, 3, 2, 2, 2, 1, 3, 3, 3, 3, 0,
+        0, 3, 0, 1, 0, 0, 1, 1, 2, 3, 0, 2, 0, 0, 0, 2, 0, 0])   label: tensor([2, 0, 3, 2, 3, 1, 2, 2, 0, 0, 0, 3, 1, 3, 2, 0, 2, 0, 3, 3, 1, 0, 3, 2,
+        1, 1, 1, 3, 2, 2, 1, 2, 2, 1, 3, 1, 3, 0, 0, 3, 3, 0])
+Epoch: 481   Train loss: 1.2871094   Test loss: 1.3210455   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3572485207100592   Train_predict: tensor([3, 1, 1, 3, 1, 2, 3, 2, 2, 0, 2, 0, 1, 3, 0, 0, 1, 0, 3, 3, 0, 0, 3, 3,
+        0, 3, 3, 2, 2, 3, 0, 2, 2, 0, 0, 1, 0, 0, 0, 2, 2, 1])   label: tensor([0, 1, 0, 2, 2, 3, 3, 0, 1, 0, 0, 1, 1, 1, 3, 0, 0, 2, 3, 1, 0, 1, 3, 3,
+        0, 2, 0, 3, 1, 3, 0, 3, 1, 1, 2, 3, 0, 0, 0, 2, 1, 1])
+Epoch: 482   Train loss: 1.268646   Test loss: 1.321704   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 0, 0, 1, 3, 1, 2, 2, 2, 2, 3, 2, 2, 0, 0, 0, 0, 1, 3, 2, 0, 3, 2, 0,
+        0, 2, 3, 2, 3, 3, 1, 3, 0, 1, 1, 2, 1, 0, 3, 3, 0, 3])   label: tensor([1, 1, 0, 0, 2, 3, 3, 3, 1, 2, 3, 3, 1, 2, 1, 2, 3, 1, 0, 2, 0, 3, 2, 2,
+        3, 2, 3, 2, 2, 3, 1, 0, 0, 2, 3, 3, 1, 0, 1, 1, 0, 0])
+Epoch: 483   Train loss: 1.356421   Test loss: 1.320784   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 0, 1, 1, 0, 0, 1, 0, 3, 2, 2, 1, 0, 3, 3, 1, 0, 3, 2, 1, 2, 2, 1, 0,
+        1, 0, 1, 1, 3, 1, 3, 1, 1, 2, 0, 1, 3, 1, 1, 1, 1, 2])   label: tensor([2, 0, 1, 1, 2, 1, 0, 3, 2, 3, 2, 2, 1, 0, 2, 2, 1, 1, 3, 2, 0, 3, 1, 0,
+        2, 3, 3, 1, 1, 2, 3, 1, 3, 3, 1, 0, 2, 1, 2, 2, 1, 2])
+Epoch: 484   Train loss: 1.1823837   Test loss: 1.3220274   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3583579881656805   Train_predict: tensor([1, 2, 0, 1, 0, 1, 3, 2, 3, 0, 3, 2, 0, 2, 2, 1, 2, 3, 0, 0, 2, 3, 1, 1,
+        3, 3, 3, 1, 1, 1, 0, 2, 0, 2, 0, 0, 1, 1, 0, 3, 1, 2])   label: tensor([2, 2, 0, 1, 2, 3, 1, 3, 3, 1, 1, 0, 2, 3, 2, 1, 2, 3, 0, 0, 1, 3, 2, 2,
+        3, 1, 2, 0, 3, 1, 0, 2, 0, 1, 2, 0, 2, 1, 3, 3, 1, 0])
+Epoch: 485   Train loss: 1.3007635   Test loss: 1.3198826   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 0, 3, 2, 1, 3, 0, 3, 0, 0, 1, 3, 3, 0, 0, 3, 0, 1, 3, 3, 3, 2, 0, 2,
+        1, 3, 3, 1, 1, 3, 1, 1, 3, 3, 1, 2, 1, 0, 1, 1, 3, 2])   label: tensor([3, 0, 3, 0, 1, 2, 1, 2, 1, 0, 1, 3, 3, 3, 0, 3, 1, 1, 1, 3, 1, 3, 3, 1,
+        0, 3, 3, 1, 0, 1, 3, 1, 2, 0, 1, 1, 0, 3, 1, 1, 3, 2])
+Epoch: 486   Train loss: 1.540336   Test loss: 1.3204035   Train accuracy: 0.19047619047619047   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 0, 3, 1, 2, 3, 1, 1, 3, 1, 0, 2, 2, 2, 2, 1, 1, 2, 3, 1, 0, 0, 0, 0,
+        3, 2, 3, 0, 3, 1, 3, 0, 0, 3, 1, 0, 0, 2, 2, 0, 0, 0])   label: tensor([0, 2, 2, 1, 3, 2, 2, 3, 1, 0, 3, 3, 1, 3, 0, 0, 1, 0, 2, 1, 1, 2, 3, 0,
+        3, 1, 2, 2, 2, 0, 2, 1, 2, 0, 0, 2, 2, 1, 0, 0, 0, 3])
+Epoch: 487   Train loss: 1.3014503   Test loss: 1.3199127   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 2, 0, 1, 0, 3, 0, 1, 1, 1, 1, 3, 3, 0, 0, 2, 0, 2, 1, 1, 0, 3, 1, 3,
+        3, 3, 1, 0, 0, 2, 1, 3, 2, 1, 0, 2, 3, 3, 0, 2, 1, 3])   label: tensor([2, 3, 0, 1, 0, 2, 0, 2, 0, 1, 0, 3, 0, 3, 1, 1, 1, 2, 1, 2, 2, 3, 3, 3,
+        3, 0, 0, 1, 0, 1, 3, 3, 3, 3, 0, 2, 0, 0, 1, 1, 1, 0])
+Epoch: 488   Train loss: 1.2573401   Test loss: 1.3201306   Train accuracy: 0.5   Test accuracy is: 0.3572485207100592   Train_predict: tensor([3, 2, 2, 3, 1, 0, 3, 3, 0, 3, 2, 3, 0, 0, 2, 0, 2, 0, 3, 1, 0, 2, 2, 0,
+        3, 0, 0, 2, 1, 3, 3, 0, 0, 3, 2, 1, 0, 0, 2, 1, 0, 0])   label: tensor([3, 3, 0, 3, 2, 3, 2, 3, 0, 0, 2, 3, 3, 0, 2, 1, 3, 0, 3, 1, 0, 3, 3, 1,
+        3, 2, 0, 2, 1, 3, 2, 2, 0, 1, 0, 1, 0, 1, 2, 2, 2, 2])
+Epoch: 489   Train loss: 1.2847221   Test loss: 1.3193684   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3672337278106509   Train_predict: tensor([2, 0, 2, 2, 2, 3, 0, 2, 0, 1, 3, 2, 3, 3, 3, 2, 0, 0, 0, 1, 1, 3, 1, 3,
+        0, 0, 1, 1, 2, 3, 2, 2, 2, 1, 1, 1, 0, 3, 0, 2, 0, 1])   label: tensor([3, 0, 0, 2, 3, 3, 2, 1, 2, 1, 0, 1, 0, 1, 0, 2, 0, 3, 3, 0, 1, 0, 2, 3,
+        0, 1, 0, 1, 0, 1, 0, 3, 2, 0, 2, 1, 3, 1, 3, 2, 0, 3])
+Epoch: 490   Train loss: 1.2877795   Test loss: 1.3191422   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3646449704142012   Train_predict: tensor([1, 2, 0, 3, 0, 2, 2, 1, 0, 0, 0, 1, 0, 3, 1, 2, 0, 1, 0, 3, 0, 3, 0, 1,
+        1, 1, 3, 1, 3, 0, 1, 1, 0, 2, 0, 3, 1, 0, 1, 3, 3, 0])   label: tensor([1, 0, 0, 3, 0, 2, 1, 1, 0, 0, 2, 3, 0, 3, 3, 0, 0, 2, 2, 3, 1, 2, 0, 2,
+        2, 3, 2, 2, 1, 1, 1, 3, 0, 2, 3, 0, 0, 1, 2, 0, 2, 3])
+Epoch: 491   Train loss: 1.2765115   Test loss: 1.3205796   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3594674556213018   Train_predict: tensor([3, 0, 0, 1, 0, 3, 0, 1, 2, 0, 3, 0, 0, 0, 0, 0, 0, 2, 2, 0, 1, 0, 0, 2,
+        1, 2, 1, 1, 3, 3, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0])   label: tensor([1, 0, 0, 1, 0, 0, 0, 3, 0, 2, 0, 2, 3, 2, 2, 0, 1, 2, 2, 2, 2, 0, 3, 0,
+        3, 3, 1, 3, 3, 2, 0, 2, 3, 0, 3, 1, 1, 0, 0, 0, 3, 0])
+Epoch: 492   Train loss: 1.3211262   Test loss: 1.3218813   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35281065088757396   Train_predict: tensor([2, 1, 0, 3, 0, 1, 0, 0, 0, 3, 1, 2, 2, 2, 0, 3, 0, 3, 3, 3, 1, 0, 0, 1,
+        3, 0, 2, 3, 2, 1, 3, 2, 2, 1, 3, 2, 0, 0, 3, 0, 2, 3])   label: tensor([3, 1, 0, 3, 0, 2, 0, 1, 2, 2, 2, 2, 1, 3, 3, 0, 0, 2, 0, 1, 0, 1, 2, 1,
+        3, 0, 2, 3, 2, 1, 1, 0, 1, 2, 1, 2, 0, 0, 3, 3, 2, 1])
+Epoch: 493   Train loss: 1.312265   Test loss: 1.3219668   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35761834319526625   Train_predict: tensor([0, 2, 2, 2, 3, 0, 1, 1, 3, 0, 0, 0, 0, 2, 3, 2, 0, 0, 1, 3, 3, 3, 3, 0,
+        3, 3, 2, 0, 3, 3, 3, 0, 2, 0, 3, 3, 0, 3, 2, 2, 3, 3])   label: tensor([2, 1, 3, 3, 0, 2, 0, 2, 0, 2, 0, 0, 1, 1, 3, 3, 1, 0, 0, 3, 1, 0, 3, 0,
+        3, 3, 2, 2, 3, 3, 2, 3, 2, 2, 0, 2, 0, 1, 2, 2, 0, 3])
+Epoch: 494   Train loss: 1.3645315   Test loss: 1.3211173   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35909763313609466   Train_predict: tensor([1, 1, 0, 0, 3, 1, 2, 0, 0, 2, 1, 0, 0, 2, 0, 0, 0, 1, 2, 3, 3, 1, 0, 3,
+        0, 3, 3, 3, 1, 2, 0, 3, 3, 3, 0, 3, 2, 3, 0, 2, 3, 3])   label: tensor([0, 2, 2, 2, 1, 2, 1, 3, 0, 2, 2, 1, 3, 0, 2, 0, 1, 1, 0, 0, 0, 1, 0, 0,
+        0, 3, 3, 1, 2, 2, 1, 1, 0, 2, 1, 3, 0, 2, 3, 2, 3, 0])
+Epoch: 495   Train loss: 1.3491192   Test loss: 1.3197935   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 3, 1, 1, 3, 0, 0, 3, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 1, 1, 3, 1, 0, 1,
+        0, 3, 1, 2, 3, 2, 1, 1, 3, 2, 1, 1, 2, 3, 2, 1, 2, 3])   label: tensor([3, 3, 3, 3, 3, 1, 2, 3, 3, 0, 2, 3, 2, 0, 3, 2, 0, 2, 2, 1, 3, 1, 3, 1,
+        3, 2, 1, 1, 3, 0, 0, 2, 1, 1, 1, 0, 1, 0, 0, 3, 3, 3])
+Epoch: 496   Train loss: 1.3294213   Test loss: 1.3197149   Train accuracy: 0.2857142857142857   Test accuracy is: 0.36279585798816566   Train_predict: tensor([3, 1, 3, 3, 0, 3, 0, 2, 0, 3, 0, 0, 3, 3, 0, 3, 2, 2, 3, 1, 0, 1, 3, 0,
+        1, 1, 3, 0, 1, 0, 1, 1, 0, 0, 3, 2, 1, 1, 1, 1, 3, 3])   label: tensor([3, 1, 3, 2, 0, 1, 3, 3, 0, 2, 1, 1, 2, 1, 1, 0, 2, 2, 0, 3, 3, 2, 3, 3,
+        1, 1, 2, 3, 0, 1, 2, 2, 3, 3, 2, 1, 2, 1, 0, 3, 0, 3])
+Epoch: 497   Train loss: 1.2586336   Test loss: 1.3206396   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 2, 2, 2, 1, 3, 3, 0, 3, 1, 2, 2, 0, 2, 2, 2, 2, 3, 3, 0, 3, 1, 1, 1,
+        0, 3, 1, 2, 0, 2, 3, 0, 0, 0, 0, 2, 0, 2, 3, 3, 1, 2])   label: tensor([2, 3, 0, 0, 3, 1, 1, 0, 2, 1, 3, 2, 0, 2, 1, 3, 3, 3, 3, 3, 2, 2, 1, 1,
+        1, 3, 3, 0, 2, 2, 3, 2, 1, 0, 0, 1, 3, 1, 0, 1, 0, 2])
+Epoch: 498   Train loss: 1.273929   Test loss: 1.3199182   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 3, 2, 3, 3, 2, 3, 2, 1, 2, 3, 3, 2, 3, 3, 1, 3, 2, 3, 1, 1, 2, 0, 0,
+        3, 1, 2, 3, 0, 1, 3, 1, 1, 1, 1, 1, 3, 0, 1, 2, 1, 2])   label: tensor([0, 3, 2, 3, 1, 0, 1, 2, 2, 1, 3, 0, 3, 1, 0, 0, 3, 0, 1, 1, 1, 3, 1, 3,
+        2, 3, 2, 2, 0, 1, 0, 1, 1, 3, 2, 1, 3, 2, 1, 2, 2, 3])
+Epoch: 499   Train loss: 1.2549646   Test loss: 1.321906   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 1, 1, 2, 3, 2, 0, 2, 3, 3, 0, 2, 3, 0, 2, 2, 2, 3, 0, 3, 3, 3, 1, 2,
+        3, 0, 2, 1, 1, 2, 2, 2, 3, 1, 3, 3, 2, 2, 3, 2, 2, 1])   label: tensor([1, 2, 0, 0, 2, 2, 0, 2, 2, 2, 1, 3, 2, 0, 2, 0, 2, 3, 2, 3, 0, 3, 0, 3,
+        0, 0, 3, 2, 1, 3, 3, 1, 3, 1, 3, 1, 3, 2, 1, 1, 0, 3])
+Epoch: 500   Train loss: 1.2976667   Test loss: 1.3208286   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3631656804733728   Train_predict: tensor([1, 2, 2, 1, 3, 3, 0, 1, 1, 0, 2, 3, 3, 3, 1, 1, 3, 3, 2, 1, 0, 1, 0, 2,
+        1, 2, 1, 3, 1, 1, 2, 0, 2, 2, 0, 2, 1, 0, 2, 2, 1, 3])   label: tensor([0, 1, 0, 2, 2, 1, 1, 0, 0, 1, 0, 2, 0, 1, 1, 1, 3, 1, 2, 0, 0, 1, 0, 3,
+        3, 2, 1, 2, 1, 1, 2, 1, 0, 0, 0, 3, 1, 0, 3, 0, 0, 0])
+Epoch: 501   Train loss: 1.2680099   Test loss: 1.321072   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3605769230769231   Train_predict: tensor([2, 3, 1, 1, 1, 3, 3, 1, 2, 0, 0, 1, 1, 1, 3, 0, 0, 0, 2, 0, 2, 2, 1, 3,
+        3, 2, 1, 3, 0, 2, 2, 2, 3, 2, 3, 0, 0, 0, 0, 3, 2, 0])   label: tensor([3, 3, 2, 1, 0, 2, 3, 2, 2, 3, 2, 1, 3, 2, 0, 1, 2, 3, 1, 3, 2, 1, 2, 1,
+        1, 0, 1, 3, 2, 2, 3, 3, 2, 2, 3, 0, 0, 1, 3, 0, 0, 0])
+Epoch: 502   Train loss: 1.465441   Test loss: 1.3197128   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 1, 0, 1, 3, 2, 3, 0, 0, 3, 0, 1, 2, 3, 3, 0, 0, 0, 1, 2, 0, 2, 2, 2,
+        0, 3, 3, 3, 1, 1, 0, 2, 0, 1, 1, 2, 3, 2, 0, 3, 2, 1])   label: tensor([1, 0, 0, 3, 2, 0, 1, 2, 0, 1, 0, 2, 3, 2, 3, 1, 3, 0, 3, 1, 1, 1, 2, 0,
+        1, 0, 3, 0, 0, 3, 3, 1, 3, 1, 1, 2, 2, 0, 0, 3, 1, 1])
+Epoch: 503   Train loss: 1.3824719   Test loss: 1.319173   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3598372781065089   Train_predict: tensor([2, 2, 2, 1, 2, 1, 3, 0, 3, 0, 3, 1, 3, 1, 3, 1, 1, 3, 2, 3, 0, 0, 3, 0,
+        1, 1, 3, 0, 1, 3, 3, 0, 2, 0, 3, 2, 0, 2, 0, 0, 3, 1])   label: tensor([0, 1, 0, 0, 1, 2, 3, 0, 1, 1, 3, 3, 3, 2, 2, 3, 1, 3, 0, 3, 2, 3, 0, 1,
+        1, 2, 3, 0, 3, 3, 3, 0, 2, 3, 2, 2, 3, 2, 1, 3, 2, 2])
+Epoch: 504   Train loss: 1.291286   Test loss: 1.3199633   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3557692307692308   Train_predict: tensor([1, 0, 0, 0, 2, 3, 0, 1, 1, 3, 1, 0, 1, 0, 3, 0, 2, 3, 0, 0, 3, 1, 1, 3,
+        0, 1, 2, 3, 0, 2, 3, 3, 1, 1, 3, 1, 0, 3, 1, 1, 0, 2])   label: tensor([2, 2, 0, 2, 2, 0, 3, 0, 2, 3, 0, 2, 2, 3, 1, 0, 1, 3, 3, 3, 0, 3, 1, 3,
+        3, 0, 2, 2, 2, 2, 0, 0, 0, 2, 0, 1, 0, 3, 1, 2, 2, 1])
+Epoch: 505   Train loss: 1.3267945   Test loss: 1.3218851   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35428994082840237   Train_predict: tensor([2, 2, 2, 0, 1, 1, 0, 1, 3, 3, 0, 1, 2, 0, 3, 0, 3, 1, 1, 3, 0, 3, 2, 1,
+        1, 3, 0, 2, 3, 3, 1, 3, 1, 3, 1, 1, 0, 0, 0, 0, 0, 2])   label: tensor([1, 3, 1, 0, 2, 1, 0, 3, 3, 2, 2, 2, 2, 0, 0, 0, 1, 2, 0, 3, 0, 3, 2, 1,
+        2, 1, 2, 3, 3, 2, 2, 2, 2, 3, 1, 2, 3, 1, 3, 2, 0, 3])
+Epoch: 506   Train loss: 1.3633202   Test loss: 1.3222826   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3568786982248521   Train_predict: tensor([3, 3, 1, 1, 0, 2, 0, 1, 3, 2, 2, 2, 1, 0, 0, 0, 0, 3, 1, 2, 3, 3, 3, 0,
+        2, 1, 3, 3, 1, 0, 2, 0, 0, 3, 0, 3, 2, 2, 1, 1, 2, 0])   label: tensor([0, 1, 1, 3, 3, 2, 1, 1, 0, 3, 2, 2, 2, 1, 1, 0, 1, 2, 3, 2, 3, 1, 3, 3,
+        2, 3, 3, 2, 0, 0, 0, 3, 1, 0, 0, 0, 0, 2, 1, 1, 2, 0])
+Epoch: 507   Train loss: 1.2932068   Test loss: 1.3216934   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3668639053254438   Train_predict: tensor([1, 2, 2, 2, 1, 2, 2, 2, 3, 1, 1, 3, 2, 0, 2, 0, 3, 1, 3, 1, 3, 3, 0, 3,
+        0, 0, 2, 0, 2, 3, 3, 3, 1, 1, 3, 3, 3, 2, 3, 3, 3, 3])   label: tensor([2, 0, 0, 1, 3, 1, 2, 2, 0, 1, 0, 3, 2, 2, 0, 2, 3, 1, 3, 1, 0, 0, 3, 1,
+        0, 3, 0, 2, 3, 2, 3, 3, 2, 1, 2, 1, 0, 2, 2, 2, 3, 2])
+Epoch: 508   Train loss: 1.4395384   Test loss: 1.3203304   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 2, 2, 0, 3, 0, 0, 2, 0, 1, 2, 0, 1, 2, 2, 0, 1, 0, 3, 1, 2, 1, 3, 3,
+        0, 3, 1, 2, 3, 0, 2, 1, 0, 0, 1, 3, 0, 3, 0, 2, 3, 2])   label: tensor([3, 1, 1, 2, 3, 3, 2, 3, 2, 0, 0, 0, 2, 3, 1, 3, 2, 1, 3, 1, 3, 0, 1, 1,
+        0, 0, 3, 1, 3, 0, 3, 0, 2, 0, 0, 3, 2, 3, 2, 2, 1, 1])
+Epoch: 509   Train loss: 1.3105747   Test loss: 1.3195632   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3650147928994083   Train_predict: tensor([2, 3, 3, 3, 0, 2, 2, 0, 1, 3, 0, 0, 3, 3, 2, 0, 0, 3, 1, 2, 3, 3, 1, 0,
+        2, 2, 1, 2, 1, 3, 2, 3, 3, 1, 3, 3, 3, 1, 0, 3, 3, 1])   label: tensor([0, 3, 3, 3, 1, 1, 1, 1, 3, 1, 3, 0, 3, 2, 2, 2, 0, 3, 0, 0, 1, 3, 2, 0,
+        1, 1, 1, 3, 0, 0, 0, 1, 0, 3, 1, 0, 3, 0, 3, 3, 3, 1])
+Epoch: 510   Train loss: 1.3302664   Test loss: 1.32023   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 3, 0, 0, 3, 1, 1, 2, 1, 0, 3, 0, 1, 3, 0, 0, 3, 3, 1, 3, 1, 3, 1, 2,
+        0, 3, 3, 1, 3, 0, 1, 2, 3, 0, 0, 1, 0, 2, 3, 3, 0, 0])   label: tensor([0, 1, 1, 2, 3, 1, 0, 3, 3, 0, 3, 2, 2, 0, 3, 2, 1, 3, 3, 2, 0, 1, 0, 0,
+        2, 3, 1, 0, 2, 0, 2, 1, 0, 3, 3, 2, 0, 1, 0, 3, 0, 1])
+Epoch: 511   Train loss: 1.2683046   Test loss: 1.3200003   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3583579881656805   Train_predict: tensor([3, 3, 2, 3, 2, 0, 2, 0, 3, 3, 0, 0, 1, 0, 0, 2, 3, 0, 3, 1, 2, 2, 1, 0,
+        1, 3, 3, 1, 3, 2, 0, 2, 2, 3, 0, 2, 1, 0, 1, 0, 2, 2])   label: tensor([1, 3, 2, 0, 1, 2, 0, 1, 3, 1, 0, 0, 2, 0, 3, 2, 1, 0, 0, 1, 2, 0, 1, 1,
+        1, 3, 3, 0, 0, 0, 3, 1, 3, 0, 3, 0, 0, 1, 3, 1, 2, 1])
+Epoch: 512   Train loss: 1.3928187   Test loss: 1.3199536   Train accuracy: 0.30952380952380953   Test accuracy is: 0.363905325443787   Train_predict: tensor([1, 3, 1, 2, 0, 1, 0, 1, 3, 2, 0, 0, 2, 0, 3, 1, 2, 0, 1, 1, 2, 3, 0, 0,
+        2, 3, 1, 1, 0, 3, 2, 0, 2, 2, 1, 0, 0, 0, 2, 3, 2, 2])   label: tensor([1, 3, 1, 0, 0, 3, 2, 0, 0, 2, 0, 1, 1, 2, 0, 1, 2, 2, 0, 1, 0, 0, 1, 0,
+        1, 3, 3, 2, 3, 2, 2, 2, 3, 1, 1, 3, 3, 3, 1, 0, 3, 0])
+Epoch: 513   Train loss: 1.2961587   Test loss: 1.3187017   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3631656804733728   Train_predict: tensor([1, 1, 0, 0, 1, 1, 2, 2, 0, 0, 2, 1, 3, 0, 2, 0, 1, 1, 3, 3, 0, 3, 2, 0,
+        1, 0, 1, 0, 1, 1, 1, 2, 0, 2, 0, 3, 0, 0, 1, 2, 2, 0])   label: tensor([3, 1, 1, 0, 2, 1, 3, 2, 1, 1, 0, 3, 1, 2, 2, 1, 2, 3, 2, 1, 2, 3, 2, 2,
+        1, 0, 0, 0, 0, 0, 2, 1, 2, 2, 0, 1, 0, 3, 1, 1, 0, 1])
+Epoch: 514   Train loss: 1.292352   Test loss: 1.3180207   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3646449704142012   Train_predict: tensor([1, 0, 1, 0, 0, 1, 2, 0, 1, 1, 2, 0, 3, 3, 3, 0, 1, 0, 3, 0, 1, 0, 0, 1,
+        3, 3, 0, 3, 3, 1, 2, 0, 0, 2, 1, 0, 2, 3, 0, 0, 0, 1])   label: tensor([3, 3, 1, 0, 0, 2, 2, 0, 1, 3, 2, 2, 2, 2, 3, 0, 3, 2, 0, 1, 0, 2, 1, 0,
+        1, 3, 0, 3, 3, 1, 0, 1, 1, 2, 0, 1, 2, 0, 2, 1, 2, 1])
+Epoch: 515   Train loss: 1.2465769   Test loss: 1.3193667   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 0, 2, 1, 2, 2, 2, 3, 0, 0, 1, 2, 1, 2, 1, 1, 1, 3, 3, 3, 3, 3, 1, 0,
+        3, 3, 1, 3, 0, 0, 2, 2, 1, 2, 1, 0, 1, 2, 2, 0, 2, 1])   label: tensor([0, 3, 3, 2, 3, 2, 0, 0, 0, 0, 2, 1, 1, 2, 1, 2, 1, 2, 1, 3, 1, 2, 2, 1,
+        0, 1, 2, 3, 2, 3, 2, 2, 0, 3, 2, 0, 0, 0, 2, 2, 2, 1])
+Epoch: 516   Train loss: 1.2916787   Test loss: 1.3202302   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 0, 3, 1, 3, 3, 3, 2, 2, 0, 1, 0, 2, 1, 1, 0, 3, 3, 0, 2, 1, 0, 0, 3,
+        1, 2, 2, 0, 0, 3, 1, 3, 2, 0, 3, 3, 0, 3, 3, 3, 2, 3])   label: tensor([1, 0, 1, 1, 1, 1, 2, 3, 3, 1, 2, 2, 2, 1, 1, 0, 0, 3, 3, 3, 0, 0, 2, 2,
+        2, 2, 0, 0, 1, 2, 2, 3, 2, 3, 2, 2, 1, 2, 3, 1, 2, 3])
+Epoch: 517   Train loss: 1.3301798   Test loss: 1.3189279   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 1, 3, 3, 0, 2, 0, 1, 0, 2, 3, 0, 0, 0, 3, 0, 1, 0, 3, 0, 2, 1, 2, 3,
+        1, 1, 3, 2, 0, 3, 1, 2, 0, 3, 0, 1, 2, 1, 2, 2, 1, 3])   label: tensor([2, 3, 1, 3, 1, 2, 1, 1, 0, 1, 0, 0, 3, 0, 3, 1, 3, 2, 3, 2, 1, 2, 0, 1,
+        2, 2, 3, 1, 1, 0, 1, 0, 3, 3, 0, 3, 2, 3, 1, 3, 3, 2])
+Epoch: 518   Train loss: 1.389593   Test loss: 1.3204422   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 1, 3, 0, 0, 1, 0, 3, 2, 0, 3, 2, 0, 0, 2, 1, 1, 3, 0, 2, 3, 2, 0, 2,
+        3, 0, 1, 0, 0, 3, 1, 3, 3, 3, 3, 2, 2, 1, 0, 0, 0, 3])   label: tensor([2, 1, 3, 0, 2, 3, 1, 2, 1, 1, 2, 0, 0, 1, 2, 1, 0, 2, 3, 3, 0, 0, 2, 2,
+        1, 0, 2, 0, 3, 2, 2, 0, 3, 3, 3, 1, 1, 1, 1, 3, 2, 3])
+Epoch: 519   Train loss: 1.3361242   Test loss: 1.3214463   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 3, 2, 2, 3, 1, 0, 1, 3, 0, 0, 1, 0, 2, 3, 1, 2, 2, 0, 3, 2, 0, 2, 3,
+        0, 3, 3, 1, 0, 0, 1, 2, 1, 0, 1, 2, 3, 1, 1, 3, 3, 3])   label: tensor([0, 1, 3, 2, 1, 0, 0, 1, 3, 2, 0, 1, 1, 0, 3, 1, 2, 2, 2, 0, 2, 2, 3, 2,
+        0, 3, 3, 1, 3, 3, 1, 3, 3, 2, 2, 2, 0, 2, 2, 1, 3, 2])
+Epoch: 520   Train loss: 1.3424789   Test loss: 1.3200622   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 0, 2, 0, 1, 2, 2, 0, 2, 1, 1, 2, 3, 3, 2, 0, 1, 0, 1, 0, 2, 2, 0, 3,
+        0, 0, 3, 0, 1, 0, 1, 2, 1, 1, 3, 3, 0, 3, 2, 3, 0, 1])   label: tensor([3, 0, 2, 0, 0, 0, 2, 1, 1, 2, 3, 2, 3, 0, 2, 3, 0, 3, 0, 1, 2, 2, 3, 2,
+        3, 0, 2, 3, 3, 0, 1, 0, 3, 2, 2, 0, 3, 3, 1, 0, 0, 1])
+Epoch: 521   Train loss: 1.2954447   Test loss: 1.3205959   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36427514792899407   Train_predict: tensor([0, 3, 2, 0, 2, 3, 1, 3, 1, 2, 3, 3, 3, 2, 3, 0, 0, 2, 2, 0, 3, 3, 1, 2,
+        0, 3, 0, 1, 2, 3, 1, 0, 2, 0, 3, 1, 1, 2, 1, 3, 2, 1])   label: tensor([2, 2, 1, 0, 1, 1, 3, 2, 2, 2, 1, 3, 3, 2, 1, 2, 0, 1, 2, 2, 1, 0, 1, 2,
+        1, 0, 1, 3, 0, 3, 2, 0, 0, 1, 3, 0, 1, 3, 0, 2, 1, 3])
+Epoch: 522   Train loss: 1.1842815   Test loss: 1.31956   Train accuracy: 0.5   Test accuracy is: 0.3661242603550296   Train_predict: tensor([2, 2, 0, 2, 1, 0, 3, 2, 1, 0, 3, 3, 0, 0, 3, 3, 0, 3, 1, 3, 1, 0, 3, 0,
+        2, 0, 2, 3, 3, 0, 0, 1, 0, 2, 0, 1, 2, 1, 1, 1, 0, 1])   label: tensor([0, 1, 0, 3, 1, 3, 3, 2, 1, 0, 3, 0, 0, 1, 2, 1, 0, 2, 1, 0, 1, 0, 1, 1,
+        2, 0, 2, 1, 1, 0, 3, 1, 1, 1, 1, 1, 2, 0, 1, 0, 2, 1])
+Epoch: 523   Train loss: 1.3222644   Test loss: 1.3214896   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 3, 3, 0, 0, 2, 0, 3, 1, 3, 1, 1, 3, 0, 1, 0, 1, 3, 1, 3, 3, 1, 0, 3,
+        1, 1, 0, 2, 1, 3, 2, 3, 0, 0, 2, 2, 1, 0, 1, 1, 2, 1])   label: tensor([2, 0, 0, 0, 0, 1, 1, 3, 3, 3, 3, 1, 3, 1, 2, 0, 1, 3, 2, 0, 1, 2, 3, 3,
+        2, 1, 1, 2, 1, 0, 2, 1, 3, 3, 2, 2, 1, 2, 1, 2, 2, 0])
+Epoch: 524   Train loss: 1.3745364   Test loss: 1.3203425   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3598372781065089   Train_predict: tensor([1, 2, 3, 1, 3, 0, 3, 2, 0, 0, 1, 0, 2, 3, 3, 0, 1, 2, 1, 3, 1, 1, 1, 2,
+        2, 0, 1, 3, 0, 1, 2, 2, 2, 3, 1, 1, 2, 0, 3, 1, 1, 3])   label: tensor([2, 1, 3, 3, 3, 3, 1, 3, 2, 2, 1, 0, 2, 3, 1, 0, 3, 3, 1, 1, 1, 2, 3, 2,
+        2, 3, 0, 2, 3, 1, 2, 1, 3, 3, 2, 1, 3, 0, 1, 2, 1, 2])
+Epoch: 525   Train loss: 1.3274242   Test loss: 1.3197004   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 1, 2, 0, 1, 1, 1, 3, 3, 1, 1, 0, 3, 3, 1, 0, 1, 1, 1, 0, 1, 3, 3, 3,
+        3, 0, 2, 0, 1, 2, 0, 2, 0, 1, 1, 2, 3, 1, 0, 2, 1, 0])   label: tensor([3, 0, 2, 0, 2, 0, 0, 2, 2, 0, 1, 1, 3, 3, 1, 1, 2, 1, 0, 0, 1, 3, 3, 3,
+        1, 0, 3, 3, 2, 0, 3, 2, 3, 0, 1, 2, 3, 2, 1, 0, 2, 2])
+Epoch: 526   Train loss: 1.3393214   Test loss: 1.3222417   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3594674556213018   Train_predict: tensor([3, 0, 0, 2, 0, 0, 3, 0, 2, 1, 0, 0, 1, 2, 3, 2, 0, 0, 0, 2, 0, 0, 1, 1,
+        2, 3, 1, 0, 0, 1, 1, 0, 0, 3, 0, 0, 3, 3, 3, 2, 2, 3])   label: tensor([2, 0, 2, 2, 0, 2, 1, 3, 2, 1, 3, 0, 2, 1, 3, 0, 1, 2, 0, 2, 0, 2, 2, 1,
+        1, 0, 3, 1, 1, 0, 2, 1, 0, 3, 1, 0, 1, 2, 3, 2, 2, 2])
+Epoch: 527   Train loss: 1.2032458   Test loss: 1.3206093   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3635355029585799   Train_predict: tensor([2, 2, 0, 1, 0, 1, 3, 0, 0, 1, 3, 3, 0, 0, 0, 0, 3, 0, 1, 2, 0, 0, 0, 0,
+        3, 2, 1, 0, 1, 0, 0, 2, 3, 1, 1, 2, 0, 0, 0, 0, 0, 3])   label: tensor([2, 2, 3, 2, 1, 1, 3, 2, 0, 3, 3, 3, 0, 1, 1, 0, 3, 0, 2, 2, 2, 3, 1, 3,
+        2, 3, 3, 2, 0, 2, 0, 2, 3, 0, 0, 2, 3, 0, 0, 2, 0, 2])
+Epoch: 528   Train loss: 1.2614323   Test loss: 1.3215461   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3557692307692308   Train_predict: tensor([3, 0, 3, 0, 0, 1, 0, 3, 2, 2, 2, 2, 2, 1, 1, 3, 0, 1, 2, 3, 1, 1, 0, 1,
+        0, 1, 0, 3, 3, 2, 0, 1, 2, 1, 1, 0, 3, 1, 2, 2, 1, 0])   label: tensor([0, 0, 3, 3, 3, 3, 1, 3, 2, 1, 0, 2, 1, 2, 0, 3, 0, 3, 2, 2, 1, 2, 2, 3,
+        2, 1, 3, 3, 3, 3, 0, 2, 2, 1, 0, 3, 3, 0, 2, 3, 1, 3])
+Epoch: 529   Train loss: 1.3423742   Test loss: 1.3201885   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36797337278106507   Train_predict: tensor([2, 0, 1, 1, 3, 0, 0, 2, 3, 3, 2, 2, 1, 3, 1, 0, 3, 0, 0, 0, 1, 2, 1, 3,
+        3, 1, 1, 2, 3, 0, 3, 2, 0, 0, 1, 1, 0, 2, 1, 0, 1, 1])   label: tensor([1, 3, 1, 1, 3, 1, 1, 1, 3, 2, 1, 0, 0, 2, 2, 2, 3, 1, 0, 2, 0, 1, 1, 2,
+        3, 1, 1, 3, 3, 0, 3, 0, 0, 1, 2, 1, 3, 0, 3, 3, 0, 0])
+Epoch: 530   Train loss: 1.3219019   Test loss: 1.3212131   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 1, 2, 0, 1, 0, 2, 1, 1, 1, 3, 0, 1, 2, 0, 3, 2, 3, 2, 0, 0, 1, 1, 0,
+        0, 0, 2, 2, 3, 3, 0, 2, 3, 1, 3, 1, 0, 1, 1, 1, 0, 1])   label: tensor([2, 0, 2, 3, 1, 1, 3, 1, 2, 1, 1, 0, 3, 0, 0, 1, 1, 3, 2, 3, 3, 0, 1, 2,
+        0, 2, 3, 3, 1, 1, 0, 2, 3, 1, 3, 3, 3, 3, 3, 3, 0, 2])
+Epoch: 531   Train loss: 1.390305   Test loss: 1.3211874   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35761834319526625   Train_predict: tensor([1, 3, 1, 0, 0, 2, 0, 0, 1, 2, 3, 1, 0, 1, 0, 3, 0, 0, 2, 3, 3, 1, 1, 1,
+        2, 3, 1, 1, 0, 1, 0, 1, 1, 3, 2, 0, 1, 3, 1, 0, 1, 1])   label: tensor([1, 1, 1, 3, 0, 2, 2, 0, 3, 2, 3, 0, 0, 0, 1, 3, 0, 2, 2, 2, 2, 0, 3, 1,
+        2, 3, 2, 3, 0, 3, 0, 3, 3, 1, 0, 3, 0, 0, 0, 0, 3, 3])
+Epoch: 532   Train loss: 1.3828074   Test loss: 1.320898   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 0, 3, 0, 1, 1, 3, 3, 0, 0, 2, 0, 1, 1, 2, 2, 1, 1, 3, 1, 3, 1, 0, 1,
+        0, 2, 2, 2, 0, 3, 0, 2, 0, 3, 1, 2, 0, 3, 1, 0, 0, 0])   label: tensor([1, 0, 0, 3, 1, 1, 1, 0, 1, 3, 0, 2, 3, 1, 2, 2, 0, 1, 1, 2, 2, 3, 3, 2,
+        0, 1, 2, 3, 2, 0, 0, 1, 2, 2, 1, 3, 2, 3, 2, 1, 0, 3])
+Epoch: 533   Train loss: 1.420841   Test loss: 1.3203204   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 2, 0, 3, 3, 1, 2, 1, 1, 3, 0, 2, 0, 3, 1, 3, 1, 0, 1, 0, 1, 1, 0, 2,
+        3, 0, 2, 3, 0, 0, 2, 1, 0, 1, 3, 0, 2, 2, 0, 0, 1, 3])   label: tensor([1, 0, 1, 3, 1, 3, 0, 2, 3, 1, 0, 2, 0, 3, 1, 0, 2, 0, 3, 2, 1, 0, 3, 0,
+        2, 2, 2, 1, 2, 1, 2, 1, 1, 3, 0, 0, 0, 3, 1, 0, 2, 2])
+Epoch: 534   Train loss: 1.3261187   Test loss: 1.3201119   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 0, 3, 1, 0, 3, 1, 2, 2, 0, 2, 2, 3, 0, 3, 2, 3, 1, 2, 0, 3, 2, 3, 2,
+        0, 1, 1, 2, 2, 0, 1, 2, 1, 3, 0, 1, 0, 1, 3, 1, 2, 0])   label: tensor([2, 1, 0, 0, 2, 0, 2, 1, 0, 3, 1, 2, 3, 3, 3, 0, 3, 1, 1, 0, 1, 1, 1, 2,
+        0, 1, 3, 1, 2, 0, 1, 2, 2, 3, 2, 3, 1, 1, 0, 1, 1, 1])
+Epoch: 535   Train loss: 1.3757619   Test loss: 1.3205233   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 2, 3, 2, 3, 0, 1, 2, 1, 2, 2, 1, 0, 0, 2, 0, 1, 0, 0, 2, 2, 1, 0, 3,
+        2, 0, 0, 0, 0, 2, 0, 0, 3, 2, 2, 1, 3, 3, 3, 2, 0, 0])   label: tensor([2, 2, 3, 1, 2, 0, 3, 3, 1, 3, 0, 3, 0, 3, 2, 0, 1, 3, 0, 2, 3, 2, 0, 1,
+        1, 1, 0, 3, 1, 3, 0, 3, 0, 1, 3, 1, 2, 1, 3, 2, 3, 0])
+Epoch: 536   Train loss: 1.2522379   Test loss: 1.3219514   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 0, 1, 2, 0, 3, 2, 3, 2, 2, 3, 1, 0, 0, 2, 0, 1, 2, 2, 2, 1, 0, 2, 3,
+        1, 1, 1, 1, 3, 1, 3, 2, 1, 2, 2, 3, 0, 2, 0, 0, 1, 1])   label: tensor([0, 0, 0, 2, 3, 3, 2, 0, 3, 2, 0, 2, 1, 0, 1, 1, 0, 3, 2, 2, 1, 0, 0, 3,
+        1, 2, 1, 2, 1, 1, 1, 1, 3, 2, 0, 3, 0, 3, 2, 1, 1, 2])
+Epoch: 537   Train loss: 1.3228834   Test loss: 1.3204949   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 2, 0, 0, 3, 1, 0, 3, 2, 2, 0, 1, 0, 2, 1, 2, 2, 3, 3, 3, 3, 0, 3, 0,
+        3, 1, 0, 1, 0, 1, 0, 1, 1, 3, 2, 3, 3, 3, 0, 1, 0, 1])   label: tensor([3, 2, 3, 1, 1, 2, 0, 2, 3, 0, 2, 3, 2, 2, 1, 3, 1, 3, 3, 2, 3, 0, 3, 0,
+        0, 1, 2, 2, 0, 1, 3, 1, 0, 1, 2, 2, 0, 2, 3, 3, 3, 0])
+Epoch: 538   Train loss: 1.4062952   Test loss: 1.3207101   Train accuracy: 0.30952380952380953   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 2, 3, 0, 0, 2, 3, 1, 0, 3, 1, 3, 3, 0, 2, 2, 2, 3, 3, 0, 2, 1, 1, 3,
+        2, 2, 3, 1, 0, 3, 3, 1, 0, 2, 1, 0, 1, 2, 0, 2, 2, 1])   label: tensor([2, 3, 0, 0, 3, 3, 1, 2, 1, 1, 1, 1, 1, 0, 3, 1, 3, 3, 2, 1, 3, 2, 3, 3,
+        3, 0, 2, 2, 2, 3, 3, 3, 0, 2, 0, 2, 1, 3, 0, 1, 1, 1])
+Epoch: 539   Train loss: 1.2332289   Test loss: 1.3221391   Train accuracy: 0.5714285714285714   Test accuracy is: 0.3583579881656805   Train_predict: tensor([3, 0, 0, 2, 0, 1, 1, 3, 1, 1, 2, 1, 3, 3, 0, 0, 2, 1, 3, 3, 0, 1, 2, 3,
+        2, 1, 2, 2, 0, 0, 0, 1, 2, 2, 2, 1, 2, 1, 2, 2, 3, 0])   label: tensor([3, 3, 1, 2, 0, 1, 2, 3, 1, 2, 1, 1, 3, 1, 0, 3, 0, 3, 3, 2, 0, 1, 2, 3,
+        2, 1, 2, 2, 0, 2, 0, 1, 1, 2, 1, 3, 1, 2, 3, 2, 1, 0])
+Epoch: 540   Train loss: 1.3032839   Test loss: 1.3204837   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35798816568047337   Train_predict: tensor([0, 0, 1, 0, 2, 2, 1, 3, 3, 3, 0, 3, 0, 3, 1, 0, 2, 3, 3, 2, 1, 2, 0, 0,
+        0, 0, 3, 0, 1, 3, 3, 3, 1, 1, 0, 3, 0, 1, 1, 3, 3, 1])   label: tensor([2, 3, 1, 2, 0, 2, 0, 0, 3, 2, 0, 0, 3, 2, 0, 1, 3, 2, 3, 1, 1, 2, 0, 1,
+        0, 1, 3, 1, 1, 1, 2, 2, 1, 1, 0, 0, 0, 3, 2, 0, 1, 1])
+Epoch: 541   Train loss: 1.2374376   Test loss: 1.3202614   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 1, 3, 0, 0, 2, 1, 0, 0, 3, 0, 0, 0, 0, 3, 1, 3, 1, 3, 3, 0, 0, 0, 3,
+        1, 3, 3, 3, 1, 2, 0, 0, 0, 2, 3, 3, 0, 1, 1, 0, 1, 0])   label: tensor([2, 3, 3, 0, 3, 3, 2, 0, 2, 2, 0, 1, 0, 0, 3, 1, 0, 0, 3, 0, 3, 1, 3, 1,
+        1, 2, 2, 3, 1, 3, 0, 0, 3, 2, 1, 1, 1, 1, 1, 0, 2, 0])
+Epoch: 542   Train loss: 1.3444303   Test loss: 1.3203499   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 0, 1, 2, 2, 3, 1, 1, 3, 1, 2, 0, 2, 0, 0, 3, 1, 1, 0, 3, 1, 0, 3, 0,
+        1, 2, 2, 0, 0, 3, 3, 3, 0, 0, 1, 1, 2, 0, 1, 1, 3, 0])   label: tensor([0, 3, 0, 1, 2, 3, 0, 1, 3, 3, 3, 0, 2, 1, 2, 0, 3, 3, 2, 3, 0, 3, 2, 0,
+        1, 3, 2, 0, 2, 0, 2, 0, 0, 0, 3, 0, 0, 2, 2, 1, 2, 1])
+Epoch: 543   Train loss: 1.3818856   Test loss: 1.320757   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3583579881656805   Train_predict: tensor([0, 0, 0, 3, 1, 2, 0, 2, 3, 2, 2, 2, 2, 1, 3, 0, 2, 3, 0, 0, 3, 2, 3, 0,
+        0, 3, 2, 0, 2, 1, 0, 0, 2, 1, 0, 3, 3, 0, 2, 3, 1, 1])   label: tensor([2, 3, 3, 0, 1, 0, 0, 3, 3, 3, 0, 0, 1, 0, 1, 0, 1, 0, 1, 2, 3, 1, 3, 1,
+        3, 0, 2, 0, 1, 1, 0, 2, 3, 0, 0, 1, 3, 1, 1, 3, 2, 3])
+Epoch: 544   Train loss: 1.3390261   Test loss: 1.32034   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 3, 1, 1, 2, 1, 0, 1, 2, 0, 3, 1, 0, 1, 2, 1, 3, 0, 0, 2, 0, 1, 0, 2,
+        2, 1, 2, 0, 3, 1, 2, 1, 3, 2, 3, 0, 2, 0, 2, 1, 3, 0])   label: tensor([3, 1, 2, 2, 3, 1, 0, 1, 3, 1, 1, 1, 2, 1, 2, 2, 3, 0, 0, 1, 2, 2, 3, 2,
+        2, 2, 0, 2, 0, 0, 1, 2, 2, 0, 2, 3, 0, 2, 3, 2, 2, 0])
+Epoch: 545   Train loss: 1.3334218   Test loss: 1.3203751   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35909763313609466   Train_predict: tensor([2, 3, 0, 1, 2, 3, 1, 3, 0, 0, 3, 1, 3, 3, 3, 2, 3, 1, 0, 2, 2, 1, 1, 0,
+        0, 0, 3, 1, 0, 3, 2, 0, 3, 2, 1, 1, 3, 2, 0, 0, 1, 1])   label: tensor([2, 1, 3, 0, 1, 2, 1, 3, 3, 1, 2, 1, 2, 3, 1, 1, 2, 1, 0, 2, 2, 3, 1, 1,
+        3, 1, 1, 0, 2, 3, 1, 0, 3, 2, 0, 0, 3, 2, 3, 0, 0, 0])
+Epoch: 546   Train loss: 1.2561604   Test loss: 1.3202968   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35502958579881655   Train_predict: tensor([3, 0, 1, 1, 0, 1, 0, 0, 0, 1, 3, 1, 3, 2, 2, 2, 3, 0, 0, 1, 1, 0, 2, 1,
+        3, 3, 2, 1, 2, 2, 0, 1, 1, 0, 2, 2, 3, 1, 2, 1, 0, 3])   label: tensor([3, 3, 1, 1, 0, 2, 3, 2, 2, 3, 1, 1, 3, 3, 3, 0, 3, 0, 0, 1, 1, 0, 0, 0,
+        1, 0, 2, 2, 0, 0, 0, 0, 3, 0, 1, 2, 0, 2, 2, 1, 3, 1])
+Epoch: 547   Train loss: 1.4066384   Test loss: 1.3211678   Train accuracy: 0.23809523809523808   Test accuracy is: 0.35872781065088755   Train_predict: tensor([3, 2, 0, 0, 1, 3, 1, 3, 3, 0, 0, 3, 3, 0, 2, 3, 1, 3, 2, 0, 2, 0, 1, 1,
+        0, 1, 2, 3, 0, 0, 3, 0, 0, 0, 3, 2, 1, 3, 2, 2, 0, 3])   label: tensor([3, 3, 3, 1, 2, 2, 1, 0, 2, 1, 1, 1, 1, 2, 2, 1, 2, 1, 2, 0, 1, 1, 3, 3,
+        0, 2, 3, 2, 2, 3, 0, 0, 0, 2, 0, 0, 3, 2, 1, 2, 2, 3])
+Epoch: 548   Train loss: 1.2809267   Test loss: 1.3221973   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35281065088757396   Train_predict: tensor([1, 1, 0, 2, 2, 3, 3, 1, 2, 1, 0, 2, 3, 0, 3, 1, 3, 3, 3, 0, 3, 3, 3, 1,
+        0, 0, 1, 2, 3, 3, 0, 3, 0, 2, 3, 3, 0, 2, 0, 3, 0, 2])   label: tensor([3, 3, 1, 0, 0, 1, 3, 1, 2, 1, 0, 2, 3, 3, 3, 1, 1, 3, 1, 1, 1, 2, 0, 1,
+        0, 0, 1, 0, 0, 3, 1, 3, 2, 0, 0, 0, 0, 2, 3, 3, 1, 3])
+Epoch: 549   Train loss: 1.3283585   Test loss: 1.3208268   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 3, 0, 3, 3, 1, 0, 0, 3, 1, 0, 3, 3, 1, 1, 1, 1, 2, 0, 2, 0, 3, 1, 3,
+        2, 2, 0, 3, 0, 2, 2, 0, 1, 0, 3, 3, 1, 3, 0, 3, 3, 1])   label: tensor([1, 2, 1, 1, 2, 0, 3, 1, 0, 0, 0, 3, 3, 1, 1, 0, 1, 2, 2, 2, 2, 3, 1, 3,
+        1, 2, 3, 0, 3, 0, 1, 0, 0, 0, 1, 3, 3, 1, 2, 1, 2, 0])
+Epoch: 550   Train loss: 1.155192   Test loss: 1.320326   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3657544378698225   Train_predict: tensor([0, 3, 2, 3, 1, 0, 2, 2, 2, 0, 0, 0, 0, 0, 3, 2, 1, 0, 0, 1, 3, 1, 2, 3,
+        0, 1, 1, 0, 1, 2, 0, 1, 2, 1, 0, 0, 3, 1, 2, 3, 2, 0])   label: tensor([3, 0, 0, 3, 1, 1, 0, 1, 1, 1, 0, 3, 0, 0, 3, 2, 1, 0, 0, 2, 0, 1, 0, 2,
+        1, 1, 1, 1, 3, 2, 1, 1, 3, 0, 1, 1, 2, 1, 3, 3, 2, 0])
+Epoch: 551   Train loss: 1.2091128   Test loss: 1.3200321   Train accuracy: 0.40476190476190477   Test accuracy is: 0.367603550295858   Train_predict: tensor([0, 1, 1, 1, 3, 3, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 0, 2, 0, 2, 0, 3, 2, 2,
+        0, 1, 2, 3, 2, 3, 1, 1, 2, 1, 0, 1, 0, 0, 3, 2, 2, 0])   label: tensor([1, 2, 1, 2, 3, 3, 1, 2, 0, 1, 1, 0, 2, 2, 2, 3, 3, 3, 2, 1, 1, 3, 2, 3,
+        1, 2, 0, 0, 1, 3, 1, 0, 3, 3, 1, 2, 0, 0, 1, 2, 1, 2])
+Epoch: 552   Train loss: 1.2931587   Test loss: 1.3190455   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 2, 1, 2, 0, 3, 0, 0, 0, 2, 1, 3, 3, 1, 3, 1, 3, 0, 1, 0, 2, 2, 3, 2,
+        0, 2, 2, 1, 2, 0, 0, 2, 0, 2, 1, 0, 0, 3, 1, 1, 2, 1])   label: tensor([0, 1, 1, 2, 1, 0, 0, 1, 2, 0, 2, 3, 2, 0, 0, 2, 3, 0, 0, 3, 1, 2, 3, 3,
+        0, 0, 0, 1, 2, 0, 3, 1, 3, 2, 1, 3, 3, 0, 2, 1, 1, 2])
+Epoch: 553   Train loss: 1.4406973   Test loss: 1.3193183   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 0, 1, 0, 0, 1, 0, 1, 0, 3, 0, 1, 0, 0, 3, 0, 2, 2, 2, 3, 1, 0, 0, 0,
+        2, 2, 0, 1, 2, 2, 2, 1, 2, 1, 3, 0, 3, 2, 3, 0, 0, 1])   label: tensor([1, 0, 0, 1, 1, 0, 0, 0, 3, 0, 1, 1, 3, 3, 1, 1, 3, 3, 1, 3, 1, 0, 3, 1,
+        1, 2, 1, 0, 3, 1, 0, 1, 3, 0, 3, 3, 0, 2, 3, 3, 2, 3])
+Epoch: 554   Train loss: 1.2716929   Test loss: 1.3212825   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35798816568047337   Train_predict: tensor([3, 0, 0, 2, 1, 1, 0, 0, 1, 0, 3, 2, 3, 0, 2, 3, 1, 0, 1, 2, 0, 3, 3, 0,
+        3, 2, 3, 0, 0, 3, 0, 0, 3, 0, 0, 0, 3, 3, 3, 0, 1, 2])   label: tensor([3, 0, 0, 1, 1, 1, 3, 1, 3, 2, 2, 0, 1, 3, 1, 0, 1, 3, 2, 1, 3, 1, 3, 0,
+        2, 3, 0, 1, 3, 3, 2, 3, 1, 0, 0, 2, 1, 0, 0, 0, 1, 2])
+Epoch: 555   Train loss: 1.3167126   Test loss: 1.3212231   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36020710059171596   Train_predict: tensor([1, 0, 3, 0, 0, 0, 1, 3, 3, 0, 1, 1, 2, 0, 3, 3, 0, 0, 1, 3, 3, 0, 3, 3,
+        3, 3, 0, 2, 1, 2, 0, 3, 3, 0, 1, 1, 3, 0, 0, 3, 0, 1])   label: tensor([1, 0, 0, 2, 1, 1, 1, 3, 1, 3, 1, 2, 0, 1, 1, 3, 1, 3, 1, 1, 0, 3, 3, 1,
+        3, 0, 3, 2, 1, 2, 0, 2, 0, 3, 1, 1, 3, 1, 0, 2, 2, 0])
+Epoch: 556   Train loss: 1.3157706   Test loss: 1.3202658   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 2, 3, 0, 2, 3, 0, 2, 2, 2, 2, 2, 0, 0, 0, 3, 0, 3, 3, 0, 1, 0, 3, 1,
+        1, 1, 1, 1, 1, 3, 0, 2, 2, 3, 0, 1, 2, 3, 1, 1, 2, 2])   label: tensor([2, 2, 3, 1, 2, 3, 3, 1, 1, 0, 3, 3, 0, 1, 2, 0, 2, 1, 2, 0, 0, 3, 1, 2,
+        3, 1, 1, 0, 1, 2, 0, 2, 2, 3, 2, 1, 0, 3, 0, 3, 1, 3])
+Epoch: 557   Train loss: 1.3584918   Test loss: 1.319756   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 2, 2, 0, 2, 1, 2, 2, 2, 3, 1, 1, 0, 0, 0, 2, 3, 3, 2, 2, 1, 1, 1, 2,
+        1, 0, 1, 2, 3, 1, 1, 1, 0, 3, 0, 1, 0, 1, 2, 3, 1, 0])   label: tensor([3, 2, 2, 1, 3, 2, 1, 2, 1, 0, 3, 0, 0, 2, 3, 1, 3, 3, 0, 2, 3, 1, 2, 2,
+        0, 3, 0, 0, 3, 1, 1, 0, 0, 3, 3, 2, 3, 1, 2, 1, 0, 3])
+Epoch: 558   Train loss: 1.1958688   Test loss: 1.3184307   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36427514792899407   Train_predict: tensor([2, 0, 2, 0, 0, 3, 0, 1, 0, 3, 1, 0, 0, 0, 1, 2, 2, 3, 3, 1, 3, 2, 1, 1,
+        0, 1, 3, 0, 0, 1, 0, 3, 1, 2, 3, 1, 2, 3, 0, 2, 2, 3])   label: tensor([3, 3, 2, 3, 0, 2, 0, 2, 2, 3, 3, 2, 0, 2, 3, 1, 0, 0, 3, 2, 1, 1, 1, 1,
+        0, 0, 2, 0, 2, 1, 0, 2, 1, 0, 3, 2, 0, 3, 0, 0, 1, 2])
+Epoch: 559   Train loss: 1.3747243   Test loss: 1.3213584   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 3, 0, 2, 1, 0, 2, 0, 0, 0, 0, 0, 0, 3, 2, 0, 2, 0, 3, 2, 0, 1, 1, 1,
+        3, 0, 1, 1, 3, 0, 1, 0, 1, 3, 1, 0, 0, 3, 2, 3, 2, 1])   label: tensor([0, 3, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 3, 0, 1, 2, 1, 3, 3, 0, 3, 2, 0,
+        1, 0, 0, 0, 3, 3, 0, 3, 2, 3, 2, 0, 3, 1, 2, 2, 1, 1])
+Epoch: 560   Train loss: 1.262655   Test loss: 1.319844   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 2, 0, 1, 0, 3, 3, 0, 1, 3, 2, 0, 2, 3, 3, 3, 0, 3, 2, 2, 3, 0, 0, 1,
+        0, 3, 3, 2, 2, 3, 3, 2, 1, 1, 2, 0, 3, 0, 0, 1, 0, 3])   label: tensor([1, 3, 3, 1, 3, 2, 2, 2, 1, 3, 2, 0, 2, 0, 2, 2, 1, 3, 2, 0, 2, 2, 0, 3,
+        0, 2, 3, 3, 2, 1, 3, 2, 3, 2, 0, 3, 0, 2, 0, 1, 0, 2])
+Epoch: 561   Train loss: 1.3849362   Test loss: 1.3190527   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 1, 2, 1, 0, 0, 3, 0, 3, 0, 1, 0, 3, 3, 0, 0, 1, 3, 3, 2, 1, 2, 1, 3,
+        0, 2, 0, 0, 3, 3, 3, 0, 0, 0, 2, 3, 1, 2, 3, 1, 0, 2])   label: tensor([2, 3, 2, 0, 2, 1, 0, 2, 3, 0, 1, 0, 3, 3, 3, 0, 2, 1, 0, 3, 1, 1, 2, 2,
+        1, 2, 3, 3, 1, 0, 1, 3, 0, 0, 3, 1, 2, 2, 3, 0, 0, 3])
+Epoch: 562   Train loss: 1.3941572   Test loss: 1.3189565   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 3, 2, 1, 2, 0, 0, 1, 1, 2, 2, 3, 3, 3, 0, 1, 2, 2, 2, 2, 3, 2, 3, 2,
+        0, 1, 0, 3, 0, 3, 0, 3, 0, 2, 3, 0, 3, 0, 2, 0, 3, 0])   label: tensor([1, 3, 3, 1, 3, 2, 1, 1, 1, 1, 0, 2, 3, 1, 3, 3, 2, 1, 0, 3, 2, 1, 3, 2,
+        2, 2, 1, 0, 1, 1, 3, 1, 2, 0, 0, 0, 3, 2, 3, 0, 0, 0])
+Epoch: 563   Train loss: 1.4678544   Test loss: 1.3200644   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 0, 1, 2, 2, 2, 2, 1, 0, 3, 1, 2, 0, 0, 0, 0, 0, 0, 3, 0, 3, 1, 1, 0,
+        3, 1, 3, 1, 2, 3, 3, 0, 0, 3, 0, 0, 1, 1, 3, 0, 3, 0])   label: tensor([1, 1, 0, 3, 2, 0, 2, 3, 0, 2, 2, 1, 3, 1, 2, 1, 3, 1, 2, 2, 3, 1, 1, 2,
+        1, 0, 3, 3, 1, 2, 0, 2, 3, 2, 3, 2, 1, 3, 0, 1, 3, 1])
+Epoch: 564   Train loss: 1.3068769   Test loss: 1.3218963   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 1, 3, 1, 3, 1, 3, 0, 1, 2, 0, 0, 2, 2, 2, 0, 3, 1, 3, 0, 2, 1, 1, 2,
+        3, 1, 1, 2, 0, 0, 0, 3, 1, 3, 2, 3, 2, 1, 3, 0, 3, 0])   label: tensor([3, 0, 2, 3, 2, 3, 3, 0, 1, 2, 1, 0, 0, 2, 0, 3, 3, 1, 2, 3, 2, 2, 2, 0,
+        3, 1, 1, 0, 3, 3, 1, 3, 1, 0, 0, 1, 2, 1, 2, 2, 3, 0])
+Epoch: 565   Train loss: 1.2773443   Test loss: 1.3220361   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 2, 3, 3, 1, 0, 0, 3, 3, 2, 0, 3, 2, 3, 2, 3, 0, 0, 3, 2, 2, 0, 0, 1,
+        0, 1, 3, 1, 2, 0, 2, 1, 1, 0, 1, 3, 0, 2, 1, 3, 1, 0])   label: tensor([2, 1, 0, 0, 2, 0, 0, 1, 3, 2, 1, 1, 2, 3, 1, 2, 0, 0, 3, 0, 1, 0, 2, 3,
+        2, 2, 3, 0, 1, 0, 1, 2, 3, 3, 2, 2, 3, 2, 1, 2, 2, 1])
+Epoch: 566   Train loss: 1.2911737   Test loss: 1.3185579   Train accuracy: 0.38095238095238093   Test accuracy is: 0.35355029585798814   Train_predict: tensor([0, 0, 0, 0, 3, 1, 1, 2, 1, 3, 0, 1, 3, 0, 1, 1, 2, 0, 0, 3, 3, 1, 0, 2,
+        1, 0, 3, 3, 0, 0, 1, 1, 1, 3, 2, 0, 2, 0, 1, 1, 1, 3])   label: tensor([1, 3, 1, 1, 3, 0, 3, 3, 1, 0, 0, 2, 3, 3, 2, 1, 2, 0, 2, 3, 3, 0, 3, 3,
+        1, 3, 3, 1, 3, 1, 0, 3, 1, 3, 0, 0, 2, 0, 3, 3, 3, 2])
+Epoch: 567   Train loss: 1.3426815   Test loss: 1.3198965   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3557692307692308   Train_predict: tensor([1, 1, 1, 3, 0, 0, 0, 3, 1, 0, 2, 3, 3, 2, 2, 3, 3, 0, 0, 3, 0, 3, 2, 0,
+        3, 1, 1, 2, 0, 2, 3, 0, 0, 0, 1, 0, 1, 2, 3, 0, 2, 2])   label: tensor([3, 1, 2, 3, 2, 3, 0, 2, 3, 0, 2, 0, 2, 0, 1, 3, 3, 3, 3, 3, 2, 0, 0, 3,
+        1, 1, 0, 2, 0, 2, 3, 3, 2, 0, 1, 3, 0, 2, 2, 0, 2, 1])
+Epoch: 568   Train loss: 1.3618925   Test loss: 1.3187209   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3598372781065089   Train_predict: tensor([1, 1, 3, 1, 3, 2, 0, 0, 2, 0, 2, 2, 1, 2, 1, 0, 2, 0, 0, 2, 3, 1, 1, 2,
+        2, 3, 0, 0, 3, 2, 1, 0, 1, 3, 2, 1, 0, 0, 1, 0, 0, 1])   label: tensor([3, 0, 1, 3, 3, 2, 0, 3, 1, 3, 2, 1, 1, 1, 2, 0, 2, 1, 2, 0, 2, 3, 0, 3,
+        2, 1, 1, 1, 2, 2, 3, 0, 1, 0, 3, 1, 2, 2, 2, 1, 3, 2])
+Epoch: 569   Train loss: 1.2422383   Test loss: 1.319233   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 3, 2, 3, 0, 0, 1, 0, 2, 0, 2, 1, 0, 3, 3, 3, 3, 0, 3, 0, 1, 0, 0, 0,
+        3, 3, 1, 0, 2, 0, 0, 2, 3, 3, 1, 3, 0, 1, 3, 0, 2, 2])   label: tensor([1, 1, 2, 0, 2, 2, 2, 2, 0, 0, 1, 1, 0, 3, 1, 3, 3, 2, 3, 3, 1, 2, 3, 3,
+        2, 3, 3, 0, 2, 2, 0, 0, 1, 2, 1, 0, 0, 2, 0, 0, 1, 2])
+Epoch: 570   Train loss: 1.2791597   Test loss: 1.3181871   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 0, 0, 1, 1, 0, 3, 0, 1, 0, 1, 1, 1, 3, 2, 0, 2, 3, 3, 2, 0, 1, 3, 1,
+        0, 3, 3, 3, 1, 1, 2, 0, 2, 0, 0, 1, 3, 1, 0, 1, 3, 1])   label: tensor([2, 1, 0, 3, 1, 1, 3, 0, 2, 0, 3, 1, 3, 0, 2, 0, 0, 2, 1, 1, 0, 3, 3, 1,
+        2, 3, 1, 2, 2, 2, 3, 1, 1, 1, 3, 1, 3, 0, 2, 2, 1, 1])
+Epoch: 571   Train loss: 1.3897144   Test loss: 1.3196238   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 3, 3, 1, 3, 2, 3, 2, 0, 0, 3, 0, 3, 0, 2, 1, 3, 3, 2, 0, 3, 3, 0, 3,
+        0, 3, 0, 2, 2, 0, 0, 3, 2, 1, 0, 0, 3, 0, 3, 2, 0, 1])   label: tensor([2, 2, 3, 3, 2, 2, 3, 2, 1, 3, 0, 0, 3, 2, 3, 0, 2, 1, 2, 2, 1, 3, 3, 3,
+        1, 3, 0, 3, 1, 2, 2, 1, 0, 1, 1, 3, 1, 3, 0, 1, 2, 1])
+Epoch: 572   Train loss: 1.3230158   Test loss: 1.3180037   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 3, 2, 3, 0, 1, 1, 0, 1, 1, 2, 3, 0, 1, 2, 3, 1, 3, 3, 0, 1, 2, 0, 0,
+        3, 2, 3, 0, 1, 2, 2, 3, 0, 3, 3, 0, 2, 1, 3, 3, 0, 3])   label: tensor([3, 0, 2, 3, 1, 0, 0, 0, 2, 0, 2, 3, 3, 3, 1, 3, 2, 2, 0, 3, 1, 0, 1, 3,
+        0, 2, 2, 3, 1, 2, 2, 0, 3, 3, 3, 2, 3, 1, 3, 1, 3, 0])
+Epoch: 573   Train loss: 1.3345064   Test loss: 1.3184541   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 3, 1, 1, 1, 3, 1, 1, 2, 0, 0, 1, 3, 2, 0, 0, 0, 2, 2, 1, 3, 0, 1, 0,
+        0, 1, 2, 0, 2, 3, 1, 0, 1, 3, 2, 0, 2, 1, 3, 3, 3, 0])   label: tensor([3, 1, 1, 1, 0, 0, 2, 1, 2, 0, 1, 1, 3, 0, 2, 2, 3, 1, 2, 0, 2, 1, 2, 1,
+        3, 3, 0, 3, 2, 2, 1, 2, 3, 1, 1, 1, 3, 3, 3, 1, 3, 0])
+Epoch: 574   Train loss: 1.3554063   Test loss: 1.3185819   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 3, 2, 1, 3, 1, 2, 0, 2, 2, 2, 3, 0, 3, 0, 2, 2, 2, 3, 0, 0, 2, 0, 0,
+        0, 0, 3, 3, 2, 0, 0, 1, 1, 0, 1, 3, 0, 1, 0, 0, 2, 2])   label: tensor([0, 0, 0, 2, 0, 3, 3, 3, 2, 0, 2, 3, 0, 2, 2, 1, 3, 3, 2, 0, 2, 1, 1, 0,
+        2, 1, 3, 3, 0, 0, 2, 2, 3, 0, 3, 1, 1, 2, 1, 3, 1, 1])
+Epoch: 575   Train loss: 1.4124393   Test loss: 1.3207179   Train accuracy: 0.2619047619047619   Test accuracy is: 0.35539940828402367   Train_predict: tensor([2, 0, 0, 2, 2, 2, 0, 0, 0, 1, 3, 0, 2, 0, 0, 2, 3, 1, 1, 0, 3, 0, 1, 0,
+        1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 2, 3, 3, 1, 3, 2, 2, 1])   label: tensor([1, 3, 0, 2, 3, 0, 1, 3, 0, 2, 3, 0, 3, 1, 0, 2, 0, 2, 3, 1, 1, 2, 2, 0,
+        3, 0, 0, 0, 1, 2, 0, 2, 1, 0, 3, 2, 0, 2, 1, 3, 2, 2])
+Epoch: 576   Train loss: 1.2501885   Test loss: 1.3187876   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([1, 3, 3, 2, 0, 2, 2, 1, 0, 1, 0, 2, 0, 1, 1, 0, 2, 2, 1, 1, 0, 1, 0, 1,
+        0, 1, 1, 3, 0, 1, 2, 1, 3, 2, 1, 1, 3, 1, 1, 1, 3, 1])   label: tensor([2, 2, 0, 3, 0, 1, 0, 0, 0, 1, 0, 3, 0, 3, 3, 0, 2, 2, 3, 0, 3, 2, 0, 0,
+        2, 1, 2, 2, 1, 3, 2, 0, 3, 2, 0, 1, 1, 1, 0, 2, 3, 3])
+Epoch: 577   Train loss: 1.3736763   Test loss: 1.3196152   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3557692307692308   Train_predict: tensor([0, 2, 3, 1, 3, 0, 0, 1, 0, 1, 3, 1, 0, 3, 3, 0, 3, 0, 1, 0, 3, 0, 1, 0,
+        3, 0, 2, 3, 3, 2, 0, 0, 3, 1, 0, 1, 1, 0, 1, 1, 3, 1])   label: tensor([0, 1, 3, 3, 3, 0, 0, 2, 3, 0, 2, 0, 1, 0, 0, 0, 3, 1, 2, 1, 3, 2, 1, 3,
+        2, 3, 1, 2, 3, 3, 3, 1, 2, 0, 2, 3, 0, 0, 1, 2, 2, 2])
+Epoch: 578   Train loss: 1.3018417   Test loss: 1.3196366   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 2, 3, 3, 2, 0, 3, 0, 0, 0, 0, 2, 0, 3, 1, 1, 1, 1, 3, 1, 0, 3, 0, 2,
+        3, 2, 3, 3, 1, 0, 2, 2, 1, 0, 1, 1, 0, 0, 3, 1, 3, 0])   label: tensor([2, 2, 3, 0, 1, 3, 3, 2, 3, 2, 2, 3, 0, 1, 3, 1, 1, 1, 2, 1, 0, 0, 2, 2,
+        3, 2, 3, 2, 3, 3, 2, 1, 3, 0, 1, 2, 0, 2, 1, 3, 0, 3])
+Epoch: 579   Train loss: 1.4060751   Test loss: 1.3199631   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35613905325443784   Train_predict: tensor([3, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 0, 0, 0, 2, 0, 3, 1, 1, 2, 1, 3, 3, 0,
+        3, 0, 3, 0, 2, 3, 1, 0, 0, 3, 0, 1, 2, 3, 1, 1, 1, 2])   label: tensor([1, 1, 3, 2, 2, 0, 2, 1, 0, 3, 2, 1, 3, 2, 1, 1, 2, 0, 0, 2, 1, 0, 1, 1,
+        3, 3, 2, 2, 1, 3, 2, 0, 3, 1, 3, 3, 3, 0, 2, 1, 1, 2])
+Epoch: 580   Train loss: 1.2828948   Test loss: 1.3196305   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35392011834319526   Train_predict: tensor([3, 2, 1, 2, 1, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 1, 0, 0, 0, 1, 2, 3, 3,
+        0, 2, 1, 1, 0, 2, 2, 2, 3, 3, 2, 3, 2, 0, 0, 0, 3, 0])   label: tensor([1, 2, 1, 1, 0, 0, 2, 3, 0, 2, 0, 3, 1, 2, 3, 3, 0, 0, 0, 1, 3, 0, 0, 1,
+        0, 2, 0, 3, 3, 1, 1, 0, 3, 2, 3, 1, 0, 2, 0, 2, 3, 2])
+Epoch: 581   Train loss: 1.3425816   Test loss: 1.3202014   Train accuracy: 0.42857142857142855   Test accuracy is: 0.35798816568047337   Train_predict: tensor([2, 1, 3, 0, 3, 2, 3, 0, 1, 1, 0, 2, 3, 2, 1, 3, 1, 2, 0, 2, 3, 1, 0, 3,
+        2, 2, 2, 1, 0, 3, 0, 0, 2, 1, 3, 2, 2, 1, 3, 1, 3, 0])   label: tensor([2, 3, 1, 0, 3, 0, 3, 0, 0, 2, 2, 3, 3, 3, 1, 3, 2, 2, 3, 2, 0, 2, 3, 2,
+        3, 1, 2, 3, 1, 0, 0, 3, 2, 0, 3, 2, 2, 1, 3, 3, 1, 1])
+Epoch: 582   Train loss: 1.2858369   Test loss: 1.3211344   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 1, 1, 3, 2, 1, 2, 1, 1, 3, 2, 3, 3, 0, 1, 2, 3, 0, 1, 1, 0, 2, 3, 0,
+        2, 0, 3, 0, 3, 0, 0, 0, 0, 1, 2, 2, 1, 2, 1, 3, 0, 1])   label: tensor([2, 1, 1, 3, 1, 1, 0, 1, 2, 1, 3, 1, 3, 2, 0, 3, 1, 1, 1, 1, 2, 2, 2, 1,
+        3, 3, 3, 3, 2, 0, 0, 0, 0, 1, 0, 3, 1, 3, 1, 0, 1, 3])
+Epoch: 583   Train loss: 1.323856   Test loss: 1.3204656   Train accuracy: 0.40476190476190477   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 1, 1, 2, 3, 1, 0, 3, 1, 1, 1, 2, 2, 3, 1, 3, 0, 1, 0, 2, 0, 1, 0, 3,
+        0, 3, 0, 0, 3, 1, 0, 3, 0, 3, 3, 1, 3, 1, 1, 2, 2, 3])   label: tensor([0, 2, 1, 2, 1, 1, 0, 0, 1, 1, 3, 1, 1, 0, 1, 2, 1, 2, 2, 2, 3, 1, 2, 0,
+        2, 3, 2, 2, 1, 2, 2, 2, 0, 3, 0, 1, 3, 1, 1, 2, 3, 2])
+Epoch: 584   Train loss: 1.3305743   Test loss: 1.318544   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 1, 2, 0, 1, 3, 1, 1, 1, 1, 2, 1, 1, 2, 1, 3, 0, 0, 2, 1, 3, 0, 1, 3,
+        3, 2, 0, 2, 1, 0, 0, 2, 2, 3, 1, 1, 0, 0, 0, 1, 1, 1])   label: tensor([2, 3, 0, 1, 1, 3, 1, 1, 3, 2, 2, 2, 2, 0, 1, 3, 3, 0, 2, 1, 0, 2, 3, 2,
+        2, 2, 2, 3, 0, 0, 1, 2, 2, 3, 1, 3, 2, 2, 0, 1, 1, 1])
+Epoch: 585   Train loss: 1.2596357   Test loss: 1.318076   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 2, 2, 0, 2, 1, 2, 0, 3, 1, 0, 1, 1, 2, 0, 3, 2, 0, 1, 3, 0, 3, 3, 1,
+        1, 2, 0, 1, 3, 3, 1, 0, 0, 1, 0, 3, 0, 0, 2, 1, 1, 3])   label: tensor([3, 0, 1, 0, 2, 1, 0, 3, 1, 1, 3, 0, 2, 2, 1, 3, 2, 2, 1, 3, 2, 0, 1, 0,
+        1, 1, 0, 1, 2, 3, 1, 2, 0, 3, 0, 3, 0, 1, 1, 1, 3, 2])
+Epoch: 586   Train loss: 1.3652358   Test loss: 1.3210436   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3609467455621302   Train_predict: tensor([0, 2, 3, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1, 3, 0, 0, 0, 1, 3, 0, 1, 1, 1, 0,
+        1, 3, 2, 3, 3, 2, 1, 3, 2, 3, 0, 2, 2, 0, 1, 3, 3, 3])   label: tensor([1, 3, 0, 3, 3, 0, 1, 1, 2, 3, 3, 2, 1, 3, 1, 1, 0, 1, 3, 2, 3, 3, 1, 3,
+        0, 3, 1, 2, 3, 1, 3, 3, 2, 0, 0, 3, 3, 1, 0, 3, 1, 2])
+Epoch: 587   Train loss: 1.382337   Test loss: 1.321087   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35798816568047337   Train_predict: tensor([1, 1, 3, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 3, 1, 1, 1, 3, 0, 0, 0, 1, 0, 2,
+        0, 1, 2, 2, 2, 3, 2, 0, 1, 1, 3, 2, 0, 1, 2, 1, 3, 3])   label: tensor([1, 2, 3, 0, 3, 3, 1, 0, 3, 2, 0, 0, 3, 0, 2, 3, 3, 3, 3, 0, 1, 1, 0, 3,
+        1, 0, 2, 3, 1, 2, 3, 3, 2, 2, 3, 2, 1, 3, 3, 1, 3, 1])
+Epoch: 588   Train loss: 1.287308   Test loss: 1.3202367   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 2, 0, 3, 3, 0, 1, 1, 3, 0, 0, 1, 3, 2, 2, 2, 3, 2, 1, 2, 0, 2, 2, 1,
+        0, 1, 3, 0, 0, 3, 2, 3, 1, 1, 1, 0, 0, 3, 2, 0, 2, 0])   label: tensor([2, 1, 2, 2, 1, 0, 1, 1, 3, 0, 2, 3, 1, 2, 2, 3, 3, 3, 0, 3, 2, 2, 2, 3,
+        2, 0, 1, 2, 0, 3, 1, 1, 1, 2, 2, 0, 1, 0, 2, 3, 3, 0])
+Epoch: 589   Train loss: 1.2852745   Test loss: 1.3202577   Train accuracy: 0.4523809523809524   Test accuracy is: 0.35909763313609466   Train_predict: tensor([3, 0, 3, 2, 0, 2, 0, 3, 2, 0, 0, 1, 0, 1, 3, 1, 1, 1, 0, 3, 0, 3, 2, 3,
+        2, 3, 2, 2, 0, 0, 1, 2, 0, 0, 2, 0, 3, 0, 3, 3, 1, 2])   label: tensor([2, 1, 3, 2, 3, 2, 0, 2, 1, 2, 2, 0, 2, 2, 3, 1, 2, 1, 2, 0, 3, 0, 1, 2,
+        2, 2, 1, 2, 1, 0, 1, 2, 0, 0, 2, 3, 3, 0, 3, 3, 0, 0])
+Epoch: 590   Train loss: 1.2012163   Test loss: 1.3189154   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 0, 1, 2, 1, 0, 1, 2, 3, 1, 0, 2, 3, 1, 1, 0, 3, 1, 0, 2, 2, 0, 2, 2,
+        0, 1, 2, 3, 0, 3, 2, 3, 0, 1, 2, 1, 1, 0, 0, 0, 0, 3])   label: tensor([0, 3, 0, 0, 1, 2, 1, 0, 3, 2, 0, 2, 1, 3, 1, 2, 3, 1, 0, 2, 0, 0, 3, 1,
+        0, 3, 1, 1, 0, 3, 2, 0, 3, 1, 0, 2, 3, 2, 2, 3, 0, 3])
+Epoch: 591   Train loss: 1.2498789   Test loss: 1.3204057   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3609467455621302   Train_predict: tensor([3, 1, 2, 0, 1, 3, 0, 0, 3, 3, 1, 0, 0, 0, 3, 1, 3, 3, 3, 3, 2, 2, 3, 0,
+        1, 1, 0, 2, 3, 2, 0, 0, 2, 0, 2, 2, 1, 3, 3, 1, 0, 2])   label: tensor([3, 0, 2, 0, 0, 2, 1, 1, 3, 2, 0, 2, 0, 3, 3, 2, 3, 3, 1, 2, 0, 0, 3, 0,
+        1, 2, 0, 0, 3, 1, 1, 0, 0, 2, 2, 2, 2, 1, 3, 2, 3, 0])
+Epoch: 592   Train loss: 1.3174582   Test loss: 1.3232775   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3624260355029586   Train_predict: tensor([3, 1, 3, 1, 1, 1, 2, 3, 0, 3, 2, 3, 0, 0, 0, 2, 1, 1, 1, 0, 0, 0, 0, 1,
+        0, 3, 2, 1, 3, 2, 0, 2, 2, 2, 2, 3, 1, 3, 1, 1, 1, 2])   label: tensor([1, 1, 0, 2, 2, 1, 1, 0, 1, 2, 3, 3, 0, 0, 1, 3, 1, 2, 1, 0, 0, 0, 3, 0,
+        0, 1, 1, 0, 1, 2, 3, 1, 0, 3, 2, 3, 2, 3, 0, 3, 1, 2])
+Epoch: 593   Train loss: 1.2828424   Test loss: 1.3188921   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36168639053254437   Train_predict: tensor([1, 3, 0, 3, 0, 1, 0, 1, 0, 0, 0, 3, 1, 2, 0, 3, 0, 0, 3, 2, 3, 3, 2, 0,
+        0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 3, 3, 3, 2])   label: tensor([0, 2, 3, 3, 0, 1, 2, 1, 0, 3, 0, 0, 1, 0, 3, 1, 0, 2, 2, 2, 1, 1, 1, 0,
+        0, 2, 2, 3, 3, 0, 0, 2, 2, 0, 0, 3, 0, 2, 3, 2, 2, 0])
+Epoch: 594   Train loss: 1.3223052   Test loss: 1.318398   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 3, 3, 0, 0, 3, 2, 3, 3, 2, 1, 2, 0, 0, 3, 0, 0, 3, 0, 3, 0, 3, 3, 0,
+        3, 2, 3, 1, 1, 2, 1, 0, 3, 3, 2, 1, 0, 2, 2, 2, 2, 3])   label: tensor([0, 1, 0, 2, 3, 1, 2, 3, 1, 0, 1, 0, 3, 0, 3, 0, 0, 2, 2, 3, 2, 0, 2, 2,
+        3, 1, 2, 1, 1, 2, 0, 2, 2, 3, 1, 0, 0, 0, 0, 0, 0, 0])
+Epoch: 595   Train loss: 1.3649074   Test loss: 1.3175441   Train accuracy: 0.23809523809523808   Test accuracy is: 0.35872781065088755   Train_predict: tensor([1, 3, 2, 2, 1, 1, 1, 2, 3, 1, 3, 1, 0, 1, 0, 3, 1, 1, 0, 3, 2, 3, 0, 0,
+        1, 3, 1, 1, 2, 0, 3, 0, 3, 3, 0, 3, 0, 2, 1, 3, 0, 0])   label: tensor([1, 2, 2, 0, 3, 1, 0, 1, 2, 3, 3, 2, 3, 1, 2, 0, 3, 0, 2, 1, 0, 1, 1, 2,
+        3, 0, 1, 0, 3, 2, 3, 0, 2, 1, 3, 3, 3, 0, 3, 2, 2, 0])
+Epoch: 596   Train loss: 1.3074967   Test loss: 1.318906   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36279585798816566   Train_predict: tensor([3, 2, 2, 2, 0, 1, 2, 1, 1, 3, 3, 0, 0, 1, 3, 2, 1, 1, 1, 3, 3, 1, 0, 3,
+        2, 1, 0, 1, 3, 1, 2, 2, 1, 0, 0, 1, 2, 0, 1, 0, 3, 0])   label: tensor([1, 3, 2, 0, 1, 1, 1, 1, 1, 3, 3, 0, 0, 2, 3, 2, 1, 3, 0, 0, 3, 3, 1, 3,
+        3, 2, 0, 2, 3, 2, 3, 3, 3, 3, 1, 0, 2, 3, 2, 0, 1, 3])
+Epoch: 597   Train loss: 1.4349971   Test loss: 1.3188895   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36279585798816566   Train_predict: tensor([1, 1, 3, 0, 1, 1, 0, 2, 1, 1, 0, 3, 0, 0, 0, 1, 3, 3, 3, 2, 3, 1, 1, 0,
+        1, 0, 0, 0, 0, 3, 2, 1, 1, 0, 0, 1, 2, 2, 0, 3, 3, 0])   label: tensor([1, 2, 0, 3, 1, 2, 3, 1, 1, 0, 0, 2, 2, 1, 2, 1, 1, 0, 2, 3, 2, 0, 0, 0,
+        2, 3, 2, 3, 1, 3, 3, 3, 3, 2, 1, 2, 2, 0, 0, 3, 1, 2])
+Epoch: 598   Train loss: 1.1750942   Test loss: 1.3186762   Train accuracy: 0.5714285714285714   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 3, 3, 3, 1, 3, 1, 1, 1, 3, 3, 1, 3, 1, 2, 2, 3, 2, 0, 1, 2, 3, 3, 1,
+        0, 2, 0, 2, 1, 3, 1, 2, 2, 2, 2, 2, 0, 0, 1, 1, 0, 2])   label: tensor([2, 3, 3, 3, 1, 3, 3, 1, 3, 3, 1, 2, 1, 1, 2, 2, 3, 1, 0, 2, 2, 3, 3, 1,
+        2, 1, 0, 2, 3, 0, 3, 3, 0, 3, 1, 2, 3, 0, 1, 1, 0, 2])
+Epoch: 599   Train loss: 1.4189875   Test loss: 1.3203045   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3613165680473373   Train_predict: tensor([1, 0, 0, 2, 0, 1, 3, 3, 0, 3, 1, 3, 0, 3, 3, 1, 3, 1, 2, 0, 0, 3, 1, 0,
+        1, 3, 0, 3, 1, 3, 1, 1, 3, 2, 3, 1, 1, 3, 3, 1, 2, 0])   label: tensor([1, 2, 3, 1, 1, 1, 3, 2, 2, 0, 0, 3, 0, 3, 2, 1, 2, 1, 3, 0, 1, 3, 1, 0,
+        2, 0, 0, 2, 3, 0, 0, 3, 3, 2, 2, 0, 3, 3, 3, 0, 2, 3])
+Epoch: 600   Train loss: 1.318417   Test loss: 1.3182718   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 1, 3, 1, 3, 3, 1, 2, 0, 0, 0, 1, 3, 0, 3, 0, 2, 2, 1, 0, 1, 1, 0, 0,
+        1, 3, 2, 3, 0, 1, 2, 3, 1, 1, 0, 2, 3, 3, 3, 1, 3, 2])   label: tensor([0, 1, 0, 1, 1, 0, 1, 2, 0, 3, 2, 1, 1, 0, 3, 0, 2, 2, 3, 0, 1, 2, 0, 1,
+        3, 0, 0, 3, 3, 1, 1, 1, 2, 0, 0, 1, 1, 3, 1, 1, 1, 0])
+Epoch: 601   Train loss: 1.2388669   Test loss: 1.318284   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 2, 2, 2, 1, 3, 3, 3, 0, 3, 1, 3, 0, 3, 1, 1, 3, 2, 3, 2, 3, 3, 3, 2,
+        1, 1, 0, 1, 0, 3, 3, 1, 0, 1, 1, 2, 1, 2, 3, 1, 0, 0])   label: tensor([2, 1, 0, 2, 3, 0, 0, 0, 3, 1, 3, 3, 0, 3, 3, 3, 2, 3, 2, 2, 3, 0, 3, 2,
+        2, 2, 0, 2, 0, 3, 2, 1, 1, 1, 2, 2, 2, 2, 3, 1, 2, 2])
+Epoch: 602   Train loss: 1.2676843   Test loss: 1.318986   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([1, 1, 2, 3, 3, 1, 0, 3, 1, 0, 0, 2, 0, 1, 3, 1, 0, 3, 2, 3, 0, 2, 1, 2,
+        0, 2, 0, 1, 0, 1, 1, 3, 1, 2, 2, 0, 0, 0, 2, 0, 0, 0])   label: tensor([3, 1, 2, 3, 0, 3, 0, 3, 0, 1, 1, 1, 0, 2, 3, 2, 3, 0, 2, 3, 1, 1, 3, 3,
+        0, 0, 1, 1, 2, 1, 2, 2, 1, 3, 1, 2, 0, 2, 2, 2, 1, 0])
+Epoch: 603   Train loss: 1.269648   Test loss: 1.3190805   Train accuracy: 0.40476190476190477   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 0, 3, 3, 3, 1, 0, 0, 0, 1, 3, 3, 1, 3, 1, 3, 3, 3, 3, 0, 0, 0, 3, 3,
+        1, 2, 3, 1, 3, 0, 2, 3, 2, 3, 1, 1, 2, 2, 2, 1, 2, 0])   label: tensor([3, 0, 3, 0, 3, 1, 0, 1, 1, 1, 1, 0, 0, 3, 1, 0, 2, 1, 0, 0, 3, 2, 2, 2,
+        1, 2, 0, 1, 2, 1, 1, 0, 3, 3, 2, 2, 1, 1, 2, 1, 2, 0])
+Epoch: 604   Train loss: 1.3538115   Test loss: 1.3199396   Train accuracy: 0.3333333333333333   Test accuracy is: 0.367603550295858   Train_predict: tensor([3, 0, 0, 3, 0, 1, 2, 1, 0, 0, 1, 0, 1, 2, 3, 3, 1, 0, 2, 0, 0, 1, 1, 0,
+        1, 3, 0, 3, 0, 3, 1, 1, 0, 0, 3, 3, 2, 0, 0, 1, 1, 2])   label: tensor([0, 3, 0, 1, 1, 1, 0, 0, 1, 0, 0, 2, 3, 3, 0, 0, 0, 0, 3, 2, 0, 2, 3, 1,
+        3, 1, 1, 3, 0, 2, 1, 0, 2, 0, 2, 3, 2, 1, 0, 3, 1, 2])
+Epoch: 605   Train loss: 1.282612   Test loss: 1.3190844   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 3, 3, 2, 0, 2, 3, 3, 0, 2, 1, 0, 2, 1, 2, 1, 1, 1, 0, 1, 2, 3, 1, 2,
+        1, 1, 1, 1, 0, 1, 3, 3, 0, 0, 3, 0, 1, 1, 1, 1, 1, 2])   label: tensor([1, 2, 0, 2, 2, 0, 3, 3, 3, 2, 2, 2, 1, 2, 3, 2, 3, 2, 3, 2, 2, 3, 1, 0,
+        2, 1, 1, 2, 0, 3, 2, 3, 0, 2, 2, 2, 2, 2, 3, 1, 3, 1])
+Epoch: 606   Train loss: 1.2846483   Test loss: 1.3190932   Train accuracy: 0.3333333333333333   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 3, 3, 0, 2, 1, 0, 3, 3, 0, 0, 0, 0, 2, 3, 1, 0, 0, 0, 1, 3, 3, 2, 2,
+        3, 2, 1, 0, 2, 1, 2, 0, 0, 3, 3, 1, 0, 0, 1, 3, 3, 0])   label: tensor([2, 3, 3, 3, 1, 3, 2, 3, 0, 3, 2, 3, 0, 2, 1, 0, 1, 0, 3, 3, 0, 1, 2, 2,
+        1, 3, 1, 2, 0, 1, 2, 0, 2, 1, 2, 2, 1, 3, 1, 2, 3, 2])
+Epoch: 607   Train loss: 1.1840899   Test loss: 1.3178247   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 2, 0, 0, 0, 0, 3, 1, 1, 3, 1, 1, 0, 3, 1, 2, 1, 3, 3, 0, 3, 0, 1, 3,
+        3, 2, 3, 3, 3, 2, 2, 2, 0, 1, 3, 1, 0, 3, 1, 3, 0, 3])   label: tensor([0, 3, 0, 2, 3, 3, 0, 1, 1, 3, 2, 1, 0, 3, 1, 1, 2, 1, 3, 2, 0, 1, 1, 3,
+        3, 2, 1, 3, 3, 2, 3, 3, 0, 2, 1, 1, 3, 3, 2, 0, 1, 3])
+Epoch: 608   Train loss: 1.3730131   Test loss: 1.3206105   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3594674556213018   Train_predict: tensor([0, 0, 3, 0, 1, 3, 2, 0, 2, 3, 3, 1, 2, 0, 1, 0, 3, 3, 0, 0, 3, 1, 3, 1,
+        3, 1, 0, 0, 1, 0, 0, 3, 0, 1, 0, 1, 3, 1, 2, 1, 0, 3])   label: tensor([0, 0, 3, 1, 3, 0, 2, 3, 2, 2, 1, 3, 2, 1, 0, 2, 1, 3, 1, 2, 0, 1, 3, 0,
+        0, 3, 1, 0, 0, 0, 1, 1, 2, 3, 0, 1, 3, 3, 0, 1, 3, 3])
+Epoch: 609   Train loss: 1.2632314   Test loss: 1.3192495   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3664940828402367   Train_predict: tensor([3, 2, 2, 3, 1, 2, 3, 1, 3, 3, 1, 1, 3, 0, 3, 2, 1, 0, 0, 3, 1, 2, 1, 0,
+        2, 3, 2, 0, 0, 2, 3, 1, 3, 0, 0, 0, 3, 2, 3, 0, 3, 2])   label: tensor([3, 2, 1, 3, 0, 3, 1, 1, 1, 0, 1, 3, 3, 2, 0, 0, 2, 0, 1, 3, 2, 2, 1, 1,
+        0, 3, 0, 0, 0, 2, 0, 3, 1, 0, 1, 2, 1, 2, 3, 2, 2, 2])
+Epoch: 610   Train loss: 1.2535994   Test loss: 1.3182977   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3609467455621302   Train_predict: tensor([3, 0, 0, 2, 0, 3, 2, 3, 0, 3, 2, 0, 3, 2, 0, 2, 2, 1, 1, 1, 1, 1, 0, 0,
+        0, 0, 1, 1, 1, 1, 1, 3, 0, 2, 0, 3, 0, 1, 3, 2, 0, 0])   label: tensor([2, 0, 0, 2, 1, 1, 2, 3, 1, 3, 2, 1, 3, 1, 3, 2, 1, 3, 3, 1, 1, 1, 3, 0,
+        3, 0, 0, 0, 2, 2, 1, 0, 1, 3, 2, 3, 3, 2, 2, 2, 0, 0])
+Epoch: 611   Train loss: 1.3396508   Test loss: 1.3179675   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35761834319526625   Train_predict: tensor([2, 3, 2, 0, 1, 2, 0, 0, 0, 3, 0, 3, 2, 2, 3, 3, 1, 0, 2, 3, 0, 1, 0, 2,
+        1, 2, 2, 1, 3, 0, 2, 2, 3, 2, 3, 1, 3, 3, 0, 2, 2, 1])   label: tensor([2, 2, 0, 3, 0, 2, 0, 0, 0, 3, 3, 0, 2, 2, 3, 0, 3, 2, 3, 3, 3, 1, 3, 1,
+        2, 1, 2, 0, 2, 2, 2, 2, 1, 1, 3, 2, 0, 2, 3, 3, 3, 3])
+Epoch: 612   Train loss: 1.3150939   Test loss: 1.3189567   Train accuracy: 0.30952380952380953   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 2, 3, 0, 2, 2, 0, 3, 0, 1, 1, 1, 0, 0, 2, 3, 1, 3, 0, 0, 1, 0, 3, 2,
+        2, 3, 0, 0, 0, 3, 3, 1, 1, 0, 3, 1, 0, 0, 0, 2, 0, 1])   label: tensor([2, 1, 0, 3, 1, 0, 0, 2, 0, 1, 3, 1, 0, 3, 3, 0, 1, 2, 3, 0, 2, 1, 1, 3,
+        0, 3, 0, 2, 3, 2, 2, 1, 2, 0, 1, 2, 1, 1, 0, 0, 2, 1])
+Epoch: 613   Train loss: 1.2474233   Test loss: 1.318994   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 3, 0, 2, 1, 3, 0, 2, 2, 0, 0, 1, 2, 1, 0, 3, 1, 0, 3, 2, 3, 1, 1, 1,
+        3, 1, 3, 3, 1, 1, 0, 2, 2, 0, 3, 0, 0, 2, 0, 2, 1, 1])   label: tensor([2, 0, 1, 1, 0, 2, 1, 0, 0, 2, 1, 2, 2, 1, 1, 3, 1, 1, 0, 2, 3, 0, 1, 1,
+        2, 1, 1, 3, 1, 2, 2, 2, 1, 0, 1, 2, 0, 2, 0, 2, 3, 3])
+Epoch: 614   Train loss: 1.276114   Test loss: 1.3186029   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 2, 3, 2, 3, 3, 0, 3, 3, 3, 3, 3, 3, 1, 1, 3, 0, 2, 3, 3, 1, 3, 0,
+        0, 0, 3, 0, 0, 0, 1, 3, 3, 1, 0, 2, 3, 3, 1, 1, 3, 1])   label: tensor([0, 3, 1, 0, 3, 1, 2, 0, 0, 2, 3, 1, 3, 3, 2, 1, 1, 0, 2, 2, 1, 1, 3, 3,
+        3, 0, 3, 1, 3, 1, 1, 0, 1, 1, 2, 2, 3, 3, 3, 0, 3, 1])
+Epoch: 615   Train loss: 1.2405138   Test loss: 1.3187196   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36020710059171596   Train_predict: tensor([1, 0, 1, 0, 0, 0, 3, 0, 0, 3, 0, 0, 2, 1, 2, 1, 1, 0, 2, 3, 1, 0, 2, 3,
+        2, 3, 0, 1, 3, 0, 1, 0, 3, 3, 2, 3, 3, 2, 2, 0, 0, 3])   label: tensor([2, 2, 0, 2, 1, 0, 3, 0, 0, 0, 0, 3, 0, 1, 2, 1, 2, 0, 2, 0, 3, 0, 2, 0,
+        0, 2, 2, 3, 0, 1, 3, 3, 0, 2, 2, 3, 0, 2, 0, 1, 0, 1])
+Epoch: 616   Train loss: 1.4286975   Test loss: 1.3191768   Train accuracy: 0.2619047619047619   Test accuracy is: 0.36427514792899407   Train_predict: tensor([1, 0, 1, 1, 0, 0, 0, 3, 3, 2, 2, 0, 3, 1, 3, 1, 2, 0, 1, 1, 2, 1, 3, 2,
+        2, 3, 1, 1, 1, 1, 1, 0, 3, 2, 1, 3, 3, 2, 3, 2, 1, 3])   label: tensor([1, 3, 2, 0, 1, 3, 1, 3, 0, 3, 0, 3, 1, 1, 0, 0, 0, 2, 2, 0, 0, 1, 2, 0,
+        0, 3, 1, 2, 0, 2, 1, 3, 0, 1, 2, 1, 1, 3, 3, 2, 1, 3])
+Epoch: 617   Train loss: 1.3428689   Test loss: 1.3204418   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36020710059171596   Train_predict: tensor([2, 0, 0, 3, 2, 2, 3, 0, 0, 0, 2, 0, 0, 3, 0, 1, 2, 0, 2, 0, 0, 0, 3, 0,
+        2, 3, 3, 3, 0, 2, 0, 2, 3, 1, 2, 0, 1, 0, 1, 1, 1, 0])   label: tensor([2, 0, 0, 0, 2, 0, 1, 3, 3, 0, 3, 3, 2, 1, 2, 1, 1, 3, 2, 0, 0, 0, 2, 0,
+        1, 0, 0, 0, 1, 3, 1, 2, 1, 3, 0, 3, 0, 3, 1, 1, 1, 1])
+Epoch: 618   Train loss: 1.2077329   Test loss: 1.320135   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3583579881656805   Train_predict: tensor([0, 3, 0, 1, 3, 0, 3, 1, 0, 3, 3, 0, 3, 2, 2, 1, 1, 2, 1, 2, 3, 0, 2, 3,
+        2, 1, 3, 0, 3, 1, 1, 2, 3, 0, 0, 0, 1, 1, 3, 3, 0, 3])   label: tensor([0, 1, 0, 3, 3, 3, 0, 1, 0, 3, 3, 3, 3, 1, 2, 1, 2, 0, 1, 1, 3, 3, 2, 1,
+        1, 2, 2, 0, 1, 2, 1, 1, 2, 2, 2, 0, 1, 2, 1, 2, 2, 2])
+Epoch: 619   Train loss: 1.4382598   Test loss: 1.3215892   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3631656804733728   Train_predict: tensor([2, 3, 0, 0, 3, 2, 0, 2, 3, 0, 0, 0, 1, 2, 3, 3, 0, 3, 1, 1, 3, 0, 2, 3,
+        0, 0, 1, 3, 3, 0, 1, 0, 3, 0, 0, 3, 2, 2, 1, 1, 2, 1])   label: tensor([2, 3, 2, 0, 3, 0, 0, 3, 3, 1, 2, 0, 0, 1, 3, 0, 1, 0, 1, 2, 2, 3, 0, 3,
+        0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 2, 1, 0, 0, 2, 2, 3, 1])
+Epoch: 620   Train loss: 1.3400968   Test loss: 1.3191572   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 1, 2, 3, 0, 0, 0, 0, 0, 1, 2, 1, 1, 3, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0,
+        2, 0, 2, 2, 3, 0, 1, 1, 1, 0, 1, 1, 3, 1, 2, 3, 0, 0])   label: tensor([0, 3, 3, 0, 3, 3, 3, 0, 0, 1, 1, 2, 1, 3, 1, 2, 0, 0, 2, 2, 3, 0, 1, 2,
+        3, 1, 3, 2, 0, 0, 2, 1, 2, 0, 1, 3, 3, 0, 3, 1, 1, 1])
+Epoch: 621   Train loss: 1.2365694   Test loss: 1.3193959   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 3, 0, 2, 1, 0, 1, 1, 1, 1, 1, 2, 0, 0, 0, 3, 1, 3, 0, 2, 3, 0, 1, 3,
+        0, 2, 1, 1, 0, 0, 0, 1, 0, 3, 0, 2, 0, 1, 0, 1, 0, 3])   label: tensor([1, 3, 0, 2, 2, 2, 1, 1, 1, 1, 0, 2, 0, 0, 0, 3, 1, 2, 3, 0, 0, 2, 2, 1,
+        2, 0, 2, 3, 3, 3, 0, 2, 0, 3, 1, 2, 2, 1, 0, 0, 0, 0])
+Epoch: 622   Train loss: 1.2448511   Test loss: 1.3212235   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3620562130177515   Train_predict: tensor([3, 1, 3, 3, 0, 1, 2, 2, 3, 3, 1, 0, 1, 0, 1, 0, 3, 2, 0, 3, 2, 3, 3, 0,
+        2, 0, 0, 3, 3, 0, 3, 3, 3, 2, 1, 0, 1, 3, 3, 2, 3, 2])   label: tensor([0, 3, 0, 0, 2, 1, 2, 3, 2, 0, 1, 1, 1, 0, 1, 2, 1, 1, 0, 3, 3, 2, 1, 2,
+        2, 0, 3, 0, 3, 3, 2, 2, 1, 3, 2, 3, 1, 2, 1, 3, 3, 2])
+Epoch: 623   Train loss: 1.3129452   Test loss: 1.3189831   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 0, 0, 0, 0, 0, 1, 0, 2, 3, 2, 2, 2, 0, 0, 1, 1, 3, 1, 0, 0, 1, 2, 2,
+        1, 0, 0, 0, 1, 2, 2, 1, 3, 2, 3, 3, 3, 3, 1, 3, 2, 3])   label: tensor([2, 3, 0, 0, 0, 1, 3, 1, 1, 0, 2, 2, 2, 3, 3, 0, 1, 3, 3, 2, 0, 0, 2, 2,
+        0, 0, 2, 0, 0, 3, 0, 3, 3, 2, 0, 2, 0, 1, 1, 1, 1, 3])
+Epoch: 624   Train loss: 1.1864188   Test loss: 1.318341   Train accuracy: 0.5714285714285714   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 2, 2, 2, 3, 0, 0, 1, 2, 3, 1, 3, 1, 0, 2, 0, 3, 3, 3, 3, 1, 0, 0, 0,
+        3, 2, 1, 0, 0, 1, 3, 0, 0, 3, 2, 1, 1, 3, 0, 1, 0, 1])   label: tensor([3, 3, 3, 2, 3, 0, 0, 1, 2, 2, 1, 0, 3, 1, 2, 2, 0, 1, 0, 3, 3, 0, 0, 0,
+        3, 2, 1, 3, 0, 2, 1, 0, 2, 3, 0, 1, 1, 0, 0, 0, 0, 1])
+Epoch: 625   Train loss: 1.4356699   Test loss: 1.321588   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36020710059171596   Train_predict: tensor([1, 1, 1, 2, 0, 3, 0, 2, 2, 1, 3, 0, 1, 0, 3, 2, 0, 0, 1, 2, 2, 1, 1, 3,
+        0, 2, 2, 2, 0, 2, 3, 3, 0, 1, 3, 0, 1, 1, 1, 3, 2, 3])   label: tensor([0, 3, 1, 3, 1, 3, 2, 3, 3, 2, 1, 0, 1, 1, 0, 2, 3, 1, 1, 2, 2, 0, 0, 0,
+        2, 3, 0, 2, 0, 2, 3, 3, 1, 3, 0, 2, 1, 3, 0, 2, 0, 3])
+Epoch: 626   Train loss: 1.3055055   Test loss: 1.3202314   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3605769230769231   Train_predict: tensor([1, 2, 3, 0, 0, 3, 3, 2, 3, 1, 0, 0, 0, 3, 3, 1, 1, 0, 3, 0, 0, 1, 0, 1,
+        0, 0, 1, 3, 1, 1, 3, 2, 0, 3, 3, 1, 3, 0, 1, 2, 3, 2])   label: tensor([3, 2, 0, 1, 0, 3, 2, 1, 3, 2, 2, 3, 2, 0, 2, 3, 0, 2, 3, 3, 0, 0, 0, 2,
+        0, 0, 1, 3, 3, 1, 3, 0, 3, 3, 3, 2, 2, 2, 0, 2, 1, 1])
+Epoch: 627   Train loss: 1.2201291   Test loss: 1.3182606   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 3, 1, 2, 2, 0, 1, 0, 0, 1, 1, 1, 1, 3, 1, 3, 0, 1, 3, 3, 2, 1, 0, 1,
+        1, 3, 3, 0, 2, 1, 3, 0, 1, 1, 2, 2, 0, 0, 0, 3, 2, 2])   label: tensor([3, 3, 0, 1, 2, 2, 2, 3, 2, 1, 1, 3, 0, 3, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2,
+        1, 1, 1, 2, 2, 2, 3, 0, 0, 3, 3, 1, 3, 0, 3, 0, 2, 0])
+Epoch: 628   Train loss: 1.2168344   Test loss: 1.3194902   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 0, 3, 0, 1, 3, 1, 0, 0, 1, 3, 0, 1, 3, 2, 0, 0, 0, 2, 2, 3, 1, 3, 3,
+        3, 3, 0, 3, 3, 2, 3, 0, 3, 2, 3, 3, 1, 2, 3, 3, 0, 1])   label: tensor([0, 0, 1, 0, 3, 0, 1, 0, 2, 0, 3, 1, 1, 3, 0, 0, 2, 0, 1, 2, 0, 3, 1, 2,
+        0, 3, 0, 2, 1, 0, 2, 0, 2, 2, 3, 1, 1, 1, 2, 3, 3, 1])
+Epoch: 629   Train loss: 1.275133   Test loss: 1.3208817   Train accuracy: 0.2619047619047619   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 1, 2, 0, 2, 0, 2, 0, 0, 2, 1, 3, 3, 0, 3, 0, 2, 0, 1, 0, 1, 3, 1, 0,
+        1, 3, 0, 1, 2, 0, 1, 3, 1, 3, 1, 3, 0, 1, 0, 1, 2, 0])   label: tensor([1, 0, 2, 0, 2, 3, 1, 1, 1, 3, 2, 0, 3, 0, 2, 2, 3, 1, 2, 3, 1, 3, 2, 3,
+        1, 0, 0, 3, 0, 2, 1, 2, 1, 0, 2, 2, 2, 0, 1, 2, 1, 2])
+Epoch: 630   Train loss: 1.2713753   Test loss: 1.3208011   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3661242603550296   Train_predict: tensor([2, 2, 0, 3, 0, 0, 0, 3, 3, 2, 2, 0, 0, 0, 1, 2, 3, 0, 0, 0, 3, 3, 1, 3,
+        3, 0, 2, 3, 0, 3, 1, 0, 0, 3, 0, 3, 0, 1, 0, 0, 1, 3])   label: tensor([2, 0, 2, 3, 3, 0, 0, 3, 2, 2, 2, 0, 3, 2, 1, 2, 2, 3, 2, 0, 3, 2, 1, 0,
+        2, 0, 1, 0, 3, 1, 2, 1, 0, 0, 3, 0, 3, 3, 2, 0, 0, 2])
+Epoch: 631   Train loss: 1.3075099   Test loss: 1.3203439   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 3, 2, 3, 1, 1, 2, 1, 3, 1, 1, 0, 2, 0, 3, 1, 3, 3, 0, 1, 1, 0, 3, 0,
+        3, 3, 3, 3, 0, 1, 3, 0, 3, 0, 1, 3, 0, 0, 1, 3, 3, 1])   label: tensor([0, 2, 1, 3, 2, 1, 0, 1, 2, 1, 1, 0, 3, 2, 2, 1, 3, 3, 2, 1, 2, 0, 3, 2,
+        1, 3, 1, 0, 0, 2, 2, 1, 3, 0, 3, 3, 1, 1, 2, 0, 1, 0])
+Epoch: 632   Train loss: 1.2985744   Test loss: 1.320432   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3624260355029586   Train_predict: tensor([2, 0, 2, 2, 3, 1, 3, 3, 1, 0, 3, 2, 0, 1, 3, 2, 0, 2, 1, 0, 3, 3, 1, 2,
+        1, 2, 2, 3, 1, 3, 2, 1, 1, 3, 3, 2, 3, 0, 0, 1, 3, 1])   label: tensor([1, 3, 3, 2, 1, 1, 3, 2, 0, 0, 3, 2, 0, 1, 3, 3, 1, 2, 2, 3, 3, 3, 2, 0,
+        1, 0, 0, 1, 1, 0, 2, 1, 2, 2, 3, 3, 1, 1, 3, 1, 1, 1])
+Epoch: 633   Train loss: 1.1783934   Test loss: 1.3207154   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 0, 0, 3, 0, 0, 3, 1, 2, 3, 3, 0, 2, 3, 0, 3, 1, 0, 1, 1, 3, 1, 1, 0,
+        1, 1, 3, 2, 3, 3, 2, 0, 1, 2, 0, 2, 0, 1, 2, 3, 3, 0])   label: tensor([3, 0, 0, 3, 0, 2, 3, 1, 2, 0, 0, 0, 2, 1, 3, 0, 1, 0, 1, 2, 2, 3, 0, 1,
+        0, 2, 0, 2, 3, 0, 3, 1, 2, 2, 1, 2, 3, 2, 2, 1, 3, 0])
+Epoch: 634   Train loss: 1.3458483   Test loss: 1.320521   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3635355029585799   Train_predict: tensor([2, 0, 2, 1, 3, 0, 1, 0, 3, 0, 1, 2, 2, 3, 2, 2, 0, 2, 3, 1, 1, 2, 1, 2,
+        1, 2, 3, 3, 0, 2, 0, 1, 1, 0, 1, 2, 3, 3, 3, 3, 1, 3])   label: tensor([3, 0, 0, 3, 2, 0, 1, 0, 0, 0, 3, 1, 0, 2, 0, 3, 2, 2, 1, 0, 2, 1, 2, 2,
+        3, 2, 2, 0, 0, 1, 0, 1, 1, 1, 1, 0, 3, 2, 3, 3, 3, 3])
+Epoch: 635   Train loss: 1.3300636   Test loss: 1.3202637   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([3, 3, 3, 2, 3, 1, 0, 0, 1, 0, 0, 1, 1, 3, 1, 1, 0, 3, 2, 0, 3, 3, 3, 2,
+        2, 3, 2, 1, 1, 0, 3, 3, 2, 0, 1, 1, 0, 3, 0, 0, 3, 3])   label: tensor([1, 3, 0, 3, 1, 1, 3, 3, 1, 2, 0, 1, 3, 1, 1, 3, 3, 1, 0, 1, 2, 1, 1, 3,
+        2, 1, 2, 3, 1, 0, 3, 1, 1, 3, 3, 0, 0, 3, 0, 0, 1, 3])
+Epoch: 636   Train loss: 1.288392   Test loss: 1.3213936   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36279585798816566   Train_predict: tensor([1, 0, 2, 0, 3, 1, 3, 3, 1, 3, 1, 3, 1, 1, 0, 0, 0, 1, 0, 2, 3, 0, 2, 2,
+        0, 2, 0, 1, 3, 2, 2, 1, 2, 1, 1, 3, 3, 2, 3, 0, 3, 0])   label: tensor([1, 3, 3, 0, 2, 1, 3, 1, 2, 0, 2, 1, 1, 3, 0, 2, 0, 1, 2, 2, 3, 3, 3, 1,
+        0, 2, 0, 2, 3, 3, 2, 0, 0, 3, 1, 3, 1, 2, 1, 2, 3, 2])
+Epoch: 637   Train loss: 1.4946932   Test loss: 1.3201239   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3598372781065089   Train_predict: tensor([1, 3, 0, 0, 0, 3, 2, 2, 3, 0, 2, 3, 3, 2, 3, 1, 2, 0, 0, 2, 3, 1, 3, 2,
+        2, 2, 2, 3, 2, 2, 1, 1, 1, 2, 1, 0, 0, 3, 1, 1, 3, 3])   label: tensor([2, 0, 2, 0, 0, 1, 2, 2, 3, 3, 2, 2, 0, 3, 1, 3, 1, 2, 1, 3, 2, 2, 1, 1,
+        3, 0, 0, 0, 0, 2, 1, 1, 1, 2, 0, 2, 1, 2, 3, 3, 0, 2])
+Epoch: 638   Train loss: 1.4217074   Test loss: 1.3201766   Train accuracy: 0.2857142857142857   Test accuracy is: 0.35872781065088755   Train_predict: tensor([2, 3, 0, 3, 2, 3, 3, 2, 3, 1, 0, 0, 0, 2, 1, 0, 1, 1, 0, 2, 2, 1, 3, 2,
+        2, 0, 2, 3, 0, 1, 2, 2, 0, 2, 1, 2, 3, 3, 0, 0, 0, 3])   label: tensor([1, 1, 3, 0, 1, 3, 3, 3, 2, 0, 0, 3, 2, 0, 0, 0, 1, 3, 1, 2, 3, 0, 3, 1,
+        3, 2, 2, 2, 2, 1, 2, 0, 3, 3, 1, 0, 1, 3, 1, 2, 2, 2])
+Epoch: 639   Train loss: 1.291114   Test loss: 1.3182364   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 1, 0, 1, 2, 0, 2, 0, 2, 1, 1, 3, 0, 2, 0, 2, 1, 1, 2, 0, 2, 1, 3, 0,
+        1, 1, 1, 3, 0, 2, 0, 0, 0, 3, 1, 3, 1, 3, 2, 3, 2, 1])   label: tensor([3, 3, 2, 2, 0, 0, 1, 3, 0, 2, 3, 2, 2, 3, 0, 1, 3, 3, 3, 0, 2, 1, 3, 0,
+        1, 1, 1, 2, 2, 3, 1, 3, 0, 3, 0, 2, 3, 2, 3, 0, 2, 2])
+Epoch: 640   Train loss: 1.3247926   Test loss: 1.320939   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 3, 1, 0, 0, 1, 0, 0, 0, 3, 1, 0, 1, 3, 3, 0, 1, 0, 2, 1, 0, 3, 0, 1,
+        3, 3, 0, 3, 0, 0, 0, 0, 2, 1, 3, 1, 2, 0, 3, 2, 2, 3])   label: tensor([2, 3, 0, 0, 1, 1, 3, 3, 0, 0, 3, 0, 2, 2, 1, 2, 3, 0, 0, 1, 1, 3, 3, 1,
+        1, 1, 1, 3, 2, 1, 3, 1, 2, 3, 2, 2, 3, 2, 3, 2, 2, 3])
+Epoch: 641   Train loss: 1.2732974   Test loss: 1.3205401   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3609467455621302   Train_predict: tensor([2, 0, 0, 1, 2, 0, 3, 1, 1, 0, 3, 3, 0, 0, 2, 0, 3, 1, 2, 0, 3, 3, 0, 0,
+        0, 0, 2, 2, 0, 1, 0, 0, 0, 2, 0, 0, 1, 3, 1, 1, 3, 3])   label: tensor([1, 0, 1, 1, 3, 1, 3, 0, 1, 3, 2, 2, 3, 1, 2, 0, 3, 3, 0, 2, 1, 1, 0, 1,
+        0, 2, 1, 2, 0, 1, 1, 2, 0, 2, 2, 0, 3, 2, 2, 1, 0, 3])
+Epoch: 642   Train loss: 1.2468661   Test loss: 1.320843   Train accuracy: 0.5476190476190477   Test accuracy is: 0.36427514792899407   Train_predict: tensor([0, 0, 3, 2, 2, 0, 0, 0, 0, 0, 3, 3, 0, 2, 2, 0, 3, 3, 0, 2, 0, 0, 1, 0,
+        0, 0, 0, 2, 1, 0, 0, 2, 3, 1, 1, 3, 2, 2, 3, 0, 1, 2])   label: tensor([0, 0, 2, 2, 0, 0, 0, 2, 1, 0, 3, 1, 1, 2, 0, 2, 3, 2, 2, 2, 1, 0, 1, 0,
+        2, 0, 0, 0, 3, 0, 0, 2, 2, 1, 3, 1, 2, 2, 2, 0, 1, 3])
+Epoch: 643   Train loss: 1.3423277   Test loss: 1.3222611   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 1, 2, 3, 0, 1, 1, 2, 0, 0, 3, 0, 0, 3, 0, 2, 3, 0, 3, 1, 3, 0, 3, 3,
+        0, 3, 1, 1, 0, 0, 2, 2, 2, 0, 3, 2, 3, 2, 2, 2, 1, 3])   label: tensor([0, 3, 0, 3, 0, 3, 1, 3, 0, 0, 0, 3, 3, 2, 2, 3, 2, 0, 1, 1, 1, 2, 3, 3,
+        0, 1, 1, 0, 1, 3, 2, 2, 0, 0, 3, 1, 1, 0, 2, 1, 2, 1])
+Epoch: 644   Train loss: 1.3782759   Test loss: 1.3202957   Train accuracy: 0.21428571428571427   Test accuracy is: 0.36279585798816566   Train_predict: tensor([2, 3, 3, 1, 0, 1, 1, 1, 1, 3, 2, 0, 2, 2, 0, 2, 2, 1, 3, 2, 1, 1, 0, 0,
+        3, 2, 3, 1, 3, 0, 1, 0, 2, 3, 0, 2, 2, 2, 0, 0, 1, 0])   label: tensor([3, 3, 3, 2, 1, 3, 0, 3, 0, 2, 3, 1, 2, 0, 1, 2, 0, 1, 2, 3, 1, 2, 1, 2,
+        0, 3, 1, 3, 1, 2, 0, 1, 0, 1, 2, 2, 0, 0, 1, 0, 1, 3])
+Epoch: 645   Train loss: 1.2558197   Test loss: 1.3205379   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36538461538461536   Train_predict: tensor([3, 1, 0, 3, 3, 3, 2, 1, 1, 1, 3, 3, 2, 1, 3, 1, 1, 3, 1, 3, 2, 1, 0, 0,
+        2, 1, 1, 3, 3, 1, 2, 0, 0, 0, 0, 3, 3, 2, 1, 1, 3, 3])   label: tensor([3, 0, 2, 2, 3, 1, 2, 2, 1, 0, 3, 0, 3, 3, 3, 0, 2, 3, 2, 2, 1, 2, 0, 2,
+        2, 1, 1, 2, 0, 2, 1, 0, 3, 0, 3, 3, 3, 1, 1, 2, 0, 1])
+Epoch: 646   Train loss: 1.3391049   Test loss: 1.32006   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 2, 3, 3, 1, 0, 3, 0, 3, 3, 3, 3, 3, 2, 0, 0, 2, 0, 2, 0, 2, 2, 2, 0,
+        0, 3, 0, 3, 0, 3, 0, 2, 2, 2, 1, 3, 1, 3, 2, 0, 3, 0])   label: tensor([1, 1, 3, 3, 1, 1, 3, 1, 3, 2, 1, 0, 3, 2, 3, 1, 0, 3, 0, 0, 3, 1, 1, 0,
+        0, 3, 2, 0, 3, 3, 1, 1, 3, 1, 1, 3, 0, 0, 3, 3, 0, 1])
+Epoch: 647   Train loss: 1.2524937   Test loss: 1.3188828   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3650147928994083   Train_predict: tensor([1, 3, 3, 2, 2, 0, 1, 0, 1, 2, 3, 1, 2, 0, 0, 1, 1, 3, 1, 3, 3, 2, 1, 2,
+        1, 3, 3, 0, 1, 0, 1, 3, 0, 1, 1, 3, 0, 2, 1, 3, 0, 3])   label: tensor([0, 0, 3, 0, 2, 1, 3, 1, 1, 2, 2, 2, 3, 0, 1, 1, 1, 3, 1, 3, 3, 2, 3, 1,
+        0, 0, 1, 0, 3, 2, 0, 0, 0, 1, 2, 3, 0, 0, 0, 1, 0, 2])
+Epoch: 648   Train loss: 1.3706014   Test loss: 1.318189   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 3, 0, 0, 1, 3, 3, 3, 2, 0, 2, 0, 2, 3, 3, 0, 1, 3, 0, 0, 1, 3, 3, 3,
+        0, 1, 3, 3, 0, 3, 3, 3, 1, 0, 3, 1, 2, 0, 3, 3, 3, 1])   label: tensor([3, 0, 3, 1, 2, 2, 0, 3, 3, 0, 0, 1, 2, 1, 1, 3, 2, 1, 2, 2, 1, 1, 3, 2,
+        0, 1, 0, 3, 2, 1, 0, 3, 1, 0, 0, 2, 2, 0, 1, 3, 2, 2])
+Epoch: 649   Train loss: 1.3033856   Test loss: 1.3188825   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 0, 0, 3, 2, 0, 0, 0, 2, 1, 0, 3, 1, 1, 0, 0, 1, 3, 1, 1, 0, 0, 0, 0,
+        0, 0, 0, 1, 2, 2, 2, 2, 2, 1, 0, 3, 2, 0, 0, 1, 0, 1])   label: tensor([3, 3, 0, 3, 3, 2, 3, 0, 0, 3, 3, 1, 1, 0, 2, 0, 3, 0, 1, 2, 3, 1, 2, 0,
+        1, 1, 0, 3, 2, 2, 2, 2, 2, 1, 3, 2, 1, 1, 0, 0, 2, 2])
+Epoch: 650   Train loss: 1.2634481   Test loss: 1.3201221   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3598372781065089   Train_predict: tensor([2, 1, 1, 0, 2, 2, 3, 0, 3, 0, 0, 2, 2, 3, 1, 0, 3, 2, 1, 2, 3, 1, 0, 3,
+        3, 0, 3, 3, 3, 2, 1, 3, 3, 1, 2, 1, 1, 1, 1, 1, 0, 2])   label: tensor([2, 2, 1, 1, 1, 2, 3, 2, 3, 3, 0, 1, 0, 1, 1, 3, 1, 2, 1, 0, 2, 1, 3, 0,
+        3, 0, 3, 0, 3, 0, 0, 3, 1, 1, 0, 1, 0, 1, 2, 0, 0, 0])
+Epoch: 651   Train loss: 1.2910304   Test loss: 1.3178787   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 1, 1, 2, 0, 3, 1, 3, 0, 0, 2, 1, 2, 3, 3, 0, 0, 1, 2, 1, 2, 2, 3, 2,
+        2, 0, 2, 2, 0, 2, 2, 3, 3, 0, 2, 0, 2, 3, 1, 0, 3, 2])   label: tensor([1, 1, 1, 2, 0, 3, 1, 2, 0, 3, 2, 2, 3, 1, 0, 0, 1, 1, 2, 3, 0, 2, 0, 1,
+        1, 0, 0, 2, 2, 0, 0, 1, 3, 3, 0, 0, 1, 2, 3, 2, 3, 1])
+Epoch: 652   Train loss: 1.2899642   Test loss: 1.3186244   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 1, 0, 3, 1, 2, 2, 3, 3, 3, 1, 1, 1, 0, 2, 0, 3, 3, 0, 1, 0, 1, 1, 3,
+        1, 0, 0, 3, 2, 2, 0, 0, 3, 0, 3, 2, 0, 3, 2, 0, 0, 3])   label: tensor([1, 2, 0, 2, 1, 2, 3, 0, 1, 0, 1, 1, 3, 1, 0, 1, 3, 2, 2, 0, 3, 2, 0, 2,
+        1, 1, 2, 2, 2, 1, 3, 1, 3, 0, 0, 2, 0, 2, 0, 1, 2, 3])
+Epoch: 653   Train loss: 1.3423377   Test loss: 1.3184782   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 0, 1, 3, 1, 3, 3, 3, 2, 1, 0, 3, 1, 1, 3, 3, 1, 0, 2, 1, 0, 0, 1, 1,
+        0, 1, 0, 3, 0, 2, 3, 2, 3, 1, 1, 3, 2, 2, 3, 1, 3, 0])   label: tensor([1, 1, 1, 1, 2, 2, 3, 1, 3, 1, 1, 0, 0, 1, 2, 2, 2, 3, 1, 1, 0, 3, 1, 1,
+        3, 3, 3, 0, 3, 3, 0, 0, 3, 0, 1, 1, 2, 2, 3, 1, 0, 0])
+Epoch: 654   Train loss: 1.3418994   Test loss: 1.3196976   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 1, 3, 3, 0, 1, 1, 0, 1, 3, 0, 2, 0, 0, 3, 2, 0, 1, 0, 1, 2, 1, 0, 2,
+        0, 2, 2, 3, 1, 0, 0, 3, 2, 2, 3, 3, 0, 1, 0, 3, 0, 3])   label: tensor([1, 2, 2, 3, 3, 1, 1, 1, 2, 1, 0, 2, 0, 3, 3, 2, 1, 1, 1, 1, 0, 0, 0, 1,
+        3, 3, 2, 1, 1, 0, 3, 3, 1, 0, 3, 2, 2, 3, 1, 1, 1, 1])
+Epoch: 655   Train loss: 1.2292843   Test loss: 1.3176498   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3609467455621302   Train_predict: tensor([2, 0, 1, 0, 0, 1, 2, 1, 1, 2, 0, 0, 1, 1, 1, 3, 3, 0, 0, 2, 3, 1, 0, 3,
+        1, 2, 0, 2, 0, 1, 0, 1, 3, 0, 0, 2, 1, 3, 3, 2, 1, 0])   label: tensor([3, 2, 0, 2, 2, 1, 0, 2, 1, 3, 3, 2, 3, 0, 1, 0, 3, 2, 0, 2, 2, 2, 0, 3,
+        0, 0, 0, 0, 2, 0, 0, 1, 2, 0, 0, 2, 1, 0, 2, 0, 2, 0])
+Epoch: 656   Train loss: 1.2955377   Test loss: 1.3176684   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36427514792899407   Train_predict: tensor([1, 3, 3, 2, 0, 0, 0, 3, 0, 0, 1, 1, 1, 3, 2, 2, 1, 3, 3, 0, 3, 0, 0, 3,
+        2, 0, 2, 0, 0, 0, 1, 2, 2, 1, 2, 0, 2, 3, 0, 0, 0, 3])   label: tensor([2, 1, 3, 2, 2, 0, 3, 2, 2, 1, 2, 0, 3, 3, 2, 3, 3, 3, 1, 2, 2, 0, 2, 3,
+        1, 2, 2, 0, 0, 1, 3, 0, 2, 2, 1, 0, 2, 0, 0, 3, 2, 3])
+Epoch: 657   Train loss: 1.3259964   Test loss: 1.3177328   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 1, 0, 3, 0, 2, 1, 3, 3, 0, 3, 3, 1, 0, 2, 1, 3, 0, 0, 1, 0, 1, 3, 0,
+        3, 3, 1, 2, 2, 1, 1, 0, 0, 3, 2, 1, 1, 3, 3, 1, 0, 1])   label: tensor([1, 0, 3, 2, 2, 2, 2, 3, 2, 0, 1, 2, 0, 2, 1, 1, 3, 2, 0, 3, 2, 1, 0, 3,
+        1, 0, 0, 2, 3, 0, 1, 0, 0, 0, 2, 0, 2, 3, 2, 1, 1, 1])
+Epoch: 658   Train loss: 1.3692589   Test loss: 1.3190179   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 0, 2, 0, 2, 3, 2, 0, 0, 1, 0, 3, 2, 2, 2, 2, 1, 0, 2, 3, 1, 2, 0, 0,
+        1, 0, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0])   label: tensor([1, 0, 2, 0, 3, 1, 1, 1, 2, 3, 2, 1, 0, 1, 2, 3, 3, 3, 3, 2, 0, 3, 3, 0,
+        1, 0, 1, 1, 1, 2, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0])
+Epoch: 659   Train loss: 1.1726332   Test loss: 1.3177385   Train accuracy: 0.5   Test accuracy is: 0.3657544378698225   Train_predict: tensor([0, 2, 3, 1, 0, 3, 0, 0, 2, 1, 1, 0, 0, 1, 3, 0, 0, 3, 2, 2, 1, 1, 1, 0,
+        1, 2, 2, 1, 0, 1, 1, 1, 2, 0, 1, 1, 0, 3, 2, 0, 1, 0])   label: tensor([2, 1, 3, 2, 3, 3, 0, 3, 3, 0, 3, 2, 0, 3, 2, 1, 0, 1, 2, 2, 2, 1, 1, 3,
+        3, 2, 2, 1, 0, 1, 2, 1, 3, 0, 1, 1, 2, 3, 0, 0, 1, 1])
+Epoch: 660   Train loss: 1.3377665   Test loss: 1.319038   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 1, 0, 1, 0, 2, 2, 3, 0, 3, 3, 0, 0, 0, 0, 0, 1, 1, 0, 3, 3, 2, 0, 2,
+        0, 1, 1, 1, 1, 3, 0, 1, 3, 1, 1, 3, 1, 3, 0, 3, 3, 3])   label: tensor([0, 1, 3, 0, 0, 3, 3, 2, 2, 0, 2, 1, 0, 0, 0, 0, 1, 0, 3, 3, 2, 3, 3, 2,
+        2, 3, 1, 2, 2, 2, 2, 3, 1, 2, 3, 0, 1, 1, 2, 2, 3, 2])
+Epoch: 661   Train loss: 1.2784525   Test loss: 1.318781   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3668639053254438   Train_predict: tensor([2, 1, 1, 0, 2, 3, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 0, 3, 1,
+        0, 0, 1, 2, 1, 3, 0, 1, 3, 1, 0, 1, 3, 1, 1, 0, 1, 0])   label: tensor([1, 1, 1, 1, 0, 3, 3, 1, 2, 0, 3, 0, 0, 1, 3, 3, 3, 0, 3, 2, 0, 0, 2, 2,
+        1, 0, 2, 1, 2, 3, 2, 3, 3, 1, 0, 3, 2, 1, 2, 1, 3, 3])
+Epoch: 662   Train loss: 1.3225319   Test loss: 1.3186   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3672337278106509   Train_predict: tensor([1, 3, 2, 0, 1, 3, 3, 2, 1, 3, 3, 0, 1, 2, 2, 3, 3, 2, 2, 3, 2, 2, 1, 3,
+        1, 3, 3, 1, 0, 1, 3, 1, 1, 0, 2, 2, 1, 3, 0, 1, 0, 1])   label: tensor([2, 3, 3, 0, 2, 3, 3, 3, 0, 2, 1, 0, 1, 0, 1, 3, 3, 2, 2, 1, 3, 1, 0, 0,
+        2, 1, 2, 2, 1, 1, 3, 0, 2, 0, 1, 1, 0, 2, 0, 0, 2, 1])
+Epoch: 663   Train loss: 1.1992239   Test loss: 1.3191451   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 3, 0, 2, 2, 3, 3, 0, 0, 1, 3, 2, 1, 1, 0, 1, 1, 1, 1, 0, 3, 1, 0, 0,
+        0, 0, 3, 1, 1, 1, 2, 0, 0, 3, 2, 0, 3, 1, 0, 3, 3, 1])   label: tensor([1, 3, 0, 2, 1, 3, 1, 0, 0, 2, 3, 1, 0, 2, 3, 1, 2, 3, 1, 0, 2, 1, 2, 0,
+        0, 2, 3, 0, 3, 0, 2, 3, 0, 0, 0, 0, 1, 1, 0, 0, 2, 1])
+Epoch: 664   Train loss: 1.3615289   Test loss: 1.3184652   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3672337278106509   Train_predict: tensor([0, 2, 1, 0, 3, 3, 2, 2, 0, 0, 0, 0, 1, 2, 0, 0, 1, 0, 1, 0, 0, 3, 0, 0,
+        1, 0, 3, 2, 3, 1, 1, 3, 3, 0, 0, 3, 3, 0, 3, 0, 0, 0])   label: tensor([1, 1, 3, 2, 3, 3, 2, 0, 0, 2, 2, 2, 1, 2, 3, 0, 2, 0, 1, 0, 0, 2, 3, 0,
+        0, 0, 1, 3, 3, 0, 1, 2, 1, 0, 3, 3, 3, 2, 1, 1, 0, 0])
+Epoch: 665   Train loss: 1.3161477   Test loss: 1.317967   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3661242603550296   Train_predict: tensor([1, 2, 3, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 3, 0, 1, 3, 0, 3, 1, 2, 0,
+        2, 1, 3, 3, 0, 3, 1, 2, 0, 2, 3, 0, 3, 1, 0, 0, 2, 0])   label: tensor([0, 2, 3, 3, 1, 2, 1, 2, 1, 2, 0, 1, 0, 0, 1, 3, 2, 2, 2, 2, 3, 3, 2, 2,
+        1, 1, 0, 2, 0, 2, 1, 3, 2, 1, 3, 1, 3, 1, 2, 0, 0, 1])
+Epoch: 666   Train loss: 1.407274   Test loss: 1.3188237   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36279585798816566   Train_predict: tensor([2, 2, 0, 3, 3, 3, 2, 1, 0, 1, 0, 1, 2, 1, 2, 2, 0, 2, 1, 3, 1, 2, 1, 1,
+        3, 2, 1, 1, 0, 3, 3, 1, 0, 2, 3, 1, 3, 2, 2, 1, 2, 2])   label: tensor([2, 0, 3, 2, 0, 3, 2, 1, 2, 2, 3, 1, 2, 3, 1, 0, 2, 2, 1, 0, 3, 0, 0, 3,
+        2, 2, 2, 0, 0, 3, 3, 1, 0, 2, 1, 2, 3, 0, 0, 3, 3, 3])
+Epoch: 667   Train loss: 1.2970276   Test loss: 1.318039   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36427514792899407   Train_predict: tensor([2, 0, 1, 2, 1, 1, 0, 2, 1, 0, 0, 2, 3, 3, 2, 1, 3, 0, 3, 0, 3, 0, 0, 1,
+        0, 2, 3, 3, 2, 2, 2, 3, 2, 1, 0, 3, 2, 1, 1, 3, 1, 1])   label: tensor([2, 3, 0, 3, 2, 1, 2, 1, 3, 2, 0, 2, 2, 3, 2, 2, 2, 3, 1, 3, 2, 0, 0, 2,
+        3, 2, 1, 3, 2, 3, 2, 0, 2, 3, 0, 0, 1, 3, 1, 1, 2, 1])
+Epoch: 668   Train loss: 1.307628   Test loss: 1.3182814   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3598372781065089   Train_predict: tensor([3, 3, 2, 1, 2, 1, 0, 2, 0, 2, 3, 1, 0, 0, 0, 2, 0, 0, 2, 1, 1, 2, 2, 3,
+        0, 1, 2, 0, 2, 1, 0, 3, 3, 1, 1, 2, 3, 0, 0, 1, 0, 0])   label: tensor([1, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1, 0, 3, 2, 0, 0, 2, 3, 2, 0, 0, 2, 2,
+        1, 2, 2, 0, 3, 0, 3, 3, 3, 0, 2, 3, 3, 0, 0, 1, 0, 1])
+Epoch: 669   Train loss: 1.278013   Test loss: 1.3183135   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3609467455621302   Train_predict: tensor([3, 3, 0, 3, 3, 1, 2, 0, 1, 3, 3, 2, 1, 0, 2, 0, 0, 1, 3, 3, 2, 3, 2, 1,
+        0, 3, 3, 2, 3, 2, 2, 0, 2, 0, 3, 0, 2, 2, 1, 2, 0, 1])   label: tensor([1, 3, 3, 3, 3, 0, 3, 2, 1, 0, 3, 3, 3, 1, 3, 3, 2, 1, 1, 0, 1, 0, 2, 3,
+        0, 3, 3, 1, 1, 1, 3, 3, 3, 1, 1, 0, 3, 0, 3, 0, 0, 0])
+Epoch: 670   Train loss: 1.3568282   Test loss: 1.319685   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3646449704142012   Train_predict: tensor([0, 2, 2, 0, 2, 2, 2, 1, 3, 0, 1, 0, 1, 3, 2, 1, 3, 0, 0, 3, 0, 1, 1, 0,
+        0, 2, 2, 2, 0, 1, 3, 0, 3, 2, 0, 2, 0, 0, 1, 3, 2, 3])   label: tensor([3, 0, 0, 0, 2, 0, 1, 1, 0, 1, 1, 1, 1, 3, 2, 0, 3, 2, 0, 3, 0, 0, 2, 0,
+        3, 1, 0, 0, 1, 0, 3, 0, 2, 3, 2, 0, 1, 3, 1, 3, 3, 0])
+Epoch: 671   Train loss: 1.2169831   Test loss: 1.3183424   Train accuracy: 0.5   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 0, 2, 1, 2, 3, 1, 0, 1, 0, 1, 0, 2, 3, 0, 0, 2, 2, 0, 0, 2, 3, 0, 0,
+        2, 3, 3, 2, 1, 0, 1, 2, 2, 0, 1, 1, 3, 2, 3, 1, 0, 3])   label: tensor([1, 0, 2, 1, 1, 3, 1, 3, 0, 0, 2, 2, 2, 3, 2, 0, 2, 2, 1, 0, 2, 1, 0, 1,
+        2, 3, 0, 1, 3, 0, 0, 1, 1, 2, 2, 1, 0, 3, 3, 1, 0, 2])
+Epoch: 672   Train loss: 1.2332475   Test loss: 1.3176004   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3631656804733728   Train_predict: tensor([1, 2, 3, 2, 0, 0, 2, 3, 2, 3, 1, 3, 0, 1, 3, 0, 1, 1, 0, 3, 2, 3, 3, 0,
+        0, 2, 3, 0, 3, 1, 0, 3, 1, 0, 3, 2, 0, 3, 1, 0, 3, 0])   label: tensor([0, 2, 1, 0, 0, 0, 1, 3, 3, 2, 2, 2, 0, 3, 1, 1, 1, 1, 2, 1, 2, 2, 3, 3,
+        3, 2, 0, 1, 2, 2, 0, 3, 1, 0, 0, 1, 0, 2, 0, 0, 2, 0])
+Epoch: 673   Train loss: 1.2941929   Test loss: 1.3187852   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3598372781065089   Train_predict: tensor([2, 0, 0, 0, 1, 0, 2, 2, 2, 3, 0, 1, 2, 2, 1, 2, 0, 3, 1, 1, 1, 2, 0, 3,
+        3, 1, 1, 0, 3, 3, 1, 3, 0, 1, 3, 3, 3, 3, 3, 0, 2, 1])   label: tensor([0, 2, 3, 3, 1, 0, 2, 1, 1, 1, 0, 3, 1, 2, 0, 0, 3, 0, 1, 1, 2, 3, 3, 3,
+        3, 3, 2, 2, 3, 2, 2, 3, 1, 1, 3, 0, 3, 2, 3, 3, 3, 1])
+Epoch: 674   Train loss: 1.2944906   Test loss: 1.3177538   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3598372781065089   Train_predict: tensor([3, 3, 3, 0, 1, 0, 0, 1, 3, 1, 0, 1, 2, 2, 2, 2, 2, 0, 2, 3, 0, 3, 0, 2,
+        1, 0, 1, 1, 3, 0, 1, 3, 1, 2, 3, 3, 0, 0, 0, 1, 0, 2])   label: tensor([1, 3, 0, 3, 0, 0, 0, 0, 0, 2, 1, 0, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 1,
+        3, 1, 1, 0, 1, 2, 3, 0, 1, 2, 1, 3, 2, 0, 2, 3, 1, 3])
+Epoch: 675   Train loss: 1.3430535   Test loss: 1.3192319   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3646449704142012   Train_predict: tensor([3, 1, 1, 2, 2, 0, 0, 1, 3, 0, 0, 1, 1, 0, 2, 2, 2, 1, 3, 3, 1, 0, 1, 0,
+        1, 3, 2, 0, 0, 0, 2, 0, 0, 0, 3, 1, 2, 0, 0, 1, 1, 0])   label: tensor([2, 1, 3, 1, 1, 0, 3, 3, 3, 2, 2, 1, 1, 2, 1, 3, 2, 3, 3, 0, 1, 1, 1, 2,
+        2, 2, 3, 0, 2, 1, 0, 1, 2, 1, 3, 0, 1, 1, 0, 0, 3, 0])
+Epoch: 676   Train loss: 1.2705692   Test loss: 1.3182052   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 0, 3, 3, 1, 0, 3, 0, 0, 3, 0, 2, 3, 3, 3, 0, 1, 0, 2, 0, 3, 0, 0, 0,
+        2, 1, 3, 0, 2, 3, 0, 0, 1, 2, 0, 1, 3, 3, 1, 1, 3, 3])   label: tensor([1, 0, 3, 0, 3, 2, 3, 2, 1, 0, 2, 2, 3, 3, 1, 0, 3, 1, 3, 0, 0, 0, 1, 0,
+        2, 0, 3, 3, 0, 3, 3, 0, 1, 2, 0, 3, 3, 2, 0, 3, 1, 0])
+Epoch: 677   Train loss: 1.2651402   Test loss: 1.3184578   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([3, 1, 3, 3, 2, 2, 2, 0, 2, 3, 1, 1, 1, 3, 0, 0, 0, 0, 2, 1, 0, 2, 3, 1,
+        2, 1, 0, 2, 3, 0, 3, 0, 0, 0, 3, 3, 1, 1, 1, 3, 0, 3])   label: tensor([3, 2, 1, 3, 2, 2, 1, 3, 0, 3, 1, 0, 2, 3, 2, 0, 2, 1, 2, 1, 2, 1, 0, 2,
+        0, 1, 0, 3, 3, 3, 1, 3, 2, 0, 1, 0, 3, 1, 1, 3, 2, 0])
+Epoch: 678   Train loss: 1.392711   Test loss: 1.3176749   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 0, 0, 1, 3, 0, 3, 1, 1, 0, 0, 0, 1, 2, 3, 1, 0, 0, 1, 0, 2, 1, 2, 2,
+        1, 0, 1, 2, 2, 0, 1, 1, 1, 0, 0, 1, 0, 1, 2, 1, 0, 0])   label: tensor([1, 3, 3, 2, 1, 3, 1, 1, 1, 0, 3, 1, 1, 1, 3, 2, 2, 0, 1, 3, 2, 3, 0, 3,
+        3, 0, 2, 3, 0, 1, 3, 3, 0, 0, 3, 1, 0, 0, 0, 2, 0, 2])
+Epoch: 679   Train loss: 1.3045027   Test loss: 1.3210062   Train accuracy: 0.3333333333333333   Test accuracy is: 0.36020710059171596   Train_predict: tensor([1, 3, 0, 0, 3, 2, 2, 1, 3, 0, 3, 0, 0, 3, 1, 3, 0, 2, 3, 3, 1, 3, 2, 1,
+        2, 0, 0, 2, 3, 3, 1, 2, 1, 3, 3, 0, 2, 0, 0, 3, 1, 0])   label: tensor([1, 1, 0, 1, 3, 3, 0, 1, 3, 1, 2, 3, 3, 2, 1, 3, 1, 0, 2, 1, 2, 2, 1, 1,
+        1, 2, 3, 2, 1, 3, 0, 2, 3, 0, 2, 0, 3, 0, 2, 3, 0, 2])
+Epoch: 680   Train loss: 1.3244491   Test loss: 1.3198733   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 0, 3, 1, 2, 3, 3, 1, 2, 1, 2, 0, 3, 3, 2, 1, 0, 0, 3, 3, 3, 0, 0, 0,
+        2, 1, 1, 0, 1, 0, 1, 3, 0, 3, 0, 1, 2, 3, 0, 2, 2, 1])   label: tensor([2, 2, 2, 3, 2, 2, 0, 1, 2, 1, 1, 1, 0, 0, 2, 1, 2, 0, 3, 2, 1, 3, 1, 3,
+        2, 3, 2, 2, 0, 0, 3, 1, 3, 3, 3, 1, 3, 1, 0, 1, 3, 1])
+Epoch: 681   Train loss: 1.2083433   Test loss: 1.3197626   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3609467455621302   Train_predict: tensor([3, 1, 2, 2, 1, 3, 3, 0, 2, 0, 0, 3, 1, 0, 0, 2, 0, 1, 1, 0, 0, 2, 0, 1,
+        3, 3, 3, 1, 0, 1, 3, 2, 0, 2, 0, 3, 0, 1, 0, 0, 1, 2])   label: tensor([2, 1, 2, 3, 2, 3, 0, 0, 3, 0, 0, 1, 3, 3, 3, 1, 2, 1, 0, 1, 0, 3, 2, 1,
+        0, 3, 3, 3, 0, 1, 2, 2, 3, 1, 2, 2, 1, 1, 0, 0, 1, 3])
+Epoch: 682   Train loss: 1.3265864   Test loss: 1.3193601   Train accuracy: 0.35714285714285715   Test accuracy is: 0.35909763313609466   Train_predict: tensor([0, 0, 3, 2, 0, 0, 2, 0, 3, 3, 0, 0, 0, 0, 2, 1, 1, 0, 2, 2, 1, 2, 1, 1,
+        1, 3, 2, 1, 1, 3, 3, 1, 3, 3, 1, 3, 1, 1, 0, 2, 3, 1])   label: tensor([3, 3, 3, 2, 0, 0, 0, 2, 3, 0, 1, 3, 1, 2, 2, 2, 3, 0, 1, 1, 2, 2, 0, 1,
+        2, 2, 0, 2, 2, 3, 3, 2, 3, 2, 1, 0, 2, 3, 0, 1, 2, 1])
+Epoch: 683   Train loss: 1.3651011   Test loss: 1.3190343   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 0, 3, 0, 2, 3, 0, 0, 2, 2, 1, 0, 3, 3, 3, 0, 3, 0, 1, 3, 3, 0, 2, 1,
+        0, 3, 0, 0, 0, 3, 0, 2, 1, 0, 3, 3, 0, 3, 0, 2, 3, 0])   label: tensor([2, 2, 1, 2, 0, 3, 3, 1, 1, 3, 1, 2, 0, 3, 0, 3, 1, 2, 3, 0, 0, 3, 2, 0,
+        0, 2, 0, 3, 3, 3, 3, 1, 0, 0, 1, 1, 0, 3, 0, 2, 3, 2])
+Epoch: 684   Train loss: 1.3034593   Test loss: 1.3200957   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3635355029585799   Train_predict: tensor([2, 3, 2, 1, 2, 0, 0, 0, 1, 0, 3, 0, 1, 0, 3, 3, 3, 3, 2, 2, 3, 0, 1, 3,
+        3, 2, 0, 1, 0, 1, 2, 3, 2, 0, 0, 3, 1, 3, 1, 0, 0, 1])   label: tensor([0, 2, 2, 1, 1, 1, 3, 0, 0, 0, 0, 1, 2, 2, 3, 3, 3, 2, 1, 2, 1, 0, 1, 2,
+        2, 2, 3, 1, 0, 2, 1, 3, 3, 0, 2, 2, 2, 2, 1, 1, 0, 2])
+Epoch: 685   Train loss: 1.2025852   Test loss: 1.317358   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 1, 3, 2, 2, 0, 3, 0, 3, 0, 2, 2, 2, 1, 1, 0, 1, 3, 0, 1, 2, 0, 1, 3,
+        1, 1, 1, 1, 3, 1, 2, 1, 0, 3, 1, 2, 2, 2, 2, 3, 3, 2])   label: tensor([1, 3, 0, 2, 1, 3, 0, 2, 0, 0, 2, 3, 2, 2, 3, 3, 0, 3, 0, 0, 2, 0, 1, 0,
+        1, 3, 1, 2, 3, 3, 2, 0, 0, 3, 1, 0, 1, 2, 0, 1, 1, 1])
+Epoch: 686   Train loss: 1.2720468   Test loss: 1.318198   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3646449704142012   Train_predict: tensor([1, 3, 3, 2, 2, 1, 1, 2, 0, 3, 1, 2, 0, 0, 1, 3, 1, 0, 0, 2, 0, 0, 0, 3,
+        1, 2, 3, 3, 3, 0, 2, 1, 0, 2, 0, 3, 1, 0, 3, 0, 1, 3])   label: tensor([2, 1, 1, 2, 2, 1, 2, 2, 0, 2, 1, 2, 0, 0, 2, 2, 3, 1, 3, 1, 0, 0, 0, 0,
+        2, 1, 3, 1, 0, 1, 3, 3, 0, 0, 1, 3, 1, 0, 3, 1, 2, 3])
+Epoch: 687   Train loss: 1.2446054   Test loss: 1.3198168   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3646449704142012   Train_predict: tensor([1, 2, 0, 3, 1, 1, 3, 3, 3, 2, 3, 2, 2, 0, 3, 3, 3, 0, 3, 0, 1, 1, 0, 1,
+        1, 1, 3, 3, 2, 0, 3, 1, 0, 0, 2, 1, 0, 3, 0, 0, 2, 2])   label: tensor([1, 3, 0, 3, 1, 1, 0, 2, 0, 2, 3, 3, 0, 0, 3, 2, 1, 1, 1, 0, 1, 3, 2, 2,
+        1, 1, 3, 3, 3, 0, 3, 1, 1, 3, 1, 3, 1, 2, 2, 2, 3, 2])
+Epoch: 688   Train loss: 1.2642719   Test loss: 1.3190353   Train accuracy: 0.4523809523809524   Test accuracy is: 0.371301775147929   Train_predict: tensor([1, 1, 1, 3, 1, 2, 3, 1, 3, 0, 1, 0, 2, 2, 3, 2, 1, 0, 3, 0, 1, 3, 1, 1,
+        0, 3, 1, 1, 1, 3, 3, 2, 0, 0, 3, 3, 1, 3, 1, 0, 3, 1])   label: tensor([3, 3, 1, 2, 1, 1, 3, 1, 3, 2, 0, 3, 1, 1, 2, 2, 1, 0, 3, 0, 3, 1, 2, 0,
+        3, 1, 0, 3, 1, 3, 1, 2, 0, 2, 3, 0, 1, 2, 1, 0, 1, 1])
+Epoch: 689   Train loss: 1.3564254   Test loss: 1.3206785   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3568786982248521   Train_predict: tensor([1, 0, 0, 0, 0, 3, 3, 3, 1, 1, 1, 0, 0, 2, 1, 3, 3, 3, 1, 1, 2, 1, 2, 3,
+        2, 0, 1, 2, 3, 1, 2, 2, 1, 0, 3, 3, 1, 3, 1, 0, 3, 1])   label: tensor([0, 0, 3, 1, 0, 0, 1, 2, 1, 1, 2, 3, 1, 0, 1, 3, 2, 3, 1, 1, 2, 3, 0, 3,
+        0, 0, 0, 3, 3, 0, 2, 0, 1, 0, 2, 3, 3, 2, 1, 1, 3, 0])
+Epoch: 690   Train loss: 1.348498   Test loss: 1.3192525   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3672337278106509   Train_predict: tensor([2, 3, 2, 1, 0, 1, 0, 3, 2, 3, 2, 0, 0, 0, 0, 2, 1, 0, 3, 3, 3, 3, 0, 0,
+        2, 0, 1, 3, 3, 3, 0, 0, 2, 0, 2, 0, 2, 0, 0, 3, 3, 2])   label: tensor([2, 1, 2, 0, 0, 2, 0, 1, 0, 2, 3, 0, 3, 1, 3, 0, 0, 0, 3, 2, 2, 3, 0, 1,
+        2, 3, 1, 3, 0, 0, 3, 1, 1, 0, 3, 3, 1, 3, 1, 2, 3, 1])
+Epoch: 691   Train loss: 1.2511009   Test loss: 1.3186353   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 2, 3, 1, 3, 3, 3, 0, 1, 0, 1, 2, 0, 0, 2, 2, 1, 1, 0, 2, 0, 1, 1, 2,
+        0, 1, 0, 0, 3, 0, 2, 0, 2, 0, 1, 2, 1, 0, 3, 3, 1, 3])   label: tensor([2, 2, 2, 1, 0, 3, 3, 0, 3, 0, 0, 2, 0, 3, 1, 1, 3, 3, 1, 2, 1, 3, 1, 2,
+        0, 0, 1, 3, 0, 0, 1, 2, 2, 1, 1, 2, 1, 2, 1, 3, 3, 1])
+Epoch: 692   Train loss: 1.455558   Test loss: 1.3182297   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3646449704142012   Train_predict: tensor([3, 0, 1, 0, 0, 3, 1, 3, 3, 0, 1, 1, 3, 0, 3, 3, 2, 3, 3, 3, 2, 0, 2, 2,
+        3, 0, 3, 2, 1, 1, 3, 0, 1, 3, 3, 0, 1, 1, 2, 0, 0, 2])   label: tensor([2, 0, 0, 2, 0, 2, 0, 0, 2, 3, 2, 2, 3, 0, 1, 1, 2, 0, 3, 2, 0, 0, 0, 3,
+        1, 2, 2, 0, 1, 2, 1, 0, 2, 0, 0, 2, 0, 3, 1, 2, 0, 0])
+Epoch: 693   Train loss: 1.3581553   Test loss: 1.3195403   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3631656804733728   Train_predict: tensor([2, 3, 2, 1, 0, 0, 0, 1, 0, 3, 1, 2, 3, 3, 2, 3, 0, 2, 2, 1, 2, 3, 1, 2,
+        1, 0, 0, 0, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0, 0, 2, 2])   label: tensor([2, 0, 0, 1, 0, 0, 1, 0, 1, 2, 3, 3, 2, 0, 2, 3, 1, 0, 1, 2, 2, 3, 1, 1,
+        1, 3, 0, 1, 3, 2, 1, 2, 0, 3, 1, 0, 2, 0, 3, 1, 1, 0])
+Epoch: 694   Train loss: 1.2337415   Test loss: 1.3192649   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 0, 3, 1, 3, 0, 0, 0, 0, 2, 0, 3, 1, 1, 1, 0, 0, 0, 1, 0, 3, 1, 2, 0,
+        1, 2, 0, 0, 0, 2, 0, 3, 0, 0, 1, 2, 3, 3, 1, 0, 1, 1])   label: tensor([1, 1, 2, 3, 1, 0, 1, 2, 2, 0, 2, 3, 1, 2, 0, 0, 3, 0, 3, 0, 1, 3, 1, 1,
+        1, 2, 2, 0, 1, 2, 0, 3, 0, 2, 0, 0, 3, 3, 2, 0, 3, 2])
+Epoch: 695   Train loss: 1.1753743   Test loss: 1.3179553   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 0, 2, 0, 0, 3, 3, 1, 2, 1, 3, 1, 3, 2, 2, 0, 2, 0, 0, 0, 1, 1, 1, 3,
+        3, 3, 3, 3, 2, 3, 1, 1, 0, 3, 0, 1, 0, 1, 0, 0, 0, 0])   label: tensor([2, 0, 0, 0, 1, 3, 0, 1, 1, 1, 1, 3, 3, 2, 2, 0, 2, 3, 0, 0, 1, 2, 3, 0,
+        3, 3, 2, 3, 2, 1, 3, 1, 3, 3, 3, 1, 3, 2, 0, 0, 1, 2])
+Epoch: 696   Train loss: 1.3051443   Test loss: 1.3169655   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3646449704142012   Train_predict: tensor([1, 3, 0, 2, 3, 1, 0, 2, 0, 2, 1, 3, 3, 0, 2, 2, 2, 3, 1, 1, 1, 2, 0, 3,
+        2, 3, 1, 1, 0, 3, 1, 0, 1, 0, 3, 1, 1, 0, 0, 3, 1, 2])   label: tensor([1, 0, 3, 1, 1, 1, 3, 2, 2, 2, 1, 1, 3, 0, 0, 1, 3, 3, 3, 1, 2, 1, 0, 3,
+        2, 3, 0, 3, 3, 0, 1, 1, 3, 0, 1, 1, 3, 1, 3, 1, 1, 2])
+Epoch: 697   Train loss: 1.2760612   Test loss: 1.3175663   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3646449704142012   Train_predict: tensor([0, 0, 3, 0, 2, 1, 1, 1, 3, 1, 1, 3, 0, 3, 1, 1, 2, 1, 0, 2, 0, 1, 0, 0,
+        1, 0, 1, 2, 2, 3, 0, 2, 2, 3, 1, 1, 2, 3, 1, 2, 0, 0])   label: tensor([0, 1, 3, 1, 1, 1, 1, 2, 0, 1, 2, 1, 0, 3, 0, 2, 0, 3, 0, 2, 0, 0, 1, 2,
+        1, 2, 0, 0, 0, 2, 3, 3, 2, 2, 0, 2, 1, 1, 3, 0, 1, 0])
+Epoch: 698   Train loss: 1.269336   Test loss: 1.3170912   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3646449704142012   Train_predict: tensor([0, 0, 3, 1, 0, 0, 1, 2, 3, 3, 2, 1, 3, 2, 0, 0, 3, 3, 0, 0, 0, 0, 2, 2,
+        1, 1, 3, 0, 3, 0, 2, 2, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0])   label: tensor([0, 1, 3, 1, 0, 2, 3, 2, 2, 3, 2, 1, 2, 2, 3, 1, 1, 1, 3, 3, 0, 3, 1, 1,
+        0, 1, 3, 2, 3, 2, 2, 3, 0, 0, 3, 3, 1, 1, 1, 0, 3, 3])
+Epoch: 699   Train loss: 1.2918018   Test loss: 1.3171097   Train accuracy: 0.40476190476190477   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 2, 3, 3, 0, 1, 2, 1, 3, 2, 1, 3, 2, 1, 0, 1, 3, 1, 2, 2, 0, 3, 1, 3,
+        0, 0, 1, 0, 3, 0, 0, 3, 0, 3, 0, 0, 1, 0, 3, 3, 3, 0])   label: tensor([0, 2, 3, 2, 0, 2, 0, 1, 3, 2, 2, 3, 2, 1, 3, 2, 2, 3, 1, 1, 0, 3, 3, 3,
+        1, 3, 3, 1, 3, 3, 1, 2, 2, 1, 1, 0, 2, 0, 0, 3, 1, 0])
+Epoch: 700   Train loss: 1.2052552   Test loss: 1.3182391   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36279585798816566   Train_predict: tensor([2, 0, 3, 3, 0, 0, 2, 3, 3, 3, 0, 3, 0, 0, 2, 1, 0, 3, 0, 2, 0, 0, 0, 1,
+        0, 0, 2, 2, 3, 1, 0, 0, 3, 0, 2, 3, 3, 3, 0, 0, 0, 3])   label: tensor([2, 0, 1, 0, 2, 3, 2, 0, 0, 3, 0, 1, 2, 1, 1, 1, 3, 3, 0, 1, 0, 0, 0, 1,
+        3, 2, 2, 0, 2, 1, 1, 1, 1, 3, 2, 2, 3, 1, 0, 0, 1, 0])
+Epoch: 701   Train loss: 1.3272368   Test loss: 1.3174865   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3668639053254438   Train_predict: tensor([1, 1, 2, 0, 1, 2, 3, 1, 3, 3, 0, 1, 3, 3, 3, 1, 2, 3, 1, 0, 2, 0, 3, 3,
+        2, 0, 3, 0, 1, 2, 3, 3, 1, 2, 0, 1, 2, 1, 2, 2, 2, 0])   label: tensor([3, 3, 0, 1, 1, 1, 1, 2, 1, 0, 3, 2, 3, 0, 3, 1, 2, 1, 1, 0, 3, 1, 3, 0,
+        2, 0, 0, 0, 0, 0, 3, 3, 3, 0, 3, 1, 3, 2, 2, 3, 1, 0])
+Epoch: 702   Train loss: 1.20853   Test loss: 1.3171809   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3646449704142012   Train_predict: tensor([2, 1, 3, 2, 0, 0, 0, 3, 0, 0, 3, 1, 0, 3, 3, 0, 2, 0, 3, 1, 3, 3, 3, 1,
+        1, 1, 1, 0, 1, 2, 2, 0, 1, 1, 1, 1, 2, 3, 0, 1, 2, 2])   label: tensor([3, 1, 2, 2, 0, 2, 1, 3, 1, 3, 3, 0, 1, 3, 0, 1, 0, 3, 2, 3, 0, 2, 3, 0,
+        2, 1, 1, 3, 3, 2, 3, 1, 1, 1, 1, 2, 2, 1, 0, 1, 3, 2])
+Epoch: 703   Train loss: 1.2355429   Test loss: 1.3197463   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36020710059171596   Train_predict: tensor([1, 0, 2, 3, 1, 0, 1, 0, 1, 2, 2, 0, 2, 0, 0, 3, 0, 2, 0, 1, 0, 0, 0, 3,
+        0, 1, 3, 1, 1, 1, 2, 3, 0, 3, 3, 0, 3, 3, 0, 0, 0, 2])   label: tensor([1, 3, 2, 0, 1, 1, 1, 1, 1, 0, 1, 2, 0, 0, 0, 3, 2, 2, 1, 0, 2, 3, 0, 3,
+        3, 1, 1, 3, 2, 3, 3, 3, 0, 0, 3, 1, 1, 1, 0, 0, 2, 0])
+Epoch: 704   Train loss: 1.3204327   Test loss: 1.3186971   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 2, 1, 1, 2, 2, 1, 0, 2, 0, 3, 1, 1, 1, 3, 3, 3, 1, 0, 1, 1, 1, 1, 3,
+        0, 2, 1, 1, 3, 3, 0, 1, 2, 0, 1, 0, 0, 2, 1, 1, 0, 0])   label: tensor([1, 2, 1, 3, 3, 0, 1, 0, 0, 1, 2, 3, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0,
+        3, 1, 2, 1, 1, 0, 1, 1, 2, 0, 0, 2, 2, 2, 2, 1, 0, 2])
+Epoch: 705   Train loss: 1.3019625   Test loss: 1.3178326   Train accuracy: 0.3333333333333333   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 1, 1, 2, 0, 3, 0, 1, 3, 1, 3, 3, 2, 3, 3, 1, 0, 0, 3, 3, 3, 0, 0, 3,
+        3, 0, 1, 2, 1, 1, 3, 3, 3, 0, 3, 0, 1, 1, 1, 0, 3, 0])   label: tensor([1, 0, 1, 0, 0, 3, 0, 2, 2, 2, 3, 2, 3, 0, 3, 2, 0, 2, 2, 2, 3, 2, 1, 2,
+        0, 2, 2, 2, 0, 3, 2, 1, 3, 0, 2, 1, 1, 1, 2, 1, 3, 3])
+Epoch: 706   Train loss: 1.2467539   Test loss: 1.3175052   Train accuracy: 0.5   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 3, 0, 2, 0, 2, 0, 0, 0, 3, 0, 0, 1, 1, 2, 0, 0, 3, 3, 1, 3, 1, 0, 2,
+        0, 1, 0, 1, 2, 1, 0, 2, 3, 3, 1, 2, 3, 0, 1, 0, 1, 3])   label: tensor([0, 3, 0, 2, 2, 2, 0, 1, 0, 3, 1, 1, 1, 2, 3, 2, 2, 0, 3, 1, 3, 1, 2, 0,
+        0, 2, 1, 2, 2, 3, 2, 2, 0, 1, 2, 2, 3, 3, 1, 0, 1, 1])
+Epoch: 707   Train loss: 1.2957978   Test loss: 1.3198047   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3635355029585799   Train_predict: tensor([0, 2, 3, 3, 3, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 3, 3, 0, 3, 1, 0, 2, 2, 1,
+        2, 3, 3, 2, 2, 1, 0, 0, 1, 1, 2, 3, 0, 2, 0, 2, 1, 3])   label: tensor([1, 2, 0, 0, 1, 0, 0, 2, 1, 2, 0, 0, 1, 3, 2, 1, 3, 0, 1, 0, 0, 2, 3, 1,
+        1, 3, 1, 1, 2, 1, 1, 1, 3, 1, 1, 3, 0, 1, 1, 2, 0, 1])
+Epoch: 708   Train loss: 1.3150709   Test loss: 1.318763   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 1, 3, 0, 3, 2, 0, 1, 2, 0, 1, 2, 3, 0, 0, 3, 0, 0, 1, 0, 2, 0, 0, 0,
+        1, 0, 2, 3, 2, 2, 1, 1, 3, 0, 1, 2, 1, 2, 1, 2, 1, 0])   label: tensor([3, 3, 3, 3, 3, 3, 3, 1, 3, 2, 3, 2, 0, 2, 1, 2, 0, 0, 0, 0, 2, 0, 0, 1,
+        2, 0, 0, 3, 0, 1, 1, 1, 3, 0, 2, 0, 3, 2, 1, 3, 3, 3])
+Epoch: 709   Train loss: 1.4010936   Test loss: 1.317463   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 0, 1, 2, 1, 3, 2, 0, 3, 2, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 2, 3, 1, 3,
+        0, 1, 1, 0, 3, 3, 2, 0, 1, 2, 2, 2, 2, 0, 0, 2, 1, 0])   label: tensor([1, 1, 1, 3, 1, 1, 0, 1, 3, 2, 1, 3, 3, 3, 1, 3, 2, 1, 2, 1, 1, 1, 2, 2,
+        1, 3, 3, 0, 2, 3, 0, 3, 0, 1, 3, 2, 1, 0, 0, 2, 2, 1])
+Epoch: 710   Train loss: 1.4958274   Test loss: 1.3184373   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 3, 0, 1, 0, 0, 0, 2, 0, 2, 0, 2, 3, 3, 3, 2, 3, 2, 3, 2, 0, 3, 1, 2,
+        3, 0, 0, 1, 0, 0, 1, 2, 2, 0, 0, 0, 2, 2, 0, 1, 3, 1])   label: tensor([3, 3, 2, 2, 3, 2, 3, 0, 2, 1, 0, 1, 1, 2, 1, 0, 1, 0, 1, 1, 3, 2, 1, 2,
+        3, 3, 2, 0, 0, 1, 3, 3, 0, 2, 3, 0, 2, 0, 1, 2, 2, 2])
+Epoch: 711   Train loss: 1.228242   Test loss: 1.3174986   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36538461538461536   Train_predict: tensor([0, 3, 2, 1, 1, 1, 3, 3, 3, 1, 1, 0, 0, 2, 2, 0, 1, 0, 3, 1, 0, 3, 1, 2,
+        2, 3, 0, 3, 2, 0, 2, 0, 2, 0, 3, 2, 0, 0, 3, 3, 0, 2])   label: tensor([2, 1, 1, 1, 1, 3, 1, 3, 3, 0, 1, 0, 0, 1, 2, 3, 2, 0, 2, 3, 2, 1, 3, 0,
+        1, 3, 0, 2, 2, 0, 2, 3, 0, 2, 2, 0, 2, 3, 1, 1, 2, 2])
+Epoch: 712   Train loss: 1.2617081   Test loss: 1.3183517   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3661242603550296   Train_predict: tensor([0, 2, 2, 1, 0, 0, 3, 2, 3, 0, 0, 3, 1, 1, 3, 2, 2, 0, 3, 1, 2, 1, 3, 1,
+        2, 0, 0, 1, 1, 2, 0, 2, 3, 3, 0, 1, 0, 3, 1, 1, 0, 2])   label: tensor([0, 2, 3, 1, 3, 1, 1, 0, 2, 0, 3, 1, 1, 1, 3, 1, 2, 0, 1, 1, 2, 0, 3, 0,
+        2, 2, 0, 3, 2, 1, 2, 2, 2, 3, 0, 1, 0, 2, 3, 3, 1, 0])
+Epoch: 713   Train loss: 1.3916408   Test loss: 1.3179373   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 1, 2, 3, 1, 0, 2, 3, 2, 3, 0, 0, 3, 1, 2, 2, 0, 1, 3, 3, 3, 1, 3, 3,
+        3, 0, 1, 2, 1, 3, 1, 3, 2, 1, 0, 0, 1, 0, 0, 1, 1, 1])   label: tensor([1, 3, 1, 3, 1, 2, 0, 1, 0, 1, 0, 0, 2, 0, 0, 2, 3, 1, 3, 3, 1, 3, 0, 2,
+        2, 1, 3, 3, 2, 3, 0, 1, 3, 3, 2, 2, 2, 2, 1, 3, 1, 2])
+Epoch: 714   Train loss: 1.3311774   Test loss: 1.3202862   Train accuracy: 0.40476190476190477   Test accuracy is: 0.367603550295858   Train_predict: tensor([1, 1, 0, 0, 2, 0, 2, 2, 1, 2, 3, 1, 3, 0, 0, 2, 1, 3, 3, 2, 3, 0, 3, 1,
+        0, 1, 0, 1, 1, 1, 3, 1, 3, 1, 1, 3, 1, 1, 2, 1, 0, 2])   label: tensor([0, 1, 0, 3, 3, 0, 2, 3, 1, 2, 3, 1, 2, 3, 3, 1, 1, 1, 2, 1, 2, 1, 1, 1,
+        0, 2, 0, 1, 2, 0, 2, 0, 3, 2, 1, 0, 1, 3, 3, 1, 3, 0])
+Epoch: 715   Train loss: 1.2529997   Test loss: 1.31988   Train accuracy: 0.3333333333333333   Test accuracy is: 0.36168639053254437   Train_predict: tensor([0, 1, 0, 0, 1, 0, 3, 3, 3, 2, 3, 0, 3, 0, 3, 3, 3, 1, 1, 1, 0, 0, 3, 3,
+        3, 0, 2, 1, 3, 0, 0, 1, 1, 1, 3, 0, 0, 0, 3, 0, 3, 1])   label: tensor([0, 0, 3, 2, 1, 0, 3, 1, 3, 1, 1, 0, 2, 1, 2, 2, 2, 3, 1, 1, 0, 0, 0, 2,
+        3, 3, 3, 2, 1, 1, 0, 0, 1, 0, 1, 2, 0, 3, 1, 1, 0, 2])
+Epoch: 716   Train loss: 1.2987112   Test loss: 1.3183022   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 0, 1, 3, 2, 1, 0, 2, 0, 3, 1, 2, 3, 1, 0, 1, 3, 0, 2, 1, 0, 0, 3, 3,
+        0, 2, 0, 2, 3, 1, 1, 0, 3, 3, 0, 3, 0, 0, 0, 2, 1, 2])   label: tensor([2, 2, 1, 0, 2, 2, 0, 0, 0, 2, 3, 0, 3, 3, 0, 2, 0, 1, 2, 0, 0, 2, 1, 0,
+        2, 0, 0, 0, 3, 3, 2, 3, 3, 2, 0, 3, 0, 0, 0, 3, 1, 0])
+Epoch: 717   Train loss: 1.2802454   Test loss: 1.3184227   Train accuracy: 0.42857142857142855   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 3, 0, 3, 2, 2, 3, 0, 0, 3, 2, 1, 2, 3, 0, 3, 1, 3, 3, 1, 3, 2, 2, 1,
+        1, 0, 3, 2, 0, 1, 0, 2, 0, 1, 3, 3, 3, 3, 1, 0, 3, 0])   label: tensor([1, 3, 3, 0, 1, 0, 3, 3, 0, 3, 2, 1, 2, 3, 0, 2, 0, 1, 3, 2, 3, 2, 2, 0,
+        1, 1, 2, 0, 3, 2, 0, 2, 1, 1, 0, 0, 2, 3, 3, 1, 1, 3])
+Epoch: 718   Train loss: 1.3467184   Test loss: 1.3181232   Train accuracy: 0.2619047619047619   Test accuracy is: 0.36279585798816566   Train_predict: tensor([2, 2, 3, 1, 1, 3, 1, 2, 1, 3, 0, 1, 1, 3, 1, 2, 0, 2, 3, 3, 1, 0, 1, 3,
+        1, 0, 1, 3, 3, 2, 1, 3, 1, 3, 2, 2, 1, 3, 3, 1, 3, 0])   label: tensor([0, 1, 1, 1, 0, 2, 2, 3, 3, 3, 2, 1, 1, 3, 2, 2, 2, 3, 2, 2, 1, 3, 0, 0,
+        1, 2, 1, 1, 3, 2, 2, 1, 3, 2, 3, 0, 2, 2, 2, 2, 2, 3])
+Epoch: 719   Train loss: 1.408484   Test loss: 1.3191154   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3668639053254438   Train_predict: tensor([2, 3, 1, 2, 1, 3, 2, 0, 2, 2, 0, 0, 0, 0, 0, 3, 3, 0, 1, 2, 2, 1, 1, 3,
+        0, 3, 1, 3, 2, 0, 3, 1, 0, 0, 1, 3, 0, 1, 1, 0, 2, 3])   label: tensor([0, 0, 1, 1, 1, 2, 0, 0, 3, 1, 3, 0, 0, 1, 2, 2, 3, 1, 1, 0, 3, 0, 3, 2,
+        1, 2, 2, 2, 2, 3, 3, 1, 2, 0, 2, 3, 3, 3, 1, 2, 0, 0])
+Epoch: 720   Train loss: 1.2269427   Test loss: 1.3179567   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3598372781065089   Train_predict: tensor([1, 2, 1, 1, 2, 2, 3, 1, 0, 0, 0, 2, 3, 3, 2, 1, 2, 3, 3, 3, 2, 0, 1, 1,
+        3, 0, 0, 3, 3, 2, 2, 1, 3, 0, 2, 3, 1, 3, 3, 0, 2, 1])   label: tensor([2, 3, 1, 2, 2, 2, 1, 3, 0, 0, 0, 2, 3, 3, 2, 3, 1, 3, 2, 3, 1, 2, 0, 1,
+        1, 3, 0, 3, 1, 0, 2, 2, 2, 0, 2, 0, 1, 2, 2, 2, 1, 1])
+Epoch: 721   Train loss: 1.3101732   Test loss: 1.3195688   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3605769230769231   Train_predict: tensor([0, 1, 0, 3, 1, 0, 2, 2, 0, 0, 2, 2, 0, 3, 0, 1, 3, 0, 0, 2, 3, 3, 0, 2,
+        2, 3, 2, 1, 1, 2, 3, 2, 2, 3, 1, 0, 1, 0, 3, 1, 1, 2])   label: tensor([2, 1, 3, 3, 2, 2, 2, 2, 0, 0, 3, 3, 1, 3, 0, 2, 3, 1, 1, 2, 3, 2, 2, 3,
+        0, 0, 0, 0, 1, 3, 3, 0, 1, 0, 3, 0, 1, 0, 0, 2, 2, 2])
+Epoch: 722   Train loss: 1.3042727   Test loss: 1.3193439   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([2, 3, 1, 3, 1, 2, 2, 3, 1, 1, 0, 1, 0, 3, 3, 1, 1, 0, 3, 0, 0, 2, 1, 2,
+        3, 3, 0, 3, 3, 0, 3, 2, 2, 3, 0, 0, 0, 2, 1, 2, 2, 3])   label: tensor([0, 2, 3, 3, 2, 1, 2, 0, 1, 1, 2, 3, 0, 2, 1, 1, 3, 0, 1, 1, 0, 1, 1, 2,
+        2, 3, 1, 3, 0, 0, 0, 2, 3, 3, 0, 3, 2, 0, 2, 3, 0, 0])
+Epoch: 723   Train loss: 1.3200377   Test loss: 1.3182689   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36427514792899407   Train_predict: tensor([1, 0, 1, 0, 1, 0, 3, 2, 2, 1, 2, 2, 0, 1, 3, 1, 2, 2, 1, 2, 3, 0, 0, 1,
+        3, 2, 3, 1, 3, 2, 0, 3, 0, 1, 1, 1, 1, 3, 2, 0, 1, 1])   label: tensor([2, 2, 1, 0, 2, 3, 3, 0, 2, 1, 3, 2, 1, 1, 0, 3, 2, 3, 1, 3, 2, 3, 0, 2,
+        3, 0, 3, 3, 0, 3, 0, 3, 1, 1, 0, 1, 1, 1, 3, 3, 3, 1])
+Epoch: 724   Train loss: 1.418484   Test loss: 1.3176216   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3672337278106509   Train_predict: tensor([0, 3, 1, 3, 2, 0, 1, 3, 2, 2, 2, 1, 1, 0, 2, 3, 2, 0, 1, 3, 2, 2, 2, 1,
+        1, 2, 3, 3, 1, 2, 1, 0, 2, 0, 2, 0, 0, 2, 1, 0, 1, 1])   label: tensor([0, 0, 0, 0, 3, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 2, 2, 1, 3, 3, 2, 3, 3,
+        1, 2, 3, 0, 3, 0, 2, 0, 0, 3, 2, 3, 0, 3, 0, 2, 0, 0])
+Epoch: 725   Train loss: 1.2299417   Test loss: 1.3188585   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3620562130177515   Train_predict: tensor([3, 2, 0, 0, 0, 1, 0, 0, 1, 3, 0, 3, 1, 0, 2, 0, 2, 1, 1, 1, 0, 3, 3, 2,
+        0, 3, 2, 1, 2, 3, 3, 2, 2, 1, 3, 3, 0, 1, 0, 3, 2, 0])   label: tensor([1, 3, 2, 0, 0, 0, 2, 0, 1, 2, 3, 0, 1, 3, 3, 3, 2, 0, 1, 1, 1, 3, 3, 2,
+        2, 1, 1, 1, 0, 3, 2, 2, 2, 0, 1, 1, 1, 0, 2, 3, 2, 1])
+Epoch: 726   Train loss: 1.4149046   Test loss: 1.317098   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3668639053254438   Train_predict: tensor([0, 2, 0, 1, 0, 2, 0, 2, 0, 0, 3, 0, 0, 3, 1, 2, 2, 3, 3, 0, 2, 3, 1, 0,
+        2, 3, 2, 3, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 1, 3, 0, 0])   label: tensor([1, 2, 1, 3, 3, 1, 0, 2, 0, 0, 2, 2, 0, 2, 1, 1, 2, 1, 1, 1, 1, 3, 2, 1,
+        1, 0, 1, 2, 3, 3, 2, 0, 3, 0, 1, 1, 2, 0, 2, 0, 2, 2])
+Epoch: 727   Train loss: 1.1636275   Test loss: 1.3172724   Train accuracy: 0.5714285714285714   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 1, 0, 3, 3, 1, 0, 2, 3, 0, 0, 1, 3, 0, 2, 1, 3, 2, 2, 0, 1, 1, 2, 1,
+        2, 0, 0, 3, 3, 0, 2, 3, 3, 2, 0, 3, 3, 2, 0, 0, 2, 1])   label: tensor([3, 1, 1, 2, 2, 1, 2, 0, 2, 0, 3, 1, 3, 1, 2, 1, 1, 2, 0, 0, 0, 1, 3, 1,
+        2, 0, 3, 3, 3, 0, 2, 1, 3, 3, 0, 0, 3, 2, 0, 0, 1, 1])
+Epoch: 728   Train loss: 1.344172   Test loss: 1.3170224   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3683431952662722   Train_predict: tensor([1, 3, 3, 2, 1, 2, 1, 3, 3, 0, 0, 1, 1, 2, 3, 2, 3, 2, 2, 3, 3, 3, 2, 1,
+        2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 3, 1, 0, 3])   label: tensor([0, 0, 2, 3, 2, 0, 0, 2, 1, 0, 2, 2, 3, 1, 1, 2, 0, 2, 1, 3, 2, 2, 2, 0,
+        3, 3, 1, 0, 1, 3, 3, 1, 1, 1, 0, 3, 2, 1, 3, 1, 3, 0])
+Epoch: 729   Train loss: 1.3231157   Test loss: 1.3178763   Train accuracy: 0.3333333333333333   Test accuracy is: 0.363905325443787   Train_predict: tensor([1, 0, 2, 3, 2, 2, 0, 1, 1, 2, 0, 0, 1, 3, 3, 0, 0, 3, 3, 3, 2, 3, 0, 3,
+        0, 1, 3, 1, 3, 0, 2, 0, 3, 1, 1, 3, 3, 0, 1, 0, 0, 3])   label: tensor([1, 2, 1, 1, 1, 3, 3, 3, 3, 0, 0, 0, 1, 1, 3, 2, 3, 3, 2, 2, 2, 2, 2, 0,
+        0, 1, 3, 0, 1, 1, 3, 3, 1, 1, 1, 1, 3, 1, 3, 1, 1, 3])
+Epoch: 730   Train loss: 1.4079313   Test loss: 1.316949   Train accuracy: 0.16666666666666666   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 0, 0, 1, 0, 0, 3, 0, 0, 3, 1, 2, 1, 0, 2, 0, 1, 0, 3, 0, 2, 0, 3, 1,
+        3, 0, 2, 0, 3, 3, 0, 3, 3, 1, 0, 2, 3, 3, 2, 3, 0, 0])   label: tensor([2, 3, 2, 0, 3, 0, 0, 3, 0, 1, 0, 1, 2, 1, 0, 1, 0, 2, 2, 1, 1, 3, 2, 2,
+        3, 3, 1, 0, 2, 0, 3, 0, 3, 3, 1, 3, 2, 3, 2, 0, 2, 2])
+Epoch: 731   Train loss: 1.2896457   Test loss: 1.31807   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3620562130177515   Train_predict: tensor([3, 3, 1, 0, 3, 0, 3, 3, 1, 2, 2, 2, 0, 3, 1, 0, 3, 0, 2, 1, 3, 0, 3, 2,
+        0, 0, 1, 3, 2, 0, 2, 0, 2, 3, 3, 2, 2, 1, 1, 2, 3, 1])   label: tensor([2, 3, 2, 0, 1, 3, 2, 1, 1, 3, 1, 2, 0, 0, 1, 0, 3, 0, 0, 3, 3, 0, 2, 3,
+        2, 3, 1, 0, 3, 0, 2, 1, 1, 3, 2, 0, 2, 3, 0, 3, 1, 2])
+Epoch: 732   Train loss: 1.352996   Test loss: 1.316549   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3620562130177515   Train_predict: tensor([1, 1, 1, 0, 3, 3, 3, 0, 1, 2, 0, 2, 2, 0, 2, 0, 1, 1, 3, 2, 1, 3, 1, 3,
+        0, 3, 3, 3, 0, 2, 0, 2, 0, 1, 0, 1, 1, 0, 3, 3, 0, 1])   label: tensor([3, 2, 1, 2, 0, 1, 2, 0, 1, 3, 1, 2, 1, 1, 2, 0, 1, 2, 3, 0, 1, 3, 3, 1,
+        1, 1, 2, 0, 1, 3, 0, 0, 2, 2, 0, 0, 1, 0, 3, 3, 1, 2])
+Epoch: 733   Train loss: 1.247278   Test loss: 1.3156817   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3661242603550296   Train_predict: tensor([0, 1, 1, 2, 3, 3, 3, 1, 1, 0, 1, 1, 0, 2, 0, 2, 1, 0, 1, 1, 2, 0, 1, 3,
+        3, 2, 1, 2, 0, 2, 2, 3, 3, 3, 0, 1, 0, 1, 1, 0, 1, 0])   label: tensor([1, 3, 2, 1, 3, 3, 3, 1, 1, 1, 2, 3, 2, 2, 2, 1, 0, 2, 2, 3, 3, 1, 3, 3,
+        0, 0, 1, 2, 0, 0, 0, 3, 1, 2, 1, 1, 0, 1, 1, 0, 1, 0])
+Epoch: 734   Train loss: 1.2551426   Test loss: 1.3168979   Train accuracy: 0.5   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 0, 1, 1, 0, 3, 1, 3, 0, 0, 3, 1, 1, 2, 2, 1, 1, 0, 2, 1, 0, 0, 0, 3,
+        0, 1, 1, 1, 1, 2, 0, 1, 0, 0, 1, 0, 3, 0, 0, 1, 0, 1])   label: tensor([0, 3, 1, 2, 3, 3, 3, 0, 3, 0, 3, 1, 1, 2, 2, 1, 0, 0, 3, 1, 1, 0, 2, 1,
+        2, 1, 2, 3, 1, 2, 2, 1, 0, 3, 0, 0, 3, 3, 2, 2, 3, 1])
+Epoch: 735   Train loss: 1.2996343   Test loss: 1.3197927   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3605769230769231   Train_predict: tensor([3, 2, 1, 3, 0, 1, 0, 3, 0, 3, 0, 2, 0, 0, 2, 3, 1, 1, 1, 3, 1, 3, 0, 3,
+        3, 0, 1, 2, 2, 2, 2, 2, 0, 3, 0, 0, 0, 1, 0, 2, 0, 3])   label: tensor([0, 1, 1, 3, 0, 3, 3, 0, 2, 1, 2, 2, 0, 1, 2, 3, 2, 0, 3, 2, 0, 0, 3, 1,
+        2, 3, 1, 2, 0, 2, 0, 3, 1, 2, 1, 3, 3, 2, 0, 2, 0, 3])
+Epoch: 736   Train loss: 1.3358713   Test loss: 1.3167257   Train accuracy: 0.35714285714285715   Test accuracy is: 0.363905325443787   Train_predict: tensor([1, 2, 1, 3, 1, 0, 3, 0, 0, 0, 3, 1, 1, 1, 3, 2, 0, 0, 0, 3, 1, 1, 0, 1,
+        3, 0, 0, 0, 1, 0, 1, 2, 0, 0, 0, 2, 3, 1, 3, 1, 0, 0])   label: tensor([3, 2, 2, 2, 0, 0, 3, 0, 3, 1, 1, 1, 3, 1, 3, 3, 0, 3, 3, 3, 2, 1, 3, 1,
+        2, 3, 0, 1, 0, 3, 0, 0, 2, 3, 0, 2, 1, 0, 1, 0, 3, 0])
+Epoch: 737   Train loss: 1.3070967   Test loss: 1.3174673   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3661242603550296   Train_predict: tensor([0, 2, 0, 3, 3, 0, 0, 0, 2, 3, 0, 3, 1, 0, 1, 3, 0, 3, 0, 3, 0, 1, 1, 0,
+        2, 3, 3, 2, 3, 0, 3, 3, 1, 0, 1, 3, 0, 1, 1, 3, 2, 1])   label: tensor([1, 2, 1, 3, 1, 1, 0, 3, 0, 2, 0, 0, 2, 2, 3, 0, 1, 0, 0, 3, 0, 0, 1, 1,
+        2, 1, 0, 3, 1, 2, 0, 2, 2, 3, 1, 2, 1, 1, 1, 0, 0, 1])
+Epoch: 738   Train loss: 1.3220067   Test loss: 1.3188485   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 1, 1, 2, 0, 0, 2, 3, 0, 3, 2, 1, 2, 3, 0, 0, 1, 2, 2, 0, 2, 2, 0, 0,
+        3, 0, 0, 2, 1, 0, 1, 2, 3, 1, 0, 3, 0, 0, 2, 3, 0, 1])   label: tensor([0, 2, 0, 0, 3, 2, 1, 3, 0, 2, 0, 1, 0, 3, 0, 0, 3, 2, 1, 2, 3, 2, 2, 2,
+        3, 0, 2, 2, 1, 2, 3, 1, 0, 3, 0, 2, 1, 3, 0, 3, 1, 1])
+Epoch: 739   Train loss: 1.268199   Test loss: 1.3173606   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36427514792899407   Train_predict: tensor([0, 3, 0, 2, 0, 1, 3, 0, 1, 2, 2, 1, 3, 0, 0, 2, 3, 3, 1, 1, 3, 3, 1, 3,
+        2, 2, 0, 3, 0, 1, 3, 3, 0, 1, 0, 1, 3, 1, 2, 2, 0, 2])   label: tensor([1, 3, 0, 2, 3, 1, 1, 0, 0, 1, 2, 3, 3, 0, 1, 2, 0, 1, 1, 2, 3, 3, 3, 0,
+        2, 2, 1, 1, 2, 0, 1, 2, 3, 1, 3, 3, 3, 1, 3, 2, 0, 3])
+Epoch: 740   Train loss: 1.4071329   Test loss: 1.3172491   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3687130177514793   Train_predict: tensor([1, 0, 3, 0, 3, 3, 2, 2, 0, 1, 3, 2, 2, 2, 0, 2, 0, 3, 1, 1, 1, 2, 0, 1,
+        0, 0, 1, 0, 0, 2, 2, 0, 1, 2, 0, 3, 1, 1, 3, 0, 1, 2])   label: tensor([1, 2, 3, 0, 0, 0, 3, 2, 0, 0, 3, 0, 3, 3, 2, 0, 3, 1, 1, 1, 1, 3, 3, 3,
+        1, 2, 2, 3, 0, 2, 3, 0, 3, 0, 2, 1, 3, 3, 2, 0, 0, 3])
+Epoch: 741   Train loss: 1.3448821   Test loss: 1.3168492   Train accuracy: 0.30952380952380953   Test accuracy is: 0.367603550295858   Train_predict: tensor([0, 1, 0, 1, 0, 0, 3, 1, 0, 0, 1, 1, 2, 0, 2, 1, 3, 3, 3, 2, 3, 3, 0, 2,
+        1, 1, 3, 2, 1, 1, 3, 3, 2, 1, 0, 2, 3, 0, 2, 0, 1, 3])   label: tensor([2, 1, 2, 0, 2, 0, 1, 1, 1, 2, 1, 0, 2, 1, 0, 3, 3, 3, 2, 0, 2, 0, 1, 3,
+        0, 3, 3, 1, 1, 1, 1, 2, 3, 1, 0, 0, 0, 2, 2, 2, 0, 1])
+Epoch: 742   Train loss: 1.3070823   Test loss: 1.3165952   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 2, 0, 1, 2, 1, 2, 1, 1, 1, 2, 0, 1, 0, 0, 0, 1, 3, 3, 3, 3, 1, 3, 3,
+        3, 1, 3, 0, 2, 3, 0, 2, 3, 3, 0, 3, 1, 2, 0, 3, 0, 0])   label: tensor([0, 2, 3, 3, 3, 1, 2, 1, 1, 1, 0, 0, 0, 0, 2, 2, 0, 0, 0, 2, 2, 3, 0, 2,
+        2, 3, 2, 3, 3, 3, 2, 3, 2, 3, 0, 2, 2, 2, 0, 1, 0, 1])
+Epoch: 743   Train loss: 1.3707143   Test loss: 1.3175708   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 0, 3, 2, 2, 0, 3, 1, 1, 3, 3, 0, 0, 0, 2, 1, 1, 0, 3, 2, 1, 0, 0, 2,
+        3, 3, 0, 1, 1, 2, 1, 2, 1, 0, 3, 3, 0, 0, 0, 0, 0, 0])   label: tensor([0, 0, 1, 0, 1, 2, 1, 0, 1, 3, 0, 1, 1, 3, 2, 2, 1, 2, 0, 2, 1, 1, 3, 0,
+        0, 3, 2, 1, 3, 0, 0, 2, 1, 2, 2, 0, 3, 0, 1, 0, 0, 1])
+Epoch: 744   Train loss: 1.3082687   Test loss: 1.3162551   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3698224852071006   Train_predict: tensor([3, 3, 3, 0, 2, 2, 1, 1, 2, 3, 1, 3, 1, 3, 0, 1, 3, 0, 3, 2, 3, 2, 0, 1,
+        2, 1, 0, 0, 1, 0, 1, 1, 3, 3, 1, 3, 0, 3, 3, 2, 1, 0])   label: tensor([0, 3, 3, 2, 1, 3, 3, 2, 3, 1, 3, 1, 2, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 3,
+        2, 3, 0, 1, 1, 0, 1, 3, 1, 1, 1, 1, 0, 1, 0, 0, 1, 2])
+Epoch: 745   Train loss: 1.3249003   Test loss: 1.3176963   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 3, 2, 2, 3, 2, 3, 3, 3, 2, 0, 3, 0, 2, 2, 2, 0, 0, 1, 1, 0, 3, 2, 1,
+        0, 0, 2, 2, 0, 3, 1, 0, 0, 0, 0, 2, 2, 0, 0, 1, 2, 3])   label: tensor([1, 1, 0, 2, 1, 2, 3, 3, 2, 2, 1, 3, 3, 2, 1, 1, 2, 1, 2, 1, 1, 3, 2, 2,
+        2, 2, 0, 3, 1, 3, 2, 0, 2, 1, 3, 1, 2, 0, 0, 0, 3, 3])
+Epoch: 746   Train loss: 1.2000276   Test loss: 1.3174043   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 3, 1, 3, 1, 0, 3, 2, 3, 2, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 3, 2, 0,
+        3, 1, 0, 3, 0, 1, 2, 1, 2, 0, 2, 0, 3, 0, 3, 3, 0, 0])   label: tensor([0, 3, 0, 3, 1, 1, 3, 0, 3, 3, 2, 0, 0, 3, 1, 0, 0, 3, 0, 1, 0, 3, 2, 3,
+        3, 2, 2, 3, 2, 1, 2, 1, 3, 0, 3, 1, 2, 1, 3, 1, 2, 1])
+Epoch: 747   Train loss: 1.2562445   Test loss: 1.3171664   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([0, 0, 2, 0, 3, 2, 2, 2, 3, 1, 2, 0, 1, 0, 1, 1, 1, 1, 2, 0, 0, 0, 1, 1,
+        3, 2, 3, 1, 0, 0, 0, 1, 0, 1, 0, 2, 3, 2, 2, 1, 1, 3])   label: tensor([1, 3, 1, 1, 3, 2, 2, 0, 2, 2, 3, 0, 1, 0, 3, 1, 0, 2, 3, 0, 3, 0, 0, 1,
+        0, 2, 3, 3, 0, 1, 2, 2, 3, 2, 2, 0, 2, 2, 0, 1, 2, 3])
+Epoch: 748   Train loss: 1.1359112   Test loss: 1.3153582   Train accuracy: 0.5714285714285714   Test accuracy is: 0.37056213017751477   Train_predict: tensor([3, 3, 1, 3, 3, 0, 3, 3, 0, 2, 0, 0, 0, 3, 0, 3, 3, 1, 1, 1, 2, 0, 3, 3,
+        3, 3, 2, 0, 1, 0, 0, 2, 0, 3, 2, 1, 0, 1, 0, 1, 3, 2])   label: tensor([1, 3, 1, 1, 3, 3, 3, 3, 3, 1, 2, 0, 3, 0, 0, 3, 2, 1, 3, 1, 2, 1, 3, 2,
+        1, 3, 3, 3, 1, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 3, 3, 2])
+Epoch: 749   Train loss: 1.3780248   Test loss: 1.3152305   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3672337278106509   Train_predict: tensor([1, 0, 3, 0, 3, 3, 1, 0, 3, 3, 0, 0, 0, 2, 3, 3, 0, 1, 3, 0, 2, 0, 1, 1,
+        2, 3, 0, 1, 0, 1, 3, 0, 1, 0, 0, 3, 2, 2, 1, 3, 0, 3])   label: tensor([1, 1, 2, 1, 1, 3, 0, 2, 1, 2, 0, 2, 1, 2, 3, 3, 0, 1, 3, 2, 3, 0, 0, 2,
+        3, 2, 2, 1, 2, 2, 3, 0, 0, 0, 3, 3, 0, 2, 2, 3, 0, 3])
+Epoch: 750   Train loss: 1.3113158   Test loss: 1.31745   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 1, 2, 2, 2, 0, 1, 1, 0, 0, 2, 3, 1, 0, 3, 1, 3, 0, 1, 3, 1, 1, 3, 2,
+        0, 3, 1, 0, 3, 3, 0, 0, 2, 0, 0, 2, 2, 1, 1, 3, 2, 3])   label: tensor([3, 0, 2, 1, 3, 2, 3, 2, 3, 2, 2, 2, 2, 3, 2, 1, 2, 3, 2, 3, 2, 3, 2, 2,
+        2, 1, 2, 3, 1, 2, 0, 1, 3, 0, 3, 1, 3, 2, 1, 3, 1, 3])
+Epoch: 751   Train loss: 1.2803538   Test loss: 1.3163335   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3690828402366864   Train_predict: tensor([0, 0, 2, 1, 1, 1, 0, 3, 3, 1, 3, 3, 0, 3, 0, 3, 3, 0, 2, 3, 1, 1, 1, 2,
+        0, 2, 0, 1, 1, 0, 1, 0, 1, 1, 0, 2, 3, 2, 0, 0, 2, 3])   label: tensor([2, 1, 1, 3, 3, 3, 2, 2, 2, 1, 2, 3, 3, 3, 0, 1, 0, 0, 2, 3, 1, 1, 1, 0,
+        2, 0, 2, 0, 3, 0, 1, 2, 1, 0, 0, 2, 0, 2, 2, 2, 2, 3])
+Epoch: 752   Train loss: 1.298112   Test loss: 1.3163697   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3598372781065089   Train_predict: tensor([0, 0, 2, 0, 1, 0, 2, 0, 1, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 0, 2,
+        0, 1, 3, 0, 0, 2, 3, 3, 0, 2, 3, 0, 3, 0, 1, 0, 3, 0])   label: tensor([0, 0, 0, 1, 1, 0, 3, 0, 2, 3, 2, 1, 0, 3, 0, 1, 1, 2, 2, 3, 0, 2, 3, 2,
+        1, 2, 3, 0, 0, 2, 2, 3, 3, 1, 2, 2, 1, 0, 1, 1, 3, 0])
+Epoch: 753   Train loss: 1.4579811   Test loss: 1.3160822   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3690828402366864   Train_predict: tensor([0, 1, 0, 3, 3, 1, 1, 0, 2, 0, 3, 3, 0, 2, 3, 0, 1, 0, 0, 3, 3, 0, 1, 2,
+        3, 3, 3, 0, 2, 0, 1, 1, 3, 2, 2, 3, 1, 1, 2, 1, 2, 0])   label: tensor([3, 0, 1, 1, 0, 1, 3, 3, 3, 0, 2, 1, 2, 0, 1, 1, 0, 3, 3, 0, 1, 0, 0, 2,
+        0, 3, 2, 2, 2, 2, 1, 3, 1, 2, 0, 1, 2, 2, 1, 1, 2, 0])
+Epoch: 754   Train loss: 1.2656819   Test loss: 1.3170649   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3668639053254438   Train_predict: tensor([1, 3, 0, 0, 2, 3, 3, 2, 1, 3, 2, 2, 1, 2, 0, 2, 0, 1, 2, 3, 1, 2, 3, 1,
+        1, 2, 3, 0, 1, 3, 2, 2, 0, 0, 3, 1, 0, 3, 2, 3, 1, 0])   label: tensor([3, 0, 1, 0, 2, 2, 2, 3, 1, 2, 3, 3, 1, 1, 0, 3, 0, 1, 1, 0, 1, 3, 0, 2,
+        1, 0, 0, 2, 3, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 1, 1, 2])
+Epoch: 755   Train loss: 1.416145   Test loss: 1.3173809   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3690828402366864   Train_predict: tensor([3, 0, 0, 0, 0, 2, 1, 2, 2, 2, 1, 2, 3, 2, 1, 2, 2, 3, 3, 3, 1, 3, 3, 3,
+        0, 3, 2, 2, 3, 0, 3, 2, 3, 0, 1, 2, 1, 0, 3, 1, 0, 3])   label: tensor([0, 2, 1, 0, 3, 1, 3, 1, 3, 2, 0, 1, 3, 0, 3, 2, 2, 0, 1, 3, 0, 2, 0, 1,
+        2, 3, 1, 2, 3, 2, 2, 0, 1, 0, 3, 0, 0, 0, 3, 0, 1, 2])
+Epoch: 756   Train loss: 1.3305109   Test loss: 1.3171612   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3694526627218935   Train_predict: tensor([0, 1, 2, 0, 0, 3, 1, 1, 1, 3, 0, 0, 0, 0, 1, 3, 1, 0, 3, 3, 1, 3, 1, 0,
+        3, 1, 3, 3, 1, 1, 1, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 2])   label: tensor([2, 1, 0, 0, 0, 0, 0, 1, 2, 3, 3, 2, 0, 3, 0, 3, 1, 2, 3, 0, 2, 1, 0, 3,
+        1, 3, 1, 2, 1, 2, 2, 2, 0, 3, 1, 0, 1, 0, 0, 3, 2, 3])
+Epoch: 757   Train loss: 1.2559268   Test loss: 1.3185561   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3683431952662722   Train_predict: tensor([3, 0, 2, 3, 0, 2, 0, 1, 0, 1, 2, 1, 2, 3, 1, 1, 1, 0, 1, 3, 0, 3, 1, 1,
+        1, 0, 0, 0, 3, 1, 0, 3, 0, 0, 3, 2, 1, 3, 0, 3, 3, 1])   label: tensor([0, 3, 0, 3, 3, 0, 1, 1, 1, 2, 2, 0, 3, 3, 0, 0, 1, 2, 2, 0, 1, 0, 1, 3,
+        1, 0, 1, 0, 2, 1, 1, 0, 2, 0, 2, 1, 2, 3, 0, 3, 0, 1])
+Epoch: 758   Train loss: 1.271073   Test loss: 1.3161172   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3664940828402367   Train_predict: tensor([2, 0, 3, 2, 1, 1, 0, 2, 1, 3, 2, 0, 0, 0, 1, 3, 3, 0, 3, 0, 1, 3, 1, 2,
+        3, 3, 1, 3, 3, 1, 3, 3, 0, 3, 1, 3, 2, 3, 3, 2, 0, 1])   label: tensor([2, 2, 3, 3, 1, 1, 3, 0, 1, 3, 1, 2, 2, 3, 3, 3, 2, 0, 0, 3, 1, 2, 0, 1,
+        2, 0, 0, 2, 2, 2, 1, 3, 0, 3, 0, 3, 0, 1, 3, 2, 0, 1])
+Epoch: 759   Train loss: 1.3139813   Test loss: 1.3163917   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 2, 0, 0, 1, 1, 0, 2, 0, 1, 3, 0, 0, 0, 3, 1, 2, 3, 0, 3, 1, 1, 1, 3,
+        2, 3, 2, 1, 0, 1, 3, 1, 3, 0, 3, 0, 0, 3, 2, 1, 0, 3])   label: tensor([2, 3, 0, 2, 3, 1, 3, 2, 0, 1, 1, 0, 3, 2, 3, 1, 2, 2, 0, 1, 2, 2, 3, 0,
+        2, 2, 3, 0, 0, 0, 3, 1, 1, 0, 0, 0, 0, 2, 3, 1, 1, 3])
+Epoch: 760   Train loss: 1.3103665   Test loss: 1.3173987   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3605769230769231   Train_predict: tensor([1, 3, 0, 0, 0, 0, 2, 3, 0, 3, 3, 1, 2, 2, 2, 0, 3, 0, 0, 2, 0, 2, 3, 3,
+        1, 3, 3, 3, 1, 0, 2, 1, 1, 1, 2, 2, 2, 1, 1, 3, 0, 1])   label: tensor([2, 2, 1, 0, 1, 3, 0, 3, 1, 2, 2, 3, 0, 2, 1, 2, 2, 3, 3, 0, 2, 2, 2, 0,
+        1, 2, 1, 3, 1, 0, 2, 0, 1, 1, 1, 1, 0, 3, 0, 1, 0, 1])
+Epoch: 761   Train loss: 1.2403883   Test loss: 1.3173885   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3646449704142012   Train_predict: tensor([2, 0, 2, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 3, 1, 2, 2, 2, 2, 2, 1, 0, 1,
+        0, 0, 2, 1, 1, 2, 3, 2, 0, 3, 2, 0, 3, 0, 3, 1, 0, 0])   label: tensor([1, 3, 2, 0, 2, 0, 0, 0, 3, 1, 0, 3, 1, 3, 2, 1, 3, 2, 2, 2, 2, 2, 0, 3,
+        1, 3, 3, 2, 0, 1, 0, 0, 0, 0, 2, 3, 3, 3, 3, 2, 3, 2])
+Epoch: 762   Train loss: 1.1884267   Test loss: 1.317805   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3672337278106509   Train_predict: tensor([0, 0, 1, 2, 3, 3, 1, 0, 3, 1, 3, 0, 0, 1, 0, 2, 2, 3, 1, 3, 1, 2, 0, 0,
+        3, 3, 1, 3, 3, 0, 2, 1, 3, 3, 0, 0, 0, 0, 0, 0, 2, 3])   label: tensor([3, 0, 3, 0, 0, 3, 1, 2, 1, 0, 3, 0, 0, 1, 0, 1, 2, 3, 0, 2, 3, 2, 0, 1,
+        1, 1, 1, 0, 2, 1, 0, 0, 3, 1, 0, 3, 1, 0, 0, 0, 2, 3])
+Epoch: 763   Train loss: 1.2122507   Test loss: 1.3168218   Train accuracy: 0.5   Test accuracy is: 0.3701923076923077   Train_predict: tensor([1, 2, 1, 3, 0, 0, 2, 2, 3, 2, 2, 3, 1, 1, 2, 0, 1, 2, 2, 0, 2, 3, 1, 2,
+        3, 2, 2, 1, 0, 1, 2, 1, 1, 1, 1, 2, 2, 0, 0, 2, 0, 1])   label: tensor([1, 0, 0, 3, 3, 0, 2, 2, 1, 0, 3, 0, 1, 2, 1, 3, 1, 2, 1, 0, 0, 1, 1, 1,
+        3, 0, 2, 1, 0, 1, 0, 2, 2, 1, 1, 1, 2, 0, 2, 2, 2, 1])
+Epoch: 764   Train loss: 1.2500287   Test loss: 1.3171422   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3646449704142012   Train_predict: tensor([2, 2, 0, 2, 0, 0, 0, 1, 2, 1, 2, 1, 3, 0, 2, 2, 0, 2, 3, 3, 3, 0, 0, 0,
+        1, 0, 1, 3, 0, 2, 2, 2, 3, 1, 1, 3, 1, 3, 3, 0, 2, 2])   label: tensor([1, 3, 3, 2, 1, 1, 2, 2, 0, 1, 0, 1, 0, 2, 2, 2, 3, 2, 2, 2, 3, 1, 3, 1,
+        1, 0, 2, 0, 3, 2, 2, 3, 1, 2, 3, 3, 2, 2, 3, 1, 1, 1])
+Epoch: 765   Train loss: 1.4187151   Test loss: 1.3176454   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3709319526627219   Train_predict: tensor([1, 3, 1, 2, 1, 1, 1, 2, 2, 2, 1, 0, 0, 0, 0, 2, 1, 0, 1, 3, 2, 2, 2, 2,
+        3, 3, 3, 3, 2, 2, 0, 0, 1, 3, 1, 2, 3, 1, 3, 0, 1, 2])   label: tensor([3, 2, 1, 3, 3, 2, 3, 3, 3, 1, 2, 2, 0, 0, 1, 2, 3, 2, 2, 0, 3, 2, 2, 3,
+        2, 0, 1, 1, 1, 1, 1, 1, 0, 3, 0, 2, 2, 3, 3, 1, 1, 3])
+Epoch: 766   Train loss: 1.2148201   Test loss: 1.3173525   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3701923076923077   Train_predict: tensor([0, 3, 3, 0, 1, 0, 2, 2, 3, 3, 0, 2, 0, 3, 1, 2, 1, 3, 3, 0, 3, 2, 1, 2,
+        0, 1, 3, 2, 1, 0, 0, 1, 1, 2, 0, 1, 3, 3, 2, 0, 2, 2])   label: tensor([1, 3, 3, 3, 1, 3, 0, 0, 3, 3, 2, 2, 0, 3, 1, 2, 1, 3, 3, 1, 3, 1, 1, 0,
+        2, 1, 1, 0, 3, 3, 0, 1, 1, 3, 3, 2, 2, 2, 1, 3, 3, 2])
+Epoch: 767   Train loss: 1.3351263   Test loss: 1.3160012   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([1, 3, 0, 0, 0, 1, 1, 2, 0, 1, 2, 2, 3, 0, 3, 2, 0, 3, 0, 3, 2, 0, 3, 0,
+        0, 2, 3, 1, 0, 1, 2, 3, 3, 1, 1, 3, 1, 2, 1, 0, 0, 1])   label: tensor([0, 3, 3, 0, 0, 3, 1, 3, 2, 2, 3, 1, 3, 3, 1, 3, 0, 3, 1, 0, 2, 1, 3, 0,
+        0, 2, 3, 2, 0, 0, 0, 1, 3, 2, 2, 2, 1, 1, 2, 3, 3, 0])
+Epoch: 768   Train loss: 1.3552558   Test loss: 1.3159391   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3661242603550296   Train_predict: tensor([2, 3, 2, 1, 2, 0, 1, 2, 0, 1, 0, 0, 1, 0, 2, 0, 0, 2, 1, 1, 2, 1, 0, 2,
+        0, 3, 0, 1, 0, 3, 0, 1, 1, 0, 3, 1, 1, 3, 1, 0, 0, 1])   label: tensor([3, 3, 0, 2, 2, 0, 3, 3, 3, 2, 3, 0, 1, 0, 0, 3, 2, 0, 0, 1, 2, 1, 2, 1,
+        0, 3, 0, 2, 0, 0, 1, 0, 3, 0, 0, 2, 2, 1, 0, 0, 2, 1])
+Epoch: 769   Train loss: 1.2817249   Test loss: 1.3164213   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 1, 1, 2, 1, 2, 2, 1, 0, 3, 0, 2, 1, 0, 1, 3, 3, 2, 1, 3, 3, 3, 0, 3,
+        1, 1, 0, 3, 3, 1, 2, 3, 3, 0, 1, 0, 3, 0, 3, 1, 3, 0])   label: tensor([1, 3, 1, 2, 0, 1, 3, 0, 1, 3, 3, 3, 0, 2, 1, 3, 0, 2, 1, 3, 2, 0, 0, 2,
+        1, 2, 0, 3, 2, 3, 2, 3, 0, 1, 1, 0, 2, 3, 3, 2, 0, 2])
+Epoch: 770   Train loss: 1.2408394   Test loss: 1.3154683   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3727810650887574   Train_predict: tensor([3, 0, 2, 3, 3, 1, 0, 0, 2, 0, 0, 2, 1, 3, 2, 0, 0, 0, 3, 1, 0, 3, 0, 1,
+        1, 3, 1, 3, 3, 0, 3, 0, 2, 0, 0, 1, 1, 0, 1, 0, 3, 0])   label: tensor([1, 1, 3, 2, 0, 0, 0, 2, 3, 0, 0, 3, 2, 3, 2, 0, 0, 0, 3, 1, 0, 0, 0, 0,
+        1, 1, 1, 3, 3, 2, 0, 2, 2, 0, 3, 1, 0, 0, 1, 0, 0, 2])
+Epoch: 771   Train loss: 1.4124548   Test loss: 1.3160242   Train accuracy: 0.23809523809523808   Test accuracy is: 0.36538461538461536   Train_predict: tensor([0, 1, 0, 2, 1, 3, 0, 1, 1, 2, 1, 0, 0, 1, 0, 0, 1, 2, 0, 2, 1, 1, 1, 0,
+        2, 2, 3, 2, 1, 0, 3, 3, 1, 2, 3, 3, 1, 0, 0, 3, 0, 0])   label: tensor([0, 2, 1, 0, 0, 0, 0, 1, 3, 3, 3, 1, 3, 3, 0, 3, 0, 3, 0, 1, 2, 2, 3, 3,
+        1, 1, 2, 2, 0, 2, 2, 1, 1, 3, 0, 1, 0, 1, 0, 3, 2, 0])
+Epoch: 772   Train loss: 1.2352577   Test loss: 1.315268   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3716715976331361   Train_predict: tensor([0, 1, 3, 0, 2, 0, 3, 0, 3, 1, 2, 0, 3, 3, 2, 1, 3, 0, 0, 3, 0, 2, 0, 3,
+        0, 1, 0, 0, 1, 1, 2, 3, 1, 0, 3, 3, 3, 2, 0, 2, 0, 3])   label: tensor([2, 1, 3, 0, 2, 1, 1, 1, 3, 2, 1, 2, 1, 0, 1, 3, 3, 0, 0, 2, 0, 0, 1, 3,
+        1, 1, 3, 0, 2, 3, 0, 0, 1, 0, 0, 3, 3, 3, 3, 0, 2, 2])
+Epoch: 773   Train loss: 1.3131292   Test loss: 1.3168752   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3664940828402367   Train_predict: tensor([3, 0, 0, 3, 1, 3, 0, 0, 1, 3, 3, 3, 3, 1, 0, 3, 1, 0, 1, 1, 2, 1, 0, 0,
+        0, 0, 0, 3, 3, 0, 0, 2, 3, 1, 0, 2, 3, 0, 3, 2, 0, 0])   label: tensor([1, 1, 0, 3, 1, 3, 0, 0, 1, 1, 3, 1, 0, 0, 0, 2, 3, 3, 1, 2, 1, 1, 3, 3,
+        3, 3, 3, 3, 0, 2, 3, 3, 0, 2, 0, 3, 2, 3, 3, 2, 0, 1])
+Epoch: 774   Train loss: 1.2882267   Test loss: 1.3168669   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 3, 3, 3, 0, 3, 1, 0, 0, 1, 3, 1, 3, 2, 2, 1, 3, 2, 0, 0, 3, 0, 0, 3,
+        2, 3, 1, 3, 1, 2, 2, 3, 0, 3, 2, 0, 1, 1, 2, 3, 2, 1])   label: tensor([1, 3, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 2, 1, 0, 0, 3, 2, 1, 3, 0, 0, 3,
+        1, 1, 3, 0, 3, 1, 2, 3, 0, 3, 2, 1, 3, 0, 2, 0, 1, 2])
+Epoch: 775   Train loss: 1.3136051   Test loss: 1.3167094   Train accuracy: 0.3333333333333333   Test accuracy is: 0.36797337278106507   Train_predict: tensor([3, 3, 1, 1, 1, 0, 1, 1, 1, 0, 3, 3, 1, 3, 0, 3, 1, 0, 3, 1, 0, 3, 1, 2,
+        0, 0, 3, 2, 0, 3, 1, 3, 0, 3, 3, 3, 0, 0, 0, 2, 3, 1])   label: tensor([2, 3, 0, 1, 0, 0, 2, 2, 3, 3, 3, 1, 0, 2, 0, 0, 2, 0, 0, 2, 0, 0, 3, 2,
+        1, 0, 2, 2, 2, 3, 3, 3, 0, 0, 1, 3, 3, 1, 1, 0, 0, 3])
+Epoch: 776   Train loss: 1.2969424   Test loss: 1.3174073   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3683431952662722   Train_predict: tensor([2, 1, 2, 1, 0, 0, 3, 1, 3, 1, 0, 2, 0, 3, 2, 2, 3, 0, 1, 1, 3, 2, 2, 0,
+        0, 0, 3, 1, 1, 1, 0, 0, 1, 0, 3, 0, 1, 2, 0, 0, 0, 0])   label: tensor([2, 1, 2, 3, 1, 1, 3, 2, 3, 2, 2, 1, 2, 1, 2, 3, 0, 0, 0, 1, 0, 1, 3, 1,
+        0, 3, 1, 2, 1, 1, 1, 3, 0, 1, 1, 2, 1, 2, 2, 0, 3, 0])
+Epoch: 777   Train loss: 1.2649187   Test loss: 1.3162616   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36168639053254437   Train_predict: tensor([1, 0, 0, 1, 0, 0, 0, 2, 2, 2, 1, 2, 0, 2, 3, 0, 1, 3, 0, 1, 0, 2, 3, 1,
+        1, 1, 1, 0, 3, 2, 0, 3, 0, 1, 2, 0, 1, 2, 2, 1, 3, 2])   label: tensor([1, 2, 2, 2, 3, 0, 0, 2, 2, 2, 2, 2, 0, 1, 3, 0, 0, 2, 1, 0, 0, 1, 1, 1,
+        3, 1, 2, 1, 1, 0, 2, 3, 2, 1, 0, 3, 3, 1, 0, 1, 3, 1])
+Epoch: 778   Train loss: 1.3033105   Test loss: 1.3166456   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3620562130177515   Train_predict: tensor([3, 3, 1, 1, 0, 0, 1, 1, 3, 1, 1, 2, 0, 3, 2, 1, 1, 2, 1, 2, 2, 3, 2, 1,
+        1, 0, 2, 1, 3, 2, 0, 1, 3, 3, 1, 1, 1, 3, 1, 1, 3, 2])   label: tensor([3, 3, 0, 0, 0, 2, 2, 1, 2, 0, 1, 0, 3, 3, 2, 3, 3, 0, 3, 1, 0, 2, 2, 1,
+        1, 0, 0, 2, 2, 1, 0, 2, 3, 2, 3, 2, 2, 3, 1, 1, 2, 0])
+Epoch: 779   Train loss: 1.274462   Test loss: 1.3167042   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36427514792899407   Train_predict: tensor([2, 1, 1, 3, 1, 0, 0, 1, 1, 2, 3, 0, 0, 2, 2, 1, 2, 3, 2, 2, 0, 0, 1, 2,
+        3, 3, 1, 2, 0, 0, 0, 3, 3, 0, 2, 1, 1, 2, 0, 3, 3, 2])   label: tensor([2, 3, 2, 2, 0, 0, 0, 2, 3, 3, 3, 3, 0, 2, 2, 1, 0, 3, 0, 1, 3, 3, 2, 3,
+        0, 1, 1, 2, 2, 2, 0, 3, 3, 0, 2, 1, 1, 0, 1, 2, 1, 2])
+Epoch: 780   Train loss: 1.3793585   Test loss: 1.3181094   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3664940828402367   Train_predict: tensor([1, 3, 0, 3, 0, 0, 1, 0, 2, 0, 0, 2, 3, 3, 0, 1, 0, 1, 3, 2, 0, 0, 2, 0,
+        1, 0, 3, 0, 2, 0, 1, 0, 3, 0, 2, 0, 0, 0, 1, 0, 0, 3])   label: tensor([0, 2, 0, 1, 1, 2, 2, 0, 0, 1, 0, 1, 1, 3, 3, 0, 1, 2, 1, 3, 3, 0, 2, 2,
+        0, 0, 0, 0, 1, 3, 0, 2, 3, 3, 2, 2, 3, 0, 1, 0, 1, 3])
+Epoch: 781   Train loss: 1.2350862   Test loss: 1.3168619   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3646449704142012   Train_predict: tensor([2, 0, 0, 0, 1, 0, 3, 3, 0, 0, 0, 1, 3, 0, 1, 0, 1, 0, 1, 3, 3, 3, 3, 1,
+        2, 3, 2, 1, 0, 2, 2, 1, 2, 2, 0, 3, 0, 0, 2, 0, 2, 0])   label: tensor([2, 0, 2, 2, 0, 3, 3, 2, 2, 1, 1, 1, 1, 3, 1, 1, 3, 1, 3, 3, 2, 2, 1, 3,
+        3, 0, 2, 1, 0, 3, 2, 0, 2, 3, 0, 3, 0, 3, 2, 0, 2, 0])
+Epoch: 782   Train loss: 1.3557696   Test loss: 1.3155367   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3701923076923077   Train_predict: tensor([1, 0, 2, 0, 2, 0, 1, 3, 1, 0, 1, 1, 0, 1, 1, 2, 0, 0, 0, 3, 0, 2, 2, 2,
+        0, 0, 3, 0, 1, 2, 2, 0, 3, 3, 2, 3, 2, 1, 3, 3, 2, 3])   label: tensor([3, 1, 2, 3, 0, 0, 0, 1, 3, 3, 0, 2, 1, 1, 1, 1, 2, 1, 1, 2, 3, 0, 3, 2,
+        1, 0, 2, 0, 2, 2, 2, 2, 1, 1, 2, 0, 3, 2, 2, 3, 0, 2])
+Epoch: 783   Train loss: 1.4337443   Test loss: 1.3150588   Train accuracy: 0.2857142857142857   Test accuracy is: 0.367603550295858   Train_predict: tensor([1, 1, 0, 2, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 2, 0, 3, 0, 1, 0, 0, 3, 1,
+        2, 0, 3, 2, 0, 1, 2, 2, 0, 2, 2, 3, 0, 2, 0, 3, 3, 3])   label: tensor([3, 2, 2, 0, 2, 0, 0, 1, 3, 3, 3, 1, 0, 1, 0, 2, 3, 0, 2, 0, 2, 2, 0, 1,
+        0, 1, 1, 1, 2, 1, 0, 0, 0, 2, 1, 2, 1, 3, 1, 3, 1, 1])
+Epoch: 784   Train loss: 1.3371601   Test loss: 1.3182672   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3698224852071006   Train_predict: tensor([1, 1, 2, 1, 3, 1, 2, 2, 1, 3, 1, 3, 2, 0, 1, 2, 3, 3, 2, 1, 1, 0, 3, 2,
+        2, 2, 3, 0, 0, 0, 1, 3, 3, 3, 2, 3, 0, 3, 3, 1, 2, 0])   label: tensor([1, 2, 0, 2, 1, 1, 1, 1, 0, 3, 1, 2, 1, 1, 2, 0, 0, 3, 1, 2, 1, 1, 3, 2,
+        0, 3, 2, 0, 0, 1, 2, 3, 2, 0, 2, 3, 1, 3, 2, 3, 3, 0])
+Epoch: 785   Train loss: 1.247733   Test loss: 1.3164374   Train accuracy: 0.5   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 2, 3, 1, 0, 2, 3, 0, 1, 0, 2, 0, 3, 0, 3, 2, 2, 0, 0, 3, 3, 1, 1, 3,
+        0, 3, 3, 2, 3, 2, 1, 2, 3, 1, 2, 3, 3, 2, 1, 2, 2, 3])   label: tensor([3, 0, 1, 1, 3, 2, 0, 3, 1, 0, 0, 1, 3, 0, 3, 3, 3, 0, 2, 3, 3, 1, 1, 3,
+        0, 2, 1, 2, 2, 3, 1, 0, 0, 0, 3, 3, 1, 2, 1, 2, 2, 0])
+Epoch: 786   Train loss: 1.2308104   Test loss: 1.3155357   Train accuracy: 0.42857142857142855   Test accuracy is: 0.37056213017751477   Train_predict: tensor([0, 1, 3, 0, 1, 1, 3, 1, 1, 0, 3, 2, 0, 0, 3, 1, 2, 3, 0, 3, 1, 3, 0, 0,
+        3, 2, 0, 3, 1, 2, 1, 2, 1, 2, 0, 2, 2, 2, 0, 3, 1, 2])   label: tensor([0, 3, 3, 0, 0, 1, 3, 1, 3, 0, 3, 0, 2, 1, 2, 0, 1, 3, 0, 3, 3, 3, 0, 1,
+        3, 0, 0, 0, 3, 0, 0, 1, 3, 1, 1, 0, 1, 2, 3, 3, 3, 2])
+Epoch: 787   Train loss: 1.3738143   Test loss: 1.3158509   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 3, 2, 0, 1, 0, 0, 2, 0, 3, 0, 3, 1, 1, 0, 2, 2, 0, 0, 3, 0, 0, 3, 3,
+        1, 0, 2, 2, 1, 2, 2, 1, 0, 2, 0, 2, 1, 1, 1, 1, 2, 2])   label: tensor([2, 0, 0, 3, 1, 0, 1, 0, 0, 0, 1, 2, 2, 3, 1, 1, 2, 0, 0, 0, 0, 3, 1, 3,
+        1, 3, 0, 1, 1, 0, 3, 3, 2, 0, 0, 3, 0, 0, 2, 0, 0, 2])
+Epoch: 788   Train loss: 1.3220645   Test loss: 1.3158958   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3687130177514793   Train_predict: tensor([1, 0, 2, 1, 0, 2, 3, 3, 0, 3, 0, 2, 3, 1, 0, 3, 0, 2, 2, 3, 1, 1, 3, 0,
+        1, 0, 2, 2, 1, 3, 0, 0, 3, 0, 3, 0, 1, 0, 0, 1, 1, 2])   label: tensor([1, 0, 2, 2, 2, 2, 2, 1, 0, 1, 0, 1, 1, 2, 3, 0, 2, 2, 1, 0, 1, 1, 0, 0,
+        1, 1, 0, 2, 0, 0, 3, 3, 3, 2, 3, 0, 3, 2, 2, 2, 1, 2])
+Epoch: 789   Train loss: 1.2848847   Test loss: 1.3151917   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3683431952662722   Train_predict: tensor([0, 2, 3, 0, 0, 3, 2, 2, 3, 2, 0, 2, 3, 1, 3, 1, 1, 1, 3, 3, 0, 3, 1, 1,
+        0, 0, 0, 0, 1, 3, 1, 3, 2, 3, 2, 2, 1, 0, 2, 3, 2, 2])   label: tensor([3, 0, 0, 0, 3, 2, 1, 0, 3, 0, 1, 1, 2, 1, 3, 1, 3, 1, 0, 1, 0, 2, 1, 2,
+        3, 0, 3, 0, 1, 3, 2, 3, 0, 2, 2, 2, 1, 3, 1, 3, 1, 2])
+Epoch: 790   Train loss: 1.2506609   Test loss: 1.3154557   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36168639053254437   Train_predict: tensor([3, 3, 3, 3, 0, 3, 3, 2, 2, 1, 0, 0, 3, 0, 3, 1, 3, 3, 2, 0, 3, 0, 0, 1,
+        2, 3, 1, 2, 1, 2, 2, 1, 3, 0, 2, 1, 1, 0, 0, 3, 1, 2])   label: tensor([3, 3, 1, 2, 2, 3, 3, 1, 3, 1, 2, 3, 3, 0, 0, 2, 1, 3, 1, 2, 1, 1, 2, 0,
+        2, 2, 2, 0, 2, 2, 2, 0, 3, 2, 2, 1, 1, 0, 1, 2, 0, 2])
+Epoch: 791   Train loss: 1.319369   Test loss: 1.315357   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 0, 1, 1, 3, 1, 1, 0, 0, 0, 1, 2, 1, 3, 2, 1, 1, 2, 3, 1, 0, 3, 0, 2,
+        2, 2, 0, 3, 1, 1, 3, 2, 3, 1, 1, 1, 0, 2, 1, 2, 3, 2])   label: tensor([2, 1, 2, 3, 0, 1, 0, 0, 0, 2, 1, 1, 0, 2, 2, 1, 3, 2, 1, 1, 2, 3, 3, 2,
+        3, 2, 0, 0, 2, 1, 1, 3, 3, 1, 2, 3, 3, 2, 2, 1, 3, 2])
+Epoch: 792   Train loss: 1.2539991   Test loss: 1.317477   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 0, 1, 0, 3, 1, 0, 3, 1, 0, 0, 0, 2, 0, 0, 2, 1, 0, 1, 0, 2, 1, 0, 3,
+        1, 3, 1, 1, 0, 3, 1, 0, 3, 0, 3, 0, 0, 2, 1, 0, 0, 1])   label: tensor([0, 0, 1, 3, 2, 1, 2, 1, 2, 3, 2, 3, 0, 0, 1, 2, 0, 0, 1, 0, 1, 0, 0, 2,
+        2, 0, 3, 0, 0, 0, 1, 0, 3, 0, 0, 2, 2, 3, 2, 3, 1, 3])
+Epoch: 793   Train loss: 1.269791   Test loss: 1.3171571   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3657544378698225   Train_predict: tensor([0, 0, 2, 3, 2, 2, 0, 3, 1, 3, 2, 0, 1, 3, 0, 1, 3, 3, 1, 0, 1, 0, 0, 0,
+        0, 0, 3, 2, 2, 3, 3, 2, 2, 3, 3, 2, 2, 0, 1, 1, 1, 3])   label: tensor([0, 1, 3, 0, 0, 3, 0, 2, 2, 0, 1, 1, 1, 3, 0, 2, 3, 0, 1, 2, 1, 3, 0, 0,
+        0, 3, 3, 1, 1, 2, 2, 0, 2, 3, 3, 2, 3, 3, 2, 1, 1, 0])
+Epoch: 794   Train loss: 1.2403159   Test loss: 1.315135   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36797337278106507   Train_predict: tensor([1, 3, 2, 1, 1, 2, 0, 1, 1, 1, 1, 3, 2, 1, 0, 2, 0, 3, 2, 0, 3, 0, 1, 2,
+        0, 2, 0, 0, 1, 0, 2, 3, 1, 1, 1, 3, 3, 1, 0, 2, 2, 2])   label: tensor([2, 0, 1, 2, 0, 0, 2, 0, 1, 0, 1, 3, 3, 1, 0, 2, 0, 2, 2, 0, 3, 0, 3, 1,
+        0, 3, 2, 0, 3, 2, 3, 3, 0, 2, 0, 3, 3, 1, 2, 0, 2, 1])
+Epoch: 795   Train loss: 1.4091015   Test loss: 1.3147708   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 1, 0, 0, 1, 0, 1, 1, 0, 3, 0, 1, 2, 1, 2, 3, 0, 0, 2, 2, 0, 1, 2, 1,
+        1, 2, 0, 2, 2, 0, 3, 1, 1, 2, 1, 0, 0, 2, 1, 0, 0, 3])   label: tensor([3, 2, 1, 2, 3, 0, 1, 1, 1, 3, 0, 2, 2, 0, 1, 2, 0, 3, 2, 1, 3, 1, 0, 1,
+        1, 2, 0, 0, 1, 0, 1, 2, 0, 3, 0, 1, 2, 0, 0, 3, 3, 1])
+Epoch: 796   Train loss: 1.2939872   Test loss: 1.3136631   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3698224852071006   Train_predict: tensor([2, 0, 0, 3, 3, 1, 0, 2, 3, 3, 1, 0, 0, 0, 3, 2, 3, 0, 0, 2, 3, 3, 0, 3,
+        0, 1, 0, 0, 3, 1, 1, 2, 2, 3, 2, 2, 1, 3, 0, 2, 1, 0])   label: tensor([1, 2, 0, 2, 2, 1, 2, 0, 1, 2, 0, 2, 3, 3, 2, 3, 3, 0, 0, 1, 0, 2, 3, 0,
+        2, 3, 1, 3, 2, 3, 2, 0, 2, 3, 0, 2, 1, 3, 0, 2, 0, 0])
+Epoch: 797   Train loss: 1.3594261   Test loss: 1.3158063   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3694526627218935   Train_predict: tensor([0, 3, 3, 3, 3, 2, 1, 3, 1, 1, 0, 1, 0, 0, 2, 2, 1, 0, 3, 3, 3, 1, 0, 2,
+        0, 2, 3, 0, 0, 3, 1, 0, 3, 0, 1, 1, 3, 3, 0, 2, 1, 1])   label: tensor([2, 1, 0, 3, 3, 0, 1, 3, 1, 3, 1, 3, 2, 1, 3, 3, 0, 2, 3, 1, 0, 0, 0, 2,
+        1, 2, 3, 1, 2, 2, 1, 2, 3, 1, 1, 1, 2, 0, 0, 2, 1, 2])
+Epoch: 798   Train loss: 1.301826   Test loss: 1.3156931   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3668639053254438   Train_predict: tensor([1, 2, 0, 0, 0, 1, 0, 3, 3, 3, 3, 0, 3, 1, 0, 2, 3, 0, 3, 3, 2, 0, 0, 0,
+        2, 0, 1, 2, 2, 2, 0, 2, 1, 0, 3, 0, 0, 0, 3, 3, 3, 0])   label: tensor([1, 0, 3, 3, 1, 1, 3, 3, 0, 2, 0, 2, 3, 2, 0, 1, 0, 1, 3, 0, 3, 0, 2, 1,
+        3, 1, 1, 2, 2, 3, 0, 1, 2, 2, 1, 3, 0, 3, 1, 2, 3, 2])
+Epoch: 799   Train loss: 1.3859155   Test loss: 1.3137165   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3768491124260355   Train_predict: tensor([0, 1, 0, 3, 1, 2, 3, 0, 2, 0, 3, 3, 1, 0, 0, 1, 2, 3, 3, 2, 1, 1, 1, 2,
+        3, 0, 3, 1, 1, 0, 0, 0, 2, 2, 1, 2, 1, 3, 0, 3, 0, 1])   label: tensor([0, 2, 3, 3, 3, 0, 3, 3, 2, 2, 1, 3, 1, 1, 1, 3, 2, 2, 1, 2, 1, 2, 3, 3,
+        2, 3, 3, 2, 2, 1, 2, 2, 2, 3, 2, 3, 1, 1, 0, 2, 2, 3])
+Epoch: 800   Train loss: 1.284463   Test loss: 1.3156089   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3701923076923077   Train_predict: tensor([0, 1, 3, 3, 1, 2, 0, 0, 1, 0, 0, 0, 3, 1, 0, 1, 2, 2, 0, 3, 3, 1, 2, 0,
+        2, 3, 0, 1, 1, 3, 2, 2, 1, 3, 1, 2, 3, 3, 2, 1, 0, 2])   label: tensor([0, 3, 3, 3, 1, 0, 1, 0, 1, 0, 1, 0, 3, 1, 1, 3, 3, 0, 1, 0, 0, 0, 0, 2,
+        2, 1, 3, 1, 2, 0, 2, 1, 2, 3, 0, 2, 0, 0, 2, 1, 3, 1])
+Epoch: 801   Train loss: 1.3418204   Test loss: 1.3149863   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3657544378698225   Train_predict: tensor([3, 2, 0, 0, 2, 3, 3, 3, 0, 0, 3, 0, 1, 3, 1, 2, 0, 0, 0, 3, 3, 3, 3, 2,
+        3, 2, 2, 0, 3, 0, 1, 2, 2, 3, 2, 1, 2, 0, 2, 1, 1, 0])   label: tensor([3, 3, 0, 2, 1, 0, 2, 1, 1, 0, 1, 1, 3, 3, 0, 2, 1, 3, 3, 2, 2, 3, 3, 2,
+        1, 2, 2, 0, 2, 0, 0, 1, 3, 3, 2, 2, 3, 1, 3, 1, 1, 3])
+Epoch: 802   Train loss: 1.2896564   Test loss: 1.3165605   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3687130177514793   Train_predict: tensor([0, 1, 2, 0, 0, 2, 1, 0, 1, 0, 0, 2, 1, 1, 1, 2, 2, 2, 3, 1, 0, 3, 2, 1,
+        2, 0, 3, 3, 2, 1, 1, 3, 0, 1, 3, 0, 3, 1, 0, 0, 2, 1])   label: tensor([0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0, 2, 2, 2, 2, 0, 0, 3, 0, 1, 1, 0,
+        0, 3, 2, 3, 2, 1, 1, 3, 0, 0, 3, 2, 3, 1, 2, 0, 1, 0])
+Epoch: 803   Train loss: 1.3334882   Test loss: 1.3145148   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 0, 2, 2, 1, 0, 0, 0, 0, 1, 2, 1, 0, 3, 0, 2, 3, 1, 2, 3, 2, 1, 1, 1,
+        0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 3, 0, 1, 3, 3, 3, 1, 2])   label: tensor([2, 1, 1, 0, 1, 0, 1, 0, 0, 3, 3, 2, 3, 3, 1, 3, 3, 1, 1, 2, 2, 1, 3, 1,
+        0, 0, 1, 2, 3, 2, 3, 3, 0, 2, 0, 3, 1, 2, 3, 3, 2, 0])
+Epoch: 804   Train loss: 1.2341813   Test loss: 1.3148173   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36538461538461536   Train_predict: tensor([3, 0, 0, 1, 2, 1, 3, 0, 3, 3, 2, 1, 0, 0, 2, 1, 1, 2, 2, 0, 2, 1, 1, 0,
+        3, 3, 2, 1, 1, 1, 3, 1, 2, 2, 1, 2, 2, 0, 1, 2, 0, 0])   label: tensor([3, 0, 0, 2, 2, 1, 3, 2, 2, 1, 2, 2, 3, 2, 3, 1, 1, 2, 2, 3, 2, 3, 3, 0,
+        3, 1, 2, 2, 3, 0, 2, 1, 2, 0, 0, 1, 2, 2, 0, 0, 0, 0])
+Epoch: 805   Train loss: 1.4089915   Test loss: 1.3172174   Train accuracy: 0.30952380952380953   Test accuracy is: 0.36797337278106507   Train_predict: tensor([2, 3, 3, 1, 0, 1, 3, 0, 3, 0, 0, 1, 3, 0, 3, 0, 2, 1, 3, 1, 1, 3, 1, 3,
+        0, 1, 0, 3, 0, 2, 2, 2, 0, 3, 0, 1, 3, 2, 1, 3, 0, 1])   label: tensor([2, 2, 1, 1, 3, 1, 0, 3, 2, 2, 1, 2, 0, 2, 0, 1, 3, 3, 3, 1, 3, 1, 0, 0,
+        2, 1, 1, 2, 0, 3, 2, 0, 2, 0, 3, 1, 2, 2, 1, 0, 0, 1])
+Epoch: 806   Train loss: 1.2942553   Test loss: 1.3164688   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3690828402366864   Train_predict: tensor([1, 2, 0, 2, 2, 1, 2, 0, 1, 3, 3, 1, 3, 1, 0, 0, 3, 0, 1, 3, 1, 0, 1, 1,
+        1, 2, 0, 3, 1, 2, 0, 0, 1, 0, 3, 3, 2, 1, 0, 3, 1, 2])   label: tensor([3, 1, 2, 2, 0, 1, 2, 1, 3, 3, 2, 0, 1, 2, 1, 0, 1, 0, 0, 2, 3, 0, 1, 1,
+        0, 1, 0, 1, 0, 2, 3, 0, 1, 1, 1, 0, 2, 1, 0, 0, 3, 1])
+Epoch: 807   Train loss: 1.2451835   Test loss: 1.3164159   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3657544378698225   Train_predict: tensor([3, 3, 3, 3, 3, 0, 1, 2, 0, 0, 3, 1, 1, 0, 0, 3, 2, 3, 1, 1, 3, 3, 1, 0,
+        3, 1, 2, 3, 3, 3, 3, 0, 1, 3, 1, 1, 0, 0, 0, 0, 3, 2])   label: tensor([3, 2, 3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 1, 2, 0, 0, 1, 1, 2, 2, 1, 3, 3,
+        0, 1, 2, 0, 3, 1, 0, 0, 1, 2, 2, 1, 2, 0, 0, 0, 0, 3])
+Epoch: 808   Train loss: 1.2948126   Test loss: 1.3168049   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 1, 0, 2, 0, 2, 0, 2, 1, 2, 3, 0, 0, 3, 3, 0, 0, 2, 1, 3, 3, 2, 1, 0,
+        1, 2, 3, 0, 2, 2, 0, 1, 3, 1, 0, 1, 2, 1, 0, 3, 2, 0])   label: tensor([2, 1, 3, 0, 1, 2, 0, 2, 1, 0, 3, 2, 3, 2, 3, 2, 2, 2, 2, 3, 3, 0, 2, 0,
+        1, 2, 2, 1, 2, 2, 2, 1, 3, 3, 1, 3, 1, 2, 1, 1, 0, 2])
+Epoch: 809   Train loss: 1.2756026   Test loss: 1.3176849   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3657544378698225   Train_predict: tensor([1, 2, 0, 2, 0, 0, 1, 0, 1, 0, 2, 1, 1, 1, 3, 0, 1, 2, 2, 0, 0, 2, 3, 3,
+        2, 3, 3, 0, 3, 1, 0, 0, 0, 1, 3, 0, 2, 1, 3, 3, 1, 1])   label: tensor([1, 0, 0, 1, 2, 1, 2, 1, 2, 2, 1, 2, 0, 2, 0, 0, 1, 1, 2, 3, 0, 2, 0, 3,
+        2, 1, 0, 0, 3, 1, 3, 0, 0, 1, 1, 1, 1, 1, 1, 2, 0, 2])
+Epoch: 810   Train loss: 1.2931124   Test loss: 1.3165438   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 2, 2, 0, 2, 2, 1, 3, 1, 0, 2, 3, 2, 2, 0, 1, 0, 2, 1, 0, 0, 0, 2, 3,
+        0, 1, 2, 0, 0, 2, 3, 3, 1, 1, 3, 3, 3, 1, 3, 1, 0, 2])   label: tensor([2, 1, 0, 2, 1, 0, 1, 3, 2, 0, 0, 2, 1, 3, 2, 1, 0, 3, 2, 0, 0, 3, 1, 3,
+        0, 0, 2, 1, 2, 3, 3, 3, 0, 3, 3, 0, 3, 1, 3, 2, 2, 2])
+Epoch: 811   Train loss: 1.319934   Test loss: 1.3161668   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 3, 0, 0, 0, 1, 0, 2, 2, 1, 3, 1, 0, 0, 1, 0, 0, 2, 2, 3, 0, 1, 0, 1,
+        1, 2, 0, 2, 0, 0, 1, 0, 2, 0, 3, 1, 3, 1, 0, 1, 2, 2])   label: tensor([1, 3, 0, 3, 1, 3, 0, 3, 3, 3, 2, 2, 0, 2, 1, 2, 2, 1, 1, 2, 1, 1, 0, 2,
+        0, 1, 0, 1, 0, 1, 2, 1, 3, 1, 3, 1, 3, 1, 0, 0, 0, 3])
+Epoch: 812   Train loss: 1.2254585   Test loss: 1.3161998   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3672337278106509   Train_predict: tensor([2, 3, 1, 3, 0, 2, 0, 3, 3, 3, 2, 0, 1, 1, 3, 2, 1, 1, 2, 0, 3, 2, 3, 0,
+        3, 3, 0, 3, 3, 0, 0, 3, 2, 0, 3, 3, 0, 3, 0, 2, 2, 2])   label: tensor([2, 3, 0, 2, 0, 0, 0, 2, 0, 1, 2, 3, 2, 3, 3, 1, 1, 0, 2, 1, 3, 1, 3, 0,
+        0, 3, 0, 3, 2, 0, 1, 2, 2, 2, 1, 2, 3, 1, 3, 2, 1, 2])
+Epoch: 813   Train loss: 1.2254832   Test loss: 1.31678   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([2, 0, 0, 3, 1, 0, 3, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 3, 3, 3, 3, 1, 2, 0,
+        0, 1, 1, 1, 3, 3, 0, 2, 0, 1, 0, 3, 1, 1, 3, 2, 3, 3])   label: tensor([2, 0, 1, 1, 1, 0, 3, 1, 0, 1, 3, 3, 2, 2, 1, 2, 2, 2, 3, 1, 1, 1, 2, 0,
+        3, 3, 2, 2, 0, 1, 0, 0, 0, 2, 0, 0, 2, 3, 0, 2, 3, 3])
+Epoch: 814   Train loss: 1.2775571   Test loss: 1.3164009   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 1, 0, 0, 2, 0, 2, 0, 3, 2, 1, 1, 3, 1, 2, 2, 0, 3, 3, 3, 2, 3, 0, 1,
+        3, 0, 0, 0, 0, 3, 3, 2, 3, 0, 3, 3, 0, 0, 2, 3, 3, 2])   label: tensor([1, 2, 0, 2, 0, 1, 0, 2, 1, 2, 2, 1, 0, 3, 2, 2, 0, 3, 1, 3, 3, 1, 1, 1,
+        1, 3, 1, 3, 0, 1, 0, 2, 3, 1, 2, 3, 1, 1, 0, 3, 3, 0])
+Epoch: 815   Train loss: 1.2719454   Test loss: 1.3163068   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3613165680473373   Train_predict: tensor([2, 1, 1, 0, 3, 3, 1, 3, 0, 2, 0, 2, 0, 3, 3, 2, 0, 0, 3, 3, 0, 3, 3, 0,
+        0, 0, 1, 0, 1, 3, 3, 0, 1, 2, 0, 2, 1, 3, 1, 1, 0, 0])   label: tensor([0, 0, 2, 2, 2, 3, 3, 1, 0, 2, 0, 1, 1, 2, 1, 2, 3, 0, 3, 1, 1, 0, 0, 1,
+        2, 0, 1, 0, 3, 3, 0, 0, 2, 3, 2, 2, 1, 2, 1, 1, 0, 1])
+Epoch: 816   Train loss: 1.3386729   Test loss: 1.3158765   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3672337278106509   Train_predict: tensor([1, 1, 3, 0, 1, 1, 2, 3, 0, 3, 1, 2, 2, 3, 1, 2, 0, 3, 3, 1, 3, 1, 3, 0,
+        2, 3, 3, 0, 1, 0, 2, 0, 0, 2, 1, 3, 0, 3, 1, 3, 0, 1])   label: tensor([3, 2, 3, 3, 1, 3, 0, 2, 0, 0, 3, 0, 2, 0, 0, 0, 2, 3, 2, 3, 2, 1, 2, 2,
+        1, 1, 2, 3, 2, 2, 1, 3, 0, 1, 1, 3, 3, 3, 1, 3, 3, 2])
+Epoch: 817   Train loss: 1.2203465   Test loss: 1.3174897   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36279585798816566   Train_predict: tensor([3, 1, 0, 2, 3, 2, 2, 1, 3, 0, 0, 0, 0, 2, 0, 3, 1, 0, 3, 3, 2, 0, 0, 0,
+        0, 1, 1, 0, 3, 1, 3, 1, 3, 0, 3, 2, 0, 3, 0, 1, 1, 3])   label: tensor([2, 1, 1, 2, 3, 0, 2, 0, 2, 2, 3, 0, 2, 1, 0, 3, 2, 1, 3, 3, 2, 1, 3, 0,
+        2, 0, 2, 2, 3, 2, 0, 3, 3, 0, 3, 3, 0, 1, 3, 1, 2, 1])
+Epoch: 818   Train loss: 1.3803627   Test loss: 1.3163707   Train accuracy: 0.23809523809523808   Test accuracy is: 0.367603550295858   Train_predict: tensor([0, 0, 0, 2, 1, 2, 0, 0, 3, 2, 3, 0, 2, 3, 3, 0, 1, 3, 1, 3, 0, 0, 0, 2,
+        3, 0, 1, 3, 3, 2, 2, 0, 0, 1, 0, 1, 1, 1, 0, 3, 3, 1])   label: tensor([0, 2, 1, 0, 3, 0, 3, 1, 0, 3, 2, 3, 2, 0, 0, 1, 0, 1, 0, 0, 3, 2, 0, 2,
+        0, 0, 1, 0, 2, 3, 3, 2, 2, 1, 2, 1, 2, 2, 0, 1, 3, 0])
+Epoch: 819   Train loss: 1.289407   Test loss: 1.3148404   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 0, 0, 0, 3, 1, 0, 0, 3, 2, 0, 1, 3, 2, 3, 0, 0, 2, 0, 2, 1, 0, 0, 3,
+        3, 3, 0, 1, 1, 1, 2, 0, 1, 2, 3, 3, 1, 0, 1, 3, 2, 0])   label: tensor([2, 3, 1, 3, 3, 2, 2, 0, 2, 0, 1, 1, 2, 3, 0, 3, 0, 0, 2, 2, 2, 2, 1, 3,
+        2, 3, 0, 3, 1, 1, 0, 0, 1, 2, 1, 3, 3, 1, 3, 3, 2, 0])
+Epoch: 820   Train loss: 1.3274219   Test loss: 1.3161925   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([3, 0, 3, 3, 1, 1, 2, 1, 3, 3, 1, 3, 0, 0, 1, 0, 0, 0, 0, 0, 3, 2, 3, 2,
+        1, 2, 3, 1, 2, 1, 3, 0, 0, 0, 2, 0, 3, 2, 0, 0, 3, 0])   label: tensor([3, 0, 1, 3, 2, 2, 2, 2, 0, 0, 2, 3, 0, 3, 3, 1, 1, 3, 2, 3, 2, 1, 3, 2,
+        1, 2, 3, 2, 2, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 3, 1, 3])
+Epoch: 821   Train loss: 1.2479647   Test loss: 1.3149803   Train accuracy: 0.42857142857142855   Test accuracy is: 0.371301775147929   Train_predict: tensor([0, 2, 2, 0, 1, 0, 3, 3, 1, 3, 2, 0, 2, 2, 2, 3, 2, 2, 0, 2, 2, 3, 0, 0,
+        0, 0, 2, 0, 1, 1, 1, 3, 3, 3, 1, 2, 1, 3, 0, 2, 0, 2])   label: tensor([2, 1, 0, 0, 2, 0, 1, 1, 1, 3, 2, 3, 2, 0, 2, 0, 1, 0, 3, 1, 2, 2, 0, 1,
+        3, 2, 2, 0, 1, 1, 0, 3, 0, 3, 2, 3, 1, 0, 3, 0, 0, 2])
+Epoch: 822   Train loss: 1.3568285   Test loss: 1.3145989   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3716715976331361   Train_predict: tensor([2, 3, 2, 2, 2, 1, 0, 3, 3, 3, 0, 3, 3, 2, 1, 1, 1, 1, 2, 1, 0, 0, 0, 3,
+        1, 0, 3, 0, 3, 1, 2, 1, 1, 0, 2, 3, 2, 1, 2, 0, 1, 3])   label: tensor([3, 2, 3, 2, 3, 1, 2, 3, 3, 1, 2, 3, 1, 2, 2, 1, 3, 2, 3, 2, 1, 3, 1, 0,
+        1, 3, 0, 3, 2, 0, 1, 3, 0, 0, 2, 2, 2, 2, 3, 1, 3, 3])
+Epoch: 823   Train loss: 1.304653   Test loss: 1.3162653   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36797337278106507   Train_predict: tensor([1, 2, 1, 3, 0, 0, 2, 2, 3, 0, 3, 2, 0, 2, 0, 2, 0, 0, 1, 1, 0, 2, 1, 0,
+        2, 0, 3, 1, 0, 1, 1, 3, 0, 3, 3, 0, 0, 1, 3, 3, 1, 2])   label: tensor([0, 2, 3, 2, 2, 2, 3, 2, 2, 0, 2, 0, 2, 2, 0, 3, 2, 3, 3, 0, 3, 2, 2, 0,
+        2, 0, 3, 0, 1, 1, 1, 1, 2, 2, 1, 0, 0, 1, 2, 3, 0, 2])
+Epoch: 824   Train loss: 1.3289354   Test loss: 1.3152198   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3613165680473373   Train_predict: tensor([0, 0, 0, 1, 3, 0, 2, 0, 2, 0, 2, 1, 2, 3, 3, 3, 1, 1, 3, 1, 1, 0, 0, 0,
+        1, 0, 2, 0, 0, 2, 0, 2, 0, 2, 1, 0, 3, 2, 0, 1, 1, 3])   label: tensor([1, 0, 0, 1, 3, 3, 1, 3, 3, 1, 0, 1, 0, 0, 3, 3, 2, 1, 2, 0, 0, 1, 0, 2,
+        2, 2, 1, 3, 0, 2, 3, 0, 2, 2, 3, 2, 3, 2, 3, 2, 3, 3])
+Epoch: 825   Train loss: 1.3157585   Test loss: 1.3161072   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3735207100591716   Train_predict: tensor([2, 2, 0, 3, 1, 0, 0, 2, 2, 1, 1, 2, 3, 1, 1, 2, 2, 0, 0, 0, 3, 0, 2, 1,
+        0, 3, 3, 3, 2, 2, 2, 2, 2, 2, 0, 2, 2, 3, 2, 3, 2, 1])   label: tensor([2, 2, 0, 3, 3, 2, 3, 2, 1, 1, 0, 2, 3, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+        0, 0, 3, 2, 3, 1, 2, 2, 2, 3, 1, 1, 2, 0, 1, 3, 3, 1])
+Epoch: 826   Train loss: 1.2678388   Test loss: 1.3141993   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3668639053254438   Train_predict: tensor([2, 1, 1, 0, 0, 3, 2, 1, 2, 2, 0, 0, 0, 2, 0, 2, 1, 3, 0, 1, 2, 0, 2, 3,
+        2, 0, 3, 0, 0, 3, 3, 1, 1, 2, 1, 0, 3, 2, 2, 1, 0, 1])   label: tensor([2, 0, 0, 0, 2, 3, 3, 2, 0, 2, 3, 0, 3, 1, 2, 3, 2, 0, 3, 1, 1, 0, 1, 0,
+        2, 0, 2, 0, 1, 3, 3, 3, 1, 2, 0, 3, 0, 1, 0, 1, 2, 1])
+Epoch: 827   Train loss: 1.326951   Test loss: 1.313195   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3701923076923077   Train_predict: tensor([3, 0, 0, 1, 2, 0, 0, 0, 2, 3, 1, 3, 3, 3, 1, 0, 0, 3, 1, 2, 0, 3, 1, 3,
+        2, 3, 1, 3, 2, 3, 3, 0, 0, 0, 0, 1, 1, 3, 0, 3, 2, 0])   label: tensor([1, 1, 3, 3, 3, 0, 2, 1, 2, 2, 1, 0, 3, 3, 1, 2, 1, 3, 2, 3, 2, 1, 1, 3,
+        3, 3, 2, 0, 2, 3, 3, 0, 2, 2, 0, 1, 1, 3, 3, 0, 3, 0])
+Epoch: 828   Train loss: 1.2904834   Test loss: 1.3137697   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3742603550295858   Train_predict: tensor([1, 3, 3, 3, 0, 3, 1, 1, 3, 0, 1, 0, 1, 1, 1, 0, 0, 3, 3, 0, 0, 0, 3, 1,
+        3, 0, 0, 0, 0, 2, 0, 1, 0, 2, 3, 3, 1, 2, 1, 0, 1, 3])   label: tensor([0, 1, 3, 2, 0, 3, 1, 3, 1, 2, 1, 0, 0, 2, 1, 1, 0, 0, 0, 1, 2, 0, 1, 3,
+        1, 0, 0, 3, 0, 0, 0, 2, 1, 3, 3, 2, 0, 2, 1, 1, 2, 2])
+Epoch: 829   Train loss: 1.2406853   Test loss: 1.313952   Train accuracy: 0.5238095238095238   Test accuracy is: 0.367603550295858   Train_predict: tensor([2, 0, 2, 2, 2, 1, 1, 0, 3, 1, 3, 1, 3, 2, 3, 3, 0, 1, 1, 1, 3, 3, 3, 0,
+        0, 2, 3, 0, 0, 3, 1, 2, 0, 3, 0, 3, 2, 3, 3, 0, 0, 3])   label: tensor([2, 0, 0, 2, 1, 1, 0, 2, 0, 1, 3, 1, 1, 0, 2, 2, 0, 3, 1, 1, 3, 3, 2, 1,
+        0, 2, 3, 3, 0, 3, 0, 1, 3, 3, 0, 0, 0, 3, 3, 0, 1, 0])
+Epoch: 830   Train loss: 1.2574673   Test loss: 1.3159784   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 0, 2, 2, 3, 1, 3, 1, 2, 0, 3, 1, 3, 3, 2, 1, 2, 3, 1, 2, 2, 0, 0, 3,
+        0, 3, 0, 3, 0, 0, 2, 0, 0, 2, 0, 0, 1, 2, 0, 3, 0, 3])   label: tensor([0, 3, 2, 3, 3, 1, 2, 1, 1, 0, 3, 2, 1, 1, 3, 3, 2, 3, 1, 2, 2, 0, 0, 0,
+        3, 3, 2, 1, 2, 1, 0, 0, 1, 2, 3, 0, 0, 0, 0, 2, 3, 1])
+Epoch: 831   Train loss: 1.3687626   Test loss: 1.3143717   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3690828402366864   Train_predict: tensor([3, 2, 1, 3, 3, 3, 3, 3, 3, 1, 1, 0, 2, 3, 2, 0, 2, 1, 2, 1, 2, 0, 0, 3,
+        2, 2, 3, 2, 3, 1, 1, 1, 3, 0, 0, 3, 3, 2, 2, 2, 1, 3])   label: tensor([3, 2, 1, 3, 1, 0, 3, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 1, 0, 2, 0, 2, 3, 3,
+        2, 3, 0, 2, 1, 3, 2, 1, 2, 1, 3, 1, 1, 2, 2, 2, 3, 2])
+Epoch: 832   Train loss: 1.2280542   Test loss: 1.3149719   Train accuracy: 0.5476190476190477   Test accuracy is: 0.36797337278106507   Train_predict: tensor([2, 1, 3, 1, 2, 1, 0, 1, 0, 2, 3, 1, 1, 0, 2, 3, 2, 1, 1, 2, 3, 2, 3, 0,
+        1, 1, 1, 1, 2, 2, 0, 1, 0, 1, 3, 1, 1, 0, 0, 3, 0, 1])   label: tensor([2, 1, 3, 1, 0, 2, 0, 2, 0, 2, 2, 0, 1, 0, 2, 2, 1, 1, 1, 2, 0, 2, 2, 0,
+        3, 1, 3, 1, 2, 0, 1, 2, 1, 1, 3, 1, 0, 0, 2, 3, 2, 3])
+Epoch: 833   Train loss: 1.2836415   Test loss: 1.3140067   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 2, 3, 0, 3, 3, 1, 2, 3, 0, 1, 3, 2, 3, 3, 3, 2, 1, 0, 0, 1, 3, 0, 3,
+        3, 0, 2, 2, 0, 0, 2, 2, 3, 1, 0, 1, 0, 1, 2, 0, 1, 1])   label: tensor([0, 0, 2, 1, 0, 2, 0, 3, 0, 0, 1, 2, 1, 0, 3, 2, 3, 1, 0, 0, 1, 2, 0, 3,
+        0, 0, 1, 3, 0, 2, 3, 2, 3, 1, 2, 0, 3, 1, 0, 0, 3, 2])
+Epoch: 834   Train loss: 1.3903314   Test loss: 1.3157506   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 2, 1, 3, 2, 0, 1, 1, 3, 0, 2, 0, 2, 0, 2, 0, 1, 0, 1, 1, 0, 0, 2, 2,
+        3, 2, 1, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 3, 0, 3, 0, 3])   label: tensor([1, 1, 0, 3, 1, 0, 2, 2, 2, 3, 2, 2, 1, 1, 3, 1, 1, 2, 3, 1, 1, 2, 0, 2,
+        1, 0, 0, 3, 3, 1, 3, 0, 0, 0, 3, 2, 1, 1, 3, 1, 1, 2])
+Epoch: 835   Train loss: 1.2421468   Test loss: 1.3161448   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3690828402366864   Train_predict: tensor([2, 1, 1, 0, 3, 1, 3, 2, 2, 1, 3, 0, 1, 2, 3, 1, 0, 3, 1, 3, 1, 0, 3, 1,
+        3, 2, 3, 2, 1, 3, 0, 3, 0, 3, 0, 1, 3, 3, 2, 3, 3, 2])   label: tensor([1, 3, 1, 3, 3, 0, 3, 0, 0, 3, 2, 0, 1, 1, 1, 2, 2, 3, 2, 1, 2, 0, 3, 1,
+        3, 2, 0, 3, 2, 3, 1, 2, 0, 2, 0, 1, 1, 3, 1, 0, 1, 2])
+Epoch: 836   Train loss: 1.3314008   Test loss: 1.3147986   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3720414201183432   Train_predict: tensor([0, 3, 3, 1, 0, 2, 2, 3, 2, 0, 1, 0, 3, 2, 2, 3, 1, 1, 3, 1, 3, 3, 1, 0,
+        1, 0, 2, 2, 2, 1, 0, 3, 1, 0, 0, 2, 3, 2, 0, 1, 0, 3])   label: tensor([2, 3, 1, 3, 0, 2, 2, 0, 2, 1, 1, 2, 2, 3, 3, 3, 1, 1, 2, 0, 1, 1, 1, 0,
+        1, 0, 2, 3, 3, 1, 1, 2, 1, 3, 1, 0, 0, 0, 3, 0, 1, 0])
+Epoch: 837   Train loss: 1.2495795   Test loss: 1.3150153   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3661242603550296   Train_predict: tensor([0, 0, 2, 2, 3, 2, 1, 0, 2, 0, 2, 0, 1, 0, 1, 1, 2, 1, 1, 3, 3, 2, 0, 2,
+        1, 0, 0, 3, 0, 1, 1, 1, 2, 2, 3, 2, 0, 2, 3, 2, 1, 0])   label: tensor([3, 2, 3, 0, 0, 1, 0, 0, 0, 0, 3, 2, 1, 3, 0, 1, 1, 2, 1, 3, 0, 2, 2, 2,
+        1, 3, 3, 1, 2, 2, 2, 0, 2, 1, 0, 2, 3, 0, 2, 2, 1, 1])
+Epoch: 838   Train loss: 1.1166971   Test loss: 1.3163093   Train accuracy: 0.6190476190476191   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 3, 3, 2, 1, 2, 1, 3, 3, 0, 3, 3, 0, 3, 0, 1, 1, 2, 1, 3, 2, 1, 3, 0,
+        1, 3, 0, 1, 3, 0, 1, 1, 0, 0, 2, 3, 2, 1, 0, 3, 0, 0])   label: tensor([1, 3, 3, 2, 1, 0, 3, 3, 3, 0, 3, 3, 0, 0, 0, 1, 3, 2, 0, 3, 2, 3, 3, 0,
+        3, 1, 1, 1, 0, 3, 1, 1, 1, 1, 2, 3, 2, 1, 3, 1, 3, 0])
+Epoch: 839   Train loss: 1.3281555   Test loss: 1.315025   Train accuracy: 0.38095238095238093   Test accuracy is: 0.37056213017751477   Train_predict: tensor([3, 0, 2, 1, 2, 0, 3, 1, 0, 2, 0, 3, 3, 1, 3, 0, 1, 0, 3, 0, 0, 1, 1, 3,
+        0, 3, 0, 0, 3, 1, 1, 3, 2, 0, 1, 2, 1, 3, 1, 3, 0, 3])   label: tensor([3, 3, 2, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 2, 0, 0, 1, 0, 3, 1, 0, 2, 0, 3,
+        2, 2, 2, 2, 1, 3, 1, 1, 2, 1, 1, 2, 0, 1, 1, 0, 1, 3])
+Epoch: 840   Train loss: 1.3304062   Test loss: 1.3165323   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 2, 1, 3, 2, 0, 1, 0, 1, 1, 0, 1, 2, 3, 2, 0, 1, 2, 0, 3, 1, 3, 3, 2,
+        0, 1, 2, 3, 1, 1, 1, 2, 1, 0, 2, 0, 0, 0, 1, 2, 1, 3])   label: tensor([1, 3, 2, 2, 3, 3, 1, 1, 1, 0, 2, 3, 3, 3, 1, 0, 3, 3, 0, 2, 3, 3, 3, 1,
+        0, 3, 3, 2, 0, 1, 0, 3, 2, 0, 1, 0, 0, 0, 1, 3, 2, 3])
+Epoch: 841   Train loss: 1.1584091   Test loss: 1.3174894   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 0, 2, 1, 2, 0, 3, 1, 0, 1, 0, 0, 2, 1, 0, 0, 0, 3, 3, 1, 0, 0, 0, 0,
+        2, 3, 0, 3, 0, 0, 0, 3, 2, 2, 1, 3, 0, 0, 2, 3, 0, 0])   label: tensor([2, 2, 0, 1, 3, 0, 3, 2, 0, 1, 2, 1, 2, 1, 0, 0, 0, 0, 2, 1, 0, 1, 3, 1,
+        2, 3, 3, 3, 3, 0, 0, 0, 2, 3, 1, 0, 0, 1, 2, 1, 1, 0])
+Epoch: 842   Train loss: 1.3193816   Test loss: 1.3157804   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3672337278106509   Train_predict: tensor([1, 3, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 1, 0, 1, 0, 2, 0, 2, 2, 2, 1, 1, 0,
+        0, 1, 3, 2, 0, 3, 1, 1, 3, 3, 0, 2, 0, 2, 1, 2, 0, 0])   label: tensor([1, 0, 2, 2, 1, 3, 1, 0, 2, 0, 3, 2, 2, 0, 3, 0, 3, 2, 3, 2, 1, 1, 1, 0,
+        0, 3, 2, 2, 3, 1, 3, 0, 0, 0, 0, 2, 1, 1, 1, 2, 3, 2])
+Epoch: 843   Train loss: 1.2012618   Test loss: 1.3146918   Train accuracy: 0.5   Test accuracy is: 0.3701923076923077   Train_predict: tensor([3, 3, 0, 2, 0, 3, 3, 1, 1, 1, 1, 0, 2, 1, 0, 3, 3, 1, 3, 0, 1, 2, 1, 1,
+        2, 0, 3, 3, 3, 2, 3, 1, 3, 3, 1, 3, 2, 3, 3, 2, 0, 1])   label: tensor([3, 3, 0, 2, 1, 3, 0, 3, 1, 1, 3, 0, 3, 3, 0, 3, 2, 1, 3, 0, 1, 1, 1, 2,
+        1, 2, 0, 1, 3, 2, 1, 3, 1, 0, 1, 3, 2, 1, 0, 3, 1, 1])
+Epoch: 844   Train loss: 1.3426095   Test loss: 1.3149718   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 0, 3, 1, 1, 1, 1, 0, 0, 2, 3, 1, 1, 3, 0, 1, 1, 3, 1, 3, 3, 2, 2, 3,
+        0, 2, 1, 3, 0, 1, 0, 1, 1, 0, 3, 3, 3, 1, 3, 3, 2, 1])   label: tensor([0, 1, 1, 2, 2, 2, 3, 3, 1, 0, 3, 1, 2, 3, 3, 3, 0, 3, 1, 3, 3, 1, 0, 2,
+        0, 0, 2, 3, 1, 0, 3, 3, 2, 2, 0, 2, 1, 3, 3, 0, 1, 0])
+Epoch: 845   Train loss: 1.3697866   Test loss: 1.3147407   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3668639053254438   Train_predict: tensor([3, 0, 0, 0, 0, 3, 0, 0, 3, 3, 3, 3, 1, 3, 2, 0, 3, 0, 0, 3, 3, 2, 1, 1,
+        1, 1, 2, 1, 3, 0, 0, 2, 3, 3, 0, 2, 2, 1, 1, 1, 2, 2])   label: tensor([3, 1, 0, 3, 1, 1, 3, 2, 0, 3, 1, 2, 2, 3, 2, 2, 2, 3, 0, 1, 2, 0, 2, 3,
+        1, 3, 1, 2, 2, 0, 2, 2, 0, 3, 1, 2, 2, 1, 0, 1, 3, 3])
+Epoch: 846   Train loss: 1.4513526   Test loss: 1.3143889   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3683431952662722   Train_predict: tensor([3, 0, 1, 3, 2, 3, 2, 3, 3, 3, 0, 1, 3, 1, 3, 0, 2, 1, 1, 1, 3, 0, 2, 2,
+        1, 2, 3, 2, 0, 1, 1, 2, 3, 1, 0, 0, 2, 3, 1, 2, 3, 2])   label: tensor([3, 0, 3, 3, 1, 1, 3, 1, 0, 3, 0, 0, 0, 0, 0, 2, 3, 1, 3, 2, 2, 2, 2, 1,
+        3, 3, 2, 2, 1, 1, 1, 3, 2, 3, 0, 1, 0, 0, 3, 1, 2, 2])
+Epoch: 847   Train loss: 1.2280028   Test loss: 1.3156592   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3631656804733728   Train_predict: tensor([0, 0, 3, 1, 3, 3, 2, 0, 3, 1, 3, 2, 0, 3, 3, 1, 0, 3, 2, 1, 0, 2, 1, 1,
+        1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 3, 0, 3, 2, 2, 0, 3])   label: tensor([1, 1, 1, 3, 3, 2, 2, 3, 3, 2, 0, 2, 0, 1, 2, 0, 3, 3, 2, 2, 0, 2, 1, 1,
+        1, 3, 0, 1, 3, 0, 1, 1, 2, 1, 2, 1, 0, 3, 1, 2, 1, 1])
+Epoch: 848   Train loss: 1.317566   Test loss: 1.3153449   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3635355029585799   Train_predict: tensor([0, 0, 3, 0, 3, 3, 1, 1, 0, 0, 3, 1, 3, 2, 0, 1, 3, 2, 2, 1, 2, 2, 3, 1,
+        1, 3, 0, 2, 0, 3, 1, 0, 1, 3, 2, 3, 3, 2, 3, 0, 0, 0])   label: tensor([0, 1, 2, 2, 0, 3, 0, 0, 0, 2, 1, 0, 3, 0, 0, 1, 3, 2, 3, 2, 3, 3, 3, 1,
+        3, 2, 1, 0, 1, 3, 1, 1, 0, 3, 1, 0, 0, 2, 3, 0, 3, 0])
+Epoch: 849   Train loss: 1.3588245   Test loss: 1.316521   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3661242603550296   Train_predict: tensor([1, 2, 3, 0, 0, 0, 0, 3, 0, 2, 3, 3, 0, 0, 2, 3, 2, 1, 3, 3, 2, 0, 1, 0,
+        3, 1, 2, 1, 2, 1, 0, 0, 3, 0, 1, 1, 3, 3, 3, 3, 3, 1])   label: tensor([3, 2, 0, 0, 3, 2, 2, 0, 0, 2, 1, 1, 2, 3, 0, 3, 1, 1, 0, 3, 3, 1, 2, 3,
+        3, 1, 1, 3, 3, 1, 2, 0, 1, 1, 0, 1, 1, 3, 1, 2, 0, 0])
+Epoch: 850   Train loss: 1.1862367   Test loss: 1.3143103   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3672337278106509   Train_predict: tensor([3, 0, 1, 0, 3, 1, 3, 3, 2, 0, 0, 3, 1, 2, 2, 0, 3, 3, 0, 1, 3, 2, 0, 3,
+        0, 3, 1, 0, 3, 1, 0, 1, 1, 0, 1, 0, 3, 3, 2, 0, 3, 2])   label: tensor([3, 3, 3, 2, 0, 2, 2, 3, 3, 0, 3, 3, 0, 0, 2, 1, 3, 3, 2, 2, 3, 3, 0, 2,
+        3, 2, 0, 0, 0, 2, 1, 0, 1, 1, 0, 3, 1, 3, 2, 0, 3, 2])
+Epoch: 851   Train loss: 1.438818   Test loss: 1.3144596   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3683431952662722   Train_predict: tensor([0, 1, 0, 1, 0, 1, 0, 3, 1, 1, 1, 0, 1, 0, 1, 2, 1, 0, 0, 1, 1, 2, 1, 1,
+        2, 1, 0, 0, 1, 3, 0, 2, 0, 1, 0, 2, 0, 2, 3, 0, 1, 0])   label: tensor([1, 0, 1, 2, 2, 3, 1, 0, 2, 0, 0, 2, 2, 2, 0, 2, 1, 1, 0, 1, 0, 0, 2, 3,
+        2, 2, 3, 2, 3, 0, 2, 0, 0, 0, 0, 2, 1, 0, 1, 0, 2, 0])
+Epoch: 852   Train loss: 1.3361328   Test loss: 1.3159637   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3687130177514793   Train_predict: tensor([1, 0, 2, 1, 1, 3, 3, 1, 2, 1, 1, 1, 2, 0, 1, 2, 3, 0, 1, 1, 2, 0, 1, 1,
+        3, 3, 2, 3, 1, 0, 1, 0, 3, 3, 0, 2, 3, 3, 3, 0, 0, 1])   label: tensor([1, 3, 2, 1, 0, 0, 1, 1, 2, 2, 1, 2, 2, 0, 3, 2, 1, 2, 1, 0, 0, 0, 1, 1,
+        0, 2, 3, 2, 3, 3, 3, 2, 2, 0, 3, 1, 1, 3, 2, 0, 3, 0])
+Epoch: 853   Train loss: 1.3214902   Test loss: 1.3149009   Train accuracy: 0.30952380952380953   Test accuracy is: 0.37056213017751477   Train_predict: tensor([1, 3, 0, 1, 3, 3, 1, 1, 0, 2, 0, 1, 1, 2, 2, 3, 0, 3, 2, 0, 1, 1, 2, 3,
+        1, 0, 1, 2, 1, 3, 3, 2, 3, 3, 0, 2, 0, 0, 2, 0, 0, 2])   label: tensor([3, 1, 0, 0, 1, 2, 3, 0, 1, 2, 3, 1, 3, 0, 0, 0, 2, 1, 1, 2, 3, 2, 2, 3,
+        2, 2, 1, 2, 2, 3, 3, 2, 3, 2, 1, 2, 0, 2, 0, 1, 2, 3])
+Epoch: 854   Train loss: 1.2833427   Test loss: 1.3145806   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3690828402366864   Train_predict: tensor([3, 0, 3, 3, 3, 2, 3, 3, 1, 0, 2, 3, 2, 2, 3, 1, 0, 0, 0, 2, 0, 2, 2, 3,
+        3, 2, 2, 0, 3, 2, 0, 3, 0, 2, 2, 2, 3, 1, 1, 1, 3, 3])   label: tensor([0, 2, 3, 1, 3, 3, 3, 0, 1, 0, 2, 0, 1, 0, 1, 2, 3, 0, 3, 2, 3, 2, 1, 2,
+        1, 1, 2, 0, 3, 0, 1, 1, 1, 0, 2, 2, 2, 0, 2, 3, 3, 3])
+Epoch: 855   Train loss: 1.3387443   Test loss: 1.3160195   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3687130177514793   Train_predict: tensor([0, 1, 3, 1, 0, 0, 3, 1, 1, 0, 1, 3, 0, 0, 0, 2, 0, 1, 1, 3, 1, 1, 0, 0,
+        3, 2, 1, 0, 1, 1, 0, 0, 2, 0, 1, 0, 3, 0, 3, 2, 2, 1])   label: tensor([0, 2, 2, 2, 2, 3, 0, 1, 1, 3, 0, 3, 1, 0, 0, 1, 1, 3, 2, 3, 0, 3, 3, 1,
+        3, 1, 1, 1, 1, 1, 1, 2, 0, 0, 3, 0, 2, 3, 1, 0, 1, 2])
+Epoch: 856   Train loss: 1.2523383   Test loss: 1.3168876   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3635355029585799   Train_predict: tensor([3, 1, 3, 0, 2, 1, 2, 0, 2, 3, 2, 2, 1, 2, 2, 3, 0, 1, 2, 0, 3, 3, 1, 3,
+        1, 3, 0, 0, 3, 1, 3, 2, 1, 3, 0, 1, 3, 2, 1, 3, 3, 2])   label: tensor([0, 1, 2, 0, 3, 1, 1, 1, 2, 3, 2, 3, 1, 2, 0, 3, 2, 2, 2, 0, 1, 3, 1, 2,
+        1, 0, 3, 0, 3, 1, 2, 1, 2, 1, 3, 0, 1, 2, 0, 2, 3, 0])
+Epoch: 857   Train loss: 1.3075413   Test loss: 1.3152444   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3664940828402367   Train_predict: tensor([2, 2, 1, 3, 0, 0, 3, 0, 1, 3, 1, 3, 3, 2, 1, 3, 3, 2, 3, 3, 0, 1, 3, 0,
+        3, 3, 0, 3, 1, 2, 3, 2, 2, 0, 3, 2, 3, 1, 3, 2, 0, 3])   label: tensor([3, 3, 1, 0, 1, 1, 3, 0, 2, 2, 2, 3, 0, 1, 1, 0, 3, 2, 2, 3, 0, 3, 0, 0,
+        3, 0, 3, 0, 2, 3, 3, 2, 2, 1, 1, 1, 0, 2, 1, 3, 0, 2])
+Epoch: 858   Train loss: 1.2790155   Test loss: 1.3154576   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3624260355029586   Train_predict: tensor([3, 0, 0, 2, 2, 1, 2, 2, 3, 0, 2, 0, 1, 1, 0, 1, 1, 0, 2, 3, 1, 3, 0, 2,
+        2, 3, 0, 3, 0, 1, 3, 2, 1, 3, 1, 2, 3, 2, 2, 2, 0, 1])   label: tensor([1, 0, 3, 2, 3, 0, 1, 3, 3, 0, 3, 0, 1, 2, 2, 1, 3, 0, 2, 0, 0, 0, 1, 1,
+        1, 1, 0, 0, 2, 0, 0, 2, 1, 1, 2, 3, 3, 2, 3, 1, 0, 1])
+Epoch: 859   Train loss: 1.279377   Test loss: 1.3134633   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3724112426035503   Train_predict: tensor([2, 0, 3, 1, 3, 1, 3, 1, 0, 2, 3, 1, 1, 2, 0, 3, 2, 2, 0, 0, 3, 0, 2, 1,
+        2, 1, 1, 0, 3, 1, 2, 1, 2, 3, 1, 1, 0, 0, 1, 2, 0, 3])   label: tensor([2, 0, 3, 0, 2, 2, 0, 0, 1, 0, 2, 0, 1, 2, 3, 3, 2, 0, 0, 3, 3, 0, 2, 0,
+        2, 1, 1, 2, 3, 2, 2, 1, 0, 0, 3, 2, 0, 3, 0, 1, 1, 1])
+Epoch: 860   Train loss: 1.3825375   Test loss: 1.3160412   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3694526627218935   Train_predict: tensor([1, 3, 0, 3, 0, 2, 2, 0, 0, 0, 3, 2, 1, 2, 0, 2, 2, 1, 3, 3, 2, 3, 2, 2,
+        3, 1, 0, 3, 3, 0, 1, 0, 2, 1, 3, 2, 2, 3, 0, 0, 3, 0])   label: tensor([1, 1, 0, 0, 2, 0, 3, 1, 3, 2, 2, 3, 3, 1, 0, 2, 1, 2, 3, 0, 2, 1, 2, 3,
+        1, 2, 3, 1, 3, 3, 1, 0, 2, 3, 3, 3, 1, 2, 3, 2, 3, 1])
+Epoch: 861   Train loss: 1.1660168   Test loss: 1.3140539   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3731508875739645   Train_predict: tensor([0, 3, 3, 3, 3, 0, 3, 3, 1, 2, 0, 3, 2, 3, 1, 0, 3, 1, 0, 0, 1, 1, 1, 2,
+        0, 1, 1, 3, 0, 2, 0, 2, 2, 3, 0, 3, 0, 3, 3, 2, 1, 2])   label: tensor([0, 3, 3, 3, 1, 1, 2, 3, 1, 1, 3, 2, 2, 2, 1, 1, 1, 2, 2, 0, 2, 1, 1, 2,
+        2, 2, 3, 2, 2, 2, 0, 2, 2, 2, 3, 3, 2, 3, 2, 2, 2, 1])
+Epoch: 862   Train loss: 1.2779406   Test loss: 1.3148811   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3698224852071006   Train_predict: tensor([2, 2, 0, 3, 3, 3, 1, 1, 3, 1, 2, 2, 0, 0, 0, 1, 2, 0, 0, 2, 1, 2, 2, 0,
+        3, 1, 2, 2, 0, 0, 3, 0, 1, 1, 3, 2, 3, 0, 1, 1, 0, 0])   label: tensor([3, 3, 3, 2, 3, 3, 1, 2, 3, 3, 2, 2, 2, 0, 1, 3, 3, 0, 3, 2, 1, 2, 1, 0,
+        2, 0, 1, 2, 0, 0, 0, 0, 2, 1, 1, 3, 3, 2, 2, 1, 0, 3])
+Epoch: 863   Train loss: 1.3723577   Test loss: 1.3139356   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3694526627218935   Train_predict: tensor([3, 2, 2, 0, 3, 3, 1, 1, 0, 0, 2, 3, 2, 0, 3, 3, 3, 0, 0, 1, 0, 3, 3, 0,
+        3, 1, 1, 0, 3, 3, 3, 2, 1, 2, 0, 3, 1, 1, 3, 3, 1, 3])   label: tensor([1, 0, 2, 3, 1, 0, 1, 3, 0, 0, 2, 3, 1, 2, 1, 3, 0, 0, 0, 1, 2, 1, 1, 3,
+        1, 2, 3, 0, 1, 1, 3, 2, 3, 3, 1, 0, 2, 2, 0, 3, 1, 3])
+Epoch: 864   Train loss: 1.3103237   Test loss: 1.3142595   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3650147928994083   Train_predict: tensor([2, 1, 0, 3, 2, 3, 3, 1, 2, 2, 1, 0, 0, 2, 1, 2, 1, 2, 0, 3, 3, 1, 3, 3,
+        2, 0, 3, 0, 2, 1, 1, 1, 0, 0, 2, 1, 3, 0, 0, 3, 3, 0])   label: tensor([3, 1, 1, 2, 2, 0, 3, 2, 0, 2, 3, 0, 2, 3, 0, 2, 2, 2, 3, 3, 0, 2, 0, 1,
+        3, 0, 3, 3, 2, 2, 2, 2, 3, 0, 3, 2, 3, 2, 1, 0, 3, 0])
+Epoch: 865   Train loss: 1.3331823   Test loss: 1.3133596   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3650147928994083   Train_predict: tensor([3, 0, 3, 0, 0, 0, 3, 0, 2, 3, 1, 3, 3, 3, 2, 2, 0, 2, 0, 0, 3, 3, 1, 0,
+        0, 0, 0, 1, 0, 2, 1, 0, 3, 0, 3, 0, 3, 3, 3, 1, 3, 3])   label: tensor([2, 0, 3, 0, 1, 3, 3, 2, 1, 2, 3, 3, 2, 0, 2, 2, 3, 0, 3, 1, 1, 0, 2, 0,
+        0, 1, 3, 0, 0, 2, 0, 0, 3, 2, 2, 3, 1, 3, 3, 1, 3, 0])
+Epoch: 866   Train loss: 1.2736565   Test loss: 1.3134288   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3672337278106509   Train_predict: tensor([2, 0, 0, 0, 3, 3, 0, 2, 1, 3, 2, 1, 1, 3, 0, 3, 2, 3, 0, 2, 1, 0, 0, 3,
+        3, 0, 3, 0, 1, 3, 0, 0, 0, 0, 3, 0, 3, 3, 1, 3, 1, 0])   label: tensor([0, 2, 1, 0, 3, 1, 0, 3, 0, 3, 0, 1, 1, 0, 3, 3, 0, 3, 0, 1, 1, 0, 3, 3,
+        2, 3, 0, 0, 2, 2, 1, 0, 2, 3, 2, 1, 1, 3, 0, 0, 1, 2])
+Epoch: 867   Train loss: 1.312165   Test loss: 1.3133461   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3683431952662722   Train_predict: tensor([1, 1, 1, 0, 1, 0, 1, 2, 1, 1, 3, 2, 3, 0, 2, 1, 0, 2, 3, 3, 1, 0, 2, 3,
+        0, 1, 2, 1, 0, 2, 3, 2, 0, 1, 0, 2, 2, 3, 0, 2, 3, 1])   label: tensor([1, 1, 2, 2, 1, 3, 0, 1, 1, 3, 0, 2, 0, 0, 1, 1, 2, 1, 2, 1, 3, 3, 3, 2,
+        0, 0, 2, 0, 0, 1, 3, 0, 3, 2, 3, 1, 0, 1, 1, 1, 3, 1])
+Epoch: 868   Train loss: 1.2899324   Test loss: 1.3146   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3690828402366864   Train_predict: tensor([0, 1, 0, 3, 2, 1, 0, 2, 0, 3, 0, 2, 1, 2, 1, 2, 3, 3, 2, 1, 0, 0, 2, 3,
+        2, 3, 2, 3, 3, 3, 0, 0, 0, 1, 2, 0, 1, 1, 3, 0, 3, 0])   label: tensor([1, 1, 0, 2, 0, 1, 1, 2, 1, 3, 2, 0, 1, 3, 1, 3, 2, 0, 3, 1, 0, 2, 3, 3,
+        2, 3, 0, 3, 1, 3, 0, 0, 2, 1, 2, 1, 1, 2, 3, 1, 0, 2])
+Epoch: 869   Train loss: 1.2450781   Test loss: 1.3130606   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3694526627218935   Train_predict: tensor([0, 1, 0, 3, 3, 3, 0, 3, 3, 2, 3, 2, 0, 1, 3, 0, 3, 0, 1, 1, 2, 3, 3, 0,
+        1, 0, 2, 1, 2, 1, 2, 2, 2, 2, 1, 0, 3, 3, 3, 1, 2, 2])   label: tensor([1, 3, 0, 3, 1, 3, 3, 0, 3, 3, 0, 2, 0, 1, 3, 2, 3, 1, 3, 3, 1, 2, 0, 2,
+        3, 1, 0, 0, 3, 0, 1, 2, 1, 2, 1, 3, 2, 3, 0, 1, 2, 3])
+Epoch: 870   Train loss: 1.3139354   Test loss: 1.31359   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3646449704142012   Train_predict: tensor([0, 0, 1, 0, 3, 0, 2, 2, 1, 0, 2, 2, 0, 3, 2, 3, 0, 0, 1, 2, 2, 3, 0, 0,
+        0, 0, 1, 1, 0, 2, 2, 0, 1, 3, 2, 1, 2, 0, 0, 0, 3, 0])   label: tensor([3, 2, 1, 3, 1, 1, 3, 3, 1, 3, 2, 0, 3, 0, 3, 3, 2, 0, 3, 2, 2, 3, 3, 1,
+        1, 0, 2, 1, 1, 2, 3, 3, 1, 1, 1, 1, 0, 0, 1, 2, 2, 0])
+Epoch: 871   Train loss: 1.2408947   Test loss: 1.3137934   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([2, 2, 3, 2, 1, 1, 0, 0, 1, 3, 1, 1, 1, 1, 0, 0, 3, 1, 0, 1, 2, 3, 3, 0,
+        2, 3, 2, 0, 1, 1, 1, 0, 1, 1, 0, 1, 3, 2, 3, 0, 3, 3])   label: tensor([2, 0, 1, 1, 2, 0, 0, 3, 2, 1, 2, 1, 3, 0, 0, 0, 1, 1, 1, 2, 0, 3, 0, 3,
+        2, 1, 0, 0, 3, 1, 1, 0, 1, 1, 2, 3, 3, 1, 0, 3, 3, 0])
+Epoch: 872   Train loss: 1.2635871   Test loss: 1.314757   Train accuracy: 0.5476190476190477   Test accuracy is: 0.3735207100591716   Train_predict: tensor([0, 3, 0, 1, 3, 1, 1, 0, 0, 2, 2, 1, 3, 3, 3, 2, 1, 0, 3, 3, 3, 0, 0, 0,
+        3, 1, 0, 2, 1, 3, 3, 0, 1, 1, 0, 3, 1, 0, 2, 3, 3, 3])   label: tensor([0, 2, 0, 1, 3, 1, 2, 0, 1, 1, 0, 1, 3, 3, 3, 2, 2, 0, 3, 3, 3, 1, 1, 2,
+        3, 3, 1, 3, 1, 3, 3, 0, 1, 1, 0, 1, 0, 3, 0, 1, 2, 0])
+Epoch: 873   Train loss: 1.2884898   Test loss: 1.314237   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3664940828402367   Train_predict: tensor([2, 0, 3, 1, 2, 0, 0, 1, 0, 2, 0, 3, 2, 1, 1, 1, 2, 3, 2, 0, 1, 0, 2, 2,
+        3, 1, 3, 2, 1, 1, 2, 3, 0, 2, 3, 0, 2, 3, 1, 3, 0, 2])   label: tensor([0, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 2, 0, 1, 1, 1, 2, 1, 0, 1, 0, 1, 2, 3,
+        0, 2, 3, 2, 1, 1, 2, 3, 1, 2, 0, 2, 2, 0, 1, 1, 0, 0])
+Epoch: 874   Train loss: 1.2543652   Test loss: 1.3149854   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3668639053254438   Train_predict: tensor([3, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 3, 3, 0, 2, 0, 3, 2, 0, 1, 1, 1, 1, 0,
+        2, 0, 3, 1, 3, 3, 0, 0, 1, 3, 0, 0, 1, 0, 0, 3, 2, 2])   label: tensor([3, 1, 1, 2, 0, 2, 3, 2, 0, 2, 0, 3, 3, 0, 2, 0, 2, 3, 0, 2, 0, 3, 2, 0,
+        2, 2, 3, 1, 0, 0, 1, 1, 2, 2, 1, 2, 3, 3, 2, 1, 2, 0])
+Epoch: 875   Train loss: 1.2336966   Test loss: 1.3152561   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3664940828402367   Train_predict: tensor([1, 2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 2, 3, 1, 0, 2, 2, 0, 1, 1, 3, 0,
+        1, 1, 2, 1, 0, 2, 0, 0, 3, 2, 3, 3, 2, 0, 2, 0, 3, 0])   label: tensor([3, 2, 0, 3, 3, 0, 0, 0, 3, 3, 3, 0, 2, 2, 1, 1, 2, 1, 2, 2, 2, 2, 3, 3,
+        0, 0, 0, 3, 0, 1, 0, 0, 3, 1, 0, 0, 2, 2, 2, 0, 3, 2])
+Epoch: 876   Train loss: 1.1404665   Test loss: 1.314787   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3720414201183432   Train_predict: tensor([0, 0, 0, 0, 0, 2, 1, 0, 2, 0, 0, 1, 1, 3, 0, 0, 1, 0, 0, 3, 2, 3, 0, 1,
+        0, 0, 3, 3, 3, 2, 2, 1, 1, 0, 1, 1, 3, 0, 1, 3, 2, 0])   label: tensor([0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1, 3, 1, 0, 0, 0, 2, 0, 3, 3, 2, 0, 0, 1,
+        0, 0, 3, 3, 1, 1, 3, 0, 3, 0, 2, 1, 0, 0, 3, 2, 3, 0])
+Epoch: 877   Train loss: 1.2498571   Test loss: 1.3156155   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 3, 2, 3, 0, 1, 0, 0, 2, 0, 3, 0, 2, 1, 3, 0, 3, 0, 0, 1, 1, 3, 3, 1,
+        2, 3, 0, 1, 2, 0, 0, 1, 2, 3, 3, 3, 2, 3, 1, 3, 0, 3])   label: tensor([2, 3, 2, 1, 0, 3, 2, 0, 1, 0, 3, 1, 2, 2, 3, 3, 2, 0, 3, 3, 1, 0, 3, 0,
+        2, 2, 0, 2, 1, 3, 1, 3, 0, 3, 1, 2, 1, 3, 1, 3, 0, 1])
+Epoch: 878   Train loss: 1.2704128   Test loss: 1.3153012   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 0, 1, 0, 1, 0, 1, 2, 1, 0, 1, 3, 1, 0, 2, 3, 3, 1, 0, 0, 1, 0, 1, 1,
+        1, 3, 3, 3, 2, 0, 3, 0, 0, 0, 2, 2, 3, 1, 2, 2, 3, 2])   label: tensor([1, 1, 1, 3, 3, 0, 0, 1, 3, 0, 2, 3, 1, 0, 3, 0, 2, 3, 0, 0, 1, 3, 0, 1,
+        2, 3, 0, 1, 2, 0, 3, 3, 0, 2, 1, 3, 1, 2, 0, 3, 3, 1])
+Epoch: 879   Train loss: 1.3334025   Test loss: 1.314904   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3683431952662722   Train_predict: tensor([1, 2, 2, 0, 3, 0, 3, 0, 1, 0, 1, 2, 3, 0, 0, 0, 3, 0, 1, 2, 0, 1, 0, 2,
+        0, 3, 0, 0, 2, 3, 1, 3, 1, 0, 0, 2, 0, 0, 0, 0, 0, 3])   label: tensor([1, 2, 3, 0, 0, 2, 3, 2, 0, 1, 2, 2, 3, 0, 1, 2, 3, 2, 3, 1, 0, 3, 3, 0,
+        2, 3, 3, 0, 3, 3, 0, 1, 1, 2, 0, 3, 2, 0, 2, 0, 2, 2])
+Epoch: 880   Train loss: 1.2460569   Test loss: 1.3164772   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3668639053254438   Train_predict: tensor([0, 1, 0, 0, 1, 3, 0, 0, 3, 2, 1, 3, 0, 0, 0, 0, 2, 3, 1, 1, 2, 2, 0, 3,
+        0, 0, 3, 2, 2, 0, 0, 2, 0, 0, 1, 3, 2, 0, 1, 2, 0, 0])   label: tensor([0, 2, 2, 0, 1, 0, 0, 1, 1, 2, 3, 1, 2, 0, 0, 0, 2, 2, 2, 3, 2, 2, 0, 3,
+        0, 3, 1, 2, 0, 2, 0, 3, 1, 0, 0, 1, 2, 2, 3, 1, 0, 3])
+Epoch: 881   Train loss: 1.269083   Test loss: 1.3171523   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3698224852071006   Train_predict: tensor([3, 0, 2, 0, 3, 2, 2, 3, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 2, 1, 3, 0, 0,
+        3, 3, 1, 2, 1, 1, 0, 0, 2, 0, 1, 2, 0, 3, 0, 0, 3, 3])   label: tensor([1, 0, 1, 0, 0, 3, 2, 1, 0, 0, 0, 3, 1, 0, 3, 0, 1, 3, 3, 0, 1, 3, 0, 0,
+        2, 3, 3, 3, 2, 2, 3, 1, 0, 1, 0, 3, 2, 1, 3, 0, 1, 2])
+Epoch: 882   Train loss: 1.2126669   Test loss: 1.316046   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 0, 2, 0, 0, 2, 1, 3, 0, 3, 1, 1, 1, 1, 0, 3, 0, 0, 3, 1, 2, 3, 2, 2,
+        3, 2, 3, 3, 3, 1, 1, 1, 3, 3, 2, 2, 2, 2, 0, 0, 1, 3])   label: tensor([1, 0, 3, 1, 1, 2, 2, 0, 2, 0, 2, 1, 1, 3, 3, 0, 0, 0, 3, 1, 2, 3, 0, 0,
+        0, 0, 3, 0, 3, 2, 1, 1, 3, 2, 2, 0, 3, 1, 3, 0, 0, 0])
+Epoch: 883   Train loss: 1.2183055   Test loss: 1.3171475   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 0, 3, 1, 3, 2, 3, 1, 3, 2, 2, 1, 0, 3, 2, 3, 3, 2, 3, 0, 1, 1, 1, 2,
+        3, 2, 2, 2, 0, 0, 2, 2, 0, 0, 3, 3, 1, 1, 3, 1, 1, 1])   label: tensor([3, 0, 2, 1, 0, 3, 3, 1, 3, 3, 1, 0, 0, 2, 3, 2, 0, 2, 1, 0, 1, 3, 1, 0,
+        2, 1, 2, 1, 0, 0, 3, 1, 1, 0, 1, 0, 1, 3, 1, 1, 1, 1])
+Epoch: 884   Train loss: 1.3370447   Test loss: 1.3148724   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3701923076923077   Train_predict: tensor([1, 3, 1, 0, 0, 2, 1, 2, 2, 0, 3, 0, 0, 2, 0, 3, 0, 3, 0, 3, 1, 1, 2, 0,
+        2, 1, 1, 1, 3, 0, 0, 3, 1, 0, 1, 2, 2, 0, 3, 1, 1, 0])   label: tensor([2, 1, 3, 3, 0, 3, 1, 2, 0, 0, 2, 3, 0, 1, 3, 3, 1, 0, 2, 0, 1, 3, 2, 3,
+        2, 1, 0, 2, 2, 2, 2, 1, 3, 3, 1, 3, 2, 3, 1, 3, 1, 0])
+Epoch: 885   Train loss: 1.2784613   Test loss: 1.3158967   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3683431952662722   Train_predict: tensor([1, 3, 3, 3, 2, 3, 2, 3, 1, 1, 2, 0, 3, 0, 3, 1, 1, 3, 3, 3, 3, 2, 1, 2,
+        3, 1, 3, 0, 3, 0, 2, 1, 3, 1, 1, 3, 3, 3, 3, 3, 1, 1])   label: tensor([1, 3, 0, 1, 2, 3, 2, 3, 2, 1, 0, 1, 3, 0, 3, 0, 1, 0, 3, 2, 0, 1, 1, 0,
+        3, 3, 1, 3, 1, 2, 0, 2, 1, 1, 0, 2, 2, 3, 1, 1, 1, 1])
+Epoch: 886   Train loss: 1.2984021   Test loss: 1.3155321   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3683431952662722   Train_predict: tensor([1, 0, 1, 3, 2, 3, 2, 3, 2, 1, 2, 2, 0, 2, 0, 1, 2, 0, 0, 1, 0, 0, 0, 1,
+        2, 0, 0, 3, 2, 1, 3, 0, 1, 2, 2, 1, 2, 0, 1, 1, 3, 0])   label: tensor([3, 1, 0, 3, 2, 1, 0, 3, 0, 0, 2, 0, 1, 2, 1, 3, 2, 0, 0, 1, 1, 0, 0, 0,
+        2, 0, 1, 2, 0, 1, 1, 0, 1, 2, 3, 0, 0, 1, 2, 1, 0, 2])
+Epoch: 887   Train loss: 1.2118105   Test loss: 1.3154064   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3716715976331361   Train_predict: tensor([1, 2, 0, 0, 2, 3, 2, 3, 0, 3, 1, 3, 2, 2, 2, 3, 1, 0, 2, 2, 0, 2, 2, 0,
+        1, 0, 0, 1, 3, 0, 0, 0, 1, 3, 0, 1, 2, 2, 0, 0, 2, 1])   label: tensor([1, 2, 0, 1, 1, 3, 2, 1, 2, 1, 1, 2, 0, 2, 3, 3, 1, 0, 3, 0, 1, 0, 2, 1,
+        3, 2, 0, 0, 3, 3, 1, 0, 1, 3, 1, 1, 3, 3, 0, 3, 1, 2])
+Epoch: 888   Train loss: 1.2982968   Test loss: 1.3157198   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3687130177514793   Train_predict: tensor([1, 0, 0, 3, 3, 3, 1, 1, 0, 1, 1, 3, 1, 0, 2, 1, 0, 3, 1, 2, 0, 3, 1, 0,
+        3, 0, 3, 0, 0, 3, 1, 0, 3, 0, 1, 3, 2, 3, 3, 1, 3, 0])   label: tensor([3, 1, 2, 1, 0, 2, 0, 1, 0, 1, 0, 2, 2, 3, 2, 1, 0, 2, 3, 3, 1, 0, 1, 2,
+        1, 0, 3, 0, 2, 2, 1, 2, 3, 3, 2, 3, 0, 3, 3, 2, 2, 0])
+Epoch: 889   Train loss: 1.2451664   Test loss: 1.3144668   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3657544378698225   Train_predict: tensor([0, 3, 1, 3, 3, 1, 1, 2, 1, 0, 1, 2, 0, 2, 3, 1, 2, 1, 0, 2, 2, 0, 2, 0,
+        2, 3, 0, 2, 3, 1, 2, 2, 3, 3, 3, 0, 2, 0, 3, 3, 3, 2])   label: tensor([1, 2, 1, 2, 0, 0, 1, 1, 1, 0, 1, 2, 0, 2, 3, 2, 1, 1, 0, 3, 3, 1, 2, 0,
+        0, 3, 2, 3, 1, 1, 1, 2, 0, 3, 1, 2, 0, 1, 3, 1, 0, 0])
+Epoch: 890   Train loss: 1.2002231   Test loss: 1.3144687   Train accuracy: 0.5   Test accuracy is: 0.3764792899408284   Train_predict: tensor([3, 3, 0, 3, 1, 1, 3, 1, 1, 0, 2, 0, 2, 1, 3, 3, 2, 0, 2, 1, 1, 0, 2, 2,
+        3, 0, 2, 2, 1, 0, 3, 0, 0, 3, 2, 0, 2, 3, 1, 0, 1, 3])   label: tensor([2, 3, 3, 1, 1, 1, 0, 1, 1, 0, 2, 1, 1, 1, 2, 1, 3, 0, 3, 2, 2, 0, 0, 2,
+        3, 0, 2, 2, 1, 1, 3, 0, 2, 1, 2, 0, 0, 3, 2, 2, 3, 0])
+Epoch: 891   Train loss: 1.3226252   Test loss: 1.3158908   Train accuracy: 0.2857142857142857   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 3, 0, 0, 2, 1, 1, 3, 2, 3, 2, 2, 3, 2, 3, 1, 1, 3, 3, 1, 2, 3, 3, 0,
+        3, 0, 2, 2, 0, 2, 0, 0, 1, 3, 2, 0, 1, 0, 1, 2, 2, 1])   label: tensor([0, 3, 1, 1, 0, 0, 0, 1, 2, 0, 0, 1, 3, 2, 2, 0, 1, 0, 0, 2, 1, 2, 2, 0,
+        3, 2, 1, 1, 0, 2, 3, 2, 2, 2, 2, 2, 2, 3, 0, 2, 2, 3])
+Epoch: 892   Train loss: 1.3617102   Test loss: 1.3147203   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3635355029585799   Train_predict: tensor([1, 0, 1, 3, 3, 0, 3, 0, 0, 3, 1, 2, 2, 3, 2, 1, 1, 1, 0, 1, 3, 3, 2, 3,
+        0, 0, 0, 0, 0, 2, 2, 1, 2, 3, 3, 3, 2, 3, 1, 0, 2, 1])   label: tensor([2, 0, 3, 0, 0, 1, 3, 0, 3, 3, 3, 2, 2, 2, 2, 3, 2, 3, 2, 2, 3, 3, 3, 0,
+        2, 3, 3, 0, 3, 2, 3, 1, 0, 1, 1, 2, 1, 0, 3, 3, 1, 1])
+Epoch: 893   Train loss: 1.3069072   Test loss: 1.3145518   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3646449704142012   Train_predict: tensor([3, 0, 0, 0, 1, 3, 3, 1, 2, 2, 0, 1, 3, 0, 1, 3, 0, 0, 1, 0, 3, 2, 2, 1,
+        3, 3, 1, 0, 3, 2, 2, 1, 2, 0, 0, 1, 2, 0, 3, 3, 0, 1])   label: tensor([2, 3, 3, 0, 0, 0, 0, 1, 2, 3, 2, 2, 3, 0, 2, 3, 0, 3, 0, 2, 3, 2, 2, 1,
+        0, 2, 1, 1, 1, 2, 2, 1, 2, 3, 3, 1, 3, 0, 2, 2, 2, 2])
+Epoch: 894   Train loss: 1.3269569   Test loss: 1.3144312   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3701923076923077   Train_predict: tensor([0, 3, 3, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 2, 0, 0, 0, 3, 0,
+        0, 3, 1, 3, 1, 3, 0, 3, 0, 0, 3, 0, 1, 2, 2, 2, 2, 2])   label: tensor([2, 2, 3, 1, 3, 0, 3, 0, 1, 1, 1, 2, 0, 1, 3, 1, 2, 1, 1, 0, 2, 2, 3, 0,
+        0, 2, 1, 3, 1, 2, 1, 0, 0, 3, 2, 2, 3, 1, 2, 3, 2, 2])
+Epoch: 895   Train loss: 1.2307584   Test loss: 1.3151493   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 3, 1, 1, 2, 3, 0, 0, 0, 1, 0, 3, 0, 3, 0, 2, 3, 3, 2, 3, 0, 0, 3, 2,
+        0, 2, 3, 1, 1, 2, 3, 0, 3, 2, 1, 0, 0, 2, 3, 1, 1, 3])   label: tensor([0, 0, 1, 1, 3, 3, 3, 1, 0, 1, 3, 1, 1, 1, 3, 0, 0, 3, 3, 2, 3, 0, 2, 1,
+        1, 2, 2, 1, 0, 2, 2, 0, 3, 2, 1, 3, 0, 2, 3, 2, 1, 1])
+Epoch: 896   Train loss: 1.3215815   Test loss: 1.3145072   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3672337278106509   Train_predict: tensor([3, 3, 0, 3, 3, 0, 0, 0, 2, 3, 3, 0, 0, 3, 0, 1, 0, 2, 0, 3, 0, 2, 1, 2,
+        1, 1, 3, 1, 1, 2, 3, 0, 3, 0, 3, 0, 3, 1, 2, 1, 3, 3])   label: tensor([3, 1, 1, 2, 1, 2, 2, 0, 1, 3, 3, 2, 0, 3, 1, 3, 2, 3, 2, 3, 3, 0, 1, 0,
+        3, 1, 2, 1, 0, 2, 3, 1, 0, 3, 2, 2, 3, 1, 1, 1, 3, 0])
+Epoch: 897   Train loss: 1.2092688   Test loss: 1.3140744   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 2, 0, 0, 1, 1, 3, 1, 0, 1, 0, 2, 3, 0, 0, 0, 1, 0, 3, 1, 3, 2, 2, 3,
+        3, 0, 2, 2, 0, 2, 1, 0, 0, 0, 0, 1, 0, 2, 2, 3, 3, 3])   label: tensor([1, 1, 3, 1, 1, 1, 1, 2, 0, 0, 0, 2, 1, 2, 0, 2, 3, 3, 2, 1, 3, 3, 2, 2,
+        3, 0, 1, 2, 2, 2, 3, 1, 2, 3, 0, 3, 0, 3, 2, 1, 0, 0])
+Epoch: 898   Train loss: 1.2346774   Test loss: 1.3144236   Train accuracy: 0.4523809523809524   Test accuracy is: 0.363905325443787   Train_predict: tensor([3, 3, 1, 2, 3, 1, 3, 3, 2, 0, 0, 1, 0, 0, 3, 0, 0, 1, 1, 2, 3, 0, 2, 2,
+        1, 0, 3, 3, 1, 2, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 2])   label: tensor([3, 0, 3, 1, 1, 1, 3, 3, 3, 3, 0, 1, 3, 1, 2, 0, 1, 1, 1, 1, 3, 3, 0, 0,
+        3, 0, 3, 1, 1, 2, 2, 0, 1, 2, 0, 3, 0, 3, 3, 0, 2, 2])
+Epoch: 899   Train loss: 1.1885637   Test loss: 1.3146664   Train accuracy: 0.5714285714285714   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 1, 1, 3, 2, 0, 0, 0, 1, 0, 0, 1, 3, 3, 3, 2, 3, 1, 3, 1, 3, 0, 0, 0,
+        0, 0, 2, 1, 2, 0, 0, 3, 3, 2, 0, 0, 2, 1, 1, 1, 1, 1])   label: tensor([0, 3, 2, 0, 2, 0, 0, 0, 2, 2, 1, 1, 3, 1, 1, 0, 3, 1, 3, 0, 3, 0, 3, 0,
+        3, 0, 1, 1, 2, 0, 0, 0, 3, 2, 1, 2, 2, 1, 2, 0, 1, 1])
+Epoch: 900   Train loss: 1.2610029   Test loss: 1.313919   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3661242603550296   Train_predict: tensor([0, 3, 1, 1, 3, 0, 3, 2, 0, 2, 2, 0, 3, 1, 1, 0, 2, 1, 3, 2, 0, 2, 2, 2,
+        2, 2, 1, 1, 2, 3, 2, 1, 3, 2, 3, 2, 3, 3, 0, 1, 1, 1])   label: tensor([2, 3, 1, 2, 3, 0, 0, 3, 1, 3, 3, 0, 3, 1, 2, 2, 0, 2, 0, 0, 0, 0, 2, 2,
+        2, 0, 1, 2, 1, 3, 2, 3, 3, 1, 2, 0, 0, 2, 0, 0, 0, 1])
+Epoch: 901   Train loss: 1.2934722   Test loss: 1.3154887   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 2, 3, 0, 2, 1, 0, 2, 0, 2, 3, 3, 1, 2, 1, 3, 3, 1, 1, 1, 2, 0, 0, 3,
+        1, 3, 1, 3, 1, 2, 1, 1, 2, 1, 3, 3, 3, 0, 0, 1, 3, 2])   label: tensor([0, 3, 1, 0, 2, 2, 0, 3, 0, 1, 1, 3, 2, 2, 1, 1, 2, 0, 1, 1, 1, 3, 2, 2,
+        3, 0, 1, 1, 1, 2, 1, 3, 2, 0, 0, 1, 1, 0, 2, 1, 3, 2])
+Epoch: 902   Train loss: 1.3213232   Test loss: 1.314786   Train accuracy: 0.38095238095238093   Test accuracy is: 0.367603550295858   Train_predict: tensor([3, 2, 2, 2, 0, 2, 1, 3, 1, 2, 1, 3, 0, 0, 2, 2, 1, 3, 0, 2, 0, 2, 0, 3,
+        2, 2, 2, 3, 1, 3, 0, 3, 2, 1, 2, 0, 1, 2, 2, 0, 1, 0])   label: tensor([3, 1, 3, 2, 3, 1, 1, 3, 0, 2, 1, 3, 0, 1, 0, 2, 2, 1, 2, 0, 3, 1, 1, 2,
+        0, 2, 1, 2, 1, 3, 3, 0, 0, 1, 3, 3, 3, 0, 2, 0, 1, 3])
+Epoch: 903   Train loss: 1.2545657   Test loss: 1.3157734   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36797337278106507   Train_predict: tensor([2, 2, 1, 0, 2, 3, 0, 0, 3, 2, 0, 1, 1, 3, 3, 0, 2, 0, 3, 0, 2, 2, 3, 3,
+        2, 3, 0, 0, 0, 0, 3, 3, 2, 0, 0, 0, 1, 3, 2, 1, 2, 0])   label: tensor([1, 3, 0, 3, 2, 1, 0, 0, 2, 0, 2, 0, 0, 1, 3, 0, 1, 3, 3, 1, 0, 2, 1, 3,
+        2, 3, 2, 0, 1, 2, 0, 1, 2, 3, 0, 0, 1, 2, 3, 1, 2, 0])
+Epoch: 904   Train loss: 1.2784284   Test loss: 1.314784   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36279585798816566   Train_predict: tensor([0, 3, 0, 0, 1, 1, 2, 1, 0, 1, 2, 2, 1, 0, 2, 1, 0, 3, 2, 0, 3, 3, 1, 2,
+        1, 1, 1, 1, 2, 0, 2, 3, 2, 3, 1, 0, 0, 3, 2, 0, 3, 1])   label: tensor([0, 2, 3, 0, 0, 0, 3, 1, 1, 1, 2, 1, 3, 0, 1, 3, 0, 2, 3, 1, 3, 2, 2, 3,
+        0, 2, 1, 3, 2, 1, 2, 2, 1, 2, 1, 0, 0, 0, 1, 1, 3, 1])
+Epoch: 905   Train loss: 1.280874   Test loss: 1.3136497   Train accuracy: 0.42857142857142855   Test accuracy is: 0.3650147928994083   Train_predict: tensor([0, 0, 0, 0, 3, 3, 0, 0, 1, 2, 1, 3, 0, 3, 1, 1, 1, 1, 2, 3, 3, 3, 3, 0,
+        0, 0, 3, 1, 3, 3, 1, 2, 2, 0, 3, 2, 0, 3, 0, 0, 2, 0])   label: tensor([0, 3, 2, 2, 2, 1, 0, 3, 3, 3, 0, 1, 0, 3, 1, 2, 1, 1, 1, 0, 0, 3, 1, 2,
+        2, 2, 3, 1, 3, 3, 1, 2, 2, 1, 1, 2, 3, 2, 0, 1, 3, 0])
+Epoch: 906   Train loss: 1.3118696   Test loss: 1.3142573   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36538461538461536   Train_predict: tensor([2, 0, 2, 2, 0, 1, 2, 1, 1, 3, 1, 0, 1, 0, 3, 2, 3, 2, 0, 3, 0, 3, 0, 0,
+        3, 0, 0, 0, 1, 2, 0, 1, 0, 3, 0, 0, 3, 1, 3, 0, 1, 2])   label: tensor([2, 3, 2, 1, 0, 1, 1, 1, 2, 2, 3, 0, 1, 0, 1, 3, 3, 3, 3, 3, 2, 1, 0, 1,
+        3, 0, 1, 2, 2, 2, 0, 3, 3, 3, 1, 0, 0, 3, 3, 2, 3, 2])
+Epoch: 907   Train loss: 1.3896322   Test loss: 1.3149971   Train accuracy: 0.47619047619047616   Test accuracy is: 0.37056213017751477   Train_predict: tensor([1, 1, 1, 0, 1, 1, 3, 2, 1, 3, 3, 2, 3, 1, 3, 3, 1, 2, 1, 0, 3, 3, 0, 1,
+        1, 2, 3, 3, 0, 2, 2, 3, 2, 1, 2, 0, 0, 2, 3, 3, 1, 3])   label: tensor([1, 0, 1, 0, 1, 0, 2, 2, 0, 0, 2, 0, 3, 1, 1, 1, 2, 2, 1, 3, 2, 3, 3, 0,
+        1, 1, 3, 2, 0, 1, 1, 1, 2, 3, 2, 0, 0, 2, 2, 2, 1, 3])
+Epoch: 908   Train loss: 1.292105   Test loss: 1.3149303   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 1, 0, 0, 1, 3, 2, 2, 2, 1, 3, 1, 3, 0, 2, 3, 3, 0, 1, 1, 1, 0, 0, 0,
+        2, 3, 1, 2, 1, 0, 1, 0, 0, 1, 2, 3, 0, 2, 2, 2, 0, 2])   label: tensor([3, 2, 1, 1, 1, 3, 1, 2, 1, 1, 3, 1, 1, 0, 2, 2, 3, 1, 2, 2, 3, 1, 0, 1,
+        1, 3, 1, 3, 1, 0, 1, 1, 2, 2, 2, 3, 0, 3, 2, 1, 3, 3])
+Epoch: 909   Train loss: 1.387586   Test loss: 1.3157134   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3620562130177515   Train_predict: tensor([2, 2, 3, 0, 0, 3, 3, 2, 0, 0, 3, 2, 0, 1, 1, 3, 0, 0, 0, 1, 3, 0, 2, 3,
+        2, 2, 0, 0, 3, 2, 2, 0, 2, 2, 0, 2, 3, 0, 0, 0, 2, 2])   label: tensor([0, 1, 3, 0, 0, 0, 2, 1, 3, 3, 2, 3, 1, 2, 3, 2, 3, 1, 0, 3, 0, 2, 1, 2,
+        0, 2, 2, 2, 3, 2, 2, 0, 3, 1, 0, 1, 2, 1, 3, 2, 3, 3])
+Epoch: 910   Train loss: 1.3505385   Test loss: 1.3151176   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 0, 0, 2, 2, 3, 3, 2, 1, 3, 2, 3, 3, 1, 0, 0, 0, 0, 0, 1, 0, 3, 0,
+        1, 0, 3, 0, 0, 0, 2, 2, 0, 3, 0, 3, 3, 3, 0, 2, 3, 1])   label: tensor([3, 0, 2, 0, 3, 3, 0, 1, 2, 1, 2, 2, 3, 1, 3, 0, 2, 2, 3, 2, 0, 0, 1, 2,
+        3, 0, 1, 2, 2, 0, 3, 2, 2, 2, 3, 3, 2, 3, 1, 1, 1, 3])
+Epoch: 911   Train loss: 1.1519333   Test loss: 1.3144219   Train accuracy: 0.5952380952380952   Test accuracy is: 0.3724112426035503   Train_predict: tensor([1, 0, 0, 0, 1, 1, 2, 1, 0, 0, 2, 3, 2, 0, 3, 0, 3, 2, 3, 2, 3, 0, 2, 1,
+        1, 1, 0, 3, 0, 1, 1, 2, 2, 2, 0, 3, 1, 3, 3, 0, 0, 0])   label: tensor([1, 3, 1, 1, 2, 1, 1, 1, 0, 1, 2, 3, 3, 2, 0, 0, 1, 1, 3, 2, 0, 2, 2, 1,
+        1, 1, 0, 3, 0, 3, 1, 2, 2, 1, 0, 3, 1, 2, 3, 0, 2, 0])
+Epoch: 912   Train loss: 1.2717624   Test loss: 1.3127216   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3735207100591716   Train_predict: tensor([1, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 3, 0, 1, 3, 3, 1, 1, 3, 3, 1, 1,
+        3, 3, 2, 3, 3, 0, 0, 1, 0, 2, 3, 1, 1, 1, 3, 3, 3, 0])   label: tensor([1, 2, 2, 2, 1, 0, 1, 0, 2, 2, 3, 0, 0, 2, 1, 2, 2, 0, 1, 0, 3, 3, 1, 1,
+        1, 3, 2, 0, 1, 1, 0, 0, 2, 2, 3, 3, 1, 3, 0, 3, 2, 2])
+Epoch: 913   Train loss: 1.1883643   Test loss: 1.3134936   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3742603550295858   Train_predict: tensor([1, 1, 0, 1, 1, 0, 1, 1, 1, 3, 1, 0, 3, 3, 2, 1, 0, 2, 3, 0, 0, 3, 0, 0,
+        3, 0, 2, 1, 3, 0, 0, 2, 0, 1, 0, 2, 3, 3, 3, 3, 0, 2])   label: tensor([1, 0, 0, 2, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 0, 2, 3, 2, 3, 3, 0, 1,
+        3, 3, 2, 3, 1, 3, 2, 0, 0, 1, 2, 3, 0, 0, 0, 0, 0, 2])
+Epoch: 914   Train loss: 1.1841718   Test loss: 1.3136342   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3746301775147929   Train_predict: tensor([0, 0, 1, 0, 0, 3, 2, 0, 2, 0, 1, 0, 2, 0, 0, 0, 3, 3, 0, 1, 3, 2, 0, 0,
+        1, 3, 3, 0, 3, 1, 0, 0, 1, 1, 0, 1, 3, 1, 0, 2, 0, 1])   label: tensor([1, 1, 2, 3, 1, 2, 3, 1, 2, 0, 1, 3, 3, 3, 0, 0, 3, 0, 0, 1, 3, 2, 2, 0,
+        0, 1, 1, 0, 3, 3, 3, 0, 1, 1, 0, 1, 0, 3, 1, 2, 1, 1])
+Epoch: 915   Train loss: 1.1614709   Test loss: 1.3151584   Train accuracy: 0.5238095238095238   Test accuracy is: 0.37056213017751477   Train_predict: tensor([3, 1, 1, 3, 3, 0, 1, 0, 3, 3, 1, 0, 1, 0, 0, 0, 3, 0, 3, 1, 3, 1, 0, 0,
+        1, 2, 2, 3, 2, 3, 3, 3, 2, 1, 0, 0, 1, 3, 0, 1, 3, 0])   label: tensor([3, 2, 2, 3, 0, 1, 2, 3, 0, 3, 3, 0, 1, 2, 0, 0, 1, 0, 1, 3, 2, 3, 0, 3,
+        0, 2, 2, 3, 0, 3, 2, 3, 2, 1, 0, 0, 1, 0, 0, 1, 3, 2])
+Epoch: 916   Train loss: 1.1928717   Test loss: 1.3131794   Train accuracy: 0.5476190476190477   Test accuracy is: 0.3701923076923077   Train_predict: tensor([1, 3, 1, 1, 2, 0, 3, 1, 3, 2, 2, 2, 2, 2, 1, 0, 0, 3, 0, 0, 2, 2, 1, 1,
+        0, 1, 3, 3, 0, 1, 0, 2, 0, 0, 3, 0, 1, 1, 1, 0, 1, 3])   label: tensor([1, 3, 1, 0, 2, 2, 2, 1, 0, 3, 3, 2, 2, 2, 2, 0, 1, 2, 0, 0, 2, 2, 1, 1,
+        1, 3, 1, 0, 1, 1, 1, 3, 0, 2, 0, 0, 1, 3, 1, 0, 1, 3])
+Epoch: 917   Train loss: 1.2496028   Test loss: 1.3140937   Train accuracy: 0.40476190476190477   Test accuracy is: 0.367603550295858   Train_predict: tensor([1, 0, 0, 0, 0, 1, 3, 1, 0, 1, 0, 2, 3, 0, 0, 0, 3, 2, 0, 1, 0, 0, 1, 2,
+        3, 3, 1, 2, 3, 0, 3, 0, 3, 3, 3, 0, 2, 1, 0, 0, 2, 1])   label: tensor([2, 0, 0, 2, 0, 1, 1, 1, 2, 0, 3, 0, 3, 1, 3, 1, 0, 0, 2, 1, 0, 0, 1, 1,
+        3, 2, 1, 1, 2, 2, 1, 0, 2, 3, 2, 2, 3, 1, 2, 0, 2, 2])
+Epoch: 918   Train loss: 1.2915392   Test loss: 1.3138965   Train accuracy: 0.35714285714285715   Test accuracy is: 0.371301775147929   Train_predict: tensor([3, 3, 3, 3, 1, 2, 1, 0, 2, 3, 3, 3, 3, 3, 1, 3, 1, 2, 3, 3, 1, 2, 1, 3,
+        1, 0, 3, 1, 1, 1, 0, 2, 1, 0, 1, 1, 0, 2, 2, 3, 3, 2])   label: tensor([3, 2, 2, 2, 2, 3, 2, 3, 2, 0, 3, 0, 3, 3, 2, 0, 0, 3, 3, 0, 1, 3, 2, 3,
+        2, 0, 2, 1, 1, 2, 0, 2, 2, 2, 0, 3, 0, 3, 3, 0, 3, 0])
+Epoch: 919   Train loss: 1.1896484   Test loss: 1.3150864   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3694526627218935   Train_predict: tensor([2, 2, 1, 0, 3, 3, 0, 0, 2, 3, 0, 2, 0, 2, 3, 2, 3, 0, 3, 0, 0, 1, 3, 0,
+        3, 2, 2, 3, 3, 3, 2, 0, 1, 3, 2, 1, 1, 2, 2, 2, 2, 1])   label: tensor([2, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2, 2, 2, 0, 2, 0, 3, 3, 0, 0, 3, 1, 2,
+        2, 2, 1, 1, 3, 3, 2, 0, 3, 3, 3, 2, 2, 1, 3, 2, 3, 2])
+Epoch: 920   Train loss: 1.261791   Test loss: 1.3135746   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3624260355029586   Train_predict: tensor([1, 3, 1, 0, 1, 3, 1, 1, 2, 1, 2, 1, 3, 3, 1, 2, 0, 2, 0, 1, 1, 0, 0, 1,
+        1, 3, 3, 3, 3, 0, 0, 1, 2, 3, 1, 1, 2, 0, 3, 0, 1, 1])   label: tensor([2, 1, 1, 2, 2, 0, 1, 1, 3, 3, 2, 2, 1, 1, 1, 2, 1, 1, 3, 1, 1, 2, 2, 1,
+        1, 2, 0, 0, 3, 3, 3, 1, 1, 1, 1, 1, 2, 2, 0, 0, 1, 0])
+Epoch: 921   Train loss: 1.2143008   Test loss: 1.3156257   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35872781065088755   Train_predict: tensor([0, 0, 3, 1, 0, 2, 0, 3, 1, 1, 1, 3, 1, 0, 0, 2, 3, 1, 1, 1, 1, 3, 2, 1,
+        0, 0, 0, 2, 0, 0, 2, 0, 1, 3, 0, 2, 2, 2, 1, 3, 1, 0])   label: tensor([1, 0, 3, 1, 0, 0, 0, 1, 2, 2, 3, 3, 1, 2, 1, 1, 2, 0, 2, 1, 1, 3, 1, 1,
+        2, 3, 0, 1, 0, 3, 1, 2, 3, 2, 3, 0, 3, 0, 1, 3, 1, 0])
+Epoch: 922   Train loss: 1.225915   Test loss: 1.3141274   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36427514792899407   Train_predict: tensor([2, 1, 0, 2, 3, 3, 1, 3, 0, 3, 1, 2, 3, 3, 3, 1, 1, 0, 3, 0, 3, 0, 0, 0,
+        2, 3, 1, 1, 3, 3, 3, 0, 3, 0, 1, 3, 3, 3, 3, 1, 0, 3])   label: tensor([2, 0, 0, 1, 0, 2, 2, 3, 2, 3, 1, 2, 1, 1, 3, 2, 2, 3, 3, 0, 2, 0, 0, 0,
+        2, 1, 0, 3, 3, 3, 3, 1, 3, 0, 2, 2, 3, 2, 3, 2, 3, 0])
+Epoch: 923   Train loss: 1.1987885   Test loss: 1.3138057   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36168639053254437   Train_predict: tensor([3, 0, 0, 3, 3, 3, 2, 0, 2, 1, 2, 0, 0, 3, 3, 0, 3, 2, 2, 1, 2, 0, 0, 3,
+        0, 3, 1, 0, 3, 3, 0, 1, 0, 1, 1, 2, 3, 3, 0, 3, 1, 3])   label: tensor([1, 0, 0, 2, 3, 1, 2, 0, 2, 2, 2, 0, 2, 3, 0, 2, 2, 2, 3, 2, 0, 0, 1, 1,
+        0, 3, 3, 1, 1, 0, 2, 3, 3, 0, 1, 3, 3, 1, 1, 3, 0, 0])
+Epoch: 924   Train loss: 1.1688043   Test loss: 1.3150588   Train accuracy: 0.5476190476190477   Test accuracy is: 0.3683431952662722   Train_predict: tensor([2, 2, 0, 1, 3, 0, 2, 3, 1, 0, 3, 2, 0, 0, 2, 3, 3, 2, 0, 2, 0, 2, 0, 3,
+        0, 3, 0, 3, 2, 0, 3, 0, 3, 0, 1, 2, 1, 0, 1, 1, 2, 3])   label: tensor([2, 2, 3, 1, 2, 0, 2, 3, 1, 1, 3, 2, 0, 2, 1, 3, 0, 2, 0, 2, 1, 1, 0, 0,
+        2, 1, 0, 3, 2, 1, 3, 1, 0, 2, 1, 2, 1, 3, 1, 0, 3, 0])
+Epoch: 925   Train loss: 1.2841684   Test loss: 1.3146602   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 0, 1, 0, 0, 1, 1, 0, 2, 1, 3, 0, 0, 2, 2, 3, 0, 1, 1, 3, 0, 0, 1, 3,
+        3, 2, 0, 0, 2, 0, 0, 3, 0, 0, 2, 0, 2, 3, 2, 1, 0, 0])   label: tensor([2, 2, 2, 0, 1, 3, 2, 0, 3, 0, 3, 3, 3, 2, 2, 0, 0, 2, 1, 3, 0, 2, 2, 3,
+        0, 2, 2, 2, 1, 0, 0, 1, 2, 2, 3, 1, 0, 1, 0, 1, 1, 2])
+Epoch: 926   Train loss: 1.2703266   Test loss: 1.3133171   Train accuracy: 0.47619047619047616   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 2, 2, 1, 0, 3, 3, 0, 2, 3, 2, 0, 2, 1, 3, 0, 0, 2, 3, 1, 1, 1, 2, 3,
+        2, 2, 0, 3, 0, 0, 2, 1, 3, 3, 1, 1, 3, 0, 2, 0, 3, 3])   label: tensor([0, 0, 3, 2, 0, 3, 1, 1, 2, 0, 0, 0, 2, 1, 3, 0, 3, 2, 3, 0, 1, 0, 1, 3,
+        2, 2, 1, 3, 3, 2, 2, 2, 3, 2, 1, 2, 2, 3, 0, 1, 0, 3])
+Epoch: 927   Train loss: 1.3163055   Test loss: 1.3136696   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3742603550295858   Train_predict: tensor([3, 1, 1, 0, 1, 0, 2, 2, 3, 0, 0, 2, 2, 2, 0, 0, 2, 3, 2, 2, 0, 1, 3, 2,
+        3, 1, 2, 1, 3, 1, 3, 1, 2, 1, 0, 0, 0, 0, 2, 1, 0, 1])   label: tensor([2, 1, 0, 2, 2, 0, 3, 0, 3, 0, 0, 1, 2, 3, 1, 1, 2, 3, 1, 3, 1, 0, 2, 3,
+        0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 2, 0, 3, 3, 2, 3, 0, 1])
+Epoch: 928   Train loss: 1.2638545   Test loss: 1.3122509   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 2, 0, 0, 3, 0, 0, 3, 3, 0, 0, 3, 1, 1, 0, 3, 0, 3, 0, 3, 3, 1, 2, 0,
+        0, 1, 1, 3, 0, 1, 2, 3, 1, 3, 3, 0, 1, 0, 0, 2, 2, 0])   label: tensor([0, 3, 0, 2, 0, 2, 1, 3, 1, 1, 0, 0, 0, 3, 3, 3, 0, 2, 2, 1, 1, 1, 2, 3,
+        1, 1, 1, 0, 3, 2, 2, 1, 2, 3, 3, 0, 1, 3, 2, 2, 3, 0])
+Epoch: 929   Train loss: 1.1686646   Test loss: 1.3140428   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36279585798816566   Train_predict: tensor([1, 3, 3, 3, 1, 0, 3, 0, 3, 3, 3, 1, 0, 0, 3, 0, 3, 1, 1, 0, 0, 3, 2, 0,
+        1, 1, 2, 1, 1, 3, 0, 2, 0, 2, 3, 0, 3, 0, 3, 1, 2, 1])   label: tensor([2, 0, 3, 1, 1, 1, 3, 2, 3, 0, 1, 1, 2, 2, 0, 2, 3, 1, 2, 3, 1, 3, 2, 0,
+        0, 2, 2, 0, 1, 2, 0, 1, 0, 1, 3, 0, 2, 3, 3, 2, 2, 1])
+Epoch: 930   Train loss: 1.2915052   Test loss: 1.3142973   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3631656804733728   Train_predict: tensor([1, 1, 3, 0, 1, 3, 2, 3, 1, 2, 3, 2, 3, 2, 3, 0, 1, 3, 1, 0, 3, 0, 2, 0,
+        0, 2, 3, 3, 0, 2, 0, 1, 2, 0, 1, 3, 0, 0, 0, 3, 0, 1])   label: tensor([2, 1, 0, 3, 0, 1, 0, 1, 3, 3, 3, 2, 2, 2, 1, 3, 2, 1, 2, 0, 3, 3, 0, 0,
+        2, 0, 3, 3, 2, 1, 0, 3, 1, 0, 1, 0, 1, 0, 2, 3, 3, 2])
+Epoch: 931   Train loss: 1.2827227   Test loss: 1.3127646   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3690828402366864   Train_predict: tensor([1, 2, 0, 3, 1, 2, 0, 3, 2, 2, 3, 0, 0, 0, 3, 0, 1, 0, 1, 3, 3, 3, 0, 1,
+        1, 0, 0, 1, 3, 1, 1, 1, 2, 0, 0, 0, 0, 3, 1, 0, 0, 3])   label: tensor([0, 3, 0, 2, 1, 1, 1, 3, 3, 1, 0, 2, 1, 1, 1, 0, 1, 0, 1, 2, 3, 1, 1, 1,
+        1, 2, 0, 1, 3, 1, 3, 2, 3, 2, 1, 0, 0, 2, 3, 2, 1, 1])
+Epoch: 932   Train loss: 1.4323851   Test loss: 1.3121239   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3746301775147929   Train_predict: tensor([1, 3, 3, 1, 3, 3, 3, 0, 2, 1, 1, 3, 1, 2, 0, 2, 0, 2, 1, 1, 1, 0, 2, 0,
+        3, 0, 1, 1, 3, 2, 3, 3, 3, 1, 0, 2, 0, 1, 3, 2, 1, 0])   label: tensor([0, 0, 1, 2, 3, 1, 0, 3, 2, 0, 3, 3, 0, 1, 0, 2, 2, 3, 0, 3, 0, 3, 2, 0,
+        1, 1, 1, 3, 1, 0, 3, 1, 2, 0, 0, 1, 0, 0, 0, 2, 1, 3])
+Epoch: 933   Train loss: 1.2944156   Test loss: 1.3130983   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3738905325443787   Train_predict: tensor([0, 1, 0, 1, 1, 3, 0, 0, 3, 1, 0, 0, 0, 0, 3, 0, 0, 3, 3, 3, 3, 3, 2, 0,
+        0, 1, 2, 2, 3, 2, 2, 3, 1, 1, 0, 0, 0, 0, 0, 0, 1, 3])   label: tensor([1, 2, 1, 1, 0, 0, 2, 2, 2, 2, 3, 0, 0, 2, 3, 2, 0, 3, 0, 3, 3, 2, 0, 0,
+        3, 0, 2, 0, 0, 2, 0, 2, 2, 0, 2, 3, 0, 0, 3, 1, 1, 3])
+Epoch: 934   Train loss: 1.1725984   Test loss: 1.31309   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3757396449704142   Train_predict: tensor([1, 3, 3, 2, 2, 2, 1, 2, 0, 3, 0, 3, 1, 3, 1, 0, 0, 1, 0, 1, 1, 3, 3, 0,
+        1, 3, 3, 3, 0, 0, 0, 0, 3, 0, 2, 3, 0, 2, 1, 2, 2, 0])   label: tensor([2, 3, 2, 3, 1, 2, 3, 3, 1, 3, 2, 3, 1, 3, 0, 3, 0, 2, 2, 3, 0, 0, 2, 0,
+        2, 3, 3, 3, 2, 3, 0, 3, 3, 0, 2, 3, 3, 2, 2, 2, 3, 0])
+Epoch: 935   Train loss: 1.3296404   Test loss: 1.3145359   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3672337278106509   Train_predict: tensor([1, 2, 1, 3, 0, 2, 3, 2, 2, 0, 2, 0, 0, 0, 2, 1, 3, 2, 3, 3, 3, 0, 1, 2,
+        1, 1, 3, 0, 3, 0, 3, 3, 3, 1, 3, 2, 3, 2, 0, 3, 0, 1])   label: tensor([1, 1, 1, 2, 0, 0, 3, 0, 3, 3, 2, 0, 0, 3, 1, 1, 1, 2, 0, 3, 3, 3, 1, 2,
+        3, 0, 3, 3, 3, 3, 1, 1, 3, 2, 2, 1, 1, 2, 3, 2, 3, 0])
+Epoch: 936   Train loss: 1.3275301   Test loss: 1.3131473   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3724112426035503   Train_predict: tensor([0, 2, 1, 0, 1, 0, 3, 2, 2, 1, 2, 1, 2, 0, 2, 3, 0, 1, 3, 1, 0, 0, 1, 3,
+        0, 0, 3, 0, 2, 1, 0, 0, 3, 0, 1, 2, 0, 2, 3, 3, 2, 2])   label: tensor([3, 2, 1, 1, 3, 1, 0, 1, 0, 3, 2, 3, 0, 0, 3, 3, 0, 1, 0, 1, 0, 0, 3, 3,
+        1, 2, 0, 3, 2, 0, 3, 0, 3, 1, 3, 1, 2, 3, 3, 0, 2, 2])
+Epoch: 937   Train loss: 1.279632   Test loss: 1.3125743   Train accuracy: 0.42857142857142855   Test accuracy is: 0.36797337278106507   Train_predict: tensor([2, 2, 2, 2, 1, 3, 1, 0, 0, 0, 1, 0, 1, 3, 1, 2, 1, 1, 3, 2, 2, 2, 3, 1,
+        0, 1, 3, 3, 0, 0, 3, 1, 3, 3, 3, 1, 1, 1, 0, 3, 2, 0])   label: tensor([2, 1, 2, 0, 2, 1, 0, 0, 0, 3, 2, 1, 1, 0, 1, 1, 1, 3, 3, 3, 2, 1, 3, 2,
+        0, 2, 3, 3, 1, 1, 2, 3, 3, 3, 2, 2, 1, 1, 1, 3, 3, 1])
+Epoch: 938   Train loss: 1.2879264   Test loss: 1.3113124   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3716715976331361   Train_predict: tensor([2, 1, 0, 3, 1, 0, 0, 1, 1, 1, 0, 2, 3, 2, 1, 0, 0, 1, 2, 0, 3, 1, 0, 3,
+        0, 3, 1, 0, 2, 0, 1, 0, 3, 0, 0, 1, 0, 2, 3, 1, 2, 2])   label: tensor([1, 2, 0, 3, 2, 2, 0, 3, 3, 1, 2, 2, 0, 2, 0, 0, 2, 0, 0, 3, 1, 2, 3, 1,
+        0, 1, 0, 1, 3, 0, 2, 0, 3, 3, 3, 3, 2, 2, 3, 2, 2, 0])
+Epoch: 939   Train loss: 1.2719921   Test loss: 1.3117106   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3661242603550296   Train_predict: tensor([2, 0, 2, 0, 0, 2, 0, 2, 1, 1, 0, 3, 3, 3, 2, 3, 2, 0, 1, 2, 2, 0, 0, 2,
+        3, 0, 2, 0, 1, 0, 1, 2, 0, 0, 0, 3, 2, 2, 0, 0, 3, 3])   label: tensor([0, 0, 2, 3, 3, 0, 0, 0, 1, 1, 0, 3, 2, 3, 0, 0, 3, 1, 3, 2, 3, 1, 0, 2,
+        1, 3, 1, 2, 2, 1, 3, 0, 0, 0, 3, 0, 2, 0, 3, 3, 3, 2])
+Epoch: 940   Train loss: 1.2361516   Test loss: 1.3125648   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 1, 2, 2, 0, 1, 1, 2, 1, 2, 1, 1, 3, 2, 0, 3, 0, 0, 2, 0, 0, 1, 0, 1,
+        3, 0, 1, 2, 2, 3, 3, 1, 2, 0, 2, 2, 1, 3, 0, 0, 3, 2])   label: tensor([2, 0, 2, 0, 3, 3, 1, 0, 1, 2, 1, 1, 1, 2, 1, 2, 0, 2, 2, 3, 3, 2, 0, 2,
+        2, 0, 0, 3, 0, 3, 3, 2, 2, 0, 2, 2, 2, 0, 0, 0, 0, 1])
+Epoch: 941   Train loss: 1.3158988   Test loss: 1.3137258   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3650147928994083   Train_predict: tensor([1, 0, 3, 0, 2, 3, 0, 2, 0, 1, 0, 2, 0, 0, 1, 3, 1, 0, 2, 2, 2, 0, 0, 0,
+        3, 2, 0, 2, 1, 2, 3, 3, 2, 1, 3, 1, 3, 1, 1, 1, 1, 1])   label: tensor([1, 0, 1, 1, 2, 3, 2, 3, 2, 2, 1, 2, 0, 3, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0,
+        2, 1, 1, 0, 3, 0, 1, 3, 1, 1, 1, 1, 1, 1, 0, 0, 3, 0])
+Epoch: 942   Train loss: 1.3352838   Test loss: 1.3128738   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3624260355029586   Train_predict: tensor([0, 3, 1, 1, 1, 3, 0, 3, 0, 3, 3, 2, 0, 2, 3, 0, 3, 0, 0, 3, 2, 0, 1, 1,
+        0, 3, 2, 2, 2, 1, 1, 0, 1, 1, 2, 3, 3, 2, 1, 0, 0, 3])   label: tensor([0, 2, 1, 1, 0, 3, 0, 1, 2, 3, 2, 2, 2, 2, 0, 0, 0, 3, 2, 3, 3, 3, 2, 2,
+        1, 2, 2, 1, 1, 3, 3, 1, 0, 0, 0, 3, 0, 1, 1, 3, 3, 1])
+Epoch: 943   Train loss: 1.2277128   Test loss: 1.3130492   Train accuracy: 0.5   Test accuracy is: 0.3720414201183432   Train_predict: tensor([3, 0, 1, 1, 3, 3, 0, 3, 0, 0, 1, 1, 0, 0, 1, 3, 3, 1, 1, 0, 3, 1, 0, 1,
+        2, 2, 3, 2, 0, 2, 3, 0, 3, 0, 2, 3, 2, 2, 3, 3, 3, 1])   label: tensor([2, 1, 2, 2, 2, 2, 0, 0, 3, 0, 1, 3, 2, 1, 1, 0, 2, 0, 1, 0, 3, 1, 2, 1,
+        2, 1, 3, 2, 0, 2, 0, 0, 3, 0, 1, 2, 2, 2, 0, 0, 3, 1])
+Epoch: 944   Train loss: 1.3071669   Test loss: 1.3143324   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 0, 1, 0, 1, 0, 1, 3, 2, 1, 2, 2, 1, 3, 0, 0, 3, 0, 0, 2, 3, 0, 1, 1,
+        1, 3, 0, 2, 1, 0, 3, 0, 2, 0, 3, 2, 2, 1, 1, 2, 0, 2])   label: tensor([0, 0, 2, 0, 2, 1, 2, 2, 2, 2, 1, 0, 0, 2, 0, 1, 3, 0, 0, 2, 1, 1, 0, 1,
+        2, 3, 0, 3, 0, 2, 3, 0, 0, 0, 1, 1, 2, 2, 3, 1, 3, 2])
+Epoch: 945   Train loss: 1.2933998   Test loss: 1.3131753   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 0, 2, 1, 0, 3, 1, 0, 2, 2, 3, 0, 1, 0, 2, 3, 3, 0, 3, 0, 1, 1, 0, 0,
+        0, 1, 1, 2, 2, 1, 2, 0, 3, 2, 3, 1, 0, 0, 1, 0, 0, 3])   label: tensor([0, 0, 0, 1, 0, 3, 1, 0, 0, 1, 1, 0, 0, 1, 2, 0, 0, 1, 2, 0, 2, 0, 0, 0,
+        2, 1, 0, 0, 1, 0, 1, 3, 1, 2, 2, 1, 1, 1, 1, 0, 2, 1])
+Epoch: 946   Train loss: 1.2053589   Test loss: 1.3159579   Train accuracy: 0.5   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 2, 2, 2, 0, 3, 3, 1, 2, 3, 3, 0, 2, 3, 1, 0, 1, 0, 2, 1, 1, 2, 1, 3,
+        1, 1, 0, 1, 3, 3, 2, 3, 0, 0, 1, 0, 1, 2, 1, 2, 2, 3])   label: tensor([3, 2, 2, 3, 3, 0, 1, 1, 2, 1, 1, 1, 0, 3, 2, 0, 1, 2, 2, 1, 3, 0, 1, 3,
+        2, 1, 1, 1, 1, 3, 0, 3, 3, 0, 1, 0, 0, 3, 1, 2, 0, 1])
+Epoch: 947   Train loss: 1.179363   Test loss: 1.3149476   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3609467455621302   Train_predict: tensor([1, 3, 1, 1, 0, 0, 2, 1, 1, 1, 1, 0, 1, 3, 1, 0, 1, 3, 0, 2, 3, 3, 0, 3,
+        1, 3, 1, 0, 3, 1, 1, 1, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1])   label: tensor([1, 2, 1, 2, 0, 1, 2, 1, 1, 0, 1, 0, 1, 1, 3, 0, 3, 0, 1, 2, 2, 1, 1, 3,
+        3, 3, 1, 0, 3, 0, 1, 0, 1, 0, 0, 0, 3, 0, 0, 3, 3, 2])
+Epoch: 948   Train loss: 1.2325497   Test loss: 1.3155211   Train accuracy: 0.40476190476190477   Test accuracy is: 0.36427514792899407   Train_predict: tensor([0, 1, 3, 2, 0, 2, 1, 1, 3, 3, 2, 1, 2, 3, 3, 2, 0, 3, 0, 0, 1, 0, 3, 3,
+        3, 3, 2, 2, 1, 0, 2, 2, 3, 0, 0, 2, 3, 0, 3, 3, 1, 3])   label: tensor([1, 1, 0, 2, 1, 0, 1, 1, 3, 0, 0, 2, 3, 3, 0, 2, 2, 3, 3, 0, 0, 3, 1, 3,
+        2, 2, 2, 2, 2, 1, 0, 2, 0, 0, 1, 0, 0, 3, 2, 3, 1, 3])
+Epoch: 949   Train loss: 1.3220485   Test loss: 1.3134537   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 3, 2, 2, 1, 3, 3, 0, 1, 3, 0, 2, 1, 3, 1, 2, 3, 2, 3, 3, 3, 0, 3, 2,
+        3, 0, 1, 3, 1, 3, 1, 1, 3, 3, 1, 1, 0, 3, 1, 0, 1, 1])   label: tensor([1, 3, 0, 3, 1, 3, 2, 2, 2, 3, 0, 0, 2, 2, 2, 2, 0, 3, 0, 1, 2, 0, 0, 0,
+        3, 3, 2, 2, 0, 2, 2, 0, 3, 2, 1, 2, 3, 3, 1, 0, 2, 0])
+Epoch: 950   Train loss: 1.2729445   Test loss: 1.3138746   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3687130177514793   Train_predict: tensor([3, 0, 3, 0, 3, 3, 1, 1, 0, 1, 2, 1, 1, 2, 3, 2, 1, 0, 0, 1, 2, 2, 2, 0,
+        1, 1, 3, 3, 1, 2, 2, 1, 1, 3, 0, 2, 2, 1, 1, 0, 0, 0])   label: tensor([3, 1, 0, 0, 2, 3, 3, 1, 3, 1, 1, 3, 2, 3, 3, 2, 1, 0, 1, 1, 2, 1, 2, 3,
+        1, 0, 3, 0, 2, 2, 3, 1, 2, 1, 0, 3, 3, 1, 2, 0, 1, 0])
+Epoch: 951   Train loss: 1.2221162   Test loss: 1.3151491   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3701923076923077   Train_predict: tensor([1, 1, 2, 2, 1, 0, 1, 3, 3, 2, 2, 0, 0, 0, 2, 1, 3, 1, 0, 3, 2, 0, 0, 1,
+        1, 1, 1, 0, 3, 1, 0, 0, 0, 0, 3, 1, 2, 1, 1, 0, 0, 3])   label: tensor([0, 1, 1, 0, 3, 3, 0, 3, 3, 2, 2, 2, 0, 1, 0, 2, 0, 3, 0, 2, 0, 0, 2, 1,
+        1, 1, 1, 0, 2, 1, 2, 1, 0, 0, 3, 1, 1, 1, 2, 0, 1, 2])
+Epoch: 952   Train loss: 1.2005918   Test loss: 1.3151083   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 0, 2, 1, 1, 3, 0, 0, 0, 3, 3, 0, 2, 0, 0, 1, 0, 1, 3, 1, 3, 3, 1,
+        2, 0, 1, 0, 3, 1, 3, 2, 0, 1, 0, 2, 3, 0, 3, 1, 0, 1])   label: tensor([2, 1, 3, 2, 1, 1, 3, 1, 1, 2, 1, 3, 0, 2, 3, 3, 1, 0, 2, 3, 2, 2, 2, 3,
+        2, 0, 1, 1, 3, 1, 3, 0, 1, 1, 0, 2, 0, 0, 1, 1, 0, 2])
+Epoch: 953   Train loss: 1.2959638   Test loss: 1.3146485   Train accuracy: 0.40476190476190477   Test accuracy is: 0.35872781065088755   Train_predict: tensor([1, 1, 3, 3, 3, 3, 0, 0, 0, 0, 2, 1, 2, 1, 1, 1, 2, 3, 1, 0, 0, 2, 0, 0,
+        1, 3, 0, 3, 3, 3, 0, 3, 3, 3, 2, 3, 3, 1, 0, 1, 3, 3])   label: tensor([0, 1, 3, 2, 2, 3, 3, 2, 0, 0, 3, 1, 0, 0, 2, 2, 3, 1, 3, 2, 0, 2, 1, 0,
+        0, 3, 1, 1, 0, 1, 0, 3, 1, 0, 2, 3, 3, 0, 0, 1, 1, 0])
+Epoch: 954   Train loss: 1.3773332   Test loss: 1.3140134   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([1, 3, 1, 2, 3, 0, 0, 2, 0, 0, 3, 3, 2, 3, 0, 3, 2, 0, 1, 3, 1, 0, 0, 0,
+        0, 1, 0, 1, 0, 1, 0, 2, 3, 1, 0, 2, 3, 3, 2, 2, 2, 0])   label: tensor([3, 2, 1, 1, 3, 0, 2, 2, 1, 2, 3, 3, 2, 3, 0, 1, 0, 1, 1, 1, 3, 0, 2, 2,
+        3, 2, 3, 0, 0, 1, 3, 2, 1, 1, 0, 3, 1, 2, 1, 1, 1, 1])
+Epoch: 955   Train loss: 1.1867558   Test loss: 1.3139207   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3672337278106509   Train_predict: tensor([2, 2, 3, 0, 0, 3, 1, 1, 0, 3, 3, 3, 3, 1, 0, 0, 3, 1, 1, 3, 0, 1, 1, 0,
+        2, 0, 1, 0, 2, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 3, 2, 1])   label: tensor([3, 1, 0, 0, 0, 3, 0, 2, 0, 1, 3, 1, 3, 3, 2, 0, 3, 3, 1, 2, 0, 1, 3, 2,
+        3, 3, 2, 0, 2, 2, 0, 1, 2, 0, 1, 1, 0, 3, 1, 3, 2, 1])
+Epoch: 956   Train loss: 1.1542197   Test loss: 1.3140491   Train accuracy: 0.5238095238095238   Test accuracy is: 0.3698224852071006   Train_predict: tensor([3, 0, 0, 0, 3, 1, 3, 0, 3, 1, 0, 3, 0, 3, 2, 0, 0, 1, 3, 1, 0, 0, 1, 1,
+        1, 0, 2, 3, 3, 2, 1, 2, 1, 3, 3, 3, 0, 0, 1, 2, 3, 3])   label: tensor([2, 3, 0, 3, 3, 1, 2, 3, 1, 0, 0, 3, 0, 0, 2, 0, 0, 1, 1, 1, 3, 0, 0, 1,
+        0, 0, 0, 2, 3, 3, 1, 0, 1, 3, 3, 3, 1, 0, 1, 1, 2, 1])
+Epoch: 957   Train loss: 1.328922   Test loss: 1.3134129   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3687130177514793   Train_predict: tensor([1, 0, 2, 3, 1, 0, 1, 0, 0, 2, 2, 0, 2, 1, 0, 3, 1, 0, 2, 0, 1, 3, 3, 0,
+        1, 3, 1, 3, 3, 2, 1, 0, 2, 2, 2, 2, 1, 3, 3, 2, 1, 2])   label: tensor([2, 0, 3, 3, 0, 3, 1, 0, 1, 0, 3, 3, 0, 0, 3, 2, 1, 1, 1, 2, 2, 0, 2, 1,
+        1, 3, 3, 2, 0, 1, 2, 0, 3, 1, 2, 0, 3, 0, 2, 2, 2, 2])
+Epoch: 958   Train loss: 1.2457151   Test loss: 1.3141447   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3716715976331361   Train_predict: tensor([0, 1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 2, 0, 3, 2, 0, 2, 3, 2, 3, 0, 1, 0, 3,
+        0, 1, 2, 0, 1, 0, 0, 0, 1, 0, 3, 1, 1, 3, 1, 0, 2, 0])   label: tensor([0, 2, 3, 0, 0, 1, 1, 0, 2, 1, 3, 0, 3, 2, 0, 0, 0, 3, 0, 0, 0, 2, 1, 0,
+        2, 1, 2, 0, 0, 1, 2, 0, 2, 0, 3, 2, 1, 3, 1, 1, 2, 2])
+Epoch: 959   Train loss: 1.3335067   Test loss: 1.3148581   Train accuracy: 0.38095238095238093   Test accuracy is: 0.36797337278106507   Train_predict: tensor([3, 0, 3, 3, 0, 0, 0, 2, 0, 2, 0, 2, 0, 1, 3, 1, 3, 0, 0, 0, 2, 1, 3, 0,
+        1, 1, 2, 0, 2, 0, 0, 1, 3, 1, 3, 0, 3, 2, 3, 0, 3, 2])   label: tensor([0, 1, 2, 2, 2, 0, 1, 2, 3, 2, 0, 0, 0, 0, 0, 2, 2, 3, 1, 0, 3, 1, 3, 0,
+        1, 2, 0, 2, 1, 0, 0, 3, 3, 1, 3, 0, 1, 3, 0, 2, 1, 0])
+Epoch: 960   Train loss: 1.3081303   Test loss: 1.314761   Train accuracy: 0.38095238095238093   Test accuracy is: 0.363905325443787   Train_predict: tensor([2, 1, 1, 3, 3, 3, 0, 3, 1, 3, 1, 1, 2, 3, 3, 1, 1, 1, 2, 0, 0, 0, 2, 1,
+        0, 2, 1, 0, 0, 3, 1, 1, 3, 3, 1, 0, 2, 0, 2, 1, 2, 0])   label: tensor([2, 2, 0, 3, 0, 3, 1, 2, 2, 0, 1, 1, 2, 1, 3, 0, 2, 1, 3, 0, 1, 3, 3, 1,
+        0, 1, 1, 1, 0, 1, 2, 1, 3, 1, 2, 1, 2, 2, 1, 2, 3, 1])
+Epoch: 961   Train loss: 1.2629424   Test loss: 1.3146884   Train accuracy: 0.5476190476190477   Test accuracy is: 0.3646449704142012   Train_predict: tensor([0, 2, 1, 1, 0, 1, 0, 2, 3, 1, 2, 0, 0, 3, 2, 1, 3, 0, 3, 3, 0, 1, 2, 1,
+        3, 0, 2, 0, 3, 0, 0, 0, 0, 1, 3, 3, 0, 1, 1, 1, 2, 0])   label: tensor([3, 3, 0, 0, 3, 1, 2, 2, 3, 1, 2, 1, 0, 2, 2, 1, 2, 0, 2, 2, 0, 2, 2, 1,
+        3, 0, 2, 1, 1, 0, 3, 1, 3, 1, 3, 3, 0, 1, 0, 2, 2, 0])
+Epoch: 962   Train loss: 1.2582549   Test loss: 1.3157481   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 0, 0, 2, 3, 1, 1, 3, 1, 3, 1, 1, 2, 2, 3, 0, 0, 0, 1, 3, 0, 0, 1, 0,
+        1, 0, 1, 3, 3, 1, 1, 1, 3, 2, 0, 3, 0, 2, 3, 1, 3, 2])   label: tensor([3, 2, 0, 2, 3, 2, 1, 3, 1, 2, 2, 1, 0, 1, 3, 2, 3, 1, 3, 2, 2, 3, 0, 3,
+        1, 2, 1, 2, 3, 1, 2, 2, 0, 2, 2, 1, 0, 2, 1, 3, 0, 2])
+Epoch: 963   Train loss: 1.2539699   Test loss: 1.3155915   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3657544378698225   Train_predict: tensor([2, 0, 0, 0, 1, 1, 0, 0, 3, 0, 2, 0, 2, 1, 0, 2, 0, 3, 2, 0, 1, 2, 0, 2,
+        3, 3, 0, 0, 3, 0, 3, 1, 1, 2, 0, 2, 1, 3, 2, 0, 2, 2])   label: tensor([2, 2, 3, 1, 2, 0, 1, 2, 1, 0, 0, 2, 0, 2, 1, 3, 0, 0, 1, 2, 2, 1, 0, 2,
+        1, 3, 0, 3, 3, 1, 1, 1, 1, 2, 0, 2, 1, 3, 1, 2, 1, 2])
+Epoch: 964   Train loss: 1.3305206   Test loss: 1.3135296   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3672337278106509   Train_predict: tensor([0, 1, 3, 3, 3, 2, 3, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 3, 0, 0, 1, 1, 0, 2,
+        3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3, 1, 1, 0, 3, 1, 0, 1])   label: tensor([0, 2, 3, 3, 0, 0, 3, 2, 2, 2, 2, 0, 0, 2, 1, 0, 3, 1, 1, 3, 0, 2, 1, 0,
+        0, 0, 0, 3, 0, 2, 1, 1, 3, 0, 3, 3, 1, 0, 2, 2, 1, 0])
+Epoch: 965   Train loss: 1.2333047   Test loss: 1.3135374   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36427514792899407   Train_predict: tensor([3, 0, 3, 1, 0, 0, 0, 3, 0, 0, 1, 3, 1, 3, 2, 0, 2, 1, 2, 2, 3, 3, 0, 1,
+        3, 0, 1, 1, 1, 1, 1, 2, 0, 0, 3, 1, 0, 1, 1, 2, 2, 2])   label: tensor([3, 0, 1, 2, 3, 3, 2, 0, 0, 0, 2, 3, 0, 0, 1, 1, 2, 0, 3, 1, 3, 3, 0, 0,
+        2, 3, 0, 1, 1, 1, 3, 1, 1, 3, 1, 0, 1, 1, 2, 2, 2, 3])
+Epoch: 966   Train loss: 1.3373231   Test loss: 1.3148153   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3690828402366864   Train_predict: tensor([2, 2, 0, 3, 0, 1, 3, 2, 2, 2, 1, 3, 0, 1, 3, 2, 1, 3, 0, 0, 0, 1, 0, 0,
+        0, 0, 2, 3, 3, 2, 3, 3, 1, 0, 1, 2, 2, 0, 3, 1, 0, 2])   label: tensor([3, 3, 3, 3, 1, 1, 0, 2, 1, 2, 3, 3, 0, 1, 1, 0, 3, 1, 0, 1, 2, 1, 1, 0,
+        0, 3, 2, 3, 1, 3, 1, 3, 1, 0, 0, 3, 1, 0, 1, 0, 2, 3])
+Epoch: 967   Train loss: 1.3471327   Test loss: 1.3147223   Train accuracy: 0.2619047619047619   Test accuracy is: 0.36538461538461536   Train_predict: tensor([3, 2, 1, 1, 2, 0, 2, 0, 3, 2, 0, 3, 1, 3, 2, 2, 3, 2, 1, 3, 0, 2, 3, 3,
+        1, 0, 3, 1, 1, 3, 0, 1, 2, 0, 1, 1, 1, 1, 1, 3, 3, 3])   label: tensor([2, 3, 2, 3, 1, 1, 3, 0, 2, 2, 3, 0, 2, 2, 3, 2, 3, 0, 3, 0, 1, 0, 2, 1,
+        1, 2, 3, 1, 2, 3, 0, 3, 1, 2, 2, 1, 2, 3, 0, 0, 3, 2])
+Epoch: 968   Train loss: 1.2462828   Test loss: 1.3115863   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3690828402366864   Train_predict: tensor([0, 2, 1, 0, 0, 0, 3, 3, 0, 1, 1, 1, 1, 1, 0, 0, 3, 0, 0, 1, 0, 3, 1, 1,
+        3, 2, 3, 0, 3, 0, 2, 0, 1, 0, 2, 3, 1, 2, 0, 1, 0, 1])   label: tensor([0, 1, 0, 1, 0, 2, 0, 2, 0, 2, 1, 1, 2, 1, 2, 3, 3, 3, 2, 0, 3, 1, 3, 2,
+        3, 2, 1, 0, 3, 2, 1, 0, 1, 3, 2, 1, 2, 1, 3, 2, 2, 1])
+Epoch: 969   Train loss: 1.2385207   Test loss: 1.312712   Train accuracy: 0.4523809523809524   Test accuracy is: 0.367603550295858   Train_predict: tensor([0, 3, 2, 3, 1, 3, 0, 0, 3, 1, 0, 0, 0, 1, 3, 3, 2, 3, 2, 3, 2, 2, 2, 2,
+        0, 1, 3, 0, 1, 2, 3, 3, 2, 0, 3, 0, 0, 3, 3, 3, 2, 1])   label: tensor([0, 2, 3, 2, 1, 3, 0, 3, 2, 2, 2, 0, 0, 2, 1, 3, 1, 2, 2, 1, 2, 3, 2, 2,
+        3, 1, 1, 0, 2, 3, 3, 3, 3, 0, 2, 2, 0, 3, 0, 1, 1, 1])
+Epoch: 970   Train loss: 1.3814952   Test loss: 1.3133641   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3664940828402367   Train_predict: tensor([0, 3, 3, 0, 2, 3, 3, 1, 3, 1, 3, 2, 2, 2, 3, 0, 2, 0, 0, 1, 1, 0, 1, 3,
+        1, 2, 2, 1, 2, 0, 2, 2, 3, 3, 0, 0, 3, 0, 1, 2, 2, 3])   label: tensor([0, 0, 1, 1, 0, 3, 2, 2, 3, 3, 0, 0, 3, 0, 1, 0, 3, 3, 0, 1, 1, 3, 1, 0,
+        1, 3, 1, 1, 2, 1, 2, 3, 1, 3, 2, 3, 3, 3, 3, 1, 0, 3])
+Epoch: 971   Train loss: 1.3455609   Test loss: 1.3143871   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3631656804733728   Train_predict: tensor([3, 2, 0, 3, 3, 3, 0, 3, 3, 1, 3, 1, 3, 0, 2, 3, 0, 1, 1, 0, 3, 3, 0, 3,
+        2, 0, 2, 1, 2, 2, 3, 0, 0, 2, 0, 2, 1, 2, 1, 2, 0, 0])   label: tensor([0, 1, 1, 2, 1, 3, 3, 0, 3, 2, 0, 3, 3, 2, 3, 1, 2, 0, 1, 1, 0, 1, 2, 2,
+        3, 2, 1, 1, 0, 3, 3, 3, 2, 2, 0, 2, 0, 2, 0, 0, 0, 3])
+Epoch: 972   Train loss: 1.2585415   Test loss: 1.3134623   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36427514792899407   Train_predict: tensor([1, 3, 3, 3, 3, 3, 1, 1, 0, 3, 0, 0, 3, 1, 0, 0, 0, 3, 3, 0, 1, 3, 3, 3,
+        3, 2, 0, 0, 1, 3, 2, 1, 3, 3, 1, 0, 3, 0, 2, 1, 1, 0])   label: tensor([1, 3, 3, 3, 1, 3, 1, 1, 2, 3, 1, 0, 3, 2, 2, 1, 3, 0, 1, 1, 2, 0, 0, 3,
+        0, 0, 3, 0, 1, 1, 3, 2, 1, 1, 0, 3, 0, 0, 3, 2, 1, 2])
+Epoch: 973   Train loss: 1.1849444   Test loss: 1.3128456   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3620562130177515   Train_predict: tensor([0, 3, 3, 0, 2, 0, 1, 0, 1, 2, 1, 0, 3, 3, 2, 0, 2, 3, 3, 0, 0, 3, 0, 1,
+        0, 3, 2, 0, 0, 3, 0, 2, 0, 3, 0, 1, 2, 3, 0, 2, 1, 0])   label: tensor([0, 1, 3, 3, 0, 0, 0, 0, 3, 2, 1, 0, 3, 3, 2, 1, 1, 1, 0, 3, 0, 0, 0, 1,
+        2, 0, 2, 3, 1, 1, 3, 2, 0, 1, 3, 0, 2, 0, 0, 1, 2, 0])
+Epoch: 974   Train loss: 1.258975   Test loss: 1.3155732   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3661242603550296   Train_predict: tensor([3, 0, 1, 1, 1, 1, 0, 3, 3, 0, 0, 0, 0, 1, 2, 1, 2, 0, 3, 0, 2, 0, 1, 0,
+        3, 3, 1, 2, 2, 3, 2, 3, 1, 2, 1, 3, 0, 0, 1, 0, 0, 3])   label: tensor([3, 3, 1, 0, 3, 2, 0, 0, 1, 0, 3, 3, 2, 2, 2, 1, 1, 3, 0, 2, 2, 0, 1, 0,
+        0, 2, 2, 2, 3, 1, 0, 3, 2, 1, 1, 3, 0, 1, 0, 2, 3, 2])
+Epoch: 975   Train loss: 1.2499222   Test loss: 1.3155953   Train accuracy: 0.4523809523809524   Test accuracy is: 0.36538461538461536   Train_predict: tensor([1, 3, 1, 3, 0, 3, 3, 2, 3, 0, 3, 3, 2, 2, 0, 0, 3, 2, 2, 3, 3, 0, 2, 2,
+        3, 3, 0, 2, 2, 3, 0, 2, 0, 0, 3, 2, 2, 1, 1, 2, 0, 2])   label: tensor([3, 3, 1, 0, 1, 3, 3, 1, 3, 3, 0, 3, 0, 2, 3, 1, 3, 3, 2, 2, 3, 3, 0, 1,
+        2, 3, 0, 2, 2, 0, 0, 3, 1, 1, 3, 2, 3, 0, 1, 0, 1, 2])
+Epoch: 976   Train loss: 1.3250405   Test loss: 1.315487   Train accuracy: 0.40476190476190477   Test accuracy is: 0.3701923076923077   Train_predict: tensor([3, 1, 2, 2, 2, 0, 0, 0, 1, 0, 2, 0, 3, 0, 0, 1, 1, 0, 2, 3, 1, 3, 3, 1,
+        3, 3, 0, 2, 0, 1, 1, 3, 0, 2, 0, 0, 1, 1, 1, 1, 0, 2])   label: tensor([3, 1, 0, 1, 2, 2, 3, 0, 1, 3, 2, 0, 1, 1, 3, 1, 2, 0, 1, 0, 2, 1, 3, 2,
+        2, 2, 3, 3, 0, 3, 3, 3, 0, 1, 0, 1, 0, 1, 1, 1, 3, 3])
+Epoch: 977   Train loss: 1.420239   Test loss: 1.3150678   Train accuracy: 0.2857142857142857   Test accuracy is: 0.3698224852071006   Train_predict: tensor([0, 3, 0, 3, 0, 0, 3, 1, 0, 3, 2, 1, 1, 2, 3, 3, 0, 3, 1, 0, 0, 3, 1, 1,
+        1, 0, 0, 0, 1, 3, 0, 1, 0, 1, 0, 2, 0, 1, 3, 2, 1, 2])   label: tensor([3, 2, 1, 1, 2, 0, 3, 1, 3, 3, 0, 2, 0, 0, 3, 1, 0, 1, 0, 1, 0, 3, 3, 0,
+        3, 1, 1, 1, 0, 0, 0, 2, 1, 1, 0, 2, 2, 0, 1, 1, 2, 3])
+Epoch: 978   Train loss: 1.3404303   Test loss: 1.3155042   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3683431952662722   Train_predict: tensor([2, 3, 0, 3, 0, 0, 3, 1, 3, 1, 1, 0, 1, 3, 1, 3, 1, 3, 1, 1, 2, 2, 3, 2,
+        3, 3, 3, 3, 0, 2, 3, 2, 2, 1, 3, 0, 3, 3, 3, 0, 1, 2])   label: tensor([3, 3, 3, 0, 3, 3, 1, 2, 3, 0, 1, 0, 2, 3, 1, 2, 1, 1, 2, 1, 0, 3, 1, 2,
+        1, 1, 0, 0, 3, 1, 2, 0, 1, 1, 0, 2, 2, 1, 3, 1, 3, 1])
+Epoch: 979   Train loss: 1.2921528   Test loss: 1.315226   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3698224852071006   Train_predict: tensor([2, 0, 3, 1, 1, 2, 2, 3, 0, 3, 2, 3, 0, 1, 3, 3, 1, 0, 2, 1, 1, 1, 0, 1,
+        3, 2, 0, 3, 0, 2, 0, 0, 0, 2, 2, 0, 1, 3, 1, 3, 0, 3])   label: tensor([0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 3, 3, 3, 3, 3, 3, 1, 3, 2, 0, 1, 3, 0,
+        2, 1, 3, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0, 3, 2, 1, 3, 3])
+Epoch: 980   Train loss: 1.3519489   Test loss: 1.3158101   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3694526627218935   Train_predict: tensor([1, 0, 0, 1, 2, 3, 0, 0, 1, 0, 1, 0, 0, 0, 3, 1, 1, 1, 1, 3, 0, 3, 2, 3,
+        3, 2, 0, 2, 0, 0, 0, 3, 1, 2, 1, 0, 0, 0, 3, 1, 0, 0])   label: tensor([1, 3, 0, 0, 0, 2, 2, 0, 3, 3, 1, 2, 1, 0, 2, 3, 2, 2, 1, 3, 1, 2, 2, 0,
+        2, 3, 3, 2, 0, 2, 2, 2, 2, 3, 2, 3, 1, 0, 3, 3, 0, 0])
+Epoch: 981   Train loss: 1.4041309   Test loss: 1.3145313   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3716715976331361   Train_predict: tensor([0, 1, 3, 3, 0, 2, 2, 0, 0, 1, 2, 2, 0, 2, 3, 3, 3, 2, 3, 3, 1, 0, 1, 0,
+        1, 0, 2, 0, 0, 1, 0, 2, 0, 3, 0, 3, 1, 2, 1, 3, 0, 2])   label: tensor([0, 0, 1, 2, 2, 1, 1, 2, 2, 3, 2, 1, 0, 3, 0, 3, 3, 0, 0, 3, 2, 3, 2, 2,
+        1, 0, 2, 2, 2, 2, 3, 3, 1, 0, 2, 0, 2, 1, 2, 2, 0, 1])
+Epoch: 982   Train loss: 1.2547877   Test loss: 1.3143448   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3690828402366864   Train_predict: tensor([0, 1, 1, 1, 2, 0, 2, 0, 0, 0, 0, 2, 1, 1, 0, 3, 3, 1, 3, 3, 2, 1, 0, 3,
+        0, 3, 1, 1, 3, 0, 3, 0, 3, 0, 3, 2, 3, 3, 0, 0, 0, 0])   label: tensor([0, 1, 0, 1, 2, 2, 0, 0, 1, 0, 1, 1, 1, 3, 1, 1, 1, 1, 3, 0, 2, 1, 2, 0,
+        0, 1, 3, 2, 0, 0, 2, 2, 3, 0, 0, 0, 3, 0, 0, 3, 0, 0])
+Epoch: 983   Train loss: 1.2839469   Test loss: 1.3148501   Train accuracy: 0.3333333333333333   Test accuracy is: 0.3698224852071006   Train_predict: tensor([1, 0, 0, 0, 0, 0, 2, 1, 1, 3, 1, 1, 0, 3, 0, 1, 1, 3, 0, 2, 3, 0, 0, 1,
+        0, 0, 3, 3, 3, 0, 2, 0, 1, 3, 2, 0, 3, 2, 0, 1, 1, 1])   label: tensor([1, 0, 0, 1, 0, 3, 0, 2, 2, 0, 3, 2, 1, 2, 3, 3, 0, 3, 0, 2, 3, 1, 2, 0,
+        2, 0, 0, 3, 0, 2, 2, 3, 2, 3, 2, 3, 3, 3, 3, 0, 2, 0])
+Epoch: 984   Train loss: 1.2503748   Test loss: 1.313808   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3720414201183432   Train_predict: tensor([0, 0, 2, 2, 0, 2, 0, 0, 2, 1, 3, 3, 3, 3, 0, 2, 1, 2, 0, 1, 3, 1, 0, 0,
+        3, 3, 2, 2, 3, 1, 0, 2, 3, 0, 1, 2, 2, 0, 0, 2, 3, 0])   label: tensor([1, 1, 1, 3, 1, 3, 2, 0, 2, 3, 1, 0, 3, 0, 1, 0, 1, 2, 2, 1, 1, 3, 0, 0,
+        2, 3, 1, 3, 2, 1, 0, 2, 0, 0, 2, 1, 3, 0, 3, 2, 3, 1])
+Epoch: 985   Train loss: 1.2621251   Test loss: 1.3147261   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3687130177514793   Train_predict: tensor([0, 2, 0, 1, 3, 1, 1, 0, 1, 0, 0, 0, 1, 3, 1, 1, 3, 3, 1, 0, 2, 1, 3, 3,
+        3, 0, 2, 0, 0, 3, 1, 0, 0, 3, 0, 1, 1, 2, 2, 3, 3, 2])   label: tensor([0, 2, 0, 2, 0, 1, 0, 0, 1, 0, 1, 3, 2, 3, 2, 1, 3, 3, 2, 3, 2, 3, 3, 1,
+        0, 0, 0, 0, 2, 3, 2, 1, 2, 1, 0, 2, 1, 1, 2, 3, 1, 1])
+Epoch: 986   Train loss: 1.2986506   Test loss: 1.3133346   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3701923076923077   Train_predict: tensor([0, 0, 0, 2, 0, 0, 3, 1, 0, 1, 2, 2, 3, 0, 2, 3, 0, 1, 3, 1, 3, 3, 1, 1,
+        0, 1, 2, 0, 0, 2, 3, 1, 1, 3, 0, 0, 3, 2, 2, 2, 3, 0])   label: tensor([0, 3, 3, 2, 0, 0, 3, 2, 2, 1, 2, 1, 1, 2, 2, 3, 0, 1, 1, 1, 3, 0, 1, 0,
+        1, 1, 2, 3, 1, 2, 1, 0, 2, 0, 0, 1, 3, 1, 2, 1, 1, 3])
+Epoch: 987   Train loss: 1.2794936   Test loss: 1.3133502   Train accuracy: 0.30952380952380953   Test accuracy is: 0.3687130177514793   Train_predict: tensor([0, 0, 1, 3, 2, 1, 0, 1, 3, 0, 0, 2, 1, 3, 1, 3, 1, 1, 0, 0, 3, 2, 1, 1,
+        2, 0, 0, 0, 0, 1, 0, 1, 3, 0, 3, 0, 3, 3, 1, 2, 3, 1])   label: tensor([3, 1, 1, 1, 2, 2, 0, 0, 2, 3, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2, 3, 2, 1,
+        1, 0, 0, 1, 0, 0, 3, 1, 2, 3, 3, 2, 2, 1, 2, 1, 0, 3])
+Epoch: 988   Train loss: 1.2376497   Test loss: 1.314966   Train accuracy: 0.40476190476190477   Test accuracy is: 0.367603550295858   Train_predict: tensor([3, 2, 0, 3, 1, 0, 1, 2, 1, 2, 0, 1, 0, 1, 1, 3, 3, 2, 1, 1, 3, 2, 0, 2,
+        1, 3, 1, 0, 0, 3, 0, 3, 2, 0, 0, 0, 1, 1, 1, 0, 3, 0])   label: tensor([2, 1, 1, 0, 1, 0, 1, 1, 3, 2, 0, 3, 0, 1, 0, 0, 0, 0, 3, 1, 0, 2, 3, 0,
+        2, 3, 3, 0, 1, 0, 2, 3, 3, 3, 3, 0, 1, 1, 1, 3, 0, 0])
+Epoch: 989   Train loss: 1.2710027   Test loss: 1.314706   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36279585798816566   Train_predict: tensor([3, 0, 3, 2, 1, 1, 3, 3, 1, 0, 0, 2, 1, 3, 3, 1, 3, 2, 2, 1, 2, 3, 0, 0,
+        0, 2, 0, 1, 3, 2, 3, 0, 0, 2, 1, 0, 0, 0, 2, 2, 2, 3])   label: tensor([2, 0, 3, 3, 2, 0, 1, 0, 1, 3, 0, 3, 1, 3, 3, 3, 2, 2, 2, 3, 0, 0, 1, 3,
+        3, 2, 0, 2, 0, 3, 2, 2, 2, 0, 3, 0, 2, 2, 2, 2, 2, 1])
+Epoch: 990   Train loss: 1.4049627   Test loss: 1.3138425   Train accuracy: 0.2619047619047619   Test accuracy is: 0.3731508875739645   Train_predict: tensor([1, 3, 2, 3, 1, 3, 1, 3, 0, 2, 2, 2, 0, 3, 0, 2, 3, 1, 0, 1, 1, 0, 1, 3,
+        1, 1, 2, 0, 0, 3, 0, 0, 3, 1, 3, 2, 0, 2, 3, 2, 1, 1])   label: tensor([3, 0, 0, 1, 2, 0, 1, 2, 3, 1, 1, 0, 0, 0, 0, 2, 3, 3, 0, 0, 2, 3, 3, 3,
+        0, 0, 1, 1, 0, 3, 3, 2, 1, 2, 2, 3, 2, 2, 3, 0, 0, 0])
+Epoch: 991   Train loss: 1.2648177   Test loss: 1.3149275   Train accuracy: 0.40476190476190477   Test accuracy is: 0.367603550295858   Train_predict: tensor([1, 3, 0, 2, 0, 0, 2, 2, 2, 0, 3, 0, 2, 0, 1, 2, 1, 0, 3, 2, 2, 1, 0, 3,
+        0, 3, 2, 0, 3, 0, 0, 3, 1, 2, 0, 0, 0, 2, 3, 2, 3, 0])   label: tensor([1, 3, 1, 1, 1, 2, 2, 1, 0, 1, 0, 0, 2, 2, 1, 2, 1, 0, 3, 3, 3, 1, 3, 2,
+        3, 0, 2, 1, 0, 3, 3, 1, 2, 2, 0, 0, 1, 1, 3, 3, 3, 1])
+Epoch: 992   Train loss: 1.340856   Test loss: 1.3137438   Train accuracy: 0.38095238095238093   Test accuracy is: 0.3687130177514793   Train_predict: tensor([3, 2, 0, 0, 1, 0, 0, 1, 1, 1, 0, 2, 0, 1, 0, 0, 0, 3, 1, 3, 3, 3, 3, 0,
+        0, 0, 0, 1, 0, 2, 0, 0, 3, 3, 0, 3, 2, 0, 0, 3, 1, 2])   label: tensor([0, 3, 3, 0, 3, 3, 0, 1, 0, 2, 3, 1, 2, 2, 2, 0, 2, 0, 1, 0, 0, 1, 0, 2,
+        2, 0, 2, 1, 0, 2, 0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 0, 2])
+Epoch: 993   Train loss: 1.3763919   Test loss: 1.3140959   Train accuracy: 0.21428571428571427   Test accuracy is: 0.3694526627218935   Train_predict: tensor([0, 3, 3, 1, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0, 0, 3, 3, 3, 3, 3, 2, 1, 3, 2,
+        0, 1, 0, 3, 2, 0, 1, 3, 3, 3, 3, 2, 0, 0, 2, 3, 3, 0])   label: tensor([0, 2, 2, 1, 1, 3, 1, 1, 2, 3, 2, 2, 3, 1, 1, 2, 2, 0, 1, 3, 1, 2, 0, 1,
+        2, 2, 2, 1, 3, 2, 1, 3, 1, 0, 2, 1, 3, 0, 0, 1, 2, 2])
+Epoch: 994   Train loss: 1.3660725   Test loss: 1.3156034   Train accuracy: 0.23809523809523808   Test accuracy is: 0.3727810650887574   Train_predict: tensor([2, 3, 0, 3, 3, 1, 3, 1, 1, 2, 0, 0, 3, 0, 1, 1, 2, 0, 2, 3, 0, 2, 0, 0,
+        2, 3, 1, 3, 1, 2, 2, 1, 2, 3, 1, 2, 1, 0, 0, 0, 3, 3])   label: tensor([0, 3, 3, 0, 2, 0, 1, 2, 1, 2, 2, 0, 0, 2, 1, 3, 2, 3, 3, 1, 1, 2, 0, 1,
+        3, 1, 1, 2, 2, 3, 0, 3, 3, 1, 3, 3, 2, 3, 2, 2, 3, 0])
+Epoch: 995   Train loss: 1.3259429   Test loss: 1.3136766   Train accuracy: 0.35714285714285715   Test accuracy is: 0.3690828402366864   Train_predict: tensor([3, 1, 3, 1, 3, 0, 3, 0, 2, 3, 2, 0, 3, 1, 2, 3, 3, 3, 3, 3, 0, 1, 0, 0,
+        0, 0, 1, 3, 3, 2, 2, 2, 3, 2, 3, 0, 0, 1, 2, 0, 3, 3])   label: tensor([2, 3, 0, 0, 1, 0, 3, 0, 1, 1, 3, 3, 2, 1, 2, 3, 2, 2, 1, 1, 3, 0, 0, 3,
+        0, 0, 1, 3, 3, 3, 0, 1, 2, 2, 0, 2, 0, 3, 0, 2, 3, 1])
+Epoch: 996   Train loss: 1.3595929   Test loss: 1.3132797   Train accuracy: 0.35714285714285715   Test accuracy is: 0.36797337278106507   Train_predict: tensor([0, 1, 3, 1, 0, 1, 2, 1, 1, 2, 0, 3, 3, 1, 2, 0, 0, 2, 0, 2, 3, 3, 2, 1,
+        2, 0, 0, 0, 2, 0, 3, 1, 1, 2, 0, 0, 1, 2, 1, 3, 0, 2])   label: tensor([3, 1, 2, 2, 0, 1, 2, 1, 2, 2, 2, 0, 0, 3, 2, 1, 0, 2, 3, 1, 0, 3, 2, 0,
+        1, 0, 3, 1, 1, 1, 3, 0, 3, 3, 1, 3, 2, 1, 1, 1, 0, 3])
+Epoch: 997   Train loss: 1.2757647   Test loss: 1.313873   Train accuracy: 0.4523809523809524   Test accuracy is: 0.3683431952662722   Train_predict: tensor([0, 2, 1, 1, 3, 3, 0, 3, 0, 3, 2, 1, 3, 2, 1, 2, 3, 0, 0, 2, 2, 3, 2, 3,
+        2, 1, 0, 3, 3, 1, 3, 0, 0, 0, 1, 1, 2, 3, 3, 2, 1, 2])   label: tensor([1, 3, 1, 2, 3, 2, 3, 2, 2, 0, 1, 0, 2, 2, 1, 0, 0, 3, 0, 2, 0, 3, 2, 1,
+        2, 2, 1, 3, 3, 2, 3, 2, 0, 0, 3, 1, 2, 3, 1, 2, 1, 1])
+Epoch: 998   Train loss: 1.2560787   Test loss: 1.314703   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3572485207100592   Train_predict: tensor([3, 0, 0, 1, 2, 3, 0, 2, 0, 3, 3, 1, 0, 2, 3, 0, 0, 0, 1, 1, 1, 0, 2, 3,
+        3, 0, 3, 0, 2, 0, 3, 0, 0, 0, 3, 1, 3, 0, 0, 0, 3, 0])   label: tensor([3, 1, 0, 1, 3, 0, 0, 0, 0, 2, 3, 3, 3, 3, 3, 0, 2, 0, 1, 2, 3, 0, 2, 1,
+        0, 1, 0, 0, 2, 1, 3, 3, 1, 3, 2, 1, 1, 0, 0, 0, 0, 0])
+Epoch: 999   Train loss: 1.2532021   Test loss: 1.3148031   Train accuracy: 0.47619047619047616   Test accuracy is: 0.3572485207100592   Train_predict: tensor([1, 0, 1, 0, 0, 2, 0, 2, 0, 1, 0, 1, 2, 0, 3, 2, 0, 0, 0, 0, 0, 0, 3, 2,
+        0, 0, 2, 0, 0, 2, 3, 3, 1, 0, 1, 0, 1, 3, 3, 3, 1, 3])   label: tensor([1, 3, 3, 0, 0, 2, 0, 2, 3, 2, 1, 1, 1, 3, 3, 3, 0, 2, 2, 0, 0, 0, 3, 2,
+        2, 0, 2, 1, 1, 1, 3, 0, 2, 3, 3, 3, 1, 0, 2, 2, 1, 3])
+The average accuracy is: 0.3570743343195272
+The best accuracy is: 0.3768491124260355
+THE BEST ACCURACY IS 0.3768491124260355
+```
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 16894450: <transformer3_1> in cluster <dcc> Done
+
+Job <transformer3_1> was submitted from host <n-62-27-22> by user <s212623> in cluster <dcc> at Tue Jun 20 22:07:10 2023
+Job was executed on host(s) <n-62-31-5>, in queue <hpc>, as user <s212623> in cluster <dcc> at Tue Jun 20 22:07:12 2023
+</zhome/ac/e/164558> was used as the home directory.
+</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
+Started at Tue Jun 20 22:07:12 2023
+Terminated at Wed Jun 21 00:53:46 2023
+Results reported at Wed Jun 21 00:53:46 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9967.42 sec.
+    Max Memory :                                 592 MB
+    Average Memory :                             541.32 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15792.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   10007 sec.
+    Turnaround time :                            9996 sec.
+
+The output (if any) is above this job summary.
+
