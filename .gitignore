@@ -17,6 +17,11 @@ preprocessing_spectrogram.py
 *.xlsx
 *.pt
 *.zip
+<<<<<<< HEAD
 *.edf*
 *.edf
+=======
+*.ipynb
+*.edf*
+>>>>>>> ca0c027b993d0703dd906df9c0a84e6fb8cfdb98
 ```
