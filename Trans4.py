@@ -167,7 +167,7 @@ class ClassificationHead(nn.Sequential):
 
 
 class ViT(nn.Sequential):
-    def __init__(self, emb_size=10, depth=3, n_classes=3, **kwargs):
+    def __init__(self, emb_size=10, depth=3, n_classes=2, **kwargs):
     #def __init__(self, emb_size=5, depth=2, n_classes=2, **kwargs):
 
         super().__init__(
@@ -354,15 +354,15 @@ class Trans():
         dataset = {}
         X = []
         Y = []
-        folders = os.listdir(os.getcwd() + '\\files')
+        folders = os.listdir(os.getcwd() + '/files')
         for folder in folders[:no_of_people]:
             y = int(folder[-3:])-1
             count = 0
-            for filename in os.listdir(os.getcwd()+ '\\files'+'/'+folder):
+            for filename in os.listdir(os.getcwd()+ '/files'+'/'+folder):
                 task_no = filename[5:7]
                 folder_no = folder[1:]
                 if filename.endswith("edf") and task_no != "01" and task_no != "02":
-                    edf_file = mne.io.read_raw_edf(os.getcwd()+'\\files'+'/'+folder+'/'+filename)
+                    edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
                     eeg = edf_file.get_data()
                     if eeg.shape[1] > 15000:
                         eeg = np.moveaxis(np.asarray(eeg, dtype=np.float64), 0, -1)
@@ -485,7 +485,7 @@ class Trans():
         # file_remove_list = ["64_channel_sharbrough-old.png", "64_channel_sharbrough.pdf", "64_channel_sharbrough.png", "ANNOTATORS", "RECORDS", "SHA256SUMS.txt", "eeg-motor-movementimagery-dataset-1.0.0.zip","wfdbcal"]
         # for files in file_remove_list:
         #     self.remove_file(files)
-        dataset = self.build_dataset(3) #no_of_people=109 (24, 3000, 64) (24,) 
+        dataset = self.build_dataset(109) #no_of_people=109 (24, 3000, 64) (24,) 
         x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.2, 7, 23)
 
         #print("x_train shape", x_train.shape) #(20, 3000, 16)
