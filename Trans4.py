@@ -354,15 +354,15 @@ class Trans():
         dataset = {}
         X = []
         Y = []
-        folders = os.listdir(os.getcwd() + '\\files')
+        folders = os.listdir(os.getcwd() + '/files')
         for folder in folders[:no_of_people]:
             y = int(folder[-3:])-1
             count = 0
-            for filename in os.listdir(os.getcwd()+ '\\files'+'/'+folder):
+            for filename in os.listdir(os.getcwd()+ '/files'+'/'+folder):
                 task_no = filename[5:7]
                 folder_no = folder[1:]
                 if filename.endswith("edf") and task_no != "01" and task_no != "02":
-                    edf_file = mne.io.read_raw_edf(os.getcwd()+'\\files'+'/'+folder+'/'+filename)
+                    edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
                     eeg = edf_file.get_data()
                     if eeg.shape[1] > 15000:
                         eeg = np.moveaxis(np.asarray(eeg, dtype=np.float64), 0, -1)
