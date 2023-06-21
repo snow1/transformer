@@ -13000,3 +13000,52 @@ Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transforme
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
+/zhome/ac/e/164558/.lsbatch/1687372553.16899667.shell: line 11: 11377 Killed                  python main.py $MYARGS
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 16899667: <transformer5_1> in cluster <dcc> Exited
+
+Job <transformer5_1> was submitted from host <n-62-30-2> by user <s212623> in cluster <dcc> at Wed Jun 21 20:35:53 2023
+Job was executed on host(s) <n-62-29-34>, in queue <hpc>, as user <s212623> in cluster <dcc> at Wed Jun 21 20:35:55 2023
+</zhome/ac/e/164558> was used as the home directory.
+</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
+Started at Wed Jun 21 20:35:55 2023
+Terminated at Wed Jun 21 20:57:25 2023
+Results reported at Wed Jun 21 20:57:25 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   1240.85 sec.
+    Max Memory :                                 16384 MB
+    Average Memory :                             9514.25 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   1312 sec.
+    Turnaround time :                            1292 sec.
+
+The output (if any) is above this job summary.
+
