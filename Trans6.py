@@ -485,8 +485,8 @@ class Trans():
         # file_remove_list = ["64_channel_sharbrough-old.png", "64_channel_sharbrough.pdf", "64_channel_sharbrough.png", "ANNOTATORS", "RECORDS", "SHA256SUMS.txt", "eeg-motor-movementimagery-dataset-1.0.0.zip","wfdbcal"]
         # for files in file_remove_list:
         #     self.remove_file(files)
-        dataset = self.build_dataset(20) #no_of_people=109 (24, 3000, 64) (24,) 
-        x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.2, 7, 23)
+        dataset = self.build_dataset(109) #no_of_people=109 (24, 3000, 64) (24,) 
+        x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.3, 7, 23)
 
         #print("x_train shape", x_train.shape) #(20, 3000, 16)
         (img, label) = self.make_pairs(x_train, y_train)
@@ -572,7 +572,8 @@ class Trans():
                     bestAcc = acc
                     Y_true = test_label
                     Y_pred = y_pred
-
+        if not os.path.exists("./models6/"):
+            os.makedirs("./models6/")
         torch.save(self.model.state_dict(), f'models6/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
