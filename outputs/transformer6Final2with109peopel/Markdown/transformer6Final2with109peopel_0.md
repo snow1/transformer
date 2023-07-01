@@ -1268,15 +1268,15 @@ k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
 
 | PARAMETER         | TYPE              | VALUE             |
 |-------------------|-------------------|-------------------|
-| <c>name</c>       | <d>str</d>        | <j>"transformer6Final-0"</j> |
+| <c>name</c>       | <d>str</d>        | <j>"transformer6Final2with109peopel-0"</j> |
 | <c>GPU</c>        | <d>bool</d>       | <e>True</e>       |
 | <c>time</c>       | <d>int</d>        | <f>360000</f>     |
-| <c>model</c>      | <d>str</d>        | <j>"transformer5"</j> |
+| <c>model</c>      | <d>str</d>        | <j>"transformer6"</j> |
 
 # Output
 
 ```
-seed is 83
+seed is 229
 Subject 1
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S105/S105R08.edf...
 EDF file detected
@@ -5458,73 +5458,73 @@ Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transforme
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R12.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R13.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R07.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R09.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R08.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R14.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R03.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R11.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R04.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R10.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S100/S100R05.edf...
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-/zhome/ac/e/164558/Desktop/transformer/transformer/Trans5.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
+/zhome/ac/e/164558/Desktop/transformer/transformer/Trans6.py:365: RuntimeWarning: Limited 1 annotation(s) that were expanding outside the data range.
   edf_file = mne.io.read_raw_edf(os.getcwd()+'/files'+'/'+folder+'/'+filename)
 Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transformer/files/S015/S015R06.edf...
 EDF file detected
@@ -6534,54 +6534,3 @@ Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transforme
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
-
-
-
-------------------------------------------------------------
-Sender: LSF System <lsfadmin@hpc.dtu.dk>
-Subject: Job 16953275: <transformer6Final_0> in cluster <dcc> Exited
-
-Job <transformer6Final_0> was submitted from host <n-62-27-17> by user <s212623> in cluster <dcc> at Fri Jun 30 17:20:12 2023
-Job was executed on host(s) <n-62-20-5>, in queue <gpuv100>, as user <s212623> in cluster <dcc> at Fri Jun 30 17:20:14 2023
-</zhome/ac/e/164558> was used as the home directory.
-</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
-Started at Fri Jun 30 17:20:14 2023
-Terminated at Sat Jul  1 17:19:55 2023
-Results reported at Sat Jul  1 17:19:55 2023
-
-Your job looked like:
-
-------------------------------------------------------------
-# LSBATCH: User input
-#!/bin/sh
-#BSUB -q gpuv100
-#BSUB -gpu "num=1:mode=exclusive_process"
-#BSUB -n 1
-#BSUB -R "rusage[mem=64G]"
-#BSUB -R "span[hosts=1]"
-#BSUB -W 1440
-# end of BSUB options
-module -s load python3
-source ../project-env/bin/activate
-
-python main.py $MYARGS
-------------------------------------------------------------
-
-TERM_RUNLIMIT: job killed after reaching LSF run time limit.
-Exited with exit code 140.
-
-Resource usage summary:
-
-    CPU time :                                   86055.00 sec.
-    Max Memory :                                 20470 MB
-    Average Memory :                             14273.40 MB
-    Total Requested Memory :                     65536.00 MB
-    Delta Memory :                               45066.00 MB
-    Max Swap :                                   -
-    Max Processes :                              4
-    Max Threads :                                7
-    Run time :                                   86444 sec.
-    Turnaround time :                            86383 sec.
-
-The output (if any) is above this job summary.
-
