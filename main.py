@@ -4,11 +4,13 @@ from Trans2 import main as transformer2
 from Trans3 import main as transformer3
 from Trans4 import main as transformer4
 from Trans5 import main as transformer5
+from Trans6 import main as transformer6
 from LSTM import main as lstm
 from linear import main as linear
 from model_CWGAN import main as CWGAN
 from model_ACGAN import main as ACGAN
 from CNN import main as cnn
+
 #from mainTransformer import main as maintransformer
 
 
@@ -42,6 +44,8 @@ class Defaults(Parameters):
             transformer4()
         elif model == "transformer5":
             transformer5()
+        elif model == "transformer6":
+            transformer6()
 
 
 Defaults.start()
