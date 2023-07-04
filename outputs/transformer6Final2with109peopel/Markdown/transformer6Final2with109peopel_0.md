@@ -6534,3 +6534,156 @@ Extracting EDF parameters from /zhome/ac/e/164558/Desktop/transformer/transforme
 EDF file detected
 Setting channel info structure...
 Creating raw.info structure...
+Training...
+Epoch: 0   Train loss: 0.7922923   Test loss: 0.69796824   Train accuracy: 0.0   Test accuracy is: 0.5   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 1   Train loss: 0.58703375   Test loss: 0.6882039   Train accuracy: 1.0   Test accuracy is: 0.5336391437308868   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 2   Train loss: 0.5187397   Test loss: 0.69734037   Train accuracy: 1.0   Test accuracy is: 0.5458715596330275   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 3   Train loss: 0.5764031   Test loss: 0.6976077   Train accuracy: 1.0   Test accuracy is: 0.5856269113149847   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 4   Train loss: 0.2820455   Test loss: 0.6889783   Train accuracy: 1.0   Test accuracy is: 0.6024464831804281   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 5   Train loss: 0.96176636   Test loss: 0.70039564   Train accuracy: 0.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 6   Train loss: 0.60674095   Test loss: 0.6921718   Train accuracy: 1.0   Test accuracy is: 0.6162079510703364   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 7   Train loss: 0.44557923   Test loss: 0.72525173   Train accuracy: 1.0   Test accuracy is: 0.6452599388379205   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 8   Train loss: 1.1575181   Test loss: 0.7642169   Train accuracy: 0.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 9   Train loss: 0.47839776   Test loss: 0.7715489   Train accuracy: 1.0   Test accuracy is: 0.6192660550458715   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 10   Train loss: 1.0387714   Test loss: 0.6908693   Train accuracy: 0.0   Test accuracy is: 0.6513761467889908   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 11   Train loss: 0.32180366   Test loss: 0.80209446   Train accuracy: 1.0   Test accuracy is: 0.6070336391437309   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 12   Train loss: 0.11988188   Test loss: 0.7504963   Train accuracy: 1.0   Test accuracy is: 0.6422018348623854   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 13   Train loss: 0.9532778   Test loss: 0.81695604   Train accuracy: 0.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 14   Train loss: 0.8004016   Test loss: 0.798283   Train accuracy: 0.0   Test accuracy is: 0.5948012232415902   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 15   Train loss: 0.36516413   Test loss: 0.8649785   Train accuracy: 1.0   Test accuracy is: 0.6314984709480123   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 16   Train loss: 0.4446406   Test loss: 0.7394938   Train accuracy: 1.0   Test accuracy is: 0.6666666666666666   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 17   Train loss: 0.6290934   Test loss: 0.8649556   Train accuracy: 1.0   Test accuracy is: 0.6192660550458715   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 18   Train loss: 0.9584887   Test loss: 0.902002   Train accuracy: 0.0   Test accuracy is: 0.591743119266055   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 19   Train loss: 0.08585526   Test loss: 1.0441167   Train accuracy: 1.0   Test accuracy is: 0.6024464831804281   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 20   Train loss: 0.36470947   Test loss: 0.8882465   Train accuracy: 1.0   Test accuracy is: 0.5963302752293578   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 21   Train loss: 0.80145603   Test loss: 0.9741727   Train accuracy: 0.0   Test accuracy is: 0.5978593272171254   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 22   Train loss: 0.27158144   Test loss: 0.8073843   Train accuracy: 1.0   Test accuracy is: 0.6498470948012233   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 23   Train loss: 0.2021679   Test loss: 0.842138   Train accuracy: 1.0   Test accuracy is: 0.6406727828746177   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 24   Train loss: 0.5749437   Test loss: 1.0006151   Train accuracy: 1.0   Test accuracy is: 0.6055045871559633   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 25   Train loss: 0.04660928   Test loss: 0.93222654   Train accuracy: 1.0   Test accuracy is: 0.6192660550458715   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 26   Train loss: 0.1284607   Test loss: 0.88364327   Train accuracy: 1.0   Test accuracy is: 0.6238532110091743   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 27   Train loss: 0.07699133   Test loss: 0.874646   Train accuracy: 1.0   Test accuracy is: 0.6376146788990825   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 28   Train loss: 2.1774247   Test loss: 0.938049   Train accuracy: 0.0   Test accuracy is: 0.617737003058104   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 29   Train loss: 0.35740495   Test loss: 1.0181031   Train accuracy: 1.0   Test accuracy is: 0.6162079510703364   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 30   Train loss: 0.09477915   Test loss: 0.86913913   Train accuracy: 1.0   Test accuracy is: 0.6513761467889908   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 31   Train loss: 0.055815082   Test loss: 0.8572673   Train accuracy: 1.0   Test accuracy is: 0.6238532110091743   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 32   Train loss: 0.33080986   Test loss: 1.1120864   Train accuracy: 1.0   Test accuracy is: 0.581039755351682   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 33   Train loss: 0.5634893   Test loss: 0.9838913   Train accuracy: 1.0   Test accuracy is: 0.6055045871559633   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 34   Train loss: 0.043351904   Test loss: 0.9998126   Train accuracy: 1.0   Test accuracy is: 0.599388379204893   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 35   Train loss: 0.07235863   Test loss: 1.0860547   Train accuracy: 1.0   Test accuracy is: 0.5688073394495413   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 36   Train loss: 0.25664458   Test loss: 1.0942956   Train accuracy: 1.0   Test accuracy is: 0.5795107033639144   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 37   Train loss: 1.260063   Test loss: 0.9601325   Train accuracy: 0.0   Test accuracy is: 0.6162079510703364   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 38   Train loss: 0.05327492   Test loss: 0.88520986   Train accuracy: 1.0   Test accuracy is: 0.6590214067278287   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 39   Train loss: 0.57494646   Test loss: 0.9435907   Train accuracy: 1.0   Test accuracy is: 0.6238532110091743   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 40   Train loss: 0.80123305   Test loss: 0.9535227   Train accuracy: 0.0   Test accuracy is: 0.6513761467889908   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 41   Train loss: 0.97131604   Test loss: 0.9959949   Train accuracy: 0.0   Test accuracy is: 0.5978593272171254   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 42   Train loss: 0.105776325   Test loss: 0.9309595   Train accuracy: 1.0   Test accuracy is: 0.6269113149847095   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 43   Train loss: 0.12498925   Test loss: 0.97496927   Train accuracy: 1.0   Test accuracy is: 0.6223241590214067   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 44   Train loss: 0.039933845   Test loss: 0.8915633   Train accuracy: 1.0   Test accuracy is: 0.6605504587155964   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 45   Train loss: 0.046085183   Test loss: 1.0645752   Train accuracy: 1.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 46   Train loss: 0.44235834   Test loss: 0.9100126   Train accuracy: 1.0   Test accuracy is: 0.6345565749235474   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 47   Train loss: 0.17188509   Test loss: 1.1240238   Train accuracy: 1.0   Test accuracy is: 0.5856269113149847   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 48   Train loss: 0.8343818   Test loss: 1.0334948   Train accuracy: 0.0   Test accuracy is: 0.6223241590214067   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 49   Train loss: 1.491641   Test loss: 1.0000414   Train accuracy: 0.0   Test accuracy is: 0.6223241590214067   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 50   Train loss: 0.7472731   Test loss: 1.1347796   Train accuracy: 0.0   Test accuracy is: 0.5902140672782875   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 51   Train loss: 0.079457276   Test loss: 0.9728917   Train accuracy: 1.0   Test accuracy is: 0.6391437308868502   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 52   Train loss: 0.032667384   Test loss: 0.96767807   Train accuracy: 1.0   Test accuracy is: 0.6131498470948012   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 53   Train loss: 0.61664844   Test loss: 1.1645747   Train accuracy: 1.0   Test accuracy is: 0.6024464831804281   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 54   Train loss: 0.7207482   Test loss: 1.1087464   Train accuracy: 0.0   Test accuracy is: 0.5902140672782875   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 55   Train loss: 1.5518868   Test loss: 0.9470522   Train accuracy: 0.0   Test accuracy is: 0.6406727828746177   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 56   Train loss: 1.9425898   Test loss: 1.0352483   Train accuracy: 0.0   Test accuracy is: 0.6207951070336392   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 57   Train loss: 0.08248341   Test loss: 1.0718721   Train accuracy: 1.0   Test accuracy is: 0.5871559633027523   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 58   Train loss: 0.1223478   Test loss: 0.9843638   Train accuracy: 1.0   Test accuracy is: 0.6299694189602446   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 59   Train loss: 0.28990808   Test loss: 1.0857706   Train accuracy: 1.0   Test accuracy is: 0.6162079510703364   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 60   Train loss: 1.9169537   Test loss: 1.0093833   Train accuracy: 0.0   Test accuracy is: 0.6299694189602446   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 61   Train loss: 0.5356891   Test loss: 1.0212271   Train accuracy: 1.0   Test accuracy is: 0.6376146788990825   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 62   Train loss: 2.5886858   Test loss: 1.155486   Train accuracy: 0.0   Test accuracy is: 0.5932721712538226   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 63   Train loss: 0.083825335   Test loss: 1.0297251   Train accuracy: 1.0   Test accuracy is: 0.6223241590214067   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 64   Train loss: 0.18737194   Test loss: 1.0979617   Train accuracy: 1.0   Test accuracy is: 0.6314984709480123   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 65   Train loss: 0.06841957   Test loss: 1.1845498   Train accuracy: 1.0   Test accuracy is: 0.6100917431192661   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 66   Train loss: 0.04525198   Test loss: 1.2966318   Train accuracy: 1.0   Test accuracy is: 0.5626911314984709   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 67   Train loss: 0.067253746   Test loss: 1.2240821   Train accuracy: 1.0   Test accuracy is: 0.5825688073394495   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 68   Train loss: 0.08854871   Test loss: 1.0784516   Train accuracy: 1.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 69   Train loss: 0.18727487   Test loss: 1.0792385   Train accuracy: 1.0   Test accuracy is: 0.6498470948012233   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 70   Train loss: 0.578376   Test loss: 1.0312257   Train accuracy: 1.0   Test accuracy is: 0.6483180428134556   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 71   Train loss: 0.08456425   Test loss: 1.1050631   Train accuracy: 1.0   Test accuracy is: 0.6192660550458715   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 72   Train loss: 0.22052047   Test loss: 1.1479571   Train accuracy: 1.0   Test accuracy is: 0.6070336391437309   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 73   Train loss: 1.422146   Test loss: 1.0464638   Train accuracy: 0.0   Test accuracy is: 0.6376146788990825   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 74   Train loss: 0.7300863   Test loss: 1.1189386   Train accuracy: 0.0   Test accuracy is: 0.6299694189602446   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 75   Train loss: 0.24055323   Test loss: 0.99837184   Train accuracy: 1.0   Test accuracy is: 0.6498470948012233   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 76   Train loss: 1.3354475   Test loss: 1.1139293   Train accuracy: 0.0   Test accuracy is: 0.6253822629969419   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 77   Train loss: 0.048507836   Test loss: 1.1290125   Train accuracy: 1.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 78   Train loss: 0.13013074   Test loss: 1.1003838   Train accuracy: 1.0   Test accuracy is: 0.6406727828746177   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 79   Train loss: 0.06128659   Test loss: 1.0918021   Train accuracy: 1.0   Test accuracy is: 0.6376146788990825   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 80   Train loss: 0.2499653   Test loss: 1.2477384   Train accuracy: 1.0   Test accuracy is: 0.5825688073394495   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 81   Train loss: 0.07308989   Test loss: 1.2185018   Train accuracy: 1.0   Test accuracy is: 0.6207951070336392   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 82   Train loss: 2.5335164   Test loss: 1.2519842   Train accuracy: 0.0   Test accuracy is: 0.5886850152905199   Train_predict: tensor([1])   label: tensor([0])
+Epoch: 83   Train loss: 0.17419355   Test loss: 1.254906   Train accuracy: 1.0   Test accuracy is: 0.5886850152905199   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 84   Train loss: 0.15029463   Test loss: 1.1795106   Train accuracy: 1.0   Test accuracy is: 0.617737003058104   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 85   Train loss: 0.23887308   Test loss: 1.0379981   Train accuracy: 1.0   Test accuracy is: 0.6529051987767585   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 86   Train loss: 0.12102092   Test loss: 1.1529152   Train accuracy: 1.0   Test accuracy is: 0.591743119266055   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 87   Train loss: 0.30719638   Test loss: 1.146323   Train accuracy: 1.0   Test accuracy is: 0.6284403669724771   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 88   Train loss: 1.5307422   Test loss: 1.1595163   Train accuracy: 0.0   Test accuracy is: 0.6131498470948012   Train_predict: tensor([0])   label: tensor([1])
+Epoch: 89   Train loss: 0.075535625   Test loss: 1.2418578   Train accuracy: 1.0   Test accuracy is: 0.6131498470948012   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 90   Train loss: 0.37481633   Test loss: 1.3060396   Train accuracy: 1.0   Test accuracy is: 0.6055045871559633   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 91   Train loss: 0.052917585   Test loss: 1.2855765   Train accuracy: 1.0   Test accuracy is: 0.581039755351682   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 92   Train loss: 0.082400195   Test loss: 1.1196178   Train accuracy: 1.0   Test accuracy is: 0.6253822629969419   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 93   Train loss: 0.0072701895   Test loss: 1.3441341   Train accuracy: 1.0   Test accuracy is: 0.5978593272171254   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 94   Train loss: 0.13925812   Test loss: 1.2334234   Train accuracy: 1.0   Test accuracy is: 0.6162079510703364   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 95   Train loss: 0.057967525   Test loss: 1.2565045   Train accuracy: 1.0   Test accuracy is: 0.6146788990825688   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 96   Train loss: 0.1532481   Test loss: 1.0866696   Train accuracy: 1.0   Test accuracy is: 0.654434250764526   Train_predict: tensor([1])   label: tensor([1])
+Epoch: 97   Train loss: 0.22720501   Test loss: 1.2420679   Train accuracy: 1.0   Test accuracy is: 0.6070336391437309   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 98   Train loss: 0.03810866   Test loss: 1.1291238   Train accuracy: 1.0   Test accuracy is: 0.6467889908256881   Train_predict: tensor([0])   label: tensor([0])
+Epoch: 99   Train loss: 0.7402818   Test loss: 1.2159985   Train accuracy: 0.0   Test accuracy is: 0.6253822629969419   Train_predict: tensor([0])   label: tensor([1])
+The average accuracy is: 0.6149847094801223
+The best accuracy is: 0.6666666666666666
+THE BEST ACCURACY IS 0.6666666666666666
+```
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 16957967: <transformer6Final2with109peopel_0> in cluster <dcc> Done
+
+Job <transformer6Final2with109peopel_0> was submitted from host <n-62-30-4> by user <s212623> in cluster <dcc> at Sat Jul  1 16:44:48 2023
+Job was executed on host(s) <n-62-20-6>, in queue <gpuv100>, as user <s212623> in cluster <dcc> at Sat Jul  1 16:44:49 2023
+</zhome/ac/e/164558> was used as the home directory.
+</zhome/ac/e/164558/Desktop/transformer/transformer> was used as the working directory.
+Started at Sat Jul  1 16:44:49 2023
+Terminated at Sun Jul  2 09:56:36 2023
+Results reported at Sun Jul  2 09:56:36 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -R "rusage[mem=64G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   61700.92 sec.
+    Max Memory :                                 47873 MB
+    Average Memory :                             25503.87 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               17663.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              4
+    Max Threads :                                7
+    Run time :                                   61951 sec.
+    Turnaround time :                            61908 sec.
+
+The output (if any) is above this job summary.
+
