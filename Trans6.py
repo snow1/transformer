@@ -492,8 +492,8 @@ class Trans():
         x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.3, 7, 23) #7,23
 
         #print("x_train shape", x_train.shape) #(20, 3000, 16)
-        (img, label) = self.make_pairs(x_train, y_train)
-        (test_data, test_label) = self.make_pairs(x_test, y_test)
+        # (img, label) = self.make_pairs(x_train, y_train)
+        # (test_data, test_label) = self.make_pairs(x_test, y_test)
 
         img = torch.from_numpy(img)  #[180, 2, 3000, 16] [288,1,16,1000] 288
         label = torch.from_numpy(label) #[180]
