@@ -281,6 +281,7 @@ class Trans():
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
         self.model = ViT()
+
         if self.pretrain:
             self.model.load_state_dict(torch.load(f'./models/model_%d.pth' % self.nSub))
 

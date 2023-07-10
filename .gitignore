@@ -17,6 +17,7 @@ preprocessing_spectrogram.py
 *.xlsx
 *.pt
 *.zip
+C247*
 <<<<<<< HEAD
 <<<<<<< HEAD
 *.edf*

@@ -89,13 +89,16 @@ def main():
     outputs = keras.layers.Dense(1, activation="sigmoid")(x)
 
     model = keras.Model(inputs=inputs, outputs=outputs)
+    #print(model.summary())
+    #print model architecture
+    model.summary()
 
     model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4),
                 loss="binary_crossentropy",
                 metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
 
     history = model.fit(
-        train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels)
+        train_data, train_labels, batch_size=128, epochs=100, validation_data=(test_data, test_labels)
     )
 
     #print the model accuaracy

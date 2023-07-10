@@ -95,8 +95,8 @@ class CNN:
 
         self.model = Model()
         # self.model = nn.DataParallel(self.model, device_ids=[i for i in range(len(gpus))])
-        # self.model = self.model
-       # summary(self.model, (16,16), device='cpu')
+        self.model = self.model
+        summary(self.model, (1,16,1000), device='cpu')
 
         self.centers = {}
 
