@@ -10,10 +10,10 @@ log = os.getcwd() + '\outputs\\transformerWithpretrain\Markdown\\transformerWith
 with open(log, 'r') as f:
     log = f.read()
 # Extract the test accuracy, train loss, test loss, and train accuracy values using regular expression
-test_accuracy_values = re.findall(r"Test accuracy is: (\d+\.\d+)", log)[:100]
-train_loss_values = re.findall(r"Train loss: (\d+\.\d+)", log)[:100]
-test_loss_values = re.findall(r"Test loss: (\d+\.\d+)", log)[:100]
-train_accuracy_values = re.findall(r"Train accuracy: (\d+\.\d+)", log)[:100]
+test_accuracy_values = re.findall(r"Test accuracy is: (\d+\.\d+)", log)[200:300]
+train_loss_values = re.findall(r"Train loss: (\d+\.\d+)", log)[200:300]
+test_loss_values = re.findall(r"Test loss: (\d+\.\d+)", log)[200:300]
+train_accuracy_values = re.findall(r"Train accuracy: (\d+\.\d+)", log)[200:300]
 print("test_accuracy_values", test_accuracy_values)
 print("train_loss_values", train_loss_values)
 print("test_loss_values", test_loss_values)
