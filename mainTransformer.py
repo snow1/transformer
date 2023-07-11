@@ -58,7 +58,7 @@ class TokenAndPositionEmbedding(keras.layers.Layer):
         out = x + positions
         return out
 
-maxlen = 1      # Only consider 3 input time points
+maxlen = 3      # 1 Only consider 3 input time points
 embed_dim = 640  # Features of each time point
 num_heads = 3 #8   # Number of attention heads
 ff_dim = 64     # Hidden layer size in feed forward network inside transformer
