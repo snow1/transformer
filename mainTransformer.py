@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-@Author: Bruce Shuyue Jia
-@Date: Jan 30, 2021
-"""
-
 import numpy as np
 import pandas as pd
 import tensorflow as tf
@@ -65,7 +60,7 @@ class TokenAndPositionEmbedding(keras.layers.Layer):
 
 maxlen = 1      # Only consider 3 input time points
 embed_dim = 640  # Features of each time point
-num_heads = 8   # Number of attention heads
+num_heads = 3 #8   # Number of attention heads
 ff_dim = 64     # Hidden layer size in feed forward network inside transformer
 
 def main():
@@ -95,7 +90,8 @@ def main():
 
     model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4),
                 loss="binary_crossentropy",
-                metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
+                metrics=['accuracy','loss','precision','recall'])
+                #metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
 
     history = model.fit(
         train_data, train_labels, batch_size=128, epochs=100, validation_data=(test_data, test_labels)
@@ -103,6 +99,7 @@ def main():
 
     #print the model accuaracy
     print("Model Accuracy: " + str(model.evaluate(test_data, test_labels)[1])
+            +"\nModel Loss: " + str(model.evaluate(test_data, test_labels)[0])
             + "\nModel Precision: " + str(model.evaluate(test_data, test_labels)[2])
             + "\nModel Recall: " + str(model.evaluate(test_data, test_labels)[3]))
     
