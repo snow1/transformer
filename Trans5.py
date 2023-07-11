@@ -167,7 +167,7 @@ class ClassificationHead(nn.Sequential):
 
 
 class ViT(nn.Sequential):
-    def __init__(self, emb_size=10, depth=3, n_classes=2, **kwargs):
+    def __init__(self, emb_size=10, depth=3, n_classes=4, **kwargs):
     #def __init__(self, emb_size=5, depth=2, n_classes=2, **kwargs):
 
         super().__init__(
@@ -255,7 +255,7 @@ class Trans():
     def __init__(self, nsub: int):
         super(Trans, self).__init__()
         self.batch_size = 1 
-        self.n_epochs = 1000
+        self.n_epochs = 100
         self.img_height = 22
         self.img_width = 600
         self.channels = 22 # EEG channels 22      # 1
@@ -269,7 +269,7 @@ class Trans():
 
         self.pretrain = False
 
-        self.log_write = open("./results2/log_subject%d.txt" % self.nSub, "w")
+        self.log_write = open("./results6/log_subject%d.txt" % self.nSub, "w")
 
         self.img_shape = (self.channels, self.img_height, self.img_width)  # something no use
 
@@ -281,7 +281,6 @@ class Trans():
         self.criterion_cls = torch.nn.CrossEntropyLoss()
 
         self.model = ViT()
-
         if self.pretrain:
             self.model.load_state_dict(torch.load(f'./models/model_%d.pth' % self.nSub))
 
@@ -487,11 +486,11 @@ class Trans():
         # for files in file_remove_list:
         #     self.remove_file(files)
         dataset = self.build_dataset(109) #no_of_people=109 (24, 3000, 64) (24,) 
-        x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.2, 7, 23)
+        x_train, y_train, x_test, y_test = self.split_data(dataset, 0.0, 0.3, 7, 23)
 
         #print("x_train shape", x_train.shape) #(20, 3000, 16)
-        # (img, label) = self.make_pairs(x_train, y_train)
-        # (test_data, test_label) = self.make_pairs(x_test, y_test)
+        (img, label) = self.make_pairs(x_train, y_train)
+        (test_data, test_label) = self.make_pairs(x_test, y_test)
 
         img = torch.from_numpy(img)  #[180, 2, 3000, 16] [288,1,16,1000] 288
         label = torch.from_numpy(label) #[180]
@@ -558,13 +557,12 @@ class Trans():
                 acc = float((y_pred == test_label).cpu().numpy().astype(int).sum()) / float(test_label.size(0))
                 train_pred = torch.max(outputs, 1)[1]
                 train_acc = float((train_pred == label).cpu().numpy().astype(int).sum()) / float(label.size(0))
+
                 print('Epoch:', e,
                       '  Train loss:', loss.detach().cpu().numpy(),
                       '  Test loss:', loss_test.detach().cpu().numpy(),
                       '  Train accuracy:', train_acc,
-                      '  Test accuracy is:', acc,
-                      '  Train_predict:', train_pred,
-                      '  label:', label)
+                      '  Test accuracy is:', acc)
                 self.log_write.write(str(e) + "    " + str(acc) + "\n")
                 num = num + 1
                 averAcc = averAcc + acc
@@ -572,8 +570,9 @@ class Trans():
                     bestAcc = acc
                     Y_true = test_label
                     Y_pred = y_pred
-
-        torch.save(self.model.state_dict(), f'models2/model_{self.nSub}.pth')
+        if not os.path.exists("./models6/"):
+            os.makedirs("./models6/")
+        torch.save(self.model.state_dict(), f'models6/model_{self.nSub}.pth')
         averAcc = averAcc / num
         print('The average accuracy is:', averAcc)
         print('The best accuracy is:', bestAcc)
@@ -586,7 +585,10 @@ class Trans():
 def main():
     best = 0
     aver = 0
-    result_write = open("./results2/sub_result.txt", "w")
+    #if result6.txt is not existed, create it
+    if not os.path.exists("./results6/"):
+        os.makedirs("./results6/")
+    result_write = open("./results6/sub_result.txt", "w")
     i = 0
     #for i in range(9):
     seed_n = np.random.randint(500)
@@ -603,6 +605,7 @@ def main():
     result_write.write('Subject ' + str(i + 1) + ' : ' + 'Seed is: ' + str(seed_n) + "\n")
     result_write.write('**Subject ' + str(i + 1) + ' : ' + 'The best accuracy is: ' + str(bestAcc) + "\n")
     result_write.write('Subject ' + str(i + 1) + ' : ' + 'The average accuracy is: ' + str(averAcc) + "\n")
+
         # plot_confusion_matrix(Y_true, Y_pred, i+1)
     best = best + bestAcc
     aver = aver + averAcc
