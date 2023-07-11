@@ -1,4 +1,4 @@
 #!/bin/sh
 
-mkdir -p outputs/transgormerFinal555/Markdown
-bsub -o "outputs/transgormerFinal555/Markdown/transformer5_2.md" -J "transformer5_2" -env MYARGS="-name transformer5-2 -GPU False -time 360000 -model transformer5 -ID 0" < submit_cpu.sh
+mkdir -p outputs/mainTransformermainTransformer/Markdown
+bsub -o "outputs/mainTransformermainTransformer/Markdown/mainTransformermainTransformer_3.md" -J "mainTransformermainTransformer_3" -env MYARGS="-name mainTransformermainTransformer-3 -GPU True -time 360000 -model maintransformer -ID 0" < submit_cpu.sh
